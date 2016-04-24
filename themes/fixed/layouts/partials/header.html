@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>{{ .Site.Title }}</title>
+
+    <!-- Meta data for search engines -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="description" content="{{ .Site.Params.Description | safeHTML }}">
+    <meta name="keywords" content="{{ .Site.Params.Keywords }}" />
+    <meta name="author" content="{{ .Site.Params.Author }}" />
+    <meta name="robots" content="index, follow">
+    <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}" property="og:title">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="{{ .Site.Params.Twitter }}">
+    <meta name="twitter:creator" content="{{ .Site.Params.Twitter }}">
+    <meta name="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
+    <meta name="twitter:url" content="{{ .Permalink }}">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/noqqe_square.png">
+    <meta name="twitter:description" content="{{if .IsPage}}{{ .Summary }}{{else}}{{.Site.Params.Description}}{{end}}">
+
+		<div class="content">
+
+		<!-- icons -->
+		<link rel="apple-touch-icon" href="{{ .Site.BaseURL }}/assets/img/apple-touch-icon.png">
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Override CSS file - add your own CSS rules -->
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+        <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}/img/paper.svg">
+        <br>
+				<h1 class="header-heading">{{ .Site.Title }}</h1>
+        {{ .Site.Params.Description | safeHTML }}</a>
+			</div>

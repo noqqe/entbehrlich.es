@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+
+   <div class="content">
+    <div class="main">
+      {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+      {{ range $paginator.Pages }}
+        <div class="main">
+        <h1 class="non-highlight">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h1>
+        {{ .Content }}
+    </div>
+
+      {{ end }}
+
+    </div>
+    {{ partial "pagination.html" $paginator }}
+  </div>
+
+{{ partial "footer.html" . }}

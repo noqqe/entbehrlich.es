@@ -1,0 +1,23 @@
+title: "Entbehrlich.es"
+baseurl:  "https://entbehrlich.es"
+languageCode: "de-de"
+theme: "fixed"
+path: "articles"
+paginate: 10
+paginatePath: "page"
+publishdir: "public"
+metaDataFormat: "yaml"
+
+params:
+  Description: "Wissen aus der Wikipedia"
+  Copyright: "Content is licensed under a Creative Commons Attribution 4.0 International License"
+  Author: "Florian Baumann"
+  githubuser: "noqqe"
+  Keywords: "Wikipedia, Blog, Articles, Read, Pages, Empfehlungen"
+  Twitter: "@entbehrlich_es"
+
+taxonomies:
+  tag: "tags"
+
+permalinks:
+  post: "articles/:year/:month/:day/:filename/"
