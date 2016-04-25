@@ -1,8 +1,7 @@
 {{ partial "header.html" . }}
 
    <div class="content">
-   iADSFASDFADSF
-    {{ partial "footer.html" . }}
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
     <div class="main">
       {{ range $paginator.Pages }}
         <h1 class="non-highlight">
@@ -11,5 +10,7 @@
         {{ .Content }}
       {{ end }}
     </div>
-    </div>
+   </div>
+    {{ partial "footer.html" . }}
 
+    {{ partial "pagination.html" . }}
