@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import sys
+import nltk
 import re
 import json
 import commands
@@ -12,7 +12,6 @@ from dateutil.parser import parse
 
 cmd = 'rvo export -c entbehrliches --to json'
 md_dest = "/home/noqqe/Code/entbehrlich.es/content/post/"
-jsts = 1335205804950
 head = "---\n"
 n = "\n"
 
@@ -44,7 +43,8 @@ for post in posts:
     wiki = wikipedia.summary(wikititle)
 
     # first sentence of the article and quote it for markdown
-    wiki = ' '.join(re.split(r'(?<=[.;])\s', wiki)[:1])
+    if len(wiki) >= 250:
+        wiki = nltk.tokenize.sent_tokenize(wiki)[0]
     wiki = "> " + wiki
 
     # generate markdown document
@@ -55,7 +55,4 @@ for post in posts:
         f.write(text.encode("utf-8"))
         f.close()
 
-
-
-
-
+    print("Generated: %s" % title)

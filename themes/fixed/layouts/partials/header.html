@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>{{ .Site.Title }}</title>
+		<title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+
 
     <!-- Meta data for search engines -->
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
