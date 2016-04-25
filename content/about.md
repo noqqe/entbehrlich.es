@@ -11,13 +11,13 @@ lesenswerten Artikel zu posten und (ganz kurz) einzuleiten warum ich ihn
 gewählt habe.
 
 Die Themen sind wild gestreut. Mich interessiert obskures,
-wissenschaftliches, Dinge aus der IT. Generell bin ich an allem Interessiert.
+wissenschaftliches, Dinge aus der IT. Generell bin ich an Allem interessiert.
 Außer [Apostellöffel](https://de.wikipedia.org/wiki/Apostellöffel). Die sind doof.
 
 ### Entbehrlich.es?
 
 "Entbehrliches Wissen aus der Wikipedia" umschreibt das Projekt gut.
 Niemand würde ohne das Wissen aus den gelesenen Artikeln sterben. Aber
-trotzdem ist es irgendwie schön Allgemeinwissen aufzubauen und und vor
-allem Unterhaltsam. Und die Domain war noch frei.
+trotzdem ist es irgendwie schön Allgemeinwissen aufzubauen und vor
+allem ist es unterhaltsam. Und die Domain war noch frei.
 
