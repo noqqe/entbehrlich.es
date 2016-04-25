@@ -99,12 +99,12 @@ Layout styles
 	padding: 0em 0em 0em 0em;
 }
 
-.non-highlight a { 
+.non-highlight a {
   text-decoration: none;
 }
 
-.header a { 
-  color: white; 
+.header a {
+  color: white;
   text-decoration: none;
 }
 
@@ -199,8 +199,8 @@ Wide styles
 {
 	.header { padding: 1.5em 2.2em; }
 	.content { padding: 2em 3em; }
-	.footer { 
-    padding: 0em 3em; 
+	.footer {
+    padding: 0em 3em;
     font-size: 0.75em;
     text-align: center;
   }
