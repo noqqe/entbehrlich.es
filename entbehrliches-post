@@ -22,7 +22,7 @@ def new_post(url, publish):
     # find wikipedia link
     url = urlparse.urlparse(url)
     lang = url.netloc.split('.')[0]
-    title = url.path.split('/')[2]
+    title = url.path.split('/')[2].replace('-',' ').replace('_',' ')
     filename = title.replace(' ','-').replace('---','-') + '.md'
 
     # set lang and title, fetch wikipedia article
