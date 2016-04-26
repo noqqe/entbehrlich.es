@@ -1,0 +1,52 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os
+import click
+import nltk
+import urlparse
+import wikipedia
+from dateutil.parser import parse
+
+md_dest = os.path.expanduser("~/Code/entbehrlich.es/content/post/")
+head = "---\n"
+n = "\n"
+
+@click.command()
+@click.argument('url')
+@click.option('publish', '-d', '--date')
+def new_post(url, publish):
+
+    origurl = url
+
+    # find wikipedia link
+    url = urlparse.urlparse(url)
+    lang = url.netloc.split('.')[0]
+    title = url.path.split('/')[2]
+    filename = title.replace(' ','-').replace('---','-') + '.md'
+
+    # set lang and title, fetch wikipedia article
+    wikipedia.set_lang(lang)
+    wiki = wikipedia.summary(title)
+
+    t = parse(publish)
+    t = t.replace(hour=14, minute=0, microsecond=0)
+    t = t.isoformat()
+
+    # first sentence of the article and quote it for markdown
+    if len(wiki) >= 350:
+        wiki = nltk.tokenize.sent_tokenize(wiki)[0]
+    wiki = "> " + wiki
+
+    # generate markdown document
+    text = head + "title: " + title + n + "date: " + t + n + head + n + n + origurl + n + n + wiki
+
+    # write markdown to the document
+    with open(md_dest + filename, "w") as f:
+        f.write(text.encode("utf-8"))
+        f.close()
+
+    print("Created Post: " + md_dest + filename)
+
+if __name__ == '__main__':
+    new_post()
