@@ -3,7 +3,7 @@ baseurl:  "https://entbehrlich.es"
 languageCode: "de-de"
 theme: "fixed"
 path: "articles"
-paginate: 1000
+paginate: 5
 paginatePath: "page"
 publishdir: "public"
 metaDataFormat: "yaml"
