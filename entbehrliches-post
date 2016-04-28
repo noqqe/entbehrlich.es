@@ -40,7 +40,8 @@ def new_post(url, publish):
     wiki = "> " + wiki
 
     # generate markdown document
-    text = head + "title: " + title + n + "date: " + t + n + head + n + n + origurl + n + n + wiki
+    header = head + "title: " + title + n + "date: " + t + n + "draft: true" + n + head + n
+    text = header + n + origurl + n + n + wiki
 
     # write markdown to the document
     with open(md_dest + filename, "w") as f:
