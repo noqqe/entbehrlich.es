@@ -7,6 +7,7 @@ import nltk
 import urlparse
 import wikipedia
 from dateutil.parser import parse
+import datetime
 
 md_dest = os.path.expanduser("~/Code/entbehrlich.es/content/post/")
 head = "---\n"
@@ -14,7 +15,7 @@ n = "\n"
 
 @click.command()
 @click.argument('url')
-@click.option('publish', '-d', '--date')
+@click.option('publish', '-d', '--date', default=str(datetime.datetime.now()))
 def new_post(url, publish):
 
     origurl = url
