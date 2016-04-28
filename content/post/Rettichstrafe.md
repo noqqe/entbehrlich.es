@@ -1,7 +1,6 @@
 ---
-title: Rettichstrafe
-date: 2016-04-28T14:00:47
-draft: true
+title: Die Rettichstrafe
+date: 2016-04-28T11:27:47
 ---
 
 Auch ein super Konzept für eine Gameshow.
