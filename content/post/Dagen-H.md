@@ -1,7 +1,6 @@
 ---
 title: Dagen H
-date: 2016-04-28T14:00:59
-draft: true
+date: 2016-04-29T10:00:59
 ---
 
 Wenn ein Land von Links- auf Rechtsverkehr umstellt ist das eine ziemliche
