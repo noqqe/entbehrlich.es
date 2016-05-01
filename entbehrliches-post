@@ -1,22 +1,28 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import re
 import os
 import click
 import nltk
 import urlparse
+import fileinput
 import wikipedia
 from dateutil.parser import parse
 import datetime
 
-md_dest = os.path.expanduser("~/Code/entbehrlich.es/content/post/")
+posts_home = os.path.expanduser("~/Code/entbehrlich.es/content/post/")
 head = "---\n"
 n = "\n"
 
-@click.command()
+@click.group()
+def cli():
+    pass
+
+@cli.command()
 @click.argument('url')
 @click.option('publish', '-d', '--date', default=str(datetime.datetime.now()))
-def new_post(url, publish):
+def new(url, publish):
 
     origurl = url
 
@@ -44,11 +50,44 @@ def new_post(url, publish):
     text = header + n + origurl + n + n + wiki
 
     # write markdown to the document
-    with open(md_dest + filename, "w") as f:
+    with open(posts_home + filename, "w") as f:
         f.write(text.encode("utf-8"))
         f.close()
 
-    print("Created Post: " + md_dest + filename)
+    print("Created Post: " + posts_home + filename)
+
+
+@cli.command()
+@click.option('all', '--all', '-a',  is_flag=True)
+def queue(all):
+
+    posts = os.listdir(posts_home)
+    for post in posts:
+        if not all:
+            if 'draft: true' in open(posts_home + post).read():
+                print post
+        else:
+            print post
+
+
+@cli.command()
+@click.argument('post')
+def release(post):
+
+    t = datetime.datetime.now()
+    t = t.isoformat()
+    path = posts_home + post
+
+    try:
+        open(path)
+    except IOError:
+        print("No such file")
+        return False
+
+    if 'draft: true' in open(path).read():
+        for line in fileinput.input(path, inplace=True):
+            print line.replace('date:.*', 'date: %s' % t)
+
 
 if __name__ == '__main__':
-    new_post()
+    cli()
