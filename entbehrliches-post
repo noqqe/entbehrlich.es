@@ -6,7 +6,7 @@ import os
 import click
 import nltk
 import urlparse
-import fileinput
+import commands
 import wikipedia
 from dateutil.parser import parse
 import datetime
@@ -75,6 +75,7 @@ def queue(all):
 def release(post):
 
     t = datetime.datetime.now()
+    t = t.replace(microsecond=0)
     t = t.isoformat()
     path = posts_home + post
 
@@ -85,8 +86,9 @@ def release(post):
         return False
 
     if 'draft: true' in open(path).read():
-        for line in fileinput.input(path, inplace=True):
-            print line.replace('date:.*', 'date: %s' % t)
+        # because FUCK YOU HARD FILEINPUT!
+        commands.getstatusoutput('sed -i \'s#draft: true#draft: false#\' %s' % path)
+        commands.getstatusoutput('sed -i \'s#^date: .*#date: %s#\' %s' % (t, path))
 
 
 if __name__ == '__main__':

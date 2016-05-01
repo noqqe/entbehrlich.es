@@ -1,7 +1,7 @@
 ---
 title: Kolumbianische Krawatte
-date: 2016-04-28T14:00:50
-draft: true
+date: 2016-05-01T16:34:47
+draft: false
 ---
 
 Schneidest die Kehle auf, ziehst die Zunge durch, haste ne Krawatte.
