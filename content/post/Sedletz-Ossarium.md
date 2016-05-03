@@ -1,7 +1,7 @@
 ---
 title: Das Sedletz Ossarium
-date: 2016-04-28T14:00:26
-draft: true
+date: 2016-05-03T20:15:21
+draft: false
 ---
 
 Das Sedletz Ossarium ist eine Kirche die unter anderem einen Kronleuchter
