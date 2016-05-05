@@ -1,7 +1,7 @@
 ---
 title: Das Fermi Paradoxon
-date: 2016-05-01T14:00:07
-draft: true
+date: 2016-05-05T22:41:35
+draft: false
 ---
 
 Grundsätzlich steht die Frage im Raum: "Es gibt so viele Planeten da
