@@ -1,0 +1,17 @@
+---
+title: Dunkelgräfin
+date: 2016-05-06T14:00:42
+draft: true
+---
+
+Gerüchten zufolge handelt es sich um eine Adelige die auf einem Schloss
+über Coburg hauste, sich aber in schweigen und non-präsenz hüllt.
+Der Artikel spekuliert auch über die eigentliche Herkunft der Frau. Sie
+könnte eventuell die Tochter des hingerichteten König Ludwig XVI gewesen
+sein.
+
+https://de.wikipedia.org/wiki/Dunkelgräfin
+
+> Dunkelgraf und Dunkelgräfin ist die Bezeichnung für ein geheimnisvolles
+> Paar, das von 1810 bis 1837 auf Schloss Eishausen bei Hildburghausen
+> lebte und sich selten in der Öffentlichkeit zeigte.

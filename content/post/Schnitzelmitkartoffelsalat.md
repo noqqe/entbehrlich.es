@@ -1,0 +1,14 @@
+---
+title: Schnitzelmitkartoffelsalat
+date: 2016-05-06T14:00:33
+draft: true
+---
+
+Früher, als man noch wissen wollte wie Suchmaschinen funktionieren.
+Etwas ähnliches hat auch Google mal gemacht um herauszufinden ob Bing
+Suchergebnisse einfach von Google gerippt wurden.
+
+https://de.wikipedia.org/wiki/Schnitzelmitkartoffelsalat
+
+> Der Begriff Schnitzelmitkartoffelsalat ist ein Testbegriff von
+> Webmastern, um die Eigenschaften von Suchmaschinen zu erforschen.
