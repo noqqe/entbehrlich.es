@@ -14,6 +14,8 @@ import datetime
 posts_home = os.path.expanduser("~/Code/entbehrlich.es/content/post/")
 head = "---\n"
 n = "\n"
+hugo = "/home/noqqe/.go/bin/hugo"
+rsync = "/usr/local/bin/rsync -avi --delete public/ aax:/var/www/htdocs/entbehrlich.es/"
 
 @click.group()
 def cli():
@@ -89,6 +91,22 @@ def release(post):
         # because FUCK YOU HARD FILEINPUT!
         commands.getstatusoutput('sed -i \'s#draft: true#draft: false#\' %s' % path)
         commands.getstatusoutput('sed -i \'s#^date: .*#date: %s#\' %s' % (t, path))
+
+@cli.command()
+def deploy():
+    status, output = commands.getstatusoutput(hugo)
+    print("BUILD BLOG\n")
+    print output
+    if status == 0:
+        status, output = commands.getstatusoutput(rsync)
+        print("\nDEPLOY BLOG TO SERVER\n")
+        print output
+        if status != 0:
+            print("Error: rsync failed")
+    else:
+        print("Error: Hugo returned an error")
+
+
 
 
 if __name__ == '__main__':
