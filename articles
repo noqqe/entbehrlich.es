@@ -32,6 +32,7 @@ def cli():
 @click.argument('url')
 @click.option('publish', '-d', '--date', default=str(datetime.datetime.now()))
 def new(url, publish):
+    " Create new post and fetch content from wikipedia "
 
     origurl = url
 
@@ -71,6 +72,7 @@ def new(url, publish):
 @cli.command()
 @click.option('all', '--all', '-a',  is_flag=True)
 def queue(all):
+    " Show all drafts "
 
     posts = os.listdir(posts_home)
     for post in posts:
@@ -84,6 +86,7 @@ def queue(all):
 @cli.command()
 @click.argument('post')
 def release(post):
+    " Pick draft post, update date and draft to false "
 
     t = datetime.datetime.now()
     t = t.replace(microsecond=0)
@@ -103,6 +106,7 @@ def release(post):
 
 @cli.command()
 def deploy():
+    " Deploy blog to server "
     status, output = commands.getstatusoutput(hugo)
     print("BUILD BLOG\n")
     print output
@@ -117,6 +121,7 @@ def deploy():
 
 @cli.command()
 def tweet():
+    " Tweet latest blogpost from rss feed "
 
     feed = feedparser.parse("https://entbehrlich.es/index.xml")
     title = feed['entries'][0]['title']
