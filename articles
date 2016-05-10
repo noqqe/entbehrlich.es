@@ -17,6 +17,7 @@ import feedparser
 posts_home = os.path.expanduser("~/Code/entbehrlich.es/content/post/")
 hugo = "/home/noqqe/.go/bin/hugo"
 rsync = "/usr/local/bin/rsync -avi --delete public/ aax:/var/www/htdocs/entbehrlich.es/"
+feedurl = "https://entbehrlich.es/index.xml"
 
 # Twitter credentials
 con_key = "aWoryvyvjQqV2aCDOyg6YJCJi"
@@ -123,7 +124,7 @@ def deploy():
 def tweet():
     " Tweet latest blogpost from rss feed "
 
-    feed = feedparser.parse("https://entbehrlich.es/index.xml")
+    feed = feedparser.parse(feedlurl)
     title = feed['entries'][0]['title']
     link = feed['entries'][0]['link']
 
