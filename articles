@@ -137,6 +137,7 @@ def tweet():
 	)
     t = Twitter(auth=auth)
     t.statuses.update(status=message)
+    print("Tweeted \"%s\"" % message)
 
 
 if __name__ == '__main__':
