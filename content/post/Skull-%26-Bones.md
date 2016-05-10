@@ -1,7 +1,7 @@
 ---
 title: Skull & Bones
-date: 2016-05-06T14:00:51
-draft: true
+date: 2016-05-07T20:39:17
+draft: false
 ---
 
 Einer der längsten Artikel die ich auf Wikipedia komplett laß. Und auch bei
