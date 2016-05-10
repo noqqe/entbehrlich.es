@@ -10,12 +10,19 @@ import commands
 import wikipedia
 from dateutil.parser import parse
 import datetime
+from twitter import *
+import feedparser
 
+# Environment variables
 posts_home = os.path.expanduser("~/Code/entbehrlich.es/content/post/")
-head = "---\n"
-n = "\n"
 hugo = "/home/noqqe/.go/bin/hugo"
 rsync = "/usr/local/bin/rsync -avi --delete public/ aax:/var/www/htdocs/entbehrlich.es/"
+
+# Twitter credentials
+con_key = "aWoryvyvjQqV2aCDOyg6YJCJi"
+con_secret = "A8JhSSKM0996vjKV8NwKi8dvR2ApCfuRb6M8rRav6ctojhQcRk"
+access_token = "723558748581683201-QYcFL4pFqHxgflEjcxkeIE5BfMEI6JM"
+access_token_secret = "Dd8oGmYhXpMfGcFF3HdsqKO8iD2q902uuHFs7cUZI3HbI"
 
 @click.group()
 def cli():
@@ -48,6 +55,8 @@ def new(url, publish):
     wiki = "> " + wiki
 
     # generate markdown document
+    head = "---\n"
+    n = "\n"
     header = head + "title: " + title + n + "date: " + t + n + "draft: true" + n + head + n
     text = header + n + origurl + n + n + wiki
 
@@ -106,7 +115,23 @@ def deploy():
     else:
         print("Error: Hugo returned an error")
 
+@cli.command()
+def tweet():
 
+    feed = feedparser.parse("https://entbehrlich.es/index.xml")
+    title = feed['entries'][0]['title']
+    link = feed['entries'][0]['link']
+
+    message = title + " " + link
+
+    auth = OAuth(
+        consumer_key=con_key,
+	    consumer_secret=con_secret,
+	    token=access_token,
+	    token_secret=access_token_secret,
+	)
+    t = Twitter(auth=auth)
+    t.statuses.update(status=message)
 
 
 if __name__ == '__main__':
