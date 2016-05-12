@@ -1,7 +1,7 @@
 ---
 title: Schnitzelmitkartoffelsalat
-date: 2016-05-06T14:00:33
-draft: true
+date: 2016-05-11T16:34:38
+draft: false
 ---
 
 Früher, als man noch wissen wollte wie Suchmaschinen funktionieren.

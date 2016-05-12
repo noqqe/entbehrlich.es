@@ -9,6 +9,7 @@ body
 	color: #333;
 	background-color: #eee;
 	font: 1em/1.2 "Vollkorn", Helvetica, Arial, Geneva, sans-serif;
+  word-break: break-word;
 }
 
 h1,h2,h3,h4,h5,h6

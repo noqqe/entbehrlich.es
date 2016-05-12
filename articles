@@ -7,17 +7,22 @@ import click
 import nltk
 import urlparse
 import commands
+from subprocess import call
 import wikipedia
 from dateutil.parser import parse
 import datetime
 from twitter import *
 import feedparser
+import warnings
+
+warnings.filterwarnings("ignore")
 
 # Environment variables
 posts_home = os.path.expanduser("~/Code/entbehrlich.es/content/post/")
 hugo = "/home/noqqe/.go/bin/hugo"
 rsync = "/usr/local/bin/rsync -avi --delete public/ aax:/var/www/htdocs/entbehrlich.es/"
 feedurl = "https://entbehrlich.es/index.xml"
+editor = "/usr/local/bin/vim"
 
 # Twitter credentials
 con_key = "aWoryvyvjQqV2aCDOyg6YJCJi"
@@ -44,8 +49,12 @@ def new(url, publish):
     filename = title.replace(' ','-').replace('---','-') + '.md'
 
     # set lang and title, fetch wikipedia article
-    wikipedia.set_lang(lang)
-    wiki = wikipedia.summary(title)
+    try:
+        wikipedia.set_lang(lang)
+        wiki = wikipedia.summary(title)
+    except wikipedia.exceptions.DisambiguationError as e:
+        print(e)
+        return False
 
     t = parse(publish)
     t = t.replace(hour=14, minute=0, microsecond=0)
@@ -63,11 +72,17 @@ def new(url, publish):
     text = header + n + origurl + n + n + wiki
 
     # write markdown to the document
-    with open(posts_home + filename, "w") as f:
+    path = posts_home + filename
+    with open(path, "w") as f:
         f.write(text.encode("utf-8"))
         f.close()
 
-    print("Created Post: " + posts_home + filename)
+    print("Created Post: " + path)
+
+    # edit file
+    call([editor, path])
+
+    return True
 
 
 @cli.command()
@@ -124,7 +139,7 @@ def deploy():
 def tweet():
     " Tweet latest blogpost from rss feed "
 
-    feed = feedparser.parse(feedlurl)
+    feed = feedparser.parse(feedurl)
     title = feed['entries'][0]['title']
     link = feed['entries'][0]['link']
 
@@ -132,9 +147,9 @@ def tweet():
 
     auth = OAuth(
         consumer_key=con_key,
-	    consumer_secret=con_secret,
-	    token=access_token,
-	    token_secret=access_token_secret,
+        consumer_secret=con_secret,
+        token=access_token,
+        token_secret=access_token_secret,
 	)
     t = Twitter(auth=auth)
     t.statuses.update(status=message)
