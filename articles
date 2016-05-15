@@ -6,6 +6,7 @@ import os
 import click
 import nltk
 import urlparse
+import git
 import commands
 from subprocess import call
 import wikipedia
@@ -18,7 +19,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Environment variables
-posts_home = os.path.expanduser("~/Code/entbehrlich.es/content/post/")
+project_home =  os.path.expanduser("~/Code/entbehrlich.es")
+posts_home = project_home + "/content/post/"
 hugo = "/home/noqqe/.go/bin/hugo"
 rsync = "/usr/local/bin/rsync -avi --delete public/ aax:/var/www/htdocs/entbehrlich.es/"
 feedurl = "https://entbehrlich.es/index.xml"
@@ -137,6 +139,18 @@ def deploy():
 
     return True
 
+def commit(post):
+    try:
+        repo = git.Repo(project_home)
+        repo.git.add(posts_home + post)
+        repo.git.commit(m=post)
+        print("Post %s committed" % post)
+        return True
+    except:
+        print("Post %s could not be committed" % post)
+        return False
+
+
 def tweet():
     " Tweet latest blogpost from rss feed "
 
@@ -166,6 +180,9 @@ def release(post):
 
     # remove draft
     publish(post)
+
+    # commit git changes
+    commit(post)
 
     # build deploy to server
     deploy()
