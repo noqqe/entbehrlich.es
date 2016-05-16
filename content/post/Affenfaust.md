@@ -1,7 +1,7 @@
 ---
 title: Die Affenfaust
-date: 2016-05-11T14:00:34
-draft: true
+date: 2016-05-16T13:12:32
+draft: false
 ---
 
 Eigentlich als Zierknoten kann die Affenfaust mit Metallkugel im Kern auch
