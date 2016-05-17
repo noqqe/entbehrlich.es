@@ -1,7 +1,7 @@
 ---
 title: Acoustic Kitty
-date: 2016-05-06T14:00:41
-draft: true
+date: 2016-05-17T13:08:53
+draft: false
 ---
 
 "Hey Rüdiger, lass mal den ganzen Mirkofon/Abhörscheiss in ein Kätzchen
