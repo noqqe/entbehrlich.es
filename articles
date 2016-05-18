@@ -84,6 +84,8 @@ def new(url, pdate):
     # edit file
     call([editor, path])
 
+    commit(filename)
+
     return True
 
 
