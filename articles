@@ -107,6 +107,7 @@ def publish(post):
     t = t.replace(microsecond=0)
     t = t.isoformat()
     path = posts_home + post
+    path = path.encode("utf8")
 
     try:
         open(path)
