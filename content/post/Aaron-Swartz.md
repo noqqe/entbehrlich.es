@@ -1,20 +1,14 @@
 ---
 title: Aaron Swartz
-date: 2016-05-19T14:00:29
+date: 2016-05-19T14:00:07
 draft: true
 tags: 
-- Kategorie:Blogger
-
-- Kategorie:Geboren 1986
-
-- Kategorie:Gestorben 2013
-
-- Kategorie:Hacker (Programmierersubkultur)
-
-- Kategorie:Mann
-
-- Kategorie:US-Amerikaner
-
+- Blogger
+- Geboren 1986
+- Gestorben 2013
+- Hacker (Programmierersubkultur)
+- Mann
+- US-Amerikaner
 ---
 
 
