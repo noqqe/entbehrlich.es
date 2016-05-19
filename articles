@@ -32,6 +32,115 @@ con_secret = "A8JhSSKM0996vjKV8NwKi8dvR2ApCfuRb6M8rRav6ctojhQcRk"
 access_token = "723558748581683201-QYcFL4pFqHxgflEjcxkeIE5BfMEI6JM"
 access_token_secret = "Dd8oGmYhXpMfGcFF3HdsqKO8iD2q902uuHFs7cUZI3HbI"
 
+
+# Little helpers
+def gen_blog_meta(title, date, tags):
+    """
+    Make a blog post header like
+    ---
+    title: foo
+    date: bar
+    draft: false
+    tags:
+    - foo
+    - bar
+    ---
+
+    :title: str
+    :date: str
+    :tags: list
+    :returns: str
+    """
+    head = "---\n"
+    n = "\n"
+    header = head + "title: " + title + n + "date: " + date + n + "draft: true" + n
+    header = header + "tags: "
+    for tag in tags:
+        header = header + n + "- " + tag.replace("Kategorie:", '')
+    header = header + n + head + n
+    return header
+
+def deploy():
+    """
+    Deploy blog to server
+    1. Compile Blog using hugo
+    2. rsync to serving httpd
+    """
+    status, output = commands.getstatusoutput(hugo)
+    print("BUILD BLOG\n")
+    print output
+    if status == 0:
+        status, output = commands.getstatusoutput(rsync)
+        print("\nDEPLOY BLOG TO SERVER\n")
+        print output
+        if status != 0:
+            print("Error: rsync failed")
+            return False
+    else:
+        print("Error: Hugo returned an error")
+        return False
+
+    return True
+
+def publish(post):
+    """
+    Pick draft post, update date and draft to false
+    """
+
+    t = datetime.datetime.now()
+    t = t.replace(microsecond=0)
+    t = t.isoformat()
+    path = posts_home + post
+    path = path.encode("utf8")
+
+    try:
+        open(path)
+    except IOError:
+        print("No such file")
+        return False
+
+    if 'draft: true' in open(path).read():
+        # because FUCK YOU HARD FILEINPUT!
+        commands.getstatusoutput('sed -i \'s#draft: true#draft: false#\' %s' % path)
+        commands.getstatusoutput('sed -i \'s#^date: .*#date: %s#\' %s' % (t, path))
+
+    return True
+
+def commit(post):
+    try:
+        repo = git.Repo(project_home)
+        repo.git.add(posts_home + post)
+        repo.git.commit(m=post)
+        print("Post %s committed" % post)
+        return True
+    except:
+        print("Post %s could not be committed" % post)
+        return False
+
+
+def tweet():
+    " Tweet latest blogpost from rss feed "
+
+    feed = feedparser.parse(feedurl)
+    title = feed['entries'][0]['title']
+    link = feed['entries'][0]['link']
+
+    message = title + " " + link
+
+    auth = OAuth(
+        consumer_key=con_key,
+        consumer_secret=con_secret,
+        token=access_token,
+        token_secret=access_token_secret,
+	)
+    t = Twitter(auth=auth)
+    t.statuses.update(status=message)
+    print("Tweeted \"%s\"" % message)
+
+    return True
+
+# CLI Commands
+
 @click.group()
 def cli():
     pass
@@ -85,25 +194,17 @@ def new(url, pdate):
     # edit file
     call([editor, path])
 
+    # commit to local repo
     commit(filename)
 
     return True
 
-def gen_blog_meta(title, date, tags):
-    head = "---\n"
-    n = "\n"
-    header = head + "title: " + title + n + "date: " + date + n + "draft: true" + n
-    header = header + "tags: "
-    for tag in tags:
-        header = header + n + "- " + tag.replace("Kategorie:", '')
-    header = header + n + head + n
-    return header
-
-
 @cli.command()
 @click.option('all', '--all', '-a',  is_flag=True)
 def queue(all):
-    " Show all drafts "
+    """
+    Shows posts - by default all unpublished ones
+    """
 
     posts = os.listdir(posts_home)
     for post in posts:
@@ -112,80 +213,6 @@ def queue(all):
                 print post
         else:
             print post
-
-def publish(post):
-    " Pick draft post, update date and draft to false "
-
-    t = datetime.datetime.now()
-    t = t.replace(microsecond=0)
-    t = t.isoformat()
-    path = posts_home + post
-    path = path.encode("utf8")
-
-    try:
-        open(path)
-    except IOError:
-        print("No such file")
-        return False
-
-    if 'draft: true' in open(path).read():
-        # because FUCK YOU HARD FILEINPUT!
-        commands.getstatusoutput('sed -i \'s#draft: true#draft: false#\' %s' % path)
-        commands.getstatusoutput('sed -i \'s#^date: .*#date: %s#\' %s' % (t, path))
-
-    return True
-
-def deploy():
-    " Deploy blog to server "
-    status, output = commands.getstatusoutput(hugo)
-    print("BUILD BLOG\n")
-    print output
-    if status == 0:
-        status, output = commands.getstatusoutput(rsync)
-        print("\nDEPLOY BLOG TO SERVER\n")
-        print output
-        if status != 0:
-            print("Error: rsync failed")
-            return False
-    else:
-        print("Error: Hugo returned an error")
-        return False
-
-    return True
-
-def commit(post):
-    try:
-        repo = git.Repo(project_home)
-        repo.git.add(posts_home + post)
-        repo.git.commit(m=post)
-        print("Post %s committed" % post)
-        return True
-    except:
-        print("Post %s could not be committed" % post)
-        return False
-
-
-def tweet():
-    " Tweet latest blogpost from rss feed "
-
-    feed = feedparser.parse(feedurl)
-    title = feed['entries'][0]['title']
-    link = feed['entries'][0]['link']
-
-    message = title + " " + link
-
-    auth = OAuth(
-        consumer_key=con_key,
-        consumer_secret=con_secret,
-        token=access_token,
-        token_secret=access_token_secret,
-	)
-    t = Twitter(auth=auth)
-    t.statuses.update(status=message)
-    print("Tweeted \"%s\"" % message)
-
-    return True
-
 
 @cli.command()
 @click.argument('post')
@@ -206,5 +233,6 @@ def release(post):
 
     return True
 
+# Call wrapper to cli commands
 if __name__ == '__main__':
     cli()
