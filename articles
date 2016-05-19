@@ -53,7 +53,9 @@ def new(url, pdate):
     # set lang and title, fetch wikipedia article
     try:
         wikipedia.set_lang(lang)
-        wiki = wikipedia.summary(title)
+        wiki = wikipedia.page(title)
+        tags = wiki.categories
+        wiki = wiki.summary
     except wikipedia.exceptions.DisambiguationError as e:
         print(e)
         return False
@@ -68,9 +70,8 @@ def new(url, pdate):
     wiki = "> " + wiki
 
     # generate markdown document
-    head = "---\n"
+    header = gen_blog_meta(title=title, date=t, tags=tags)
     n = "\n"
-    header = head + "title: " + title + n + "date: " + t + n + "draft: true" + n + head + n
     text = header + n + origurl + n + n + wiki
 
     # write markdown to the document
@@ -87,6 +88,16 @@ def new(url, pdate):
     commit(filename)
 
     return True
+
+def gen_blog_meta(title, date, tags):
+    head = "---\n"
+    n = "\n"
+    header = head + "title: " + title + n + "date: " + date + n + "draft: true" + n
+    header = header + "tags: "
+    for tag in tags:
+        header = header + n + "- " + tag.replace("Kategorie:", '')
+    header = header + n + head + n
+    return header
 
 
 @cli.command()
