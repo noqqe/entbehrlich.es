@@ -157,7 +157,7 @@ def new(url, pdate):
     url = urlparse.urlparse(url)
     lang = url.netloc.split('.')[0]
     title = url.path.split('/')[2].replace('-',' ').replace('_',' ')
-    filename = title.replace(' ','-').replace('---','-') + '.md'
+    filename = title.replace(' ','-').replace('---','-').replace(')','').replace('(','') + '.md'
 
     # set lang and title, fetch wikipedia article
     try:
