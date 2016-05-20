@@ -1,7 +1,7 @@
 ---
 title: Purple
-date: 2016-04-28T14:00:49
-draft: true
+date: 2016-05-20T09:56:30
+draft: false
 ---
 
 Auch die Japaner hatten eine Art Enigma. Allerdings gingen sie bis zum Ende
