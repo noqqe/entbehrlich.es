@@ -1,7 +1,7 @@
 ---
 title: Das Philadelphia-Experiment
-date: 2016-04-28T14:00:49
-draft: true
+date: 2016-05-21T13:07:51
+draft: false
 ---
 
 Angebliche Briefe und Augenzeugen sollen belegen, dass die USA im WWII ein
