@@ -10,7 +10,7 @@ des zweiten Weltkrieges davon aus, dass die Crypto ungebrochen sei.
 Die Geschichte des knackens scheint dagegen ähnlich abgelaufen zu sein,
 wie bei der Enigma.
 
-https://de.wikipedia.org/wiki/Purple_(Maschine)
+[https://de.wikipedia.org/wiki/Purple_(Maschine)](https://de.wikipedia.org/wiki/Purple_(Maschine))
 
 > Purple (deutsch wörtlich: violett, lila, purpur, Schreibweise auch:
 > PURPLE) war die amerikanische Codebezeichnung für eine
