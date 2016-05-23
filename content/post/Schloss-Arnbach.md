@@ -1,7 +1,7 @@
 ---
 title: Schloss Arnbach
-date: 2016-05-18T14:00:10
-draft: true
+date: 2016-05-23T09:15:57
+draft: false
 ---
 
 Prunkvoll, verschwenderisch. Alles zu Lasten der Untertanen.
