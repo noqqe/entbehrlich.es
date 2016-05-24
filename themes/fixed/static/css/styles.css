@@ -121,6 +121,18 @@ Layout styles
 	padding: 1em 1.25em;
 }
 
+.published
+{
+  color: #555;
+  font-size: 0.6em;
+}
+
+.tags
+{
+  color: #555;
+  font-size: 1em;
+}
+
 
 /* -----------------------
 Single styles

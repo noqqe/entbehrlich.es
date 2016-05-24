@@ -1,14 +1,15 @@
 {{ partial "header.html" . }}
 
-   <div class="content">
+  <div class="content">
     <div class="main">
         <div class="main">
         <h1 class="non-highlight">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <div class="published">{{ .Date.Format "2006-01-02" }}</div>
         </h1>
         {{ .Content }}
     </div>
-
+    <div class="tags">{{ range .Params.tags }}<a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ end }}</div>
     </div>
   </div>
 
