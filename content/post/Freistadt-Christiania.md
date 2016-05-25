@@ -1,7 +1,7 @@
 ---
 title: Freistadt Christiania
-date: 2016-05-24T14:00:53
-draft: true
+date: 2016-05-25T08:38:01
+draft: false
 tags:
 - Autonome Bewegung
 - Geographie (Kopenhagen)
