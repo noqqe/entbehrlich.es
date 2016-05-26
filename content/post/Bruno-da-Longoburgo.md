@@ -1,7 +1,7 @@
 ---
 title: Bruno da Longoburgo
-date: 2016-05-18T14:00:40
-draft: true
+date: 2016-05-26T23:08:11
+draft: false
 ---
 
 Der Herr mit dem lustigen Namen hat ehrlich gesagt für die Zeit in der er
