@@ -1,7 +1,7 @@
 ---
 title: Bankvorteil
-date: 2016-05-11T14:00:33
-draft: true
+date: 2016-05-26T21:59:40
+draft: false
 ---
 
 Der Bankvorteil ist im Endeffekt nichts wirklich interessantes. Kann aber
