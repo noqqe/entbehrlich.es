@@ -9,7 +9,8 @@ tags:
 - Wissenschaftlicher Witz
 ---
 
-
+Im Zweifel sollte man erstmal von Dummheit ausgehen, bevor man Böses
+unterstellt. Ich mag ja Phänomene, die einen Namen haben.
 
 https://de.wikipedia.org/wiki/Hanlon%92s_Razor
 
