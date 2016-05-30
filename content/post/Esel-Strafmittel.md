@@ -1,7 +1,7 @@
 ---
 title: Esel (Strafmittel)
-date: 2016-05-18T14:00:49
-draft: true
+date: 2016-05-30T10:08:57
+draft: false
 ---
 
 Furchtbare Dinge aus der Folter Ecke. Mal wieder.
