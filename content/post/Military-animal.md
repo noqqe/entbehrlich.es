@@ -16,3 +16,5 @@ https://en.wikipedia.org/wiki/Military_animal
 
 > Military animals are domesticated animals that are used in warfare and
 > other combat related activities.
+
+Danke an [@palimphread](https://twitter.com/palimphread)!

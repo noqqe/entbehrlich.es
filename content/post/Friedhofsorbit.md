@@ -15,3 +15,5 @@ https://de.wikipedia.org/wiki/Friedhofsorbit
 > Als Friedhofsorbit (englisch graveyard orbit), Friedhofsumlaufbahn oder
 > kurz Friedhofsbahn bezeichnet man eine Erdumlaufbahn („Orbit“) für
 > ausgediente erdferne Satelliten.
+
+Danke an [@palimphread](https://twitter.com/palimphread)!
