@@ -7,6 +7,7 @@ import click
 import nltk
 import urlparse
 import git
+import urllib
 import commands
 from subprocess import call
 import wikipedia
@@ -139,6 +140,17 @@ def tweet():
 
     return True
 
+def build_url(url):
+    """
+    Build url for blogpost with urlencoding
+    like this [http://foo.bar/baz](http://foo.bar.baz)
+    :url: str
+    :returns: str
+    """
+    mdurl = '[' + url + ']'
+    mdurl = mdurl + '(' + url + ')'
+    return mdurl
+
 # CLI Commands
 
 @click.group()
@@ -151,7 +163,7 @@ def cli():
 def new(url, pdate):
     " Create new post and fetch content from wikipedia "
 
-    origurl = url
+    origurl = build_url(url)
 
     # find wikipedia link
     url = urlparse.urlparse(url)
@@ -181,6 +193,7 @@ def new(url, pdate):
     # generate markdown document
     header = gen_blog_meta(title=title, date=t, tags=tags)
     n = "\n"
+
     text = header + n + origurl + n + n + wiki
 
     # write markdown to the document
