@@ -1,7 +1,7 @@
 ---
 title: Hanlon’s Razor
-date: 2016-05-30T14:00:53
-draft: true
+date: 2016-05-31T07:55:47
+draft: false
 tags:
 - Robert A. Heinlein
 - Satire
