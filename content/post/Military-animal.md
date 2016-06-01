@@ -1,7 +1,7 @@
 ---
 title: Military animal
-date: 2016-05-30T14:00:52
-draft: true
+date: 2016-06-01T07:59:59
+draft: false
 tags:
 - All articles with unsourced statements
 - Articles with unsourced statements from May 2015
