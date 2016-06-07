@@ -9,6 +9,7 @@ import urlparse
 import git
 import urllib
 import commands
+import requests
 from subprocess import call
 import wikipedia
 from dateutil.parser import parse
@@ -246,6 +247,22 @@ def release(post):
 
     return True
 
+@cli.command()
+def inspiration():
+    """
+    Lookup some new article inspirations
+    :returns: bool
+    """
+    wiki_changes_api = 'https://de.wikipedia.org/w/api.php?action=query&list=recentchanges&format=json&rctype=edit|new&rclimit=20'
+    r = requests.get(wiki_changes_api)
+    r = r.json()
+    for edit in r["query"]["recentchanges"]:
+        title = edit["title"].encode("utf-8")
+        if "Benutzer:" in title or "Diskussion:" in title or "Wikipedia:" in title:
+            continue
+        print(title + " -- https://de.wikipedia.org/wiki/?curid=" + str(edit["pageid"]))
+
+    return True
 # Call wrapper to cli commands
 if __name__ == '__main__':
     cli()
