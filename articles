@@ -275,7 +275,7 @@ def random():
         try:
             page = wikipedia.page(w)
             print(page.title + " -- " + page.url)
-        except wikipedia.exceptions.DisambiguationError:
+        except (wikipedia.exceptions.DisambiguationError, wikipedia.exceptions.PageError):
             pass
 
     return True
