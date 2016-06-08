@@ -263,6 +263,23 @@ def inspiration():
         print(title + " -- https://de.wikipedia.org/wiki/?curid=" + str(edit["pageid"]))
 
     return True
+
+@cli.command()
+def random():
+    """
+    Get some random articles from wikipedia
+    :returns: True
+    """
+    wikipedia.set_lang("de")
+    for w in wikipedia.random(20):
+        try:
+            page = wikipedia.page(w)
+            print(page.title + " -- " + page.url)
+        except wikipedia.exceptions.DisambiguationError:
+            pass
+
+    return True
+
 # Call wrapper to cli commands
 if __name__ == '__main__':
     cli()
