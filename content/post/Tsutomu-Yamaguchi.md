@@ -1,7 +1,7 @@
 ---
 title: Tsutomu Yamaguchi
-date: 2016-06-01T14:00:47
-draft: true
+date: 2016-06-09T13:20:11
+draft: false
 tags:
 - Atombombenabwürfe auf Hiroshima und Nagasaki
 - Geboren 1916
