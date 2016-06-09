@@ -148,7 +148,9 @@ def build_url(url):
     :url: str
     :returns: str
     """
-    mdurl = '[' + url + ']'
+    cont = url.replace("https://", "")
+    cont = url.replace("http://", "")
+    mdurl = '[' + cont + ']'
     mdurl = mdurl + '(' + url + ')'
     return mdurl
 
