@@ -1,7 +1,7 @@
 ---
 title: April Fools Day Request for Comments
-date: 2016-05-18T14:00:04
-draft: true
+date: 2016-06-10T11:40:51
+draft: false
 ---
 
 Etwas Meta, mal eine Liste. Eine Sammlung von allen RFCs die für den ersten
