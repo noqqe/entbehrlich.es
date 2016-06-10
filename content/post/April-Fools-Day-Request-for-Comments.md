@@ -7,7 +7,7 @@ draft: false
 Etwas Meta, mal eine Liste. Eine Sammlung von allen RFCs die für den ersten
 April angefertigt wurden. Drüberlesen lohnt!
 
-https://en.wikipedia.org/wiki/April_Fools_Day_Request_for_Comments
+[en.wikipedia.org/wiki/April_Fool's_Day_Request_for_Comments](https://en.wikipedia.org/wiki/April_Fool%27s_Day_Request_for_Comments)
 
 > A Request for Comments (RFC) is a type of publication from the Internet
 > Engineering Task Force (IETF) and the Internet Society (ISOC), usually
