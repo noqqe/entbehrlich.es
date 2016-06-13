@@ -1,7 +1,7 @@
 ---
 title: Weißkittelhypertonie
-date: 2016-05-30T14:00:43
-draft: true
+date: 2016-06-13T08:17:07
+draft: false
 tags:
 - Allgemeinmedizin
 ---
