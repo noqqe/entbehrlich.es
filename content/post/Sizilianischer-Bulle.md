@@ -1,7 +1,7 @@
 ---
 title: Sizilianischer Bulle
-date: 2016-05-30T14:00:52
-draft: true
+date: 2016-06-15T09:45:02
+draft: false
 tags:
 - Folterinstrument
 - Hinrichtungsart
