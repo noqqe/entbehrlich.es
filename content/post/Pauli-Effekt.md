@@ -1,7 +1,7 @@
 ---
 title: Pauli Effekt
-date: 2016-05-30T14:00:41
-draft: true
+date: 2016-06-16T10:03:36
+draft: false
 tags:
 - Anekdote
 ---
