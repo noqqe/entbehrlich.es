@@ -1,7 +1,7 @@
 ---
 title: Pythagoreischer Becher
-date: 2016-06-26T14:00:09
-draft: true
+date: 2016-06-26T10:26:56
+draft: false
 tags:
 - Physikalisches Spielzeug
 - Scherzartikel
