@@ -1,7 +1,7 @@
 ---
 title: Dogging (Sexualpraktik)
-date: 2016-05-30T14:00:44
-draft: true
+date: 2016-07-01T14:02:12
+draft: false
 tags:
 - Sexualpraktik
 ---
