@@ -1,7 +1,7 @@
 ---
 title: Minenkrieg
-date: 2016-08-05T14:00:57
-draft: true
+date: 2016-08-05T13:10:56
+draft: false
 tags:
 - Fachbegriff der Burgen- und Festungsforschung
 - Kriegs- und Gefechtsführung
