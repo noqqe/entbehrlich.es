@@ -1,7 +1,7 @@
 ---
 title: Maye Musk
-date: 2016-08-08T14:00:37
-draft: true
+date: 2016-08-09T14:54:41
+draft: false
 tags:
 - 1948 births
 - Canadian female models
