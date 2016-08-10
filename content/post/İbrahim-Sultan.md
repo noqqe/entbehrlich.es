@@ -1,7 +1,7 @@
 ---
 title: İbrahim der Verrückte.
-date: 2016-08-08T14:00:51
-draft: true
+date: 2016-08-10T09:16:56
+draft: false
 tags:
 - Geboren 1615
 - Gestorben 1648
