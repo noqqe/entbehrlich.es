@@ -1,7 +1,7 @@
 ---
 title: Das Verschwinden der Boeing 727 N844AA
-date: 2016-06-26T14:00:47
-draft: true
+date: 2016-08-11T09:52:45
+draft: false
 tags:
 - Kriminalfall 2003
 - Luanda
