@@ -1,7 +1,7 @@
 ---
 title: Small penis rule
-date: 2016-08-15T14:00:02
-draft: true
+date: 2016-08-18T13:36:57
+draft: false
 tags:
 - 1998 introductions
 - Defamation
