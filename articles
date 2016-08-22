@@ -70,11 +70,11 @@ def deploy():
     """
     status, output = commands.getstatusoutput(hugo)
     print("BUILD BLOG\n")
-    print output
+    print(output)
     if status == 0:
         status, output = commands.getstatusoutput(rsync)
         print("\nDEPLOY BLOG TO SERVER\n")
-        print output
+        print(output)
         if status != 0:
             print("Error: rsync failed")
             return False
@@ -226,9 +226,9 @@ def queue(all):
     for post in posts:
         if not all:
             if 'draft: true' in open(posts_home + post).read():
-                print post
+                print(post)
         else:
-            print post
+            print(post)
 
 @cli.command()
 @click.argument('post')
