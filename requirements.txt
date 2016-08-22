@@ -1,0 +1,7 @@
+nltk
+wikipedia
+gitpython
+click
+twitter
+feedparser
+python-dateutil

@@ -1,14 +1,13 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3.5
 # -*- coding: utf-8 -*-
 
 import re
 import os
 import click
 import nltk
-import urlparse
 import git
 import urllib
-import commands
+from urllib.parse import urlparse
 import requests
 from subprocess import call
 import wikipedia
@@ -17,6 +16,7 @@ import datetime
 from twitter import *
 import feedparser
 import warnings
+import subprocess
 
 warnings.filterwarnings("ignore")
 
@@ -68,11 +68,11 @@ def deploy():
     1. Compile Blog using hugo
     2. rsync to serving httpd
     """
-    status, output = commands.getstatusoutput(hugo)
+    status, output = subprocess.getstatusoutput(hugo)
     print("BUILD BLOG\n")
     print(output)
     if status == 0:
-        status, output = commands.getstatusoutput(rsync)
+        status, output = subprocess.getstatusoutput(rsync)
         print("\nDEPLOY BLOG TO SERVER\n")
         print(output)
         if status != 0:
@@ -93,7 +93,6 @@ def publish(post):
     t = t.replace(microsecond=0)
     t = t.isoformat()
     path = posts_home + post
-    path = path.encode("utf8")
 
     try:
         open(path)
@@ -103,8 +102,8 @@ def publish(post):
 
     if 'draft: true' in open(path).read():
         # because FUCK YOU HARD FILEINPUT!
-        commands.getstatusoutput('sed -i \'s#draft: true#draft: false#\' %s' % path)
-        commands.getstatusoutput('sed -i \'s#^date: .*#date: %s#\' %s' % (t, path))
+        subprocess.getstatusoutput('sed -i \'s#draft: true#draft: false#\' %s' % path)
+        subprocess.getstatusoutput('sed -i \'s#^date: .*#date: %s#\' %s' % (t, path))
 
     return True
 
@@ -169,7 +168,7 @@ def new(url, pdate):
     origurl = build_url(url)
 
     # find wikipedia link
-    url = urlparse.urlparse(url)
+    url = urlparse(url)
     lang = url.netloc.split('.')[0]
     title = url.path.split('/')[2].replace('-',' ').replace('_',' ')
     filename = title.replace(' ','-').replace('---','-').replace(')','').replace('(','') + '.md'
@@ -202,7 +201,7 @@ def new(url, pdate):
     # write markdown to the document
     path = posts_home + filename
     with open(path, "w") as f:
-        f.write(text.encode("utf-8"))
+        f.write(text)
         f.close()
 
     print("Created Post: " + path)
@@ -259,7 +258,7 @@ def inspiration():
     r = requests.get(wiki_changes_api)
     r = r.json()
     for edit in r["query"]["recentchanges"]:
-        title = edit["title"].encode("utf-8")
+        title = edit["title"]
         if "Benutzer:" in title or "Diskussion:" in title or "Wikipedia:" in title:
             continue
         print(title + " -- https://de.wikipedia.org/wiki/?curid=" + str(edit["pageid"]))
