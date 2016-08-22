@@ -1,7 +1,7 @@
 ---
 title: Liste der größten künstlichen, nichtnuklearen Explosionen
-date: 2016-08-22T14:00:14
-draft: true
+date: 2016-08-22T09:05:40
+draft: false
 tags:
 - Explosionskatastrophe
 - Liste (Geschichte)
