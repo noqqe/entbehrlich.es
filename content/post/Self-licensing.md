@@ -3,7 +3,6 @@ title: Self licensing
 date: 2016-08-25T21:57:25
 draft: false
 tags:
-- CS1 maint: Unfit url
 - Social psychology
 ---
 
