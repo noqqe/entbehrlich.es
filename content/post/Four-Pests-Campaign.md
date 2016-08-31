@@ -1,7 +1,7 @@
 ---
 title: Four Pests Campaign
-date: 2016-08-22T14:00:07
-draft: true
+date: 2016-08-31T16:04:49
+draft: false
 tags:
 - 1958 in China
 - 1958 in the environment
