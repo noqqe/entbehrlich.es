@@ -1,7 +1,7 @@
 ---
 title: Karl Marx Städter Window System
-date: 2016-10-13T14:00:09
-draft: true
+date: 2016-10-23T11:31:13
+draft: false
 tags:
 - Grafische Benutzeroberfläche
 - Historische Software
