@@ -1,7 +1,7 @@
 ---
 title: John Harvey Kellogg
-date: 2016-10-17T14:00:38
-draft: true
+date: 2016-10-26T21:30:38
+draft: false
 tags:
 - Abstinenzler
 - Adventist
