@@ -1,7 +1,7 @@
 ---
 title: Geschlossene Stadt
-date: 2016-10-13T14:00:52
-draft: true
+date: 2016-10-31T09:27:25
+draft: false
 tags:
 - Kalter Krieg
 - Militär (Sowjetunion)
