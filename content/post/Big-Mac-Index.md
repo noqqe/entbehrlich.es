@@ -1,7 +1,7 @@
 ---
 title: Der Big Mac Index
-date: 2016-08-22T14:00:21
-draft: true
+date: 2016-11-02T12:53:43
+draft: false
 tags:
 - McDonald’s
 - Volkswirtschaftliche Kennzahl
