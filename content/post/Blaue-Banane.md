@@ -1,7 +1,7 @@
 ---
 title: Blaue Banane
-date: 2016-10-22T14:00:03
-draft: true
+date: 2016-11-04T13:53:47
+draft: false
 tags:
 - Geographie (Europa)
 - Theorie (Raumordnung)
