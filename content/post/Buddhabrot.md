@@ -1,7 +1,7 @@
 ---
 title: Buddhabrot
-date: 2016-11-13T14:00:12
-draft: true
+date: 2016-11-13T18:41:32
+draft: false
 tags:
 - Fraktale Geometrie
 ---
