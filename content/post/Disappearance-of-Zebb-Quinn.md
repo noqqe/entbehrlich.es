@@ -1,7 +1,7 @@
 ---
 title: Disappearance of Zebb Quinn
-date: 2016-12-14T14:00:43
-draft: true
+date: 2016-12-14T12:49:43
+draft: false
 tags:
 - 1981 births
 - 2000 in North Carolina
