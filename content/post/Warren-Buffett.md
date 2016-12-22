@@ -1,7 +1,7 @@
 ---
 title: Warren Buffett
-date: 2016-12-22T14:00:49
-draft: true
+date: 2016-12-22T15:13:15
+draft: false
 tags:
 - Berkshire Hathaway
 - Geboren 1930
