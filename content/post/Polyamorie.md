@@ -1,0 +1,19 @@
+---
+title: Polyamorie
+date: 2016-12-22T14:00:28
+draft: true
+tags:
+- Liebesbeziehung
+- Schleifensymbol
+- Sozialethik
+---
+
+Ein riesen Monster an Artikel, den ich auch nicht ganz gelesen habe.
+Die Abschnitte über Allgemeines und Eifersucht allerdings waren schon
+irgendwie Horizont erweiternd.
+
+[https://de.wikipedia.org/wiki/Polyamorie](https://de.wikipedia.org/wiki/Polyamorie)
+
+> Polyamorie (Kunstwort aus griechisch πολύς polýs „viel, mehrere“ und
+> lateinisch amor „Liebe“, englisch auch: Polyamory) ist ein Oberbegriff
+> für die Praxis, mehr als einen Menschen zur selben Zeit zu lieben.
