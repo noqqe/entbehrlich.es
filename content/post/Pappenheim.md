@@ -1,7 +1,7 @@
 ---
 title: Pappenheim
-date: 2016-12-22T14:00:06
-draft: true
+date: 2016-12-23T08:20:51
+draft: false
 tags:
 - Ersterwähnung 802
 - Gemeinde in Bayern
