@@ -1,7 +1,7 @@
 ---
 title: Sapir Whorf Hypothese
-date: 2016-12-22T14:00:40
-draft: true
+date: 2016-12-24T12:00:18
+draft: false
 tags:
 - Erkenntnistheorie
 - Grammatiktheorie
