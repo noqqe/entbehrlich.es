@@ -1,7 +1,7 @@
 ---
 title: Polyamorie
-date: 2016-12-22T14:00:28
-draft: true
+date: 2016-12-25T21:37:06
+draft: false
 tags:
 - Liebesbeziehung
 - Schleifensymbol
