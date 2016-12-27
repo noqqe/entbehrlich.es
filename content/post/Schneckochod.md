@@ -1,7 +1,7 @@
 ---
 title: Schneckochod
-date: 2016-12-22T14:00:48
-draft: true
+date: 2016-12-27T11:43:36
+draft: false
 tags:
 - Amphibienfahrzeug
 ---
