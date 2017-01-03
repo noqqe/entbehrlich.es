@@ -5,32 +5,14 @@ draft: false
 tags:
 - Autor
 - Deutscher
-- Deutscher Emigrant in den USA
-- Ehrendoktor der Technischen Universität Berlin
 - Erfinder
-- Freiherr
-- Geboren 1912
-- Gestorben 1977
-- Huntsville (Alabama)
-- Literatur (20. Jahrhundert)
-- Literatur (Deutsch)
-- Literatur (Englisch)
 - Mann
 - NSDAP-Mitglied
-- Person (NASA)
-- Person (V-Waffen-Programm)
 - Person im Zweiten Weltkrieg (Deutsches Reich)
 - Raumfahrtfunktionär
 - Raumfahrtingenieur
-- Raumfahrtpionier (Deutschland)
-- Raumfahrtpionier (Vereinigte Staaten)
 - SS-Mitglied
 - Sachbuchautor (Physik)
-- Träger der Wilhelm-Exner-Medaille
-- Träger des Großen Bundesverdienstkreuzes
-- Träger des Ritterkreuzes des Kriegsverdienstkreuzes (1939)
-- Träger des Werner-von-Siemens-Rings
-- US-Amerikaner
 - Wernher von Braun
 ---
 
@@ -48,4 +30,6 @@ besonders nicht nach der Umsiedlung in die USA nach dem letzten Weltkrieg.
 
 [https://de.wikipedia.org/wiki/Wernher_von_Braun](https://de.wikipedia.org/wiki/Wernher_von_Braun)
 
-> Wernher Magnus Maximilian Freiherr von Braun (* 23.
+> Wernher Magnus Maximilian Freiherr von Braun war als deutscher und später
+> US-amerikanischer Raketeningenieur ein Wegbereiter der Raketenwaffen und
+> der Raumfahrt.
