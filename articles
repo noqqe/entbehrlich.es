@@ -249,6 +249,14 @@ def release(post):
     return True
 
 @cli.command()
+def redeploy(post):
+
+    # build deploy to server
+    deploy()
+
+    return True
+
+@cli.command()
 def inspiration():
     """
     Lookup some new article inspirations
