@@ -249,7 +249,7 @@ def release(post):
     return True
 
 @cli.command()
-def redeploy(post):
+def redeploy():
 
     # build deploy to server
     deploy()
