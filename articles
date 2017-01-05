@@ -140,7 +140,7 @@ def tweet():
 
     return True
 
-def build_url(url):
+def build_url(url, txt=None):
     """
     Build url for blogpost with urlencoding
     like this [http://foo.bar/baz](http://foo.bar.baz)
@@ -149,7 +149,11 @@ def build_url(url):
     """
     cont = url.replace("https://", "")
     cont = url.replace("http://", "")
-    mdurl = '[' + cont + ']'
+
+    if txt is not None:
+        mdurl = '[' + txt + ']'
+    else:
+        mdurl = '[' + cont + ']'
     mdurl = mdurl + '(' + url + ')'
     return mdurl
 
@@ -162,7 +166,8 @@ def cli():
 @cli.command()
 @click.argument('url')
 @click.option('pdate', '-d', '--date', default=str(datetime.datetime.now()))
-def new(url, pdate):
+@click.option('thanks', '-t', '--thanks', default=None)
+def new(url, pdate, thanks):
     " Create new post and fetch content from wikipedia "
 
     origurl = build_url(url)
@@ -196,7 +201,12 @@ def new(url, pdate):
     header = gen_blog_meta(title=title, date=t, tags=tags)
     n = "\n"
 
-    text = header + n + origurl + n + n + wiki
+    if thanks is not None:
+        thanktxt = "Danke an %s!" % build_url(url="https://twitter.com/" + thanks, txt=thanks)
+    else:
+        thanktxt = ""
+
+    text = header + n + origurl + n + n + wiki + n + thanktxt
 
     # write markdown to the document
     path = posts_home + filename
