@@ -1,7 +1,7 @@
 ---
 title: Ninety ninety rule
-date: 2017-01-05T14:00:39
-draft: true
+date: 2017-01-05T13:29:53
+draft: false
 tags:
 - Adages
 - Computer humor
