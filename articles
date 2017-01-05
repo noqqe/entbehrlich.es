@@ -206,7 +206,7 @@ def new(url, pdate, thanks):
     else:
         thanktxt = ""
 
-    text = header + n + origurl + n + n + wiki + n + thanktxt
+    text = header + n + origurl + n + n + wiki + n + n + thanktxt
 
     # write markdown to the document
     path = posts_home + filename
