@@ -1,7 +1,7 @@
 ---
 title: Fruit machine (homosexuality test)
-date: 2017-01-05T14:00:31
-draft: true
+date: 2017-01-06T14:47:14
+draft: false
 tags:
 - Gay history
 - Homophobia
