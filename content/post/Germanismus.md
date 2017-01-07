@@ -1,7 +1,7 @@
 ---
 title: Germanismus
-date: 2017-01-05T14:00:30
-draft: true
+date: 2017-01-07T22:47:10
+draft: false
 tags:
 - Lehnwort
 - Liste (Deutsche Sprache)
