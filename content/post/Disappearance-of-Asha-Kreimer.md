@@ -1,6 +1,6 @@
 ---
 title: Disappearance of Asha Kreimer
-date: 2017-01-09T14:00:10
+date: 2017-01-09T14:00:45
 draft: true
 tags: 
 - 2010s missing person cases
@@ -13,6 +13,7 @@ tags:
 
 [https://en.wikipedia.org/wiki/Disappearance_of_Asha_Kreimer](https://en.wikipedia.org/wiki/Disappearance_of_Asha_Kreimer)
 
-> On September 21, 2015, a 26-year-old Australian woman named Asha Kreimer disappeared.>
+> On September 21, 2015, a 26-year-old Australian woman named Asha Kreimer disappeared.
+>
 > Quelle: [Disappearance of Asha Kreimer]([https://en.wikipedia.org/wiki/Disappearance_of_Asha_Kreimer](https://en.wikipedia.org/wiki/Disappearance_of_Asha_Kreimer))
 
