@@ -14,6 +14,7 @@ tags:
 Eine schöne Art sich als Autor bei Verfassern schlechter Kritiken über das
 eigene Buch zu revanchieren. *chchch*
 
-[https://en.wikipedia.org/wiki/Small_penis_rule](https://en.wikipedia.org/wiki/Small_penis_rule)
 
 > The small penis rule is an informal strategy used by authors to evade libel lawsuits.
+>
+> Quelle: [Small penis rule](https://en.wikipedia.org/wiki/Small_penis_rule)

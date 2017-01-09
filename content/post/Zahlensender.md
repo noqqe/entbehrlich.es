@@ -14,9 +14,10 @@ die per Kurzwelle Zahlenkombinationen und andere Signale um die Welt
 senden. In einem Fall ist sogar offiziell bestätigt, dass es sich dabei um
 Nachrichtenübertragung für kubanische Spione gehandelt hat.
 
-[https://de.wikipedia.org/wiki/Zahlensender](https://de.wikipedia.org/wiki/Zahlensender)
 
 > Zahlensender sind Kurzwellen-Radiosender, die Zahlen- oder
 > Buchstabenreihen, polyphone Töne und ferner Daten übertragen.
+>
+> Quelle: [Zahlensender](https://de.wikipedia.org/wiki/Zahlensender)
 
 Danke an [jaqe1980](https://twitter.com/jaqe1980)!

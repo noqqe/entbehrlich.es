@@ -14,6 +14,6 @@ tags:
 ... besagt im lediglichen das du Konzepte nicht verstehen kannst, wenn
 dafür in deiner Muttersprache keine Wörter dafür vorgesehen sind.
 
-[https://de.wikipedia.org/wiki/Sapir-Whorf-Hypothese](https://de.wikipedia.org/wiki/Sapir-Whorf-Hypothese)
-
 > Die Sapir-Whorf-Hypothese besagt, dass Sprache das Denken forme.
+>
+> Quelle: [Sapir-Whorf-Hypothese](https://de.wikipedia.org/wiki/Sapir-Whorf-Hypothese)

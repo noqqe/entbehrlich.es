@@ -17,10 +17,11 @@ schon schmilzt? Menschen mit Fallschirm abwerfen. Und danach mit einem
 aufsteigendem Ballon am Seil, an dem ein Mensch hängt wieder einsammeln.
 Oder so ähnlich.
 
-[https://en.wikipedia.org/wiki/Project_COLDFEET](https://en.wikipedia.org/wiki/Project_COLDFEET)
 
 > Project COLDFEET was a 1962 Central Intelligence Agency (CIA) operation
 > to extract intelligence from an abandoned Soviet Arctic drifting ice
 > station. Due to the nature of its abandonment as the result of unstable
 > ice, the retrieval of the operatives used the Fulton surface-to-air
 > recovery system.
+>
+> Quelle: [Project COLDFEET](https://en.wikipedia.org/wiki/Project_COLDFEET)

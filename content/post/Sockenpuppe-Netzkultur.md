@@ -10,7 +10,6 @@ Sockenpuppe oder Sockpuppet ist einfach ein Fakeaccount.
 Vielleicht bin ich der einzige im Netz der das noch nicht mitbekommen hat,
 aber der Begriff ist mir ungeläufig.
 
-[https://de.wikipedia.org/wiki/Sockenpuppe_(Netzkultur)](https://de.wikipedia.org/wiki/Sockenpuppe_(Netzkultur))
 
 > Als Sockenpuppe (englisch sockpuppet, auch Fakeaccount, Multiaccount oder
 > Doppelnick; Plural auch Mehrfachkonten) bezeichnet man im Netzjargon ein
@@ -18,3 +17,5 @@ aber der Begriff ist mir ungeläufig.
 > Es kann zum Schutz der Privatsphäre dienen, den Zweck haben, Meinungen
 > innerhalb einer Online-Community mit mehreren „Stimmen“ zu vertreten,
 > oder zum Unterlaufen von Regeln der Community genutzt werden.
+>
+> Quelle: [Sockenpuppe (Netzkultur)](https://de.wikipedia.org/wiki/Sockenpuppe_(Netzkultur))

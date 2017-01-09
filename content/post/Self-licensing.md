@@ -17,7 +17,6 @@ sogleich eine schlechte Nachfolgetat rechtfertigt.
 
 So ungefähr.
 
-[https://en.wikipedia.org/wiki/Self-licensing](https://en.wikipedia.org/wiki/Self-licensing)
 
 > Self-licensing (aka moral self-licensing, moral licensing, licensing
 > effect, moral credentials) is a term used in social psychology and
@@ -26,3 +25,5 @@ So ungefähr.
 > that individual worry less about the consequences of subsequent immoral
 > behavior and, therefore, more likely to make immoral choices and act
 > immorally.
+>
+> Quelle: [Self-licensing](https://en.wikipedia.org/wiki/Self-licensing)

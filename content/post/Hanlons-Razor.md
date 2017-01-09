@@ -12,8 +12,9 @@ tags:
 Im Zweifel sollte man erstmal von Dummheit ausgehen, bevor man Böses
 unterstellt. Ich mag ja Phänomene, die einen Namen haben.
 
-https://de.wikipedia.org/wiki/Hanlon%92s_Razor
 
 > Hanlon’s Razor (Übersetzung aus dem Englischen: Hanlons Rasiermesser) ist
 > eine eponyme Lebensweisheit, die eine Aussage über den wahrscheinlichsten
 > Grund von menschlichem Fehlverhalten trifft.
+>
+> Quelle: [Hanlon’s Razor](https://de.wikipedia.org/wiki/Hanlon%92s_Razor)

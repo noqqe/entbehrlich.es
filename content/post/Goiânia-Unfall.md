@@ -22,11 +22,12 @@ Ziemlich bitter ist, dass die verstorbene Nichte (6) des Schrotthändlers
 später in einem Sarg aus Blei mit Zement Mantel begraben werden musste, da
 sie zufällig Staub aß.
 
-[https://de.wikipedia.org/wiki/Goiânia-Unfall](https://de.wikipedia.org/wiki/Goiânia-Unfall)
 
 > Der Goiânia-Unfall ereignete sich 1987, als in der brasilianischen Stadt
 > Goiânia radioaktives Material – es waren ca. 3 g hochradioaktives
 > Caesiumchlorid, bestehend aus dem Caesiumisotop 137Cs – gestohlen und von
 > den Dieben unter Freunden und Bekannten verteilt wurde.
+>
+> Quelle: [Goiânia-Unfall](https://de.wikipedia.org/wiki/Goiânia-Unfall)
 
 Danke an [palimphread](https://twitter.com/palimphread)!

@@ -12,8 +12,9 @@ tags:
 
 Seltsame Bezeichnung für eine Gebietsmarkierung innerhalb Europas.
 
-[https://de.wikipedia.org/wiki/Blaue_Banane](https://de.wikipedia.org/wiki/Blaue_Banane)
 
 > Die Blaue Banane bezeichnet eine dicht bevölkerte Zone, einen
 > bandförmigen europäischen Großraum zwischen Irischer See und Mittelmeer,
 > deren Urbanisierung eine Kette von Agglomerationen bildet (Megalopolis).
+>
+> Quelle: [Blaue Banane](https://de.wikipedia.org/wiki/Blaue_Banane)

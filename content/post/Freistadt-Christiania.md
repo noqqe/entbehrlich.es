@@ -18,10 +18,11 @@ vieler Räumungsversuche) von der dänischen Regierung geduldet. Es sei ein
 "soziales Experiment". War schonmal dort und kann das nur empfehlen. Wenn
 auch mit etwas Vorsicht.
 
-https://de.wikipedia.org/wiki/Freistadt_Christiania
 
 > Die Freistadt Christiania (dänisch Fristad Christiania, auch Freies
 > Christiania oder kurz Christiania) ist eine alternative Wohnsiedlung in
 > der dänischen Hauptstadt Kopenhagen, die seit 1971 besteht. Aus Sicht der
 > dänischen Behörden handelt es sich um eine staatlich geduldete autonome
 > Gemeinde.
+>
+> Quelle: [Freistadt Christiana](https://de.wikipedia.org/wiki/Freistadt_Christiania)

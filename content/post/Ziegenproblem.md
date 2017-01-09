@@ -11,8 +11,9 @@ Wahl gestellt wird.
 
 Zonk.
 
-https://de.wikipedia.org/wiki/Ziegenproblem
 
 > Das Ziegenproblem, Drei-Türen-Problem, Monty-Hall-Problem oder
 > Monty-Hall-Dilemma ist eine Aufgabe mit Bezug zur
 > Wahrscheinlichkeitstheorie.
+>
+> Quelle: [Ziegenproblem](https://de.wikipedia.org/wiki/Ziegenproblem)

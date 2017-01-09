@@ -10,9 +10,10 @@ tags:
 
 Okay. Das ist ... auch geil :D
 
-https://de.wikipedia.org/wiki/Gore-Effekt
 
 > Der Gore-Effekt ist eine nach Al Gore benannte ironische Bezeichnung für
 > Schneewetter oder Kälteeinbrüche, die gleichzeitig mit bestimmten
 > Veranstaltungen oder Demonstrationen zum Thema Globale Erwärmung
 > auftreten.
+>
+> Quelle: [Gore-Effekt](https://de.wikipedia.org/wiki/Gore-Effekt)

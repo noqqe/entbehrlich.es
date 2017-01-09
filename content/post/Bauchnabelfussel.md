@@ -9,8 +9,9 @@ tags:
 
 Alles was man schon immer mal über Bauchnabelfusseln wissen wollte!
 
-[https://de.wikipedia.org/wiki/Bauchnabelfussel](https://de.wikipedia.org/wiki/Bauchnabelfussel)
 
 > Ein Bauchnabelfussel ist ein Fussel im Bauchnabel, der sich aus
 > abgeriebenen losen Fasern aus Kleidungsstücken bildet und zu einem
 > kleinen Teil auch aus Staub besteht.
+> 
+> Quelle: [Bauchnabelfussel](https://de.wikipedia.org/wiki/Bauchnabelfussel)

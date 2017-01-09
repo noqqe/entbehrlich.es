@@ -29,11 +29,12 @@ Gut. Außerdem betrieb der Herr eine Klinik gegen Darmbeschwerden.
 > oftmals heimliche Masturbation des betreffenden Patienten dafür
 > verantwortlich.
 
-
-[https://de.wikipedia.org/wiki/John_Harvey_Kellogg](https://de.wikipedia.org/wiki/John_Harvey_Kellogg)
+Kann man mal machen.
 
 > John Harvey Kellogg war ein US-amerikanischer Arzt und gilt als
 > Miterfinder (mit seinem Bruder Will Keith Kellogg) der Cornflakes und
 > Erfinder der Erdnussbutter.
+>
+> Quelle: [John Harvey Kellogg](https://de.wikipedia.org/wiki/John_Harvey_Kellogg)
 
 Schöner Artikel, danke [@moschlar](https://twitter.com/moschlar)!

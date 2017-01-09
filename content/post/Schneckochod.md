@@ -8,7 +8,8 @@ tags:
 
 Es muss tatsächlich nicht alles was fährt Räder haben.
 
-[https://de.wikipedia.org/wiki/Schneckochod](https://de.wikipedia.org/wiki/Schneckochod)
 
 > Ein Schneckochod (von russisch Шнекоход, sinngemäß: Schneckenvortrieb)
 > ist ein von zylindrischen Hohlschrauben angetriebenes Amphibienfahrzeug.
+>
+> Quelle: [Schneckochod](https://de.wikipedia.org/wiki/Schneckochod)

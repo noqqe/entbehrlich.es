@@ -12,8 +12,9 @@ tags:
 Wer schon immer mal wissen wollte woher "Ich kenne meine Pappenheimer"
 eigentlich kommt, dem sei nachfolgender Artikel empfohlen.
 
-[https://de.wikipedia.org/wiki/Pappenheim](https://de.wikipedia.org/wiki/Pappenheim)
 
 > Pappenheim ist eine Stadt im mittelfränkischen Landkreis
 > Weißenburg-Gunzenhausen im Altmühltal rund 70 Kilometer südlich von
 > Nürnberg.
+>
+> Quelle: [Pappenheim](https://de.wikipedia.org/wiki/Pappenheim)

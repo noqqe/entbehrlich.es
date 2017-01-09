@@ -12,7 +12,6 @@ Russland unterhält Städte die bewacht und teilweise sogar für einheimische nu
 sind. Meistens aus militärischen Gründen. Familienfeier oder Hochzeit?
 Erstmal zum Amt. Yay.
 
-[https://de.wikipedia.org/wiki/Geschlossene_Stadt](https://de.wikipedia.org/wiki/Geschlossene_Stadt)
 
 > Eine geschlossene Stadt (nach zurzeit gültiger Definition eigentlich
 > russisch Закрытое административно-территориальное образование
@@ -21,3 +20,5 @@ Erstmal zum Amt. Yay.
 > oder Geschlossenes Verwaltungszentrum), ist eine Stadt oder ein Gebiet
 > mit Reise- und Aufenthaltseinschränkungen auf dem Gebiet von Russland
 > bzw.
+>
+> Quelle: [Geschlossene Stadt](https://de.wikipedia.org/wiki/Geschlossene_Stadt)

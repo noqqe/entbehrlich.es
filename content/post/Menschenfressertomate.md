@@ -10,8 +10,9 @@ tags:
 Diese Tomate heisst so, weil sie angeblich von Kannibalen auf den Fidschi
 Inseln dazu benutzt wurde Menschenfleisch verträglicher zu machen.
 
-[https://de.wikipedia.org/wiki/Menschenfressertomate](https://de.wikipedia.org/wiki/Menschenfressertomate)
 
 > Die Menschenfressertomate (Solanum viride), auch Kannibalentomate, Poro
 > Poro oder Boro-dina genannt, ist eine Pflanzenart aus der Familie der
 > Nachtschattengewächse (Solanaceae).
+>
+> Quelle: [Menschenfressertomate](https://de.wikipedia.org/wiki/Menschenfressertomate)

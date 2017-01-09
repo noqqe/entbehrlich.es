@@ -15,8 +15,9 @@ tags:
 Die Kanadier hatten mal eine Maschine mit der sie versuchten Homosexuelle
 an der Weitung ihrer Pupillen zu erkennen.
 
-[https://en.m.wikipedia.org/wiki/Fruit_machine_(homosexuality_test)](https://en.m.wikipedia.org/wiki/Fruit_machine_(homosexuality_test))
 
 > "Fruit machine" is a term for a device developed in Canada by Frank
 > Robert Wake  that was supposed to be able to identify gay men
 > (derogatorily referred to as "fruits").
+>
+> Quelle: [Fruit machine (homosexuality_test)](https://en.wikipedia.org/wiki/Fruit_machine_(homosexuality_test))

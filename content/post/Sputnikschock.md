@@ -15,9 +15,10 @@ Geld in die Bildung stecken!!!"
 
 So oder so ungefähr muss das wohl gelaufen sein.
 
-[https://de.wikipedia.org/wiki/Sputnikschock](https://de.wikipedia.org/wiki/Sputnikschock)
 
 > Sputnikschock nennt man die politisch-gesellschaftliche Reaktion in den
 > USA und Westeuropa auf den Start des ersten künstlichen Erdsatelliten
 > Sputnik 1 am 4.
+>
+> Quelle: [Sputnikschock](https://de.wikipedia.org/wiki/Sputnikschock)
 

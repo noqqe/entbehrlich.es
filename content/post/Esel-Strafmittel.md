@@ -7,7 +7,7 @@ draft: false
 Furchtbare Dinge aus der Folter Ecke. Mal wieder.
 Schmerzt das Steissbein schon beim Hinschauen.
 
-[https://de.wikipedia.org/wiki/Esel_(Strafmittel)](https://de.wikipedia.org/wiki/Esel_(Strafmittel))
-
 > Der Esel, auch Strafesel genannt, war ein Instrument für die
 > Zurschaustellung und Bestrafung von Personen.
+>
+> Quelle [Esel (Strafmittel)](https://de.wikipedia.org/wiki/Esel_(Strafmittel))
