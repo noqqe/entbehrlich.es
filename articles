@@ -170,7 +170,7 @@ def cli():
 def new(url, pdate, thanks):
     " Create new post and fetch content from wikipedia "
 
-    origurl = build_url(url)
+    origurl = url
 
     # find wikipedia link
     url = urlparse(url)
@@ -206,7 +206,10 @@ def new(url, pdate, thanks):
     else:
         thanktxt = ""
 
-    text = header + n + origurl + n + n + wiki + n + n + thanktxt
+    wikifooter = '>' + n + '> Quelle: ' + build_url(url=origurl, txt=title)
+
+    # put all the content together
+    text = header + n + n + wiki + n + wikifooter + n + n + thanktxt
 
     # write markdown to the document
     path = posts_home + filename
