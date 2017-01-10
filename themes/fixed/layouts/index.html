@@ -6,8 +6,10 @@
       {{ range $paginator.Pages }}
         <h1 class="non-highlight">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <div class="published">{{ .Date.Format "2006-01-02" }}</div>
         </h1>
         {{ .Content }}
+        <br/>
       {{ end }}
     </div>
     {{ partial "pagination.html" $paginator }}

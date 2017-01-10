@@ -129,8 +129,12 @@ Layout styles
 
 .published
 {
-  color: #555;
-  font-size: 0.6em;
+  color: gray;
+  font-size: 0.5em;
+}
+.published a
+{
+  color: gray;
 }
 
 .tags
