@@ -389,8 +389,8 @@ def redeploy():
 
     return True
 
-@cli.command()
-def inspiration(short_help="Get 20 recently update articles from Wikipedia"):
+@cli.command(short_help="Get 20 recently update articles from Wikipedia")
+def inspiration():
     """
     \b
     Lookup some new/recently edited articles as inspirations.
