@@ -3,6 +3,7 @@
 
 import re
 import os
+import random as rnd
 import click
 import nltk
 import git
@@ -339,7 +340,7 @@ def queue(all):
     return True
 
 @cli.command(short_help="Publish a post")
-@click.argument('post')
+@click.argument('post', required=False, default=None)
 def release(post):
     """
     \b
@@ -354,6 +355,18 @@ def release(post):
     :post: str (filename to release)
     :returns: bool
     """
+
+    # if no specific post given, use a random one
+    if post is None:
+        print("Picking random post...")
+        posts = os.listdir(posts_home)
+        posts = list(posts)
+
+        while True:
+            post = rnd.choice(posts)
+            if 'draft: true' in open(posts_home + post).read():
+                break
+
 
     # remove draft
     publish(post)
