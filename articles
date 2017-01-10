@@ -21,10 +21,10 @@ import subprocess
 warnings.filterwarnings("ignore")
 
 # Environment variables
-project_home =  os.path.expanduser("~/Code/entbehrlich.es")
+project_home = os.path.expanduser("~/Code/entbehrlich.es")
 posts_home = project_home + "/content/post/"
-hugo = "/home/noqqe/.go/bin/hugo"
-rsync = "/usr/local/bin/rsync -avi --delete public/ aax:/var/www/htdocs/entbehrlich.es/"
+hugocmd = "/home/noqqe/.go/bin/hugo"
+rsynccmd = "/usr/local/bin/rsync -avi --delete public/ aax:/var/www/htdocs/entbehrlich.es/"
 feedurl = "https://entbehrlich.es/index.xml"
 editor = "/usr/local/bin/vim"
 
@@ -36,7 +36,7 @@ access_token_secret = "Dd8oGmYhXpMfGcFF3HdsqKO8iD2q902uuHFs7cUZI3HbI"
 
 
 # Little helpers
-def gen_blog_meta(title, date, tags):
+def gen_article_meta(title, date, tags):
     """
     Make a blog post header like
     ---
@@ -62,31 +62,90 @@ def gen_blog_meta(title, date, tags):
     header = header + n + head + n
     return header
 
-def deploy():
+def gen_article_quote(summary, title, url):
     """
-    Deploy blog to server
-    1. Compile Blog using hugo
-    2. rsync to serving httpd
+    Takes the wiki summary and builds
+
+    > lorem ipsum
+    >
+    > Quelle: [Lorem Impsum](https://...)
+
+    :summary: str (wiki summary from wikilib)
+    :title: str (generated title for the post being used as link text)
+    :url: str (article url)
+    :returns: str (full multiline quote)
     """
-    status, output = subprocess.getstatusoutput(hugo)
-    print("BUILD BLOG\n")
-    print(output)
-    if status == 0:
-        status, output = subprocess.getstatusoutput(rsync)
-        print("\nDEPLOY BLOG TO SERVER\n")
-        print(output)
-        if status != 0:
-            print("Error: rsync failed")
-            return False
+
+    # shortcut for newline
+    n = '\n'
+
+    # first sentence of the article and quote it for markdown
+    if len(summary) >= 350:
+        summary = nltk.tokenize.sent_tokenize(summary)[0]
+
+    # start with a single quote for markdown
+    summary = "> " + summary + n
+
+    # add source and proper link to quote
+    quote = summary + '>' + n + '> Quelle: ' + build_url(url=url, txt=title)
+
+    return quote
+
+def gen_article_thanks(thanks):
+    """
+    Takes a twitter username and adds a friendly thank
+    you at the end of the post
+
+    :thanks: str (twitter username)
+    :returns: str
+    """
+    if thanks is not None:
+        txt = "Danke an %s!" % build_url(url="https://twitter.com/" + thanks, txt=thanks)
     else:
-        print("Error: Hugo returned an error")
+        txt = ""
+
+    return txt
+
+def build(hugocmd):
+    """
+    Executes hugo to build the latest build of the blog
+
+    :hugocmd: str (command and args)
+    :returns: bool
+    """
+    print("BUILD BLOG\n")
+
+    status, output = subprocess.getstatusoutput(hugocmd)
+    print(output)
+
+    if status == 0:
+        return True
+    else:
         return False
 
-    return True
+def deploy(rsynccmd):
+    """
+    Uses rsync to deploy the build to the serving http server
+
+    \b
+    :rsynccmd: str (command and args)
+    :returns: bool
+    """
+    status, output = subprocess.getstatusoutput(rsynccmd)
+    print(output)
+
+    if status == 0:
+        return True
+    else:
+        return False
 
 def publish(post):
     """
     Pick draft post, update date and draft to false
+
+    \b
+    :post: str (filename of the post)
+    :returns: bool
     """
 
     t = datetime.datetime.now()
@@ -108,6 +167,12 @@ def publish(post):
     return True
 
 def commit(post):
+    """
+    Commit a file in git
+    :post: str (filename of the post)
+    :returns: bool
+    """
+
     try:
         repo = git.Repo(project_home)
         repo.git.add(posts_home + post)
@@ -119,8 +184,12 @@ def commit(post):
         return False
 
 
-def tweet():
-    " Tweet latest blogpost from rss feed "
+def tweet(feedurl):
+    """
+    Tweet latest blogpost from rss feed
+    :feedurl: str (http uri)
+    :returns: bool
+    """
 
     feed = feedparser.parse(feedurl)
     title = feed['entries'][0]['title']
@@ -134,27 +203,34 @@ def tweet():
         token=access_token,
         token_secret=access_token_secret,
 	)
-    t = Twitter(auth=auth)
-    t.statuses.update(status=message)
-    print("Tweeted \"%s\"" % message)
 
-    return True
+    try:
+        t = Twitter(auth=auth)
+        t.statuses.update(status=message)
+        print("Tweeted \"%s\"" % message)
+        return True
+    except:
+        print("Could not send tweet. Check debugging")
+        return False
 
 def build_url(url, txt=None):
     """
     Build url for blogpost with urlencoding
     like this [http://foo.bar/baz](http://foo.bar.baz)
-    :url: str
+    :url: str (link target)
+    :txt: str (link text)
     :returns: str
     """
-    cont = url.replace("https://", "")
-    cont = url.replace("http://", "")
 
     if txt is not None:
         mdurl = '[' + txt + ']'
     else:
+        cont = url.replace("https://", "")
+        cont = url.replace("http://", "")
         mdurl = '[' + cont + ']'
+
     mdurl = mdurl + '(' + url + ')'
+
     return mdurl
 
 # CLI Commands
@@ -163,14 +239,30 @@ def build_url(url, txt=None):
 def cli():
     pass
 
-@cli.command()
+@cli.command(short_help="Create a new post")
 @click.argument('url')
-@click.option('pdate', '-d', '--date', default=str(datetime.datetime.now()))
+@click.option('date', '-d', '--date', default=str(datetime.datetime.now()))
 @click.option('thanks', '-t', '--thanks', default=None)
-def new(url, pdate, thanks):
-    " Create new post and fetch content from wikipedia "
+def new(url, date, thanks):
+    """
+    \b
+    Create new post.
+    Fetches content from wikipedia url
+    Creates article header
+    Creates quote from article with reference
+    Adds thank you at the end of the article
 
+    \b
+    :url: str (link to article)
+    :date: datetime.datetime (when to release it)
+    :thanks: str (twitter username)
+    """
+
+    # needed in further building of article
     origurl = url
+
+    # newline shortcut
+    n = "\n"
 
     # find wikipedia link
     url = urlparse(url)
@@ -183,33 +275,32 @@ def new(url, pdate, thanks):
         wikipedia.set_lang(lang)
         wiki = wikipedia.page(title)
         tags = wiki.categories
-        wiki = wiki.summary
+        summary = wiki.summary
     except wikipedia.exceptions.DisambiguationError as e:
         print(e)
         return False
 
-    t = parse(pdate)
+    t = parse(date)
     t = t.replace(hour=14, minute=0, microsecond=0)
     t = t.isoformat()
 
-    # first sentence of the article and quote it for markdown
-    if len(wiki) >= 350:
-        wiki = nltk.tokenize.sent_tokenize(wiki)[0]
-    wiki = "> " + wiki
 
-    # generate markdown document
-    header = gen_blog_meta(title=title, date=t, tags=tags)
-    n = "\n"
+    # generate header for article
+    header = gen_article_meta(title=title, date=t, tags=tags)
 
-    if thanks is not None:
-        thanktxt = "Danke an %s!" % build_url(url="https://twitter.com/" + thanks, txt=thanks)
-    else:
-        thanktxt = ""
+    # generate quote for article
+    quote = gen_article_quote(summary=summary, title=title, url=origurl)
 
-    wikifooter = '>' + n + '> Quelle: ' + build_url(url=origurl, txt=title)
+    # generate thank you section for posted article
+    thanks = gen_article_thanks(thanks)
 
     # put all the content together
-    text = header + n + n + wiki + n + wikifooter + n + n + thanktxt
+    text = \
+        header + \
+        n + n + \
+        quote + \
+        n + n + \
+        thanks
 
     # write markdown to the document
     path = posts_home + filename
@@ -227,11 +318,14 @@ def new(url, pdate, thanks):
 
     return True
 
-@cli.command()
+@cli.command(short_help="Show current drafts")
 @click.option('all', '--all', '-a',  is_flag=True)
 def queue(all):
     """
-    Shows posts - by default all unpublished ones
+    \b
+    Show all posts available
+    :all: bool
+    :returns: bool
     """
 
     posts = os.listdir(posts_home)
@@ -242,10 +336,24 @@ def queue(all):
         else:
             print(post)
 
-@cli.command()
+    return True
+
+@cli.command(short_help="Publish a post")
 @click.argument('post')
 def release(post):
-    " undraft, deploy and tweet "
+    """
+    \b
+    Releases a post to the website
+    * removes draft status from post
+    * commit post in git
+    * build hugo
+    * deploy to webserver
+    * tweet about it
+
+    \b
+    :post: str (filename to release)
+    :returns: bool
+    """
 
     # remove draft
     publish(post)
@@ -253,26 +361,39 @@ def release(post):
     # commit git changes
     commit(post)
 
-    # build deploy to server
-    deploy()
+    # build blog
+    build(hugocmd)
+
+    # deploy to server
+    deploy(rsynccmd)
 
     # tweet the new post
-    tweet()
+    tweet(feedurl)
 
     return True
 
-@cli.command()
+@cli.command(short_help="Build and deploy to entbehrlich.es")
 def redeploy():
+    """
+    \b
+    Redeploy means that no new content will be published.
+    The blog will be build and rsynced to the server
+    :returns: bool
+    """
+
+    # build blog
+    build(hugocmd)
 
     # build deploy to server
-    deploy()
+    deploy(rsynccmd)
 
     return True
 
 @cli.command()
-def inspiration():
+def inspiration(short_help="Get 20 recently update articles from Wikipedia"):
     """
-    Lookup some new article inspirations
+    \b
+    Lookup some new/recently edited articles as inspirations.
     :returns: bool
     """
     wiki_changes_api = 'https://de.wikipedia.org/w/api.php?action=query&list=recentchanges&format=json&rctype=edit|new&rclimit=20'
@@ -286,11 +407,12 @@ def inspiration():
 
     return True
 
-@cli.command()
+@cli.command(short_help="Get 20 random articles from Wikipedia")
 def random():
     """
+    \b
     Get some random articles from wikipedia
-    :returns: True
+    :returns: bool
     """
     wikipedia.set_lang("de")
     for w in wikipedia.random(20):
