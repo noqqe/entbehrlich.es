@@ -1,7 +1,7 @@
 ---
 title: Ikizukuri
-date: 2017-01-07T14:00:42
-draft: true
+date: 2017-01-12T09:59:18
+draft: false
 tags:
 - Japanische Küche
 - Tierschutz
