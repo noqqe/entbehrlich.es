@@ -149,7 +149,6 @@ def publish(post):
     """
     Pick draft post, update date and draft to false
 
-    \b
     :post: str (filename of the post)
     :returns: bool
     """
@@ -258,11 +257,6 @@ def new(url, date, thanks, debug):
     Creates article header
     Creates quote from article with reference
     Adds thank you at the end of the article
-
-    \b
-    :url: str (link to article)
-    :date: datetime.datetime (when to release it)
-    :thanks: str (twitter username)
     """
 
     # needed in further building of article
@@ -337,8 +331,6 @@ def queue(all):
     """
     \b
     Show all posts available
-    :all: bool
-    :returns: bool
     """
 
     posts = os.listdir(posts_home)
@@ -363,9 +355,6 @@ def release(post):
     * deploy to webserver
     * tweet about it
 
-    \b
-    :post: str (filename to release)
-    :returns: bool
     """
 
     # if no specific post given, use a random one
@@ -417,9 +406,7 @@ def redeploy():
 @cli.command(short_help="Get 20 recently update articles from Wikipedia")
 def inspiration():
     """
-    \b
     Lookup some new/recently edited articles as inspirations.
-    :returns: bool
     """
     wiki_changes_api = 'https://de.wikipedia.org/w/api.php?action=query&list=recentchanges&format=json&rctype=edit|new&rclimit=20'
     r = requests.get(wiki_changes_api)
@@ -435,9 +422,7 @@ def inspiration():
 @cli.command(short_help="Get 20 random articles from Wikipedia")
 def random():
     """
-    \b
     Get some random articles from wikipedia
-    :returns: bool
     """
     wikipedia.set_lang("de")
     for w in wikipedia.random(20):
