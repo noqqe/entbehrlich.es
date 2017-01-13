@@ -4,6 +4,7 @@
 import re
 import os
 import random as rnd
+import logging
 import textwrap
 import click
 import nltk
@@ -23,11 +24,11 @@ import subprocess
 warnings.filterwarnings("ignore")
 
 # Environment variables
-project_home = os.path.expanduser("~/Code/entbehrlich.es")
+project_home = os.getcwd()
 posts_home = project_home + "/content/post/"
 hugocmd = "/home/noqqe/.go/bin/hugo"
 rsynccmd = "/usr/local/bin/rsync -avi --delete public/ aax:/var/www/htdocs/entbehrlich.es/"
-feedurl = "https://entbehrlich.es/index.xml"
+feedurl = project_home + "/public/index.xml"
 editor = "/usr/local/bin/vim"
 
 # Twitter credentials
@@ -361,7 +362,6 @@ def release(post):
     if post is None:
         print("Picking random post...")
         posts = os.listdir(posts_home)
-        posts = list(posts)
 
         while True:
             post = rnd.choice(posts)
