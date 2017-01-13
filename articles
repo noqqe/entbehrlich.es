@@ -1,27 +1,28 @@
 #!/usr/bin/env python3.4
+"""
+Blog maintainance script for
+    entbehrlich.es
+to post to twitter and release new posts
+"""
 # -*- coding: utf-8 -*-
 
-import re
 import os
 import random as rnd
 import logging
 import textwrap
+import datetime
+import warnings
+import subprocess
+from urllib.parse import urlparse
+
 import click
 import nltk
 import git
-import urllib
-from urllib.parse import urlparse
 import requests
-from subprocess import call
 import wikipedia
-from dateutil.parser import parse
-import datetime
-from twitter import *
+import twitter
 import feedparser
-import warnings
-import subprocess
-
-warnings.filterwarnings("ignore")
+from dateutil.parser import parse
 
 # Environment variables
 project_home = os.getcwd()
@@ -91,7 +92,7 @@ def gen_article_quote(summary, title, url):
     # start with a single quote for markdown
     fmtsummary = ""
     for x in summary:
-       fmtsummary = fmtsummary + textwrap.indent(x, '> ') + n
+        fmtsummary = fmtsummary + textwrap.indent(x, '> ') + n
 
     # add source and proper link to quote
     quote = fmtsummary + '>' + n + '> Quelle: ' + build_url(url=url, txt=title)
@@ -134,7 +135,6 @@ def deploy(rsynccmd):
     """
     Uses rsync to deploy the build to the serving http server
 
-    \b
     :rsynccmd: str (command and args)
     :returns: bool
     """
@@ -203,7 +203,7 @@ def tweet(feedurl):
 
     message = title + " " + link
 
-    auth = OAuth(
+    auth = twitter.OAuth(
         consumer_key=con_key,
         consumer_secret=con_secret,
         token=access_token,
@@ -211,7 +211,7 @@ def tweet(feedurl):
 	)
 
     try:
-        t = Twitter(auth=auth)
+        t = twitter.Twitter(auth=auth)
         t.statuses.update(status=message)
         print("Tweeted \"%s\"" % message)
         return True
@@ -243,6 +243,7 @@ def build_url(url, txt=None):
 
 @click.group()
 def cli():
+    """ cli command group """
     pass
 
 @cli.command(short_help="Create a new post")
@@ -269,8 +270,8 @@ def new(url, date, thanks, debug):
     # find wikipedia link
     url = urlparse(url)
     lang = url.netloc.split('.')[0]
-    title = url.path.split('/')[2].replace('-',' ').replace('_',' ')
-    filename = title.replace(' ','-').replace('---','-').replace(')','').replace('(','') + '.md'
+    title = url.path.split('/')[2].replace('-', ' ').replace('_', ' ')
+    filename = title.replace(' ', '-').replace('---', '-').replace(')', '').replace('(', '') + '.md'
 
     # set lang and title, fetch wikipedia article
     try:
@@ -319,7 +320,7 @@ def new(url, date, thanks, debug):
     print("Created Post: " + path)
 
     # edit file
-    call([editor, path])
+    subprocess.call([editor, path])
 
     # commit to local repo
     commit(filename)
@@ -327,8 +328,8 @@ def new(url, date, thanks, debug):
     return True
 
 @cli.command(short_help="Show current drafts")
-@click.option('all', '--all', '-a',  is_flag=True)
-def queue(all):
+@click.option('allposts', '--all', '-a',  is_flag=True)
+def queue(allposts):
     """
     \b
     Show all posts available
@@ -336,7 +337,7 @@ def queue(all):
 
     posts = os.listdir(posts_home)
     for post in posts:
-        if not all:
+        if not allposts:
             if 'draft: true' in open(posts_home + post).read():
                 print(post)
         else:
