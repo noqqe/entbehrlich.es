@@ -249,7 +249,8 @@ def cli():
 @click.argument('url')
 @click.option('date', '-d', '--date', default=str(datetime.datetime.now()))
 @click.option('thanks', '-t', '--thanks', default=None)
-def new(url, date, thanks):
+@click.option('debug', '--debug', is_flag=True, default=False)
+def new(url, date, thanks, debug):
     """
     \b
     Create new post.
@@ -307,6 +308,12 @@ def new(url, date, thanks):
         quote + \
         n + n + \
         thanks
+
+    # if debug is on, just print and quit the function.
+    # no edit, no commit, no file written
+    if debug:
+        print(text)
+        return True
 
     # write markdown to the document
     path = posts_home + filename
