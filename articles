@@ -4,6 +4,7 @@
 import re
 import os
 import random as rnd
+import textwrap
 import click
 import nltk
 import git
@@ -84,11 +85,15 @@ def gen_article_quote(summary, title, url):
     if len(summary) >= 350:
         summary = nltk.tokenize.sent_tokenize(summary)[0]
 
+    summary = textwrap.wrap(summary, 78)
+
     # start with a single quote for markdown
-    summary = "> " + summary + n
+    fmtsummary = ""
+    for x in summary:
+       fmtsummary = fmtsummary + textwrap.indent(x, '> ') + n
 
     # add source and proper link to quote
-    quote = summary + '>' + n + '> Quelle: ' + build_url(url=url, txt=title)
+    quote = fmtsummary + '>' + n + '> Quelle: ' + build_url(url=url, txt=title)
 
     return quote
 
