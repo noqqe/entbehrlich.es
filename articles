@@ -95,7 +95,7 @@ def gen_article_quote(summary, title, url):
         fmtsummary = fmtsummary + textwrap.indent(x, '> ') + n
 
     # add source and proper link to quote
-    quote = fmtsummary + '>' + n + '> Quelle: ' + build_url(url=url, txt=title)
+    quote = fmtsummary + '>' + n + '> Quelle: ' + gen_markdown_link(url=url, txt=title)
 
     return quote
 
@@ -108,7 +108,7 @@ def gen_article_thanks(thanks):
     :returns: str
     """
     if thanks is not None:
-        txt = "Danke an %s!" % build_url(url="https://twitter.com/" + thanks, txt=thanks)
+        txt = "Danke an %s!" % gen_markdown_link(url="https://twitter.com/" + thanks, txt=thanks)
     else:
         txt = ""
 
@@ -219,7 +219,7 @@ def tweet(feedurl):
         print("Could not send tweet. Check debugging")
         return False
 
-def build_url(url, txt=None):
+def gen_markdown_link(url, txt=None):
     """
     Build url for blogpost with urlencoding
     like this [http://foo.bar/baz](http://foo.bar.baz)
@@ -393,7 +393,6 @@ def redeploy():
     \b
     Redeploy means that no new content will be published.
     The blog will be build and rsynced to the server
-    :returns: bool
     """
 
     # build blog
