@@ -446,17 +446,17 @@ def release(post):
     if not push():
         return False
 
-    # # build blog
-    # if not build(hugocmd):
-    #     return False
+    # build blog
+    if not build(hugocmd):
+        return False
 
-    # # deploy to server
-    # if not deploy(rsynccmd):
-    #     return False
+    # deploy to server
+    if not deploy(rsynccmd):
+        return False
 
-    # # tweet the new post
-    # if not tweet(feedurl):
-    #     return False
+    # tweet the new post
+    if not tweet(feedurl):
+        return False
 
     return True
 
