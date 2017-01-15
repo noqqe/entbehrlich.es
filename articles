@@ -208,7 +208,7 @@ def publish(post):
         log("No such file %s" % path, "error")
         return False
 
-    if 'draft: true' in open(path).read():
+    if not 'draft: true' in open(path).read():
         log("Article %s was already release. Updating publish date" % post, "debug")
 
     # because FUCK YOU HARD FILEINPUT!
@@ -249,6 +249,21 @@ def push():
         return True
     except:
         log("Failed to push current state to repository" % post, "error")
+        return False
+
+def pull():
+    """
+    Syncs the serverside repo with the local repo
+    :returns: bool
+    """
+
+    try:
+        repo = git.Repo(project_home)
+        repo.git.pull()
+        log("Pulled content from remote repository", "info")
+        return True
+    except:
+        log("Failed to pull state from remote repository" % post, "error")
         return False
 
 
@@ -415,6 +430,9 @@ def release(post):
                 log("Picked %s" % post, "info")
                 break
 
+    # pull from remote repo
+    if not pull():
+        return False
 
     # remove draft
     if not publish(post):
@@ -424,7 +442,7 @@ def release(post):
     if not commit(post):
         return False
 
-    # commit git changes
+    # push git changes
     if not push():
         return False
 
@@ -458,6 +476,28 @@ def redeploy():
 
     return True
 
+@cli.command(short_help="Edit an already written article")
+@click.argument('post', required=True)
+def reedit(post):
+    """
+    Things happen. Sometimes I need to reedit an article.
+    """
+
+    # get changes
+    pull()
+
+    # edit file
+    path = posts_home + post
+    subprocess.call([editor, path])
+
+    # commit to local repo
+    commit(post)
+
+    # push changes
+    push()
+
+    return True
+
 @cli.command(short_help="Get 20 recently update articles from Wikipedia")
 def inspiration():
     """
@@ -470,7 +510,7 @@ def inspiration():
         title = edit["title"]
         if "Benutzer:" in title or "Diskussion:" in title or "Wikipedia:" in title:
             continue
-        log(title + " -- https://de.wikipedia.org/wiki/?curid=" + str(edit["pageid"]), "info")
+        log(title + " -- https://de.wikipedia.org/wiki/?curid=" + str(edit["pageid"]), "debug")
 
     return True
 
@@ -483,7 +523,7 @@ def random():
     for w in wikipedia.random(20):
         try:
             page = wikipedia.page(w)
-            log(page.title + " -- " + page.url, "info")
+            log(page.title + " -- " + page.url, "debug")
         except (wikipedia.exceptions.DisambiguationError, wikipedia.exceptions.PageError):
             pass
 
