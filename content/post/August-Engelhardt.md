@@ -1,6 +1,6 @@
 ---
 title: August Engelhardt
-date: 2017-01-15T16:26:02
+date: 2017-01-15T16:26:30
 draft: false
 tags:
 - Deutscher
