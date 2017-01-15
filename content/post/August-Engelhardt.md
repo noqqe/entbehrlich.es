@@ -1,7 +1,7 @@
 ---
 title: August Engelhardt
-date: 2017-01-07T14:00:56
-draft: true
+date: 2017-01-15T16:26:02
+draft: false
 tags:
 - Deutscher
 - Geboren 1875
