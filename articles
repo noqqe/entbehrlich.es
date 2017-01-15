@@ -231,6 +231,22 @@ def commit(post):
         log("Post %s could not be committed" % post, "error")
         return False
 
+def push():
+    """
+    Syncs the repo with the serverside repo.
+    :returns: bool
+    """
+
+    try:
+        repo = git.Repo(project_home)
+        repo.git.push()
+        log("Pushed current state to repository", "info")
+        return True
+    except:
+        log("Failed to push current state to repository" % post, "error")
+        return False
+
+
 
 def tweet(feedurl):
     """
@@ -402,17 +418,21 @@ def release(post):
     if not commit(post):
         return False
 
-    # build blog
-    if not build(hugocmd):
+    # commit git changes
+    if not push():
         return False
 
-    # deploy to server
-    if not deploy(rsynccmd):
-        return False
+    # # build blog
+    # if not build(hugocmd):
+    #     return False
 
-    # tweet the new post
-    if not tweet(feedurl):
-        return False
+    # # deploy to server
+    # if not deploy(rsynccmd):
+    #     return False
+
+    # # tweet the new post
+    # if not tweet(feedurl):
+    #     return False
 
     return True
 
