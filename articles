@@ -8,7 +8,6 @@ to post to twitter and release new posts
 
 import os
 import random as rnd
-import logging
 import textwrap
 import datetime
 import warnings
@@ -38,8 +37,27 @@ con_secret = "A8JhSSKM0996vjKV8NwKi8dvR2ApCfuRb6M8rRav6ctojhQcRk"
 access_token = "723558748581683201-QYcFL4pFqHxgflEjcxkeIE5BfMEI6JM"
 access_token_secret = "Dd8oGmYhXpMfGcFF3HdsqKO8iD2q902uuHFs7cUZI3HbI"
 
+# Logging
+def log(msg,serv):
+    """
+    Logging to terminal
+    :msg: str
+    :serv: str (serverity)
+    :returns: bool
+    """
 
-# Little helpers
+    colors = {
+        "debug": "white",
+        "info": "green",
+        "warning": "yellow",
+        "error": "red",
+    }
+
+    d = datetime.datetime.now().strftime('%H:%M:%S ')
+    click.secho(d + msg, fg=colors[serv])
+
+
+# Article generators
 def gen_article_meta(title, date, tags):
     """
     Make a blog post header like
@@ -114,6 +132,27 @@ def gen_article_thanks(thanks):
 
     return txt
 
+def gen_markdown_link(url, txt=None):
+    """
+    Build url for blogpost with urlencoding
+    like this [http://foo.bar/baz](http://foo.bar.baz)
+    :url: str (link target)
+    :txt: str (link text)
+    :returns: str
+    """
+
+    if txt is not None:
+        mdurl = '[' + txt + ']'
+    else:
+        cont = url.replace("https://", "")
+        cont = url.replace("http://", "")
+        mdurl = '[' + cont + ']'
+
+    mdurl = mdurl + '(' + url + ')'
+
+    return mdurl
+
+# Sync and deploying functions
 def build(hugocmd):
     """
     Executes hugo to build the latest build of the blog
@@ -121,14 +160,15 @@ def build(hugocmd):
     :hugocmd: str (command and args)
     :returns: bool
     """
-    print("BUILD BLOG\n")
+    log("Compiling blog...", "info")
 
     status, output = subprocess.getstatusoutput(hugocmd)
-    print(output)
 
     if status == 0:
+        log("Blog compiled successfully", "info")
         return True
     else:
+        log("Blog compiling failed: \n %s" % output, "error")
         return False
 
 def deploy(rsynccmd):
@@ -139,11 +179,13 @@ def deploy(rsynccmd):
     :returns: bool
     """
     status, output = subprocess.getstatusoutput(rsynccmd)
-    print(output)
+    log("Deploying blog...", "info")
 
     if status == 0:
+        log("Blog deployment successful", "info")
         return True
     else:
+        log("Blog deployment failed: \n %s" % output, "error")
         return False
 
 def publish(post):
@@ -162,7 +204,7 @@ def publish(post):
     try:
         open(path)
     except IOError:
-        print("No such file")
+        log("No such file %s" % path, "error")
         return False
 
     if 'draft: true' in open(path).read():
@@ -183,10 +225,10 @@ def commit(post):
         repo = git.Repo(project_home)
         repo.git.add(posts_home + post)
         repo.git.commit(m=post)
-        print("Post %s committed" % post)
+        log("%s committed in git" % post, "info")
         return True
     except:
-        print("Post %s could not be committed" % post)
+        log("Post %s could not be committed" % post, "error")
         return False
 
 
@@ -213,31 +255,11 @@ def tweet(feedurl):
     try:
         t = twitter.Twitter(auth=auth)
         t.statuses.update(status=message)
-        print("Tweeted \"%s\"" % message)
+        log("Tweeted \"%s\"" % message, "info")
         return True
     except:
-        print("Could not send tweet. Check debugging")
+        log("Could not send tweet. Check debugging", "error")
         return False
-
-def gen_markdown_link(url, txt=None):
-    """
-    Build url for blogpost with urlencoding
-    like this [http://foo.bar/baz](http://foo.bar.baz)
-    :url: str (link target)
-    :txt: str (link text)
-    :returns: str
-    """
-
-    if txt is not None:
-        mdurl = '[' + txt + ']'
-    else:
-        cont = url.replace("https://", "")
-        cont = url.replace("http://", "")
-        mdurl = '[' + cont + ']'
-
-    mdurl = mdurl + '(' + url + ')'
-
-    return mdurl
 
 # CLI Commands
 
@@ -279,8 +301,9 @@ def new(url, date, thanks, debug):
         wiki = wikipedia.page(title)
         tags = wiki.categories
         summary = wiki.summary
+        log("Fetched article \"%s\" from wikipedia (%s)" % (title, lang), "info")
     except wikipedia.exceptions.DisambiguationError as e:
-        print(e)
+        log(e, "error")
         return False
 
     t = parse(date)
@@ -308,7 +331,8 @@ def new(url, date, thanks, debug):
     # if debug is on, just print and quit the function.
     # no edit, no commit, no file written
     if debug:
-        print(text)
+        log("Only showing generated post on stdout", "debug")
+        log(n + text, "debug")
         return True
 
     # write markdown to the document
@@ -317,7 +341,7 @@ def new(url, date, thanks, debug):
         f.write(text)
         f.close()
 
-    print("Created Post: " + path)
+    log("Created post in path: " + path, "info")
 
     # edit file
     subprocess.call([editor, path])
@@ -332,16 +356,16 @@ def new(url, date, thanks, debug):
 def queue(allposts):
     """
     \b
-    Show all posts available
+    Shows all unpublished posts. Can also show all posts ever using -a
     """
 
     posts = os.listdir(posts_home)
     for post in posts:
         if not allposts:
             if 'draft: true' in open(posts_home + post).read():
-                print(post)
+                log(post, "debug")
         else:
-            print(post)
+            log(post, "debug")
 
     return True
 
@@ -361,7 +385,7 @@ def release(post):
 
     # if no specific post given, use a random one
     if post is None:
-        print("Picking random post...")
+        log("Picking random post...", "info")
         posts = os.listdir(posts_home)
 
         while True:
@@ -371,19 +395,24 @@ def release(post):
 
 
     # remove draft
-    publish(post)
+    if not publish(post):
+        return False
 
     # commit git changes
-    commit(post)
+    if not commit(post):
+        return False
 
     # build blog
-    build(hugocmd)
+    if not build(hugocmd):
+        return False
 
     # deploy to server
-    deploy(rsynccmd)
+    if not deploy(rsynccmd):
+        return False
 
     # tweet the new post
-    tweet(feedurl)
+    if not tweet(feedurl):
+        return False
 
     return True
 
@@ -415,7 +444,7 @@ def inspiration():
         title = edit["title"]
         if "Benutzer:" in title or "Diskussion:" in title or "Wikipedia:" in title:
             continue
-        print(title + " -- https://de.wikipedia.org/wiki/?curid=" + str(edit["pageid"]))
+        log(title + " -- https://de.wikipedia.org/wiki/?curid=" + str(edit["pageid"]), "info")
 
     return True
 
@@ -428,7 +457,7 @@ def random():
     for w in wikipedia.random(20):
         try:
             page = wikipedia.page(w)
-            print(page.title + " -- " + page.url)
+            log(page.title + " -- " + page.url, "info")
         except (wikipedia.exceptions.DisambiguationError, wikipedia.exceptions.PageError):
             pass
 
