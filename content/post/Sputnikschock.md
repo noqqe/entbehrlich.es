@@ -1,7 +1,7 @@
 ---
 title: Sputnikschock
-date: 2017-01-07T14:00:14
-draft: true
+date: 2017-01-15T13:40:41
+draft: false
 tags:
 - Beziehungen zwischen der Sowjetunion und den Vereinigten Staaten
 - Bildungsgeschichte
