@@ -1,7 +1,7 @@
 ---
 title: Operation Frequent Wind
-date: 2017-01-08T14:00:33
-draft: true
+date: 2017-01-15T15:47:24
+draft: false
 tags:
 - Deckname
 - Konflikt 1975
