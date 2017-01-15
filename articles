@@ -126,6 +126,7 @@ def gen_article_thanks(thanks):
     :returns: str
     """
     if thanks is not None:
+        log("Thanks to %s was added to article" % thanks, "info")
         txt = "Danke an %s!" % gen_markdown_link(url="https://twitter.com/" + thanks, txt=thanks)
     else:
         txt = ""
@@ -160,7 +161,7 @@ def build(hugocmd):
     :hugocmd: str (command and args)
     :returns: bool
     """
-    log("Compiling blog...", "info")
+    log("Compiling blog...", "debug")
 
     status, output = subprocess.getstatusoutput(hugocmd)
 
@@ -179,7 +180,7 @@ def deploy(rsynccmd):
     :returns: bool
     """
     status, output = subprocess.getstatusoutput(rsynccmd)
-    log("Deploying blog...", "info")
+    log("Deploying blog...", "debug")
 
     if status == 0:
         log("Blog deployment successful", "info")
@@ -208,9 +209,13 @@ def publish(post):
         return False
 
     if 'draft: true' in open(path).read():
-        # because FUCK YOU HARD FILEINPUT!
-        subprocess.getstatusoutput('sed -i \'s#draft: true#draft: false#\' %s' % path)
-        subprocess.getstatusoutput('sed -i \'s#^date: .*#date: %s#\' %s' % (t, path))
+        log("Article %s was already release. Updating publish date" % post, "debug")
+
+    # because FUCK YOU HARD FILEINPUT!
+    subprocess.getstatusoutput('sed -i \'s#draft: true#draft: false#\' %s' % path)
+    subprocess.getstatusoutput('sed -i \'s#^date: .*#date: %s#\' %s' % (t, path))
+
+    log("Modified %s to draft=false and date %s" % (post, t), "debug")
 
     return True
 
@@ -357,7 +362,7 @@ def new(url, date, thanks, debug):
         f.write(text)
         f.close()
 
-    log("Created post in path: " + path, "info")
+    log("Created post in path " + path, "info")
 
     # edit file
     subprocess.call([editor, path])
@@ -401,12 +406,13 @@ def release(post):
 
     # if no specific post given, use a random one
     if post is None:
-        log("Picking random post...", "info")
+        log("Picking random post...", "debug")
         posts = os.listdir(posts_home)
 
         while True:
             post = rnd.choice(posts)
             if 'draft: true' in open(posts_home + post).read():
+                log("Picked %s" % post, "info")
                 break
 
 
