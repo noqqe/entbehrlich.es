@@ -382,6 +382,9 @@ def new(url, date, thanks, debug):
     # edit file
     subprocess.call([editor, path])
 
+    # pull from repo
+    pull()
+
     # commit to local repo
     commit(filename)
 
