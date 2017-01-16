@@ -406,11 +406,11 @@ def queue(allposts):
         log("All unpublished posts:", "debug")
         for post in posts:
             if 'draft: true' in open(posts_home + post).read():
-                log(post, "debug")
+                log(" * " + post, "debug")
     else:
         log("All posts:", "debug")
         for post in posts:
-            log(post, "debug")
+            log(" * " + post, "debug")
 
     return True
 
