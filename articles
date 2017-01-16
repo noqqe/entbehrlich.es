@@ -385,6 +385,9 @@ def new(url, date, thanks, debug):
     # commit to local repo
     commit(filename)
 
+    # push to repo
+    push()
+
     return True
 
 @cli.command(short_help="Show current drafts")
