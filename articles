@@ -402,11 +402,14 @@ def queue(allposts):
     """
 
     posts = os.listdir(posts_home)
-    for post in posts:
-        if not allposts:
+    if not allposts:
+        log("All unpublished posts:", "debug")
+        for post in posts:
             if 'draft: true' in open(posts_home + post).read():
                 log(post, "debug")
-        else:
+    else:
+        log("All posts:", "debug")
+        for post in posts:
             log(post, "debug")
 
     return True
