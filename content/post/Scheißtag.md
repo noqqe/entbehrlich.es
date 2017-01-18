@@ -1,7 +1,7 @@
 ---
 title: Scheißtag
-date: 2017-01-16T14:00:46
-draft: true
+date: 2017-01-18T17:02:21
+draft: false
 tags:
 - Deutsche Wirtschaftsgeschichte
 - Tagesbegriff
