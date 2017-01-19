@@ -1,7 +1,7 @@
 ---
 title: Moon Museum
-date: 2017-01-16T14:00:07
-draft: true
+date: 2017-01-19T09:52:21
+draft: false
 tags:
 - 1969 works
 - All articles with dead external links
