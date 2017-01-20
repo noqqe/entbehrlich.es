@@ -1,7 +1,7 @@
 ---
 title: Promenadologie
-date: 2017-01-20T14:00:10
-draft: true
+date: 2017-01-20T09:49:45
+draft: false
 tags:
 - Fußverkehr
 - Landschaftsplanung
