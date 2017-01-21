@@ -1,7 +1,7 @@
 ---
 title: Benevolent Dictator for Life
-date: 2017-01-20T14:00:26
-draft: true
+date: 2017-01-21T09:56:51
+draft: false
 tags:
 - FLOSS-Kultur
 - Pseudonym
