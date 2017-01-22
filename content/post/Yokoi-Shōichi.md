@@ -1,7 +1,7 @@
 ---
 title: Yokoi Shōichi
-date: 2017-01-12T14:00:48
-draft: true
+date: 2017-01-22T08:46:20
+draft: false
 tags:
 - Japaner
 - Mann
