@@ -1,7 +1,7 @@
 ---
 title: Kiviak
-date: 2017-01-20T14:00:16
-draft: true
+date: 2017-01-23T13:43:29
+draft: false
 tags:
 - All stub articles
 - Animal-based fermented foods
