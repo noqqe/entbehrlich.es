@@ -1,7 +1,7 @@
 ---
 title: Prora
-date: 2017-01-25T14:00:26
-draft: true
+date: 2017-01-25T20:02:58
+draft: false
 image: /images/Prora_Blick.jpg
 imageauthor: File Upload Bot (Magnus Manske)
 tags:
