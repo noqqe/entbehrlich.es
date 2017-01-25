@@ -13,6 +13,7 @@ import datetime
 import warnings
 import subprocess
 from urllib.parse import urlparse
+import urllib.request
 
 import click
 import nltk
@@ -21,15 +22,20 @@ import requests
 import wikipedia
 import twitter
 import feedparser
+import xmltodict
 from dateutil.parser import parse
 
 # Environment variables
 project_home = os.getcwd()
 posts_home = project_home + "/content/post/"
+images_home = project_home + "/static/images/"
 hugocmd = "/home/noqqe/.go/bin/hugo"
 rsynccmd = "/usr/local/bin/rsync -avi --delete public/ aax:/var/www/htdocs/entbehrlich.es/"
 feedurl = project_home + "/public/index.xml"
 editor = "/usr/local/bin/vim"
+
+# Commons API
+commonsapi = "https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image="
 
 # Twitter credentials
 con_key = "aWoryvyvjQqV2aCDOyg6YJCJi"
@@ -56,6 +62,46 @@ def log(msg,serv):
     d = datetime.datetime.now().strftime('%H:%M:%S ')
     click.secho(d + msg, fg=colors[serv])
 
+def gen_article_image(images, debug):
+    """
+    :images: list
+    :returns: str
+    """
+
+    final_image = None
+    for image in images:
+
+        # check if picture is from commons
+        if not "/commons/" in image:
+            continue
+
+        # build api url
+        url = urlparse(image)
+        fname = os.path.basename(url.path)
+        fname = commonsapi + fname + "&meta"
+
+        # query api and get dict of api items
+        xml = requests.get(fname).text
+        commons = xmltodict.parse(xml)
+        c = commons["response"]["file"]
+
+
+        # if its a picture with licensed with CC and name attribution
+        #print(commons["response"]["licenses"]["license"])
+        if not "CC-BY" in commons["response"]["licenses"]["license"]["name"]:
+            continue
+
+        # filter pictures that are too small
+        if float(c["width"]) < 500:
+            continue
+
+        title = c["title"].replace('File:', '')
+        log("Found CC-BY Picture \"%s\" from %s" % (title, c["uploader"]), "debug")
+        download_image(url=c["urls"]["file"], fname=title, debug=False)
+        final_image = image
+        break
+
+    return final_image
 
 # Article generators
 def gen_article_meta(title, date, tags):
@@ -297,6 +343,22 @@ def tweet(feedurl):
         log("Could not send tweet. Check debugging", "error")
         return False
 
+def download_image(url, fname, debug):
+    """
+    Downloads an image and places it to the right
+    :url: str
+    :returns: str path to picture
+    """
+    log("Downloading %s from %s" % (fname, url), "debug")
+
+    if not debug:
+        urllib.request.urlretrieve(url, images_home + fname)
+        log("Downloaded %s from %s" % (fname, url), "info")
+
+    src = "/images/" + fname
+    return src
+
+
 # CLI Commands
 
 @click.group()
@@ -336,6 +398,7 @@ def new(url, date, thanks, debug):
         wikipedia.set_lang(lang)
         wiki = wikipedia.page(title)
         tags = wiki.categories
+        images = wiki.images
         summary = wiki.summary
         log("Fetched article \"%s\" from wikipedia (%s)" % (title, lang), "info")
     except wikipedia.exceptions.DisambiguationError as e:
@@ -355,6 +418,9 @@ def new(url, date, thanks, debug):
 
     # generate thank you section for posted article
     thanks = gen_article_thanks(thanks)
+
+    # fetch images
+    image = gen_article_image(images, debug)
 
     # put all the content together
     text = \
