@@ -88,12 +88,18 @@ def gen_article_image(images, debug):
         log("Fetching image meta informations from %s" % fname, "debug")
 
         # query api and get dict of api items
-        xml = requests.get(fname).text
-        commons = xmltodict.parse(xml)
-        c = commons["response"]["file"]
+        try:
+            xml = requests.get(fname).text
+            commons = xmltodict.parse(xml)
+            c = commons["response"]["file"]
+        except:
+            continue
 
+        # filter pictures that are too small
+        if float(c["width"]) < 500:
+            continue
 
-        # skip if picture is not a CC-BY-* licensend
+        # get crappy license meta data
         try:
             license = commons["response"]["licenses"]["license"]["name"]
         except TypeError:
@@ -103,8 +109,10 @@ def gen_article_image(images, debug):
         if not "CC-BY" in license and not "CC-PD" in license:
             continue
 
-        # filter pictures that are too small
-        if float(c["width"]) < 500:
+        # fetch the author of the picture
+        try:
+            author = c["author"]
+        except KeyError:
             continue
 
         title = c["title"].replace('File:', '')
@@ -113,10 +121,10 @@ def gen_article_image(images, debug):
         resize_image(title)
         break
 
-    return final_image
+    return final_image, author
 
 # Article generators
-def gen_article_meta(title, date, tags, image):
+def gen_article_meta(title, date, tags, image, imageauthor):
     """
     Make a blog post header like
     ---
@@ -124,6 +132,7 @@ def gen_article_meta(title, date, tags, image):
     date: bar
     draft: false
     image: /images/foo.jpg
+    imageauthor: h0nk
     tags:
     - foo
     - bar
@@ -144,6 +153,7 @@ def gen_article_meta(title, date, tags, image):
 
     if image is not None:
         header = header + "image: " + image + n
+        header = header + "imageauthor: " + imageauthor + n
 
     header = header + "tags: "
     for tag in tags:
@@ -446,10 +456,10 @@ def new(url, date, thanks, debug):
     t = t.isoformat()
 
     # fetch images
-    image = gen_article_image(images, debug)
+    image, imageauthor = gen_article_image(images, debug)
 
     # generate header for article
-    header = gen_article_meta(title=title, date=t, tags=tags, image=image)
+    header = gen_article_meta(title=title, date=t, tags=tags, image=image, imageauthor=imageauthor)
 
     # generate quote for article
     quote = gen_article_quote(summary=summary, title=title, url=origurl)
@@ -566,8 +576,8 @@ def release(post):
         return False
 
     # tweet the new post
-    if not tweet(feedurl):
-        return False
+    # if not tweet(feedurl):
+    #     return False
 
     return True
 
