@@ -15,6 +15,8 @@ import subprocess
 from urllib.parse import urlparse
 import urllib.request
 
+import PIL
+from PIL import Image
 import click
 import nltk
 import git
@@ -98,6 +100,7 @@ def gen_article_image(images, debug):
         title = c["title"].replace('File:', '')
         log("Found CC-BY Picture \"%s\" from %s" % (title, c["uploader"]), "debug")
         final_image = download_image(url=c["urls"]["file"], fname=title, debug=False)
+        resize_image(title)
         break
 
     return final_image
@@ -367,6 +370,19 @@ def download_image(url, fname, debug):
     src = "/images/" + fname
     return src
 
+def resize_image(fname):
+    """
+    resize a downloaded picture from images/ homedir
+    :returns: bool
+    """
+
+    basewidth = 400
+    img = Image.open(images_home + fname)
+    wpercent = (basewidth/float(img.size[0]))
+    hsize = int((float(img.size[1])*float(wpercent)))
+    img = img.resize((basewidth,hsize), PIL.Image.ANTIALIAS)
+    img.save(images_home + fname)
+    return True
 
 # CLI Commands
 
