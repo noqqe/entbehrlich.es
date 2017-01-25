@@ -46,7 +46,7 @@ access_token = "723558748581683201-QYcFL4pFqHxgflEjcxkeIE5BfMEI6JM"
 access_token_secret = "Dd8oGmYhXpMfGcFF3HdsqKO8iD2q902uuHFs7cUZI3HbI"
 
 # Logging
-def log(msg,serv):
+def log(msg, serv="debug"):
     """
     Logging to terminal
     :msg: str
@@ -73,14 +73,19 @@ def gen_article_image(images, debug):
     final_image = None
     for image in images:
 
-        # check if picture is from commons
+        # skip if not part of commons
         if not "/commons/" in image:
+            continue
+
+        # skip if its an svg
+        if ".svg" in image:
             continue
 
         # build api url
         url = urlparse(image)
         fname = os.path.basename(url.path)
         fname = commonsapi + fname + "&meta"
+        log("Fetching image meta informations from %s" % fname, "debug")
 
         # query api and get dict of api items
         xml = requests.get(fname).text
@@ -88,9 +93,14 @@ def gen_article_image(images, debug):
         c = commons["response"]["file"]
 
 
-        # if its a picture with licensed with CC and name attribution
-        #print(commons["response"]["licenses"]["license"])
-        if not "CC-BY" in commons["response"]["licenses"]["license"]["name"]:
+        # skip if picture is not a CC-BY-* licensend
+        try:
+            license = commons["response"]["licenses"]["license"]["name"]
+        except TypeError:
+            license = commons["response"]["licenses"]["license"][0]["name"]
+
+        # check if its a friendly license
+        if not "CC-BY" in license and not "CC-PD" in license:
             continue
 
         # filter pictures that are too small
@@ -380,6 +390,7 @@ def resize_image(fname):
     img = Image.open(images_home + fname)
     wpercent = (basewidth/float(img.size[0]))
     hsize = int((float(img.size[1])*float(wpercent)))
+    log("Resizing image %s to %sx%s" % (fname, basewidth, hsize), "debug")
     img = img.resize((basewidth,hsize), PIL.Image.ANTIALIAS)
     img.save(images_home + fname)
     return True
