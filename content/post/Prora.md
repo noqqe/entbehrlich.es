@@ -1,9 +1,9 @@
 ---
 title: Prora
-date: 2017-01-25T20:02:58
-draft: false
-image: /images/Prora_Blick.jpg
-imageauthor: File Upload Bot (Magnus Manske)
+date: 2017-01-25T14:00:25
+draft: true
+image: /images/Prora+neuestes.jpg
+imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Leuchtfeuer12&amp;action=edit&amp;redlink=1" class="new" title="User:Leuchtfeuer12 (page does not exist)">Leuchtfeuer12</a>
 tags:
 - Architektur im Nationalsozialismus
 - Baudenkmal in Binz
