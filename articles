@@ -97,20 +97,20 @@ def gen_article_image(images, debug):
 
         title = c["title"].replace('File:', '')
         log("Found CC-BY Picture \"%s\" from %s" % (title, c["uploader"]), "debug")
-        download_image(url=c["urls"]["file"], fname=title, debug=False)
-        final_image = image
+        final_image = download_image(url=c["urls"]["file"], fname=title, debug=False)
         break
 
     return final_image
 
 # Article generators
-def gen_article_meta(title, date, tags):
+def gen_article_meta(title, date, tags, image):
     """
     Make a blog post header like
     ---
     title: foo
     date: bar
     draft: false
+    image: /images/foo.jpg
     tags:
     - foo
     - bar
@@ -119,14 +119,23 @@ def gen_article_meta(title, date, tags):
     :title: str
     :date: str
     :tags: list
+    :image: str
     :returns: str
     """
     head = "---\n"
     n = "\n"
-    header = head + "title: " + title + n + "date: " + date + n + "draft: true" + n
+
+    header = head + "title: " + title + n
+    header = header + "date: " + date + n
+    header = header + "draft: true" + n
+
+    if image is not None:
+        header = header + "image: " + image + n
+
     header = header + "tags: "
     for tag in tags:
         header = header + n + "- " + tag.replace("Kategorie:", '')
+
     header = header + n + head + n
     return header
 
@@ -409,9 +418,11 @@ def new(url, date, thanks, debug):
     t = t.replace(hour=14, minute=0, microsecond=0)
     t = t.isoformat()
 
+    # fetch images
+    image = gen_article_image(images, debug)
 
     # generate header for article
-    header = gen_article_meta(title=title, date=t, tags=tags)
+    header = gen_article_meta(title=title, date=t, tags=tags, image=image)
 
     # generate quote for article
     quote = gen_article_quote(summary=summary, title=title, url=origurl)
@@ -419,8 +430,6 @@ def new(url, date, thanks, debug):
     # generate thank you section for posted article
     thanks = gen_article_thanks(thanks)
 
-    # fetch images
-    image = gen_article_image(images, debug)
 
     # put all the content together
     text = \
