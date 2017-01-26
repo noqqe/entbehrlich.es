@@ -400,13 +400,15 @@ def resize_image(fname):
     :returns: bool
     """
 
-    basewidth = 400
-    img = Image.open(images_home + fname)
+    basewidth = 540
+    fpath = images_home + fname
+    img = Image.open(fpath)
     wpercent = (basewidth/float(img.size[0]))
     hsize = int((float(img.size[1])*float(wpercent)))
     log("Resizing image %s to %sx%s" % (fname, basewidth, hsize), "debug")
     img = img.resize((basewidth,hsize), PIL.Image.ANTIALIAS)
-    img.save(images_home + fname)
+    img.save(fpath)
+    commit(fpath)
     return True
 
 # CLI Commands
