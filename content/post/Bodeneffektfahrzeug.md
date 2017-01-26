@@ -1,7 +1,7 @@
 ---
 title: Bodeneffektfahrzeug
-date: 2017-01-25T14:00:51
-draft: true
+date: 2017-01-26T11:40:35
+draft: false
 image: /images/Aquaglide_2.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Mws.richter" title="User:Mws.richter">Stefan Richter</a>
 tags:
