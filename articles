@@ -97,7 +97,7 @@ def gen_article_image(images, debug):
             continue
 
         # filter pictures that are too small
-        if float(c["width"]) < 500:
+        if float(c["width"]) < 540:
             continue
 
         # get crappy license meta data
