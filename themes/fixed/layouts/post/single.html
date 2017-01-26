@@ -7,14 +7,14 @@
         <div class="published">{{ .Date.Format "2006-01-02" }}</div>
         </h1>
 
+        {{ .Content }}
         {{ if isset .Params "image" }}
           <img src="{{ .Params.image }}">
           <br/>
-          <span>Bild von {{ .Params.imageauthor | safeHTML }}</span>
+          <div class="imagemeta">Bild von {{ .Params.imageauthor | safeHTML }}</span>
           <br/>
           <br/>
         {{ end }}
-        {{ .Content }}
 
     </div>
   </div>

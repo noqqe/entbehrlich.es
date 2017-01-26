@@ -71,6 +71,7 @@ def gen_article_image(images, debug):
     """
 
     final_image = None
+    author = None
     for image in images:
 
         # skip if not part of commons
@@ -103,7 +104,10 @@ def gen_article_image(images, debug):
         try:
             license = commons["response"]["licenses"]["license"]["name"]
         except TypeError:
-            license = commons["response"]["licenses"]["license"][0]["name"]
+            try:
+                license = commons["response"]["licenses"]["license"][0]["name"]
+            except TypeError:
+                continue
 
         # check if its a friendly license
         if not "CC-BY" in license and not "CC-PD" in license:

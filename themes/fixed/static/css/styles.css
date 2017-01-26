@@ -143,6 +143,20 @@ Layout styles
   font-size: 1em;
 }
 
+img
+{
+  -ms-interpolation-mode: bicubic;
+  margin: 0 auto;
+  border-radius: 5px;
+  max-width: 100%;
+  display: block;
+}
+
+.imagemeta
+{
+  text-align: center;
+  font-style: italic;
+}
 
 /* -----------------------
 Single styles
