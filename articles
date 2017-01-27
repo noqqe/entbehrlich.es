@@ -8,6 +8,7 @@ to post to twitter and release new posts
 
 import os
 import random as rnd
+import time
 import textwrap
 import datetime
 import warnings
@@ -625,21 +626,38 @@ def reedit(post):
 
     return True
 
-@cli.command(short_help="Get 20 recently update articles from Wikipedia")
+@cli.command(short_help="Live recently update articles from Wikipedia")
 def inspiration():
     """
     Lookup some new/recently edited articles as inspirations.
     """
-    wiki_changes_api = 'https://de.wikipedia.org/w/api.php?action=query&list=recentchanges&format=json&rctype=edit|new&rclimit=20'
-    r = requests.get(wiki_changes_api)
-    r = r.json()
-    for edit in r["query"]["recentchanges"]:
-        title = edit["title"]
-        if "Benutzer:" in title or "Diskussion:" in title or "Wikipedia:" in title:
-            continue
-        log(title + " -- https://de.wikipedia.org/wiki/?curid=" + str(edit["pageid"]), "debug")
+    wiki_changes_api = 'https://de.wikipedia.org/w/api.php?action=query&list=recentchanges&format=json&rctype=edit|new&rclimit=1'
+    oldid = ""
 
-    return True
+    try:
+        while True:
+
+            # query edits from wikipedia
+            r = requests.get(wiki_changes_api).json()
+            edit = r["query"]["recentchanges"][0]
+            title = edit["title"]
+
+            # some filters
+            if "Benutzer:" in title \
+                or "Diskussion:" in title \
+                or "Wikipedia:" in title \
+                or "Kategorie:" in title:
+                continue
+
+            # if not seen before, show to user
+            if oldid != edit["pageid"]:
+                log(title + " -- https://de.wikipedia.org/wiki/?curid=" + str(edit["pageid"]), "debug")
+                oldid = edit["pageid"]
+
+            time.sleep(2)
+    except KeyboardInterrupt:
+        log("End...")
+        return True
 
 @cli.command(short_help="Get 20 random articles from Wikipedia")
 def random():
