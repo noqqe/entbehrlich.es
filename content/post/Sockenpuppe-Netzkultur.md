@@ -1,7 +1,7 @@
 ---
 title: Sockenpuppe (Netzkultur)
-date: 2017-01-15T15:48:48
-draft: true
+date: 2017-01-27T12:51:09
+draft: false
 tags:
 - Netzkultur
 ---
