@@ -1,7 +1,7 @@
 ---
 title: Franz Reichelt
-date: 2017-01-12T14:00:48
-draft: true
+date: 2017-01-29T09:55:37
+draft: false
 tags:
 - Fallschirmspringer
 - Mann
