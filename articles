@@ -37,6 +37,9 @@ rsynccmd = "/usr/local/bin/rsync -avi --delete public/ aax:/var/www/htdocs/entbe
 feedurl = project_home + "/public/index.xml"
 editor = "/usr/local/bin/vim"
 
+ftpuser = 'entbehrliches'
+ftppass = 'Nikainahm1Oh'
+
 # Commons API
 commonsapi = "https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image="
 
@@ -302,21 +305,22 @@ def publish(post):
 
     return True
 
-def commit(post):
+def commit(filename, path=posts_home):
     """
     Commit a file in git
-    :post: str (filename of the post)
+    :filename: str (filename of the post)
+    :path: str (path)
     :returns: bool
     """
 
     try:
         repo = git.Repo(project_home)
-        repo.git.add(posts_home + post)
-        repo.git.commit(m=post)
-        log("%s committed in git" % post, "info")
+        repo.git.add(path + filename)
+        repo.git.commit(m=filename)
+        log("%s committed in git" % filename, "info")
         return True
     except:
-        log("Post %s could not be committed" % post, "error")
+        log("Post %s could not be committed" % filename, "error")
         return False
 
 def push():
@@ -409,7 +413,7 @@ def resize_image(fname):
     log("Resizing image %s to %sx%s" % (fname, basewidth, hsize), "debug")
     img = img.resize((basewidth,hsize), PIL.Image.ANTIALIAS)
     img.save(fpath)
-    commit(fpath)
+    commit(fname, images_home)
     return True
 
 # CLI Commands
@@ -505,7 +509,7 @@ def new(url, date, thanks, debug):
     pull()
 
     # commit to local repo
-    commit(filename)
+    commit(filename, posts_home)
 
     # push to repo
     push()
@@ -567,7 +571,7 @@ def release(post):
         return False
 
     # commit git changes
-    if not commit(post):
+    if not commit(post, posts_home):
         return False
 
     # push git changes
@@ -583,8 +587,8 @@ def release(post):
         return False
 
     # tweet the new post
-    # if not tweet(feedurl):
-    #     return False
+    if not tweet(feedurl):
+        return False
 
     return True
 
@@ -619,7 +623,7 @@ def reedit(post):
     subprocess.call([editor, path])
 
     # commit to local repo
-    commit(post)
+    commit(post, posts_home)
 
     # push changes
     push()
