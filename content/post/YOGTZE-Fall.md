@@ -1,7 +1,7 @@
 ---
 title: YOGTZE Fall
-date: 2017-01-25T14:00:23
-draft: true
+date: 2017-01-30T09:08:28
+draft: false
 tags:
 - Geschichte (Hagen)
 - Kriminalfall 1984
