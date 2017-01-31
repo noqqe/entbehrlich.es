@@ -1,7 +1,7 @@
 ---
 title: Hirsch Katastrophe
-date: 2017-01-17T14:00:34
-draft: true
+date: 2017-01-31T11:20:12
+draft: false
 tags:
 - Bauwerkseinsturz
 - Katastrophe 1906
