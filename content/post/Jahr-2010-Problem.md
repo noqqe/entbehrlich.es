@@ -1,7 +1,7 @@
 ---
 title: Jahr 2010 Problem
-date: 2017-01-31T14:00:51
-draft: true
+date: 2017-02-01T13:14:27
+draft: false
 tags:
 - 2010
 - Programmfehler
