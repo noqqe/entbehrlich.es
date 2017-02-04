@@ -1,7 +1,7 @@
 ---
 title: Myotonic Goat
-date: 2017-02-01T14:00:26
-draft: true
+date: 2017-02-04T12:05:27
+draft: false
 tags:
 - Erbkrankheiten
 - Ziegenrasse
