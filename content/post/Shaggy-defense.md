@@ -1,7 +1,7 @@
 ---
 title: Shaggy defense
-date: 2017-02-04T14:00:34
-draft: true
+date: 2017-02-06T14:16:50
+draft: false
 tags:
 - 2008 introductions
 - All articles needing additional references
