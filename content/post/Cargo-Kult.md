@@ -1,7 +1,7 @@
 ---
 title: Cargo Kult
-date: 2017-01-12T14:00:42
-draft: true
+date: 2017-02-08T09:25:59
+draft: false
 tags:
 - Cargo-Kult
 - Eschatologie
