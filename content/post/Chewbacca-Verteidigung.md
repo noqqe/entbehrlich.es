@@ -1,7 +1,7 @@
 ---
 title: Chewbacca Verteidigung
-date: 2017-02-04T14:00:22
-draft: true
+date: 2017-02-09T16:06:57
+draft: false
 tags:
 - Rechtssprache
 - Rhetorik
