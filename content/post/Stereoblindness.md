@@ -1,7 +1,7 @@
 ---
 title: Stereoblindness
-date: 2017-02-04T14:00:17
-draft: true
+date: 2017-02-13T09:07:45
+draft: false
 tags:
 - 3D imaging
 - Blindness
