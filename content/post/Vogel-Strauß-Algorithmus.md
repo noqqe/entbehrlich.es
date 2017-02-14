@@ -1,7 +1,7 @@
 ---
 title: Vogel Strauß Algorithmus
-date: 2017-02-08T14:00:10
-draft: true
+date: 2017-02-14T09:16:18
+draft: false
 tags:
 - Algorithmus
 - Betriebssystemtheorie
