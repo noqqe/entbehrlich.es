@@ -1,7 +1,7 @@
 ---
 title: Onoda Hirō
-date: 2017-01-12T14:00:36
-draft: true
+date: 2017-02-15T09:11:09
+draft: false
 tags:
 - Geboren 1922
 - Gestorben 2014
