@@ -1,7 +1,7 @@
 ---
 title: Grey goo
 date: 2017-02-04T14:00:47
-draft: false
+draft: true
 tags:
 - Artificial life
 - Doomsday scenarios

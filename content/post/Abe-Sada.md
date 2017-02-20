@@ -1,7 +1,7 @@
 ---
 title: Abe Sada
 date: 2017-01-16T14:00:01
-draft: false
+draft: true
 tags:
 - Frau
 - Geboren 1905
