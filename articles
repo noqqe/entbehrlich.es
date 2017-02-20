@@ -299,7 +299,7 @@ def publish(post):
 
     # because FUCK YOU HARD FILEINPUT!
     subprocess.getstatusoutput('sed -i "" -e "s#draft: true#draft: false#" %s' % path)
-    subprocess.getstatusoutput('sed -i "" -e "s#^date: .*#date: %s#i" %s' % (t, path))
+    subprocess.getstatusoutput('sed -i "" -e "s#date: .*#date: %s#" %s' % (t, path))
 
     log("Modified %s to draft=false and date %s" % (post, t), "debug")
 
@@ -587,8 +587,8 @@ def release(post):
         return False
 
     # tweet the new post
-    if not tweet(feedurl):
-        return False
+    # if not tweet(feedurl):
+    #     return False
 
     return True
 
