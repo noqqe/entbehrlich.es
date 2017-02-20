@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.4
+#!/usr/bin/env python3
 """
 Blog maintainance script for
     entbehrlich.es
@@ -32,10 +32,10 @@ from dateutil.parser import parse
 project_home = os.getcwd()
 posts_home = project_home + "/content/post/"
 images_home = project_home + "/static/images/"
-hugocmd = "/home/noqqe/.go/bin/hugo"
-rsynccmd = "/usr/local/bin/rsync -avi --delete public/ aax:/var/www/htdocs/entbehrlich.es/"
+rsynccmd = "rsync -avi --delete public/ entbehrlich.es:/var/www/htdocs/entbehrlich.es/"
 feedurl = project_home + "/public/index.xml"
-editor = "/usr/local/bin/vim"
+hugocmd = "hugo"
+editor = os.getenv("EDITOR")
 
 ftpuser = 'entbehrliches'
 ftppass = 'Nikainahm1Oh'

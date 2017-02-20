@@ -1,3 +1,4 @@
+Pillow
 nltk
 wikipedia
 gitpython
