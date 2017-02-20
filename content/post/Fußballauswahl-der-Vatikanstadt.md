@@ -1,7 +1,7 @@
 ---
 title: Fußballauswahl der Vatikanstadt
 date: 2017-01-26T14:00:34
-draft: true
+draft: false
 tags:
 - Besondere Fußballmannschaft
 - Fußball in der Vatikanstadt
