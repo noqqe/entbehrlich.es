@@ -1,7 +1,7 @@
 ---
 title: Twinkie defense
-date: 2017-02-04T14:00:42
-draft: true
+date: 2017-02-21T09:05:36
+draft: false
 tags:
 - Criminal defenses
 - Harvey Milk
