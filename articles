@@ -587,8 +587,8 @@ def release(post):
         return False
 
     # tweet the new post
-    # if not tweet(feedurl):
-    #     return False
+    if not tweet(feedurl):
+        return False
 
     return True
 
