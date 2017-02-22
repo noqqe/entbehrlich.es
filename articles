@@ -449,6 +449,12 @@ def new(url, date, thanks, debug):
     lang = url.netloc.split('.')[0]
     title = url.path.split('/')[2].replace('-', ' ').replace('_', ' ')
     filename = title.replace(' ', '-').replace('---', '-').replace(')', '').replace('(', '') + '.md'
+    path = posts_home + filename
+
+    # check if article was written before or naming conflict
+    if os.path.isfile(path) and not debug:
+        log("Already exists. Duplicate article %s" % filename, "error")
+        return False
 
     # set lang and title, fetch wikipedia article
     try:
@@ -495,7 +501,6 @@ def new(url, date, thanks, debug):
         return True
 
     # write markdown to the document
-    path = posts_home + filename
     with open(path, "w") as f:
         f.write(text)
         f.close()
