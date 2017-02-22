@@ -32,7 +32,7 @@ from dateutil.parser import parse
 project_home = os.getcwd()
 posts_home = project_home + "/content/post/"
 images_home = project_home + "/static/images/"
-rsynccmd = "rsync -avi --delete public/ entbehrlich.es:/var/www/htdocs/entbehrlich.es/"
+rsynccmd = "rsync -avi --delete public/ entbehrlich.es:/var/www/htdocs/entbehrlich.es/public/"
 feedurl = project_home + "/public/index.xml"
 hugocmd = "hugo"
 editor = os.getenv("EDITOR")
