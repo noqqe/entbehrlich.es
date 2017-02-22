@@ -28,7 +28,7 @@ h4 { font-size: 1.125em; } /* 18px */
 h5 { font-size: 1em; } /* 16px */
 h6 { font-size: .875em; } /* 14px */
 
-p
+p,ul
 {
 	margin: 0 0 1.5em;
   font-size: 1.1em;
