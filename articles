@@ -27,18 +27,17 @@ import twitter
 import feedparser
 import xmltodict
 from dateutil.parser import parse
+from sftpclone import sftpclone
+
 
 # Environment variables
 project_home = os.getcwd()
 posts_home = project_home + "/content/post/"
 images_home = project_home + "/static/images/"
-rsynccmd = "rsync -avi --delete public/ entbehrlich.es:/var/www/htdocs/entbehrlich.es/public/"
 feedurl = project_home + "/public/index.xml"
 hugocmd = "hugo"
 editor = os.getenv("EDITOR")
 
-ftpuser = 'entbehrliches'
-ftppass = 'Nikainahm1Oh'
 
 # Commons API
 commonsapi = "https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image="
@@ -48,6 +47,9 @@ con_key = "aWoryvyvjQqV2aCDOyg6YJCJi"
 con_secret = "A8JhSSKM0996vjKV8NwKi8dvR2ApCfuRb6M8rRav6ctojhQcRk"
 access_token = "723558748581683201-QYcFL4pFqHxgflEjcxkeIE5BfMEI6JM"
 access_token_secret = "Dd8oGmYhXpMfGcFF3HdsqKO8iD2q902uuHFs7cUZI3HbI"
+
+# Hosts deployment
+sftphost ="entbehrlich.es"
 
 # Logging
 def log(msg, serv="debug"):
@@ -258,15 +260,18 @@ def build(hugocmd):
         log("Blog compiling failed: \n %s" % output, "error")
         return False
 
-def deploy(rsynccmd):
+def deploy():
     """
     Uses rsync to deploy the build to the serving http server
 
-    :rsynccmd: str (command and args)
     :returns: bool
     """
-    status, output = subprocess.getstatusoutput(rsynccmd)
-    log("Deploying blog...", "debug")
+    job = sftpclone.SFTPClone(
+        project_home + '/public/',
+        "{}:/foo/".format(sftphost),
+        ssh_config_path=os.path.join("~", ".ssh", "config")
+    )
+    job.run()
 
     if status == 0:
         log("Blog deployment successful", "info")
@@ -588,7 +593,7 @@ def release(post):
         return False
 
     # deploy to server
-    if not deploy(rsynccmd):
+    if not deploy():
         return False
 
     # tweet the new post
@@ -609,7 +614,7 @@ def redeploy():
     build(hugocmd)
 
     # build deploy to server
-    deploy(rsynccmd)
+    deploy()
 
     return True
 
