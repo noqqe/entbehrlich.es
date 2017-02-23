@@ -268,7 +268,7 @@ def deploy():
     """
     job = sftpclone.SFTPClone(
         project_home + '/public/',
-        "{}:/foo/".format(sftphost),
+        "{}:/public/".format(sftphost),
         ssh_config_path=os.path.join("~", ".ssh", "config")
     )
     job.run()
