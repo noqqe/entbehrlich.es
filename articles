@@ -7,6 +7,7 @@ to post to twitter and release new posts
 # -*- coding: utf-8 -*-
 
 import os
+import logging
 import random as rnd
 import time
 import textwrap
@@ -29,7 +30,6 @@ import xmltodict
 from dateutil.parser import parse
 from sftpclone import sftpclone
 
-
 # Environment variables
 project_home = os.getcwd()
 posts_home = project_home + "/content/post/"
@@ -37,7 +37,6 @@ images_home = project_home + "/static/images/"
 feedurl = project_home + "/public/index.xml"
 hugocmd = "hugo"
 editor = os.getenv("EDITOR")
-
 
 # Commons API
 commonsapi = "https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image="
@@ -50,6 +49,9 @@ access_token_secret = "Dd8oGmYhXpMfGcFF3HdsqKO8iD2q902uuHFs7cUZI3HbI"
 
 # Hosts deployment
 sftphost ="entbehrlich.es"
+
+# Logging
+logging.basicConfig(level=logging.ERROR)
 
 # Logging
 def log(msg, serv="debug"):
