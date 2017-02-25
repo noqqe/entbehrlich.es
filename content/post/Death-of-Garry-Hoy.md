@@ -1,7 +1,7 @@
 ---
 title: Death of Garry Hoy
-date: 2017-02-16T14:00:58
-draft: true
+date: 2017-02-25T10:02:29
+draft: false
 image: /images/TD_Centre_View_from_Yonge_and_King.JPG
 imageauthor: Original uploader was <a href="https://en.wikipedia.org/wiki/User:SimonP" class="extiw" title="en:User:SimonP">SimonP</a> at <a class="external text" href="http://en.wikipedia.org">en.wikipedia</a>
 tags:
