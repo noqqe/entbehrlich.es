@@ -1,7 +1,7 @@
 ---
 title: Elwetritsch
-date: 2017-03-01T14:00:31
-draft: true
+date: 2017-03-02T07:42:23
+draft: false
 image: /images/ElwetritschDahn01.jpg
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Ramessos&amp;action=edit&amp;redlink=1" class="new" title="User:Ramessos (page does not exist)">Ramessos</a>
 tags:
