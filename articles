@@ -29,6 +29,8 @@ import feedparser
 import xmltodict
 from dateutil.parser import parse
 from sftpclone import sftpclone
+import facebook
+import frontmatter
 
 # Environment variables
 project_home = os.getcwd()
@@ -42,10 +44,14 @@ editor = os.getenv("EDITOR")
 commonsapi = "https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image="
 
 # Twitter credentials
-con_key = "aWoryvyvjQqV2aCDOyg6YJCJi"
-con_secret = "A8JhSSKM0996vjKV8NwKi8dvR2ApCfuRb6M8rRav6ctojhQcRk"
-access_token = "723558748581683201-QYcFL4pFqHxgflEjcxkeIE5BfMEI6JM"
-access_token_secret = "Dd8oGmYhXpMfGcFF3HdsqKO8iD2q902uuHFs7cUZI3HbI"
+tw_con_key = "aWoryvyvjQqV2aCDOyg6YJCJi"
+tw_con_secret = "A8JhSSKM0996vjKV8NwKi8dvR2ApCfuRb6M8rRav6ctojhQcRk"
+tw_access_token = "723558748581683201-QYcFL4pFqHxgflEjcxkeIE5BfMEI6JM"
+tw_access_token_secret = "Dd8oGmYhXpMfGcFF3HdsqKO8iD2q902uuHFs7cUZI3HbI"
+
+# Facebook credentials
+fb_page_id = "261895677571205"
+fb_access_token = "EAASqiPTBiV4BAN5Dh508I4JUmgstqyd4zZA1CZCv5wcuMuf4g8wTiMKQGlV0ZAdT5RYq3erjhYbLxDFNnPOZAQPLW9H3Lofmj2qQiKMTW4ZCtF3qZCyWz77thAx17anqynuo8fTkK5QYdZCfNzGPG8OLT10FOZAIq0oZD"
 
 # Hosts deployment
 sftphost ="entbehrlich.es"
@@ -360,11 +366,39 @@ def pull():
         return False
 
 
+def fbpost(feedurl, picture='https://entbehrlich.es/img/paper-logo.png'):
+    """
+    Post latest blogpost to facebook page from rss feed
+    :feedurl: str (path)
+    :returns: bool
+    """
+
+    feed = feedparser.parse(feedurl)
+    title = feed['entries'][0]['title']
+    link = feed['entries'][0]['link']
+
+    message = title
+
+    attachment = {
+        'name': title,
+        'link': link,
+        'description': '',
+        'picture': picture,
+    }
+
+    try:
+        graph = facebook.GraphAPI(fb_access_token)
+        graph.put_wall_post(profile_id=fb_page_id, message=message, attachment=attachment)
+        log("Posted \"%s\" to on Facebook wall" % message, "info")
+        return True
+    except:
+        log("Could not send Facebook post. Check debugging", "error")
+        return False
 
 def tweet(feedurl):
     """
     Tweet latest blogpost from rss feed
-    :feedurl: str (http uri)
+    :feedurl: str (path)
     :returns: bool
     """
 
@@ -375,10 +409,10 @@ def tweet(feedurl):
     message = title + " " + link
 
     auth = twitter.OAuth(
-        consumer_key=con_key,
-        consumer_secret=con_secret,
-        token=access_token,
-        token_secret=access_token_secret,
+        consumer_key=tw_con_key,
+        consumer_secret=tw_con_secret,
+        token=tw_access_token,
+        token_secret=tw_access_token_secret,
 	)
 
     try:
@@ -443,6 +477,9 @@ def new(url, date, thanks, debug):
     Creates quote from article with reference
     Adds thank you at the end of the article
     """
+
+    # pull from repo
+    pull()
 
     # needed in further building of article
     origurl = url
@@ -516,9 +553,6 @@ def new(url, date, thanks, debug):
     # edit file
     subprocess.call([editor, path])
 
-    # pull from repo
-    pull()
-
     # commit to local repo
     commit(filename, posts_home)
 
@@ -562,6 +596,10 @@ def release(post):
 
     """
 
+    # pull from remote repo
+    if not pull():
+        return False
+
     # if no specific post given, use a random one
     if post is None:
         log("Picking random post...", "debug")
@@ -572,10 +610,6 @@ def release(post):
             if 'draft: true' in open(posts_home + post).read():
                 log("Picked %s" % post, "info")
                 break
-
-    # pull from remote repo
-    if not pull():
-        return False
 
     # remove draft
     if not publish(post):
@@ -599,6 +633,10 @@ def release(post):
 
     # tweet the new post
     if not tweet(feedurl):
+        return False
+
+    # tweet the new post
+    if not fbpost(feedurl):
         return False
 
     return True
