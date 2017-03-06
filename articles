@@ -30,7 +30,6 @@ import xmltodict
 from dateutil.parser import parse
 from sftpclone import sftpclone
 import facebook
-import frontmatter
 
 # Environment variables
 project_home = os.getcwd()
