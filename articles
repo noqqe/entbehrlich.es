@@ -28,7 +28,6 @@ import twitter
 import feedparser
 import xmltodict
 from dateutil.parser import parse
-from sftpclone import sftpclone
 import facebook
 
 # Environment variables
@@ -53,7 +52,7 @@ fb_page_id = "261895677571205"
 fb_access_token = "EAASqiPTBiV4BAN5Dh508I4JUmgstqyd4zZA1CZCv5wcuMuf4g8wTiMKQGlV0ZAdT5RYq3erjhYbLxDFNnPOZAQPLW9H3Lofmj2qQiKMTW4ZCtF3qZCyWz77thAx17anqynuo8fTkK5QYdZCfNzGPG8OLT10FOZAIq0oZD"
 
 # Hosts deployment
-sftphost ="entbehrlich.es"
+rsynccmd = "/usr/local/bin/rsync -avi --delete --iconv=utf-8-mac,utf-8 %s/public/ entbehrlich.es:/var/www/htdocs/entbehrlich.es/public/" % project_home
 
 # Logging
 logging.basicConfig(level=logging.ERROR)
@@ -267,24 +266,22 @@ def build(hugocmd):
         log("Blog compiling failed: \n %s" % output, "error")
         return False
 
-def deploy():
+def deploy(rsynccmd):
     """
     Uses rsync to deploy the build to the serving http server
 
     :returns: bool
     """
-    log("Deploying blog using sftp...", "debug")
-    log("This can take several minutes...", "debug")
+    log("Deploying blog using rsync...", "debug")
 
-    job = sftpclone.SFTPClone(
-        project_home + '/public/',
-        "{}:/public/".format(sftphost),
-        ssh_config_path=os.path.join("~", ".ssh", "config")
-    )
-    job.run()
+    status, output = subprocess.getstatusoutput(rsynccmd)
 
-    log("Blog deployment successful", "info")
-    return True
+    if status == 0:
+        log("Blog deployment successful", "info")
+        return True
+    else:
+        log("Blog deployment failed: \n %s" % output, "error")
+        return False
 
 def publish(post):
     """
@@ -627,7 +624,7 @@ def release(post):
         return False
 
     # deploy to server
-    if not deploy():
+    if not deploy(rsynccmd):
         return False
 
     # tweet the new post
@@ -652,7 +649,7 @@ def redeploy():
     build(hugocmd)
 
     # build deploy to server
-    deploy()
+    deploy(rsynccmd)
 
     return True
 
