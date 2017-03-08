@@ -1,7 +1,7 @@
 ---
 title: Tittytainment
-date: 2017-03-01T14:00:00
-draft: true
+date: 2017-03-08T11:26:43
+draft: false
 tags:
 - Globalisierungskritischer Begriff
 - Medienkritik
