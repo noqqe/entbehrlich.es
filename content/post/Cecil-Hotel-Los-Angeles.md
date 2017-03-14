@@ -1,7 +1,7 @@
 ---
 title: Cecil Hotel (Los Angeles)
-date: 2017-03-01T14:00:45
-draft: true
+date: 2017-03-14T14:10:07
+draft: false
 tags:
 - Buildings and structures in Downtown Los Angeles
 - Crimes in Los Angeles
