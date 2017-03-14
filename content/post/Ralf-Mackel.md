@@ -3,7 +3,7 @@ title: Ralf Mackel
 date: 2017-03-14T14:00:26
 draft: true
 author: noqqe
-thanks: [palimphread](https://twitter.com/palimphread)
+thanks: palimphread
 tags:
 - Behindertensportler (Deutschland)
 - Deutscher

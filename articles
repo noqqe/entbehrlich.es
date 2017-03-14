@@ -140,7 +140,7 @@ def gen_article_image(images, debug):
     return final_image, author
 
 # Article generators
-def gen_article_meta(title, date, tags, image, imageauthor):
+def gen_article_meta(title, date, tags, image, imageauthor, thanks=None, author=None):
     """
     Make a blog post header like
     ---
@@ -149,6 +149,7 @@ def gen_article_meta(title, date, tags, image, imageauthor):
     draft: false
     image: /images/foo.jpg
     imageauthor: h0nk
+    thanks: user
     tags:
     - foo
     - bar
@@ -170,6 +171,12 @@ def gen_article_meta(title, date, tags, image, imageauthor):
     if image is not None:
         header = header + "image: " + image + n
         header = header + "imageauthor: " + imageauthor + n
+
+    if author is not None:
+        header = header + "author: " + author + n
+
+    if thanks is not None:
+        header = header + "thanks: " + thanks + n
 
     header = header + "tags: "
     for tag in tags:
@@ -220,7 +227,6 @@ def gen_article_thanks(thanks):
     :returns: str
     """
     if thanks is not None:
-        log("Thanks to %s was added to article" % thanks, "info")
         txt = "Danke an %s!" % gen_markdown_link(url="https://twitter.com/" + thanks, txt=thanks)
     else:
         txt = ""
@@ -464,7 +470,8 @@ def cli():
 @click.option('date', '-d', '--date', default=str(datetime.datetime.now()))
 @click.option('thanks', '-t', '--thanks', default=None)
 @click.option('debug', '--debug', is_flag=True, default=False)
-def new(url, date, thanks, debug):
+@click.option('author', '-a', '--author', default=os.getenv("USER"))
+def new(url, date, thanks, debug, author):
     """
     \b
     Create new post.
@@ -515,22 +522,16 @@ def new(url, date, thanks, debug):
     image, imageauthor = gen_article_image(images, debug)
 
     # generate header for article
-    header = gen_article_meta(title=title, date=t, tags=tags, image=image, imageauthor=imageauthor)
+    header = gen_article_meta(title=title, date=t, tags=tags, image=image, imageauthor=imageauthor, thanks=thanks, author=author)
 
     # generate quote for article
     quote = gen_article_quote(summary=summary, title=title, url=origurl)
-
-    # generate thank you section for posted article
-    thanks = gen_article_thanks(thanks)
-
 
     # put all the content together
     text = \
         header + \
         n + n + \
-        quote + \
-        n + n + \
-        thanks
+        quote + n
 
     # if debug is on, just print and quit the function.
     # no edit, no commit, no file written

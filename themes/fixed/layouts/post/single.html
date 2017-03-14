@@ -11,10 +11,21 @@
         {{ if isset .Params "image" }}
           <img src="{{ .Params.image }}">
           <br/>
-          <div class="imagemeta">Bild von {{ .Params.imageauthor | safeHTML }}</span>
-          <br/>
-          <br/>
         {{ end }}
+
+        <div class="articlemeta">
+        {{ if isset .Params "author" }}
+        Autor: <b>{{ .Params.author }}</b>
+        {{ else }}
+        Autor: <b>noqqe</b>
+        {{ end }}
+        {{ if isset .Params "thanks" }}
+        via <b><a href="https://twitter.com/{{ .Params.thanks }}">{{ .Params.thanks }}</a></b>
+        {{ end }}
+        {{ if isset .Params "imageauthor" }}
+        Bild: <b>{{ .Params.imageauthor | safeHTML }}</b>
+        {{ end }}
+        </div>
 
     </div>
   </div>
