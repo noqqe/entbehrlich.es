@@ -4,15 +4,17 @@ title: About
 type: page
 ---
 
-Ich ([@noqqe](https://twitter.com/noqqe)) lese seit einiger Zeit viel
-Wikipedia. Das habe ich mir aus unerfindlichen Gründen vorgenommen. Dieser
-Blog ist eine Art Experiment, bei dem ich versuche alle 2-3 Tage einen
-lesenswerten Artikel zu posten und (ganz kurz) einzuleiten warum ich ihn
-gewählt habe.
+Wir ([noqqe](https://twitter.com/noqqe) und
+[nico](https://twitter.com/palimphread)) lesen viel Wikipedia.
+Dieser Blog ist eine Art Experiment, bei dem wir versuchen alle 2-3 Tage
+einen lesenswerten Artikel zu posten und (ganz kurz) einzuleiten warum wir
+ihn gewählt haben.
 
-Die Themen sind wild gestreut. Mich interessiert obskures,
-wissenschaftliches, Dinge aus der IT. Generell bin ich an Allem interessiert.
-Außer [Apostellöffel](https://de.wikipedia.org/wiki/Apostellöffel). Die sind doof.
+Die Themen sind wild gestreut. Uns interessieren so alles an nutzlosem,
+entbehrlichem Wissen, welches aber mitunter amüsant, bizarr und meist auch
+interessant ist. Generell bleibt wahrscheinlich kein Thema unberührt. Außer
+[Apostellöffel](https://de.wikipedia.org/wiki/Apostellöffel). Die sind
+doof.
 
 ### Entbehrlich.es?
 
