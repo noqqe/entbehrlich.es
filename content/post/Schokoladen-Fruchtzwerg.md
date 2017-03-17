@@ -7,7 +7,7 @@ tags:
 - Blattnasen
 ---
 
-Aus der Kategorie "Ungewöhnliche Fledermausgattungsnamen"
+Aus der Kategorie "Ungewöhnliche Fledermausartennamen"
 
 > Der Schokoladen-Fruchtzwerg (Enchisthenes hartii) ist die einzige Art der
 > Gattung Enchisthenes aus der Unterfamilie der Fruchtvampire der Fledermäuse.
