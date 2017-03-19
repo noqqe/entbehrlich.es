@@ -1,7 +1,7 @@
 ---
 title: Death of Elisa Lam
-date: 2017-03-01T14:00:32
-draft: true
+date: 2017-03-19T16:03:41
+draft: false
 image: /images/Cecil_Hotel,_L.A.jpg
 imageauthor: <a rel="nofollow" class="external text" href="https://www.flickr.com/photos/jimwinstead/">Jim Winstead</a>
 tags:
