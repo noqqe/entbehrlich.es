@@ -1,7 +1,7 @@
 ---
 title: Männerparkplatz (Triberg)
-date: 2017-03-20T14:00:54
-draft: true
+date: 2017-03-24T08:57:33
+draft: false
 image: /images/TRIORANG.jpg
 imageauthor: Gemeinde Triberg
 author: nico
