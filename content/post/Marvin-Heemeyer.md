@@ -3,14 +3,13 @@ title: Marvin Heemeyer
 date: 2017-03-28T09:12:46
 draft: false
 author: nico
-tags: 
+tags:
 - 1951 births
 - 2004 crimes in the United States
 - 2004 deaths
 - American criminals
 - Articles with hCards
 - Attacks in the United States in 2004
-- CS1 maint: BOT: original-url status unknown
 - Criminals who committed suicide
 - Improvised armoured fighting vehicles
 - Pages containing links to subscription-only content
