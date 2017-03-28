@@ -1,7 +1,7 @@
 ---
 title: Marvin Heemeyer
-date: 2017-03-26T14:00:08
-draft: true
+date: 2017-03-28T09:12:46
+draft: false
 author: nico
 tags: 
 - 1951 births
