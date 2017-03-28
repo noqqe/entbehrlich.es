@@ -1,6 +1,6 @@
 ---
 title: Marvin Heemeyer
-date: 2017-03-28T09:12:46
+date: 2017-03-28T09:14:17
 draft: false
 author: nico
 tags:
