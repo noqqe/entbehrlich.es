@@ -391,19 +391,17 @@ def fbpost(feedurl, picture='https://entbehrlich.es/img/paper-logo.png'):
     desc = BeautifulSoup(desc, "html.parser").find_all('p')[0].text
     desc = desc.replace('\n','')
 
-    message = title
-
     attachment = {
-        'name': desc,
+        'name': title,
         'link': link,
-        'description': 'Entbehrliches Wissen aus der Wikipedia',
+        'description': '',
         'picture': picture,
     }
 
     try:
         graph = facebook.GraphAPI(fb_access_token)
-        graph.put_wall_post(profile_id=fb_page_id, message=message, attachment=attachment)
-        log("Posted \"%s\" to on Facebook wall" % message, "info")
+        graph.put_wall_post(profile_id=fb_page_id, message=desc, attachment=attachment)
+        log("Posted \"%s\" to on Facebook wall" % title, "info")
         return True
     except:
         log("Could not send Facebook post. Check debugging", "error")
