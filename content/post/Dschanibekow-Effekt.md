@@ -1,7 +1,7 @@
 ---
 title: Dschanibekow Effekt
-date: 2017-03-26T14:00:51
-draft: true
+date: 2017-03-29T10:15:09
+draft: false
 author: nico
 tags: 
 - Klassische Mechanik
