@@ -29,6 +29,11 @@ import feedparser
 import xmltodict
 from dateutil.parser import parse
 import facebook
+from bs4 import BeautifulSoup
+
+# fucking warnings that i cannot control (wikipedia lib)
+import warnings
+warnings.filterwarnings("ignore")
 
 # Environment variables
 project_home = os.getcwd()
@@ -379,12 +384,19 @@ def fbpost(feedurl, picture='https://entbehrlich.es/img/paper-logo.png'):
     title = feed['entries'][0]['title']
     link = feed['entries'][0]['link']
 
+    # get description from feed url
+    # the goal is to find the html <p> that contains the description
+    # added by me. not the wikipedia quote.
+    desc = feed['entries'][0]['summary']
+    desc = BeautifulSoup(desc, "html.parser").find_all('p')[0].text
+    desc = desc.replace('\n','')
+
     message = title
 
     attachment = {
-        'name': title,
+        'name': desc,
         'link': link,
-        'description': '',
+        'description': 'Entbehrliches Wissen aus der Wikipedia',
         'picture': picture,
     }
 
@@ -408,7 +420,18 @@ def tweet(feedurl):
     title = feed['entries'][0]['title']
     link = feed['entries'][0]['link']
 
-    message = title + " " + link
+    # get description from feed url
+    # the goal is to find the html <p> that contains the description
+    # added by me. not the wikipedia quote.
+    desc = feed['entries'][0]['summary']
+    desc = BeautifulSoup(desc, "html.parser").find_all('p')[0].text
+    desc = desc.replace('\n','')
+
+    # if desc too long, cut it for twitter
+    if len(desc) > 110:
+        desc = desc[:107] + '...'
+
+    message = desc + " " + link
 
     auth = twitter.OAuth(
         consumer_key=tw_con_key,
