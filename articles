@@ -394,7 +394,7 @@ def fbpost(feedurl, picture='https://entbehrlich.es/img/paper-logo.png'):
     attachment = {
         'name': title,
         'link': link,
-        'description': '',
+        'description': 'Entbehrliches Wissen aus der Wikipedia',
         'picture': picture,
     }
 
