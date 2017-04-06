@@ -1,7 +1,7 @@
 ---
 title: Brieftaubenfotografie
-date: 2017-04-04T14:00:02
-draft: true
+date: 2017-04-06T10:15:41
+draft: false
 image: /images/Patent_DE204721,_page_3.png
 imageauthor: Julius Neubronner (1852–1932)
 author: nico
