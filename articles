@@ -623,11 +623,17 @@ def release(post):
         log("Picking random post...", "debug")
         posts = os.listdir(posts_home)
 
-        while True:
+        c = 0
+        while c <= len(posts):
+            c = c + 1
             post = rnd.choice(posts)
             if 'draft: true' in open(posts_home + post).read():
                 log("Picked %s" % post, "info")
                 break
+
+    if c > len(posts):
+        log("No post left in queue. Write new ones!", "error")
+        return False
 
     # remove draft
     if not publish(post):
