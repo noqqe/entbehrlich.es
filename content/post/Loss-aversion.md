@@ -1,7 +1,7 @@
 ---
 title: Loss aversion
-date: 2017-04-06T14:00:45
-draft: true
+date: 2017-04-07T09:12:05
+draft: false
 author: noqqe
 tags:
 - Behavioral finance
