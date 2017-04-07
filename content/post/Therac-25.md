@@ -1,11 +1,10 @@
 ---
 title: Therac 25
-date: 2017-04-06T14:00:39
-draft: true
+date: 2017-04-07T09:12:37
+draft: false
 author: noqqe
 thanks: DrAzraelTod
 tags:
-- CS1 maint: Multiple names: authors list
 - Engineering failures
 - Health disasters
 - Health disasters in Canada
