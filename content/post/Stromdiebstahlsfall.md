@@ -1,7 +1,7 @@
 ---
 title: Stromdiebstahlsfall
-date: 2017-04-06T14:00:29
-draft: true
+date: 2017-04-10T07:20:18
+draft: false
 author: nico
 tags: 
 - 1899
