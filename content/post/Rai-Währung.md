@@ -1,7 +1,7 @@
 ---
 title: Rai (Währung)
-date: 2017-04-06T14:00:26
-draft: true
+date: 2017-04-12T07:51:19
+draft: false
 image: /images/Yap_Stone_Money.jpg
 imageauthor: <a href="https://en.wikipedia.org/wiki/User:Marshman" class="extiw" title="en:User:Marshman">Eric Guinther</a>
 author: nico
