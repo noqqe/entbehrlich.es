@@ -1,7 +1,7 @@
 ---
 title: Malbolge
-date: 2017-04-06T14:00:58
-draft: true
+date: 2017-04-17T08:23:35
+draft: false
 author: noqqe
 tags:
 - CS1 Japanese-language sources (ja)
