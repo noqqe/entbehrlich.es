@@ -1,7 +1,7 @@
 ---
 title: List of nicknames used by George W. Bush
-date: 2017-04-06T14:00:39
-draft: true
+date: 2017-04-19T07:34:58
+draft: false
 author: noqqe
 tags:
 - All accuracy disputes
