@@ -29,7 +29,6 @@ import feedparser
 import xmltodict
 from dateutil.parser import parse
 import facebook
-from bs4 import BeautifulSoup
 
 # fucking warnings that i cannot control (wikipedia lib)
 import warnings
@@ -388,7 +387,7 @@ def fbpost(feedurl, picture='https://entbehrlich.es/img/paper-logo.png'):
     # the goal is to find the html <p> that contains the description
     # added by me. not the wikipedia quote.
     desc = feed['entries'][0]['summary']
-    desc = BeautifulSoup(desc, "html.parser").find_all('p')[0].text
+    desc = desc.split('\n')[0]
     desc = desc.replace('\n','')
 
     attachment = {
@@ -422,7 +421,7 @@ def tweet(feedurl):
     # the goal is to find the html <p> that contains the description
     # added by me. not the wikipedia quote.
     desc = feed['entries'][0]['summary']
-    desc = BeautifulSoup(desc, "html.parser").find_all('p')[0].text
+    desc = desc.split('\n')[0]
     desc = desc.replace('\n','')
 
     # if desc too long, cut it for twitter
