@@ -631,9 +631,9 @@ def release(post):
                 log("Picked %s" % post, "info")
                 break
 
-    if c > len(posts):
-        log("No post left in queue. Write new ones!", "error")
-        return False
+        if c > len(posts):
+            log("No post left in queue. Write new ones!", "error")
+            return False
 
     # remove draft
     if not publish(post):
