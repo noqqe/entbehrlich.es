@@ -1,7 +1,7 @@
 ---
 title: Alkalische Hydrolyse (Bestattungsart)
-date: 2017-04-04T14:00:54
-draft: true
+date: 2017-04-23T09:59:40
+draft: false
 author: nico
 tags:
 - Bestattungsart
