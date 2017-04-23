@@ -3,11 +3,14 @@ title: Alkalische Hydrolyse (Bestattungsart)
 date: 2017-04-23T09:48:17
 draft: false
 author: nico
-tags: 
+tags:
 - Bestattungsart
 ---
 
-Manche Menschen wollen, dass ihre Asche auf dem Rasen ihres Lieblingsvereins verstreut wird. Oder ins Weltraum geschossen. Seit neuestem kann man auch einfach bedenkenlos über den Abfluss entsorgt werden.
+Manche Menschen wollen, dass ihre Asche auf dem Rasen ihres
+Lieblingsvereins verstreut wird. Oder ins Weltraum geschossen. Seit
+neuestem kann man auch einfach bedenkenlos über den Abfluss entsorgt
+werden.
 
 > Die alkalische Hydrolyse (englisch resomation) ist eine Bestattungsmethode,
 > bei der der zu bestattende Leichnam durch die Einwirkung einer starken Lauge
