@@ -1,7 +1,7 @@
 ---
 title: Vespa 150 TAP
-date: 2017-04-06T14:00:59
-draft: true
+date: 2017-04-25T08:00:45
+draft: false
 image: /images/Vespa_militare2.JPG
 imageauthor: C. Galliani
 author: nico
