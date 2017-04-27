@@ -368,7 +368,7 @@ def pull():
         log("Pulled content from remote repository", "info")
         return True
     except:
-        log("Failed to pull state from remote repository" % post, "error")
+        log("Failed to pull state from remote repository", "error")
         return False
 
 
