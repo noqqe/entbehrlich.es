@@ -1,7 +1,7 @@
 ---
 title: Bliss (image)
-date: 2017-04-04T14:00:41
-draft: true
+date: 2017-05-07T09:59:28
+draft: false
 image: /images/Bliss_location,_Sonoma_Valley_in_2006.jpg
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Simon_Goldin&amp;action=edit&amp;redlink=1" class="new" title="User:Simon Goldin (page does not exist)">Simon Goldin</a>
 author: nico
