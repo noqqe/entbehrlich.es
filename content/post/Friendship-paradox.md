@@ -1,9 +1,9 @@
 ---
 title: Friendship paradox
 date: 2017-05-09T07:55:55
-draft: false
+draft: true
 author: nico
-tags: 
+tags:
 - Graph theory
 - Social networks
 - Statistical paradoxes
