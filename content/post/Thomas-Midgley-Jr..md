@@ -1,7 +1,7 @@
 ---
 title: Thomas Midgley Jr.
-date: 2017-05-07T14:00:45
-draft: true
+date: 2017-05-09T07:56:02
+draft: false
 image: /images/EthylCorporationSign.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Plazak" title="User:Plazak">Plazak</a>
 author: noqqe
