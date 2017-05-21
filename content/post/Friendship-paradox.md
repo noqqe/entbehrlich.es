@@ -1,7 +1,7 @@
 ---
 title: Friendship paradox
-date: 2017-05-09T07:55:55
-draft: true
+date: 2017-05-21T09:32:11
+draft: false
 author: nico
 tags:
 - Graph theory
