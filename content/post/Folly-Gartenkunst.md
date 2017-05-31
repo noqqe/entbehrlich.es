@@ -1,7 +1,7 @@
 ---
 title: Folly (Gartenkunst)
-date: 2017-05-15T14:00:23
-draft: true
+date: 2017-05-31T08:28:02
+draft: false
 image: /images/Small_Gloriette_-_Schönbrunn_Palace.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:MrPanyGoff" title="User:MrPanyGoff">MrPanyGoff</a>
 author: nico
