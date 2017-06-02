@@ -1,7 +1,7 @@
 ---
 title: Vierte Wand
-date: 2017-05-15T14:00:57
-draft: true
+date: 2017-06-02T09:19:42
+draft: false
 image: /images/Comicstrip.png
 imageauthor: <a href="https://de.wikipedia.org/wiki/User:Neitram" class="extiw" title="de:User:Neitram">Neitram</a> at <a href="https://de.wikipedia.org/wiki/" class="extiw" title="de:">German Wikipedia</a>
 author: nico
