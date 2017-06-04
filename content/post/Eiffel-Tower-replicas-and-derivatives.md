@@ -1,7 +1,7 @@
 ---
 title: Eiffel Tower replicas and derivatives
-date: 2017-05-15T14:00:57
-draft: true
+date: 2017-06-04T09:18:45
+draft: false
 image: /images/Bloemfontein-Eiffel_Tower-001.JPG
 imageauthor: Rute Martins of Leoa's Photography (<a rel="nofollow" class="external text" href="http://www.leoa.co.za">www.leoa.co.za</a>)
 author: nico
