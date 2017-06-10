@@ -1,7 +1,7 @@
 ---
 title: Wikipedia:Humorarchiv
-date: 2017-06-08T14:00:30
-draft: true
+date: 2017-06-10T09:09:40
+draft: false
 author: fnbaum
 tags:
 - Wikipedia:Humorarchiv
