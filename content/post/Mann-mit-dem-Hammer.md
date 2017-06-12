@@ -1,7 +1,7 @@
 ---
 title: Mann mit dem Hammer
-date: 2017-06-07T14:00:00
-draft: true
+date: 2017-06-12T07:14:06
+draft: false
 image: /images/Boston_marathon_mile_25_helper_050418.jpg
 imageauthor: <a href="https://en.wikipedia.org/wiki/User:Pingswept" class="extiw" title="w:User:Pingswept">Pingswept</a>
 author: fnbaum
