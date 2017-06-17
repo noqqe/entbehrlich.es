@@ -2,7 +2,7 @@
 title: Effect of psychoactive drugs on animals
 date: 2017-06-16T14:00:13
 draft: true
-author: fnbaum
+author: noqqe
 thanks: codingCorby
 tags:
 - All articles with unsourced statements

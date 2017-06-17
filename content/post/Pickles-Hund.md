@@ -2,7 +2,7 @@
 title: Pickles (Hund)
 date: 2017-03-30T07:33:56
 draft: false
-author: fnbaum
+author: noqqe
 tags:
 - Fußball-Weltmeisterschaft 1966
 - Individueller Haushund

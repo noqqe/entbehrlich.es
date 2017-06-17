@@ -2,7 +2,7 @@
 title: Wikipedia:Humorarchiv
 date: 2017-06-10T09:09:40
 draft: false
-author: fnbaum
+author: noqqe
 tags:
 - Wikipedia:Humorarchiv
 ---

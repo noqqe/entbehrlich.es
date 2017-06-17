@@ -4,7 +4,7 @@ date: 2017-06-16T08:30:20
 draft: false
 image: /images/Greenland_edcp_relief_location_map.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Uwe_Dedering" title="User:Uwe Dedering">Uwe Dedering</a>
-author: fnbaum
+author: noqqe
 tags:
 - Beziehungen zwischen Dänemark und den Vereinigten Staaten
 - Flugunfall 1968

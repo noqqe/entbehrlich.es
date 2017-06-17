@@ -2,7 +2,7 @@
 title: Lambert Simnel
 date: 2017-06-14T09:57:25
 draft: false
-author: fnbaum
+author: noqqe
 tags:
 - Engländer
 - Geboren im 15. Jahrhundert

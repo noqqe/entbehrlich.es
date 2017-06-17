@@ -2,7 +2,7 @@
 title: Potoooooooo
 date: 2017-05-26T09:58:22
 draft: false
-author: fnbaum
+author: noqqe
 thanks: codingcorby
 tags:
 - 1773 racehorse births

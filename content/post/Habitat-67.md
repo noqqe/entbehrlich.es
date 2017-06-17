@@ -4,7 +4,7 @@ date: 2017-06-01T14:00:44
 draft: true
 image: /images/Habitat_panorama.jpg
 imageauthor: <a href="https://en.wikipedia.org/wiki/User:Vassgergely" class="extiw" title="wikipedia:User:Vassgergely">Vassgergely</a> at <a href="https://en.wikipedia.org/wiki/" class="extiw" title="wikipedia:">English Wikipedia</a>
-author: fnbaum
+author: noqqe
 thanks: minorGC
 tags:
 - Bauwerk der Moderne in Kanada

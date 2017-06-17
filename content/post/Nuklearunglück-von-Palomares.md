@@ -2,7 +2,7 @@
 title: Nuklearunglück von Palomares
 date: 2017-05-11T14:00:59
 draft: true
-author: fnbaum
+author: noqqe
 tags:
 - Flugunfall 1966
 - Flugunfall in Spanien

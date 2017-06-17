@@ -2,7 +2,7 @@
 title: Adolf Leib
 date: 2017-06-07T14:00:40
 draft: true
-author: fnbaum
+author: noqqe
 tags:
 - Deutscher
 - Geboren 1900
