@@ -1,7 +1,7 @@
 ---
 title: Hans Insel
-date: 2017-06-08T14:00:01
-draft: true
+date: 2017-06-24T22:52:31
+draft: false
 image: /images/Greenland_edcp_relief_location_map.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Uwe_Dedering" title="User:Uwe Dedering">Uwe Dedering</a>
 author: noqqe
