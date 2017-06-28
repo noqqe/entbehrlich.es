@@ -1,7 +1,7 @@
 ---
 title: Friendly Floatees
-date: 2017-06-16T14:00:04
-draft: true
+date: 2017-06-28T07:50:21
+draft: false
 image: /images/Friendly_Floatees.png
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:NordNordWest" title="User:NordNordWest">NordNordWest</a>
 author: noqqe
