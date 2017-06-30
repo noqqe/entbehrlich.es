@@ -1,7 +1,7 @@
 ---
 title: Blutgruppendiät
-date: 2017-06-17T14:00:22
-draft: true
+date: 2017-06-30T08:30:16
+draft: false
 author: noqqe
 tags:
 - Diät
