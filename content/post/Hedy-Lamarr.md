@@ -1,7 +1,7 @@
 ---
 title: Hedy Lamarr
-date: 2017-04-04T14:00:56
-draft: true
+date: 2017-07-03T08:12:06
+draft: false
 image: /images/Wiener_Zentralfriedhof_-_Gruppe_33_G_-_Grab_von_Hedy_Lamarr.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Haeferl" title="User:Haeferl">Haeferl</a>
 author: nico
