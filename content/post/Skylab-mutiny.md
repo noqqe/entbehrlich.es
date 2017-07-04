@@ -1,7 +1,7 @@
 ---
 title: Skylab mutiny
-date: 2017-06-16T14:00:21
-draft: true
+date: 2017-07-04T08:05:16
+draft: false
 author: nico
 tags: 
 - 1973 in spaceflight
