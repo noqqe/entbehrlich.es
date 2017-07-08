@@ -1,7 +1,7 @@
 ---
 title: Habitat 67
-date: 2017-06-01T14:00:44
-draft: true
+date: 2017-07-08T08:00:18
+draft: false
 image: /images/Habitat_panorama.jpg
 imageauthor: <a href="https://en.wikipedia.org/wiki/User:Vassgergely" class="extiw" title="wikipedia:User:Vassgergely">Vassgergely</a> at <a href="https://en.wikipedia.org/wiki/" class="extiw" title="wikipedia:">English Wikipedia</a>
 author: noqqe
