@@ -1,7 +1,7 @@
 ---
 title: Mehran Karimi Nasseri
-date: 2017-06-17T14:00:20
-draft: true
+date: 2017-07-10T09:20:02
+draft: false
 author: noqqe
 tags:
 - Geboren 1942
