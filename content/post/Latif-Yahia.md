@@ -1,7 +1,7 @@
 ---
 title: Latif Yahia
-date: 2017-06-26T14:00:16
-draft: true
+date: 2017-07-11T07:50:59
+draft: false
 author: fnbaum
 tags:
 - Geboren 1964
