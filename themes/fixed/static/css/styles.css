@@ -79,6 +79,12 @@ a:focus { color: black; }
 a:hover { color: #393D54; }
 a:active { color: black; }
 
+/* anti spam from the 90s */
+code.rev {
+  direction: rtl;
+  unicode-bidi:bidi-override;
+}
+
 /* -----------------------
 Layout styles
 ------------------------*/
