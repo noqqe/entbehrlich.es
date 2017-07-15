@@ -14,7 +14,7 @@ Angaben gemäß § 5 TMG:
 
 Kontakt:
 
-E-Mail: flo@noqqe.de
+E-Mail: <code class="rev">ed.eqqon@olf</code>
 
 Quelle: eRecht24, Rechtsanwalt für Internetrecht Sören Siebert
 
