@@ -1,7 +1,7 @@
 ---
 title: Nagelhaus
-date: 2017-07-13T14:00:39
-draft: true
+date: 2017-07-17T08:54:33
+draft: false
 image: /images/Pierre_Haubensak,_Netzwerk_2011,_Nagelhaus_Zürich-West.JPG
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Pascale.gmuer&amp;action=edit&amp;redlink=1" class="new" title="User:Pascale.gmuer (page does not exist)">Pascale.gmuer</a>
 author: fnbaum
