@@ -1,7 +1,7 @@
 ---
 title: Siege of Baler
-date: 2017-06-17T14:00:44
-draft: true
+date: 2017-08-13T11:04:46
+draft: false
 image: /images/Baler,_Aurora_-_Saint_Louis_Church.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Ramon_FVelasquez" title="User:Ramon FVelasquez">Ramon FVelasquez</a>
 author: noqqe
