@@ -1,7 +1,7 @@
 ---
 title: Frane Selak
-date: 2017-06-26T14:00:54
-draft: true
+date: 2017-08-16T07:44:54
+draft: false
 author: fnbaum
 tags:
 - 1920s births
