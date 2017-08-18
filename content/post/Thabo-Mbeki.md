@@ -1,7 +1,7 @@
 ---
 title: Thabo Mbeki
-date: 2017-07-14T14:00:18
-draft: true
+date: 2017-08-18T09:14:29
+draft: false
 image: /images/SthAfrica.ThaboMbeki.01.jpg
 imageauthor: Antônio Milena/ABr
 author: noqqe
