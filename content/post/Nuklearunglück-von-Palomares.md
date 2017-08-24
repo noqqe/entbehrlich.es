@@ -1,7 +1,7 @@
 ---
 title: Nuklearunglück von Palomares
-date: 2017-05-11T14:00:59
-draft: true
+date: 2017-08-24T09:04:01
+draft: false
 author: noqqe
 tags:
 - Flugunfall 1966
