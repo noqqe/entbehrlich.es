@@ -1,7 +1,7 @@
 ---
 title: Tanzwut
-date: 2017-07-15T14:00:43
-draft: true
+date: 2017-08-26T09:55:59
+draft: false
 author: noqqe
 tags:
 - Geschichte der Psychiatrie
