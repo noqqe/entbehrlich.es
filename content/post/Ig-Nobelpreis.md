@@ -1,7 +1,7 @@
 ---
 title: Ig Nobelpreis
-date: 2017-08-17T14:00:57
-draft: true
+date: 2017-09-01T09:07:01
+draft: false
 author: fnbaum
 thanks: CodingCorby
 tags:
