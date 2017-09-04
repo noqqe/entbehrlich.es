@@ -1,7 +1,7 @@
 ---
 title: Tom Simpson (Radsportler)
-date: 2017-07-13T14:00:27
-draft: true
+date: 2017-09-04T13:23:24
+draft: false
 author: fnbaum
 tags:
 - Brite
