@@ -1,7 +1,7 @@
 ---
 title: Swaffelen
-date: 2017-08-14T14:00:16
-draft: true
+date: 2017-09-06T14:16:44
+draft: false
 author: noqqe
 tags:
 - All articles with unsourced statements
