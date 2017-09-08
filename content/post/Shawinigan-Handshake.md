@@ -1,7 +1,7 @@
 ---
 title: Shawinigan Handshake
-date: 2017-06-17T14:00:39
-draft: true
+date: 2017-09-08T09:06:57
+draft: false
 author: noqqe
 tags:
 - 1996 in Canadian politics
