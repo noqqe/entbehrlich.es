@@ -1,7 +1,7 @@
 ---
 title: Bir Tawil
-date: 2017-06-17T14:00:48
-draft: true
+date: 2017-09-12T14:43:41
+draft: false
 author: noqqe
 tags:
 - All articles needing additional references
