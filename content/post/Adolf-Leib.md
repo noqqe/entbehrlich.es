@@ -1,7 +1,7 @@
 ---
 title: Adolf Leib
-date: 2017-06-07T14:00:40
-draft: true
+date: 2017-09-14T14:19:18
+draft: false
 author: noqqe
 tags:
 - Deutscher
