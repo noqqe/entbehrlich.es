@@ -1,7 +1,7 @@
 ---
 title: Ostalgie
-date: 2017-07-19T14:00:59
-draft: true
+date: 2017-09-16T08:53:25
+draft: false
 image: /images/Ampelmännchen_in_Berlin.JPG
 imageauthor: Elkawe
 author: fnbaum
