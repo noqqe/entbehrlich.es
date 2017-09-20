@@ -1,7 +1,7 @@
 ---
 title: Eh’häusl
-date: 2017-07-14T14:00:54
-draft: true
+date: 2017-09-20T12:27:51
+draft: false
 image: /images/Amberg_Eh-haeusl.jpg
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Orzowei&amp;action=edit&amp;redlink=1" class="new" title="User:Orzowei (page does not exist)">Orzowei</a>
 author: noqqe
