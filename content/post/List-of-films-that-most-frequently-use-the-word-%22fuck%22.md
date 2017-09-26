@@ -1,7 +1,7 @@
 ---
 title: List of films that most frequently use the word %22fuck%22
-date: 2017-06-16T14:00:03
-draft: true
+date: 2017-09-26T07:21:31
+draft: false
 author: noqqe
 tags:
 - All articles lacking reliable references
