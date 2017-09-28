@@ -1,7 +1,7 @@
 ---
 title: Pedro Alonso López
-date: 2017-09-28T14:00:18
-draft: true
+date: 2017-09-28T08:08:16
+draft: false
 author: fnbaum
 tags:
 - Geboren 1948
