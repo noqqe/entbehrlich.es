@@ -2,7 +2,7 @@
 title: Ig Nobelpreis
 date: 2017-09-01T09:07:01
 draft: false
-author: fnbaum
+author: noqqe
 thanks: CodingCorby
 tags:
 - Erstverleihung 1991

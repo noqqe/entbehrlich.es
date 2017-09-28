@@ -2,7 +2,7 @@
 title: Pedro Alonso López
 date: 2017-09-28T08:08:16
 draft: false
-author: fnbaum
+author: noqqe
 tags:
 - Geboren 1948
 - Kolumbianer

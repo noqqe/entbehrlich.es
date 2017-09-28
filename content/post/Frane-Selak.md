@@ -2,7 +2,7 @@
 title: Frane Selak
 date: 2017-08-16T07:44:54
 draft: false
-author: fnbaum
+author: noqqe
 tags:
 - 1920s births
 - All BLP articles lacking sources

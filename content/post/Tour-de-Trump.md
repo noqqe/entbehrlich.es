@@ -4,7 +4,7 @@ date: 2017-07-14T09:32:23
 draft: false
 image: /images/Greg_LeMond_1989_Tour_de_Trump.jpg
 imageauthor: <a rel="nofollow" class="external free" href="https://www.flickr.com/people/small_realm/">https://www.flickr.com/people/small_realm/</a>
-author: fnbaum
+author: noqqe
 tags:
 - Donald Trump
 - Ehemaliger Straßenradsport-Wettbewerb

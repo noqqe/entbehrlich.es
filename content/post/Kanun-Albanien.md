@@ -4,7 +4,7 @@ date: 2017-08-22T08:13:52
 draft: false
 image: /images/LockInTower.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Doron" title="User:Doron">User:Doron</a>
-author: fnbaum
+author: noqqe
 tags:
 - Albanische Geschichte
 - Kultur (Albanien)
