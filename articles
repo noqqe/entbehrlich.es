@@ -545,6 +545,10 @@ def new(url, date, thanks, debug, author):
     # fetch images
     image, imageauthor = gen_article_image(images, debug)
 
+    # small fix for stupid macos
+    if author == "fnbaum":
+        author = "noqqe"
+
     # generate header for article
     header = gen_article_meta(title=title, date=t, tags=tags, image=image, imageauthor=imageauthor, thanks=thanks, author=author)
 
