@@ -10,11 +10,12 @@ import os
 import logging
 import random as rnd
 import time
+import html
 import textwrap
 import datetime
 import warnings
 import subprocess
-from urllib.parse import urlparse
+from urllib.parse import urlparse, unquote
 import urllib.request
 
 import PIL
@@ -389,6 +390,7 @@ def fbpost(feedurl, picture='https://entbehrlich.es/img/paper-logo.png'):
     desc = feed['entries'][0]['summary']
     desc = desc.split('\n')[0]
     desc = desc.replace('\n','')
+    desc = html.unescape(desc)
 
     attachment = {
         'name': title,
@@ -423,6 +425,7 @@ def tweet(feedurl):
     desc = feed['entries'][0]['summary']
     desc = desc.split('\n')[0]
     desc = desc.replace('\n','')
+    desc = html.unescape(desc)
 
     # if desc too long, cut it for twitter
     if len(desc) > 110:
@@ -514,6 +517,7 @@ def new(url, date, thanks, debug, author):
     url = urlparse(url)
     lang = url.netloc.split('.')[0]
     title = url.path.split('/')[2].replace('-', ' ').replace('_', ' ')
+    title = unquote(title)
     filename = title.replace(' ', '-').replace('---', '-').replace(')', '').replace('(', '') + '.md'
     path = posts_home + filename
 
