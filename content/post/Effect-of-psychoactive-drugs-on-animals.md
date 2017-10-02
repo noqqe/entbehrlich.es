@@ -1,7 +1,7 @@
 ---
 title: Effect of psychoactive drugs on animals
-date: 2017-06-16T14:00:13
-draft: true
+date: 2017-10-02T07:50:32
+draft: false
 author: noqqe
 thanks: codingCorby
 tags:
