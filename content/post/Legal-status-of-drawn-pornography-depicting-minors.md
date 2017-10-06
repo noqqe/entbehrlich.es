@@ -1,7 +1,7 @@
 ---
 title: Legal status of drawn pornography depicting minors
-date: 2017-10-04T14:00:36
-draft: true
+date: 2017-10-06T08:30:31
+draft: false
 author: noqqe
 tags:
 - All articles with unsourced statements
