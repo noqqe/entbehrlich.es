@@ -1,9 +1,9 @@
 ---
-title: For sale: baby shoes, never worn
+title: For sale. baby shoes, never worn
 date: 2017-10-04T14:00:25
 draft: true
 image: /images/Classic_baby_shoes.jpg
-imageauthor: <a rel="nofollow" class="external text" href="http://www.flickr.com/people/83346641@N00">JD Hancock</a> from Austin, TX, United States. Cropped and edited by <a href="http://commons.wikimedia.org/wiki/User:Daniel_Case" title="User:Daniel Case">Daniel Case</a> prior to upload
+imageauthor: <a href="http://www.flickr.com/people/83346641@N00">JD Hancock</a>
 author: noqqe
 thanks: minorGC
 tags:
