@@ -1,7 +1,7 @@
 ---
 title: Leuchtturm und Kriegsschiff (Moderne Sage)
-date: 2017-10-04T14:00:13
-draft: true
+date: 2017-10-12T07:51:08
+draft: false
 author: noqqe
 tags:
 - Erzählforschung
