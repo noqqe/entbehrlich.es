@@ -120,10 +120,10 @@ def gen_article_image(images, debug):
         # get crappy license meta data
         try:
             license = commons["response"]["licenses"]["license"]["name"]
-        except TypeError:
+        except (TypeError, KeyError) as e:
             try:
                 license = commons["response"]["licenses"]["license"][0]["name"]
-            except TypeError:
+            except (TypeError, KeyError) as e:
                 continue
 
         # check if its a friendly license
