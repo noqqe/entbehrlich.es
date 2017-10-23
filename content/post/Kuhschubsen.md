@@ -1,7 +1,7 @@
 ---
 title: Kuhschubsen
-date: 2017-10-22T14:00:17
-draft: true
+date: 2017-10-23T08:00:41
+draft: false
 image: /images/Cows_Germanasca_2.JPG
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Superchilum" title="User:Superchilum">Superchilum</a>
 author: nico
