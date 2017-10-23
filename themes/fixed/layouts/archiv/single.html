@@ -7,7 +7,7 @@
       {{ range (where .Site.Pages "Type" "post").GroupByDate "2006"  }}
 			<h2 class="non-highlight">{{ .Key }}</h2>
         <ul>
-        {{ range .Pages }}
+        {{ range where .Pages ".Title" "!=" "Posts" }}
           <li>
             <span>{{ .Date.Format "02.01" }}</span>
             <a href="{{ .Permalink }}">{{ .Title }}</a>
