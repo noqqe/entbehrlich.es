@@ -1,7 +1,7 @@
 ---
 title: Das Buch Mozilla
-date: 2017-10-21T14:00:35
-draft: true
+date: 2017-10-24T07:44:23
+draft: false
 author: nico
 tags: 
 - Mozilla
