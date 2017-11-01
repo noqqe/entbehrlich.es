@@ -1,7 +1,7 @@
 ---
 title: Schmuckeremit
-date: 2017-10-22T14:00:13
-draft: true
+date: 2017-11-01T10:12:30
+draft: false
 image: /images/Ziereremit_in_Flottbeck_bei_Hamburg.jpg
 imageauthor: <span class="fn value"><a href="http://commons.wikimedia.org/w/index.php?title=Creator:Johann_Baptist_Theobald_Schmitt&amp;action=edit&amp;redlink=1" class="new" title="Creator:Johann Baptist Theobald Schmitt (page does not exist)">Creator:Johann Baptist Theobald Schmitt</a></span>
 author: nico
