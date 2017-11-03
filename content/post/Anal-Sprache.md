@@ -1,7 +1,7 @@
 ---
 title: Anal (Sprache)
-date: 2017-10-22T14:00:35
-draft: true
+date: 2017-11-03T10:01:40
+draft: false
 author: nico
 tags: 
 - Einzelsprache
