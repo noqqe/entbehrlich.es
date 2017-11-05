@@ -40,7 +40,7 @@ project_home = os.getcwd()
 posts_home = project_home + "/content/post/"
 images_home = project_home + "/static/images/"
 feedurl = project_home + "/public/index.xml"
-hugocmd = "hugo"
+hugocmd = "hugo --buildFuture"
 editor = os.getenv("EDITOR")
 
 # Commons API
