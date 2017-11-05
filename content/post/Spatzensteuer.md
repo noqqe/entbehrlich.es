@@ -1,7 +1,7 @@
 ---
 title: Spatzensteuer
-date: 2017-10-21T14:00:16
-draft: true
+date: 2017-11-05T09:56:38
+draft: false
 author: nico
 tags: 
 - Deutsche Wirtschaftsgeschichte
