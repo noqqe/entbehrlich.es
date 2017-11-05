@@ -1,6 +1,6 @@
 ---
 title: Spatzensteuer
-date: 2017-11-05T10:02:13.00
+date: 2017-11-05T10:16:31
 draft: false
 author: nico
 tags:
