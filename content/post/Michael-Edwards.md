@@ -1,7 +1,7 @@
 ---
 title: Michael Edwards
-date: 2017-10-04T14:00:14
-draft: true
+date: 2017-11-07T09:40:51
+draft: false
 image: /images/Edwards_michael_w.jpg
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Paul_Katzenberger&amp;action=edit&amp;redlink=1" class="new" title="User:Paul Katzenberger (page does not exist)">Paul Katzenberger</a>
 author: noqqe
