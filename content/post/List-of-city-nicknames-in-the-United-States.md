@@ -1,7 +1,7 @@
 ---
 title: List of city nicknames in the United States
-date: 2017-10-21T14:00:29
-draft: true
+date: 2017-11-14T08:30:35
+draft: false
 image: /images/LargeArch.jpg
 imageauthor: <a href="https://en.wikipedia.org/wiki/User:Greg5030" class="extiw" title="wikipedia:User:Greg5030">Greg Hume</a> at <a href="https://en.wikipedia.org/wiki/" class="extiw" title="wikipedia:">English Wikipedia</a>
 author: nico
