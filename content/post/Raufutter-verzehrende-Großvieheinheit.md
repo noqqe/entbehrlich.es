@@ -1,7 +1,7 @@
 ---
 title: Raufutter verzehrende Großvieheinheit
-date: 2017-10-21T14:00:52
-draft: true
+date: 2017-11-22T08:54:46
+draft: false
 author: nico
 tags: 
 - Agrarrecht (Deutschland)
