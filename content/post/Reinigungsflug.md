@@ -1,7 +1,7 @@
 ---
 title: Reinigungsflug
-date: 2017-11-16T14:00:17
-draft: true
+date: 2017-11-24T14:38:49
+draft: false
 image: /images/Apis-mellifera-Bienenfruehling.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:HOWI" title="User:HOWI">HOWI</a> - <sup>Horsch, Willy</sup>
 author: noqqe
