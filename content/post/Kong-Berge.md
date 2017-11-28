@@ -1,7 +1,7 @@
 ---
 title: Kong Berge
-date: 2017-10-22T14:00:06
-draft: true
+date: 2017-11-28T08:02:49
+draft: false
 author: nico
 tags: 
 - Geschichte (Afrika)
