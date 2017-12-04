@@ -1,7 +1,7 @@
 ---
 title: Jevons’ Paradoxon
-date: 2017-11-16T14:00:24
-draft: true
+date: 2017-12-04T10:46:46
+draft: false
 author: noqqe
 tags:
 - Paradoxon
