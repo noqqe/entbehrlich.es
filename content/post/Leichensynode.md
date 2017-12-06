@@ -1,7 +1,7 @@
 ---
 title: Leichensynode
-date: 2017-10-22T14:00:59
-draft: true
+date: 2017-12-06T10:20:53
+draft: false
 image: /images/Jean_Paul_Laurens_Le_Pape_Formose_et_Etienne_VII_1870.jpg
 author: nico
 tags: 
