@@ -1,7 +1,7 @@
 ---
 title: Xylospongium
-date: 2017-10-22T14:00:44
-draft: true
+date: 2017-12-10T12:35:15
+draft: false
 image: /images/Xylospongium.jpg
 imageauthor: D. Herdemerten ( <a href="http://commons.wikimedia.org/wiki/User:Hannibal21" title="User:Hannibal21">Hannibal21</a> )
 author: nico
