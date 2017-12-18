@@ -1,7 +1,7 @@
 ---
 title: Mustermann
-date: 2017-12-05T14:00:24
-draft: true
+date: 2017-12-18T08:53:22
+draft: false
 author: nico
 tags: 
 - Fiktive Figur
