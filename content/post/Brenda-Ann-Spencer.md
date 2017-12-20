@@ -1,7 +1,7 @@
 ---
 title: Brenda Ann Spencer
-date: 2017-10-17T14:00:50
-draft: true
+date: 2017-12-20T08:30:39
+draft: false
 author: noqqe
 tags:
 - Amoklauf an einer Schule
