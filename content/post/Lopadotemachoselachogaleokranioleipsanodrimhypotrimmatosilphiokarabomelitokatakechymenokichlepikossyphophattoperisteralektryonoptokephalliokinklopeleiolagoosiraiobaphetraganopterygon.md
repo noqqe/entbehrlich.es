@@ -1,7 +1,7 @@
 ---
 title: Lopadotemachoselachogaleokranioleipsanodrimhypotrimmatosilphiokarabomelitokatakechymenokichlepikossyphophattoperisteralektryonoptokephalliokinklopeleiolagoosiraiobaphetraganopterygon
-date: 2017-10-22T14:00:52
-draft: true
+date: 2017-12-22T11:29:17
+draft: false
 author: nico
 tags: 
 - Aristophanes
