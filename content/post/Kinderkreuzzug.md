@@ -1,7 +1,7 @@
 ---
 title: Kinderkreuzzug
-date: 2017-10-04T14:00:59
-draft: true
+date: 2017-12-28T19:00:21
+draft: false
 image: /images/BritLibRoyal14CVIIFol006rMattParisSelfPort.jpg
 imageauthor: Matthew Paris (c.1200-1259). Photograph by the British Library.
 author: noqqe
