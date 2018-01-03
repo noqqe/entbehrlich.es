@@ -1,7 +1,7 @@
 ---
 title: Islamische Befreiungsfront der Moros
-date: 2017-11-16T14:00:25
-draft: true
+date: 2018-01-03T08:25:41
+draft: false
 image: /images/MILF_militant_lying_prone.jpg
 imageauthor: <a rel="nofollow" class="external text" href="http://www.flickr.com/people/54106155@N00">Keith Kristoffer Bacongco</a> from Davao, Philippines
 author: noqqe
