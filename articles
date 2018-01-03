@@ -428,8 +428,8 @@ def tweet(feedurl):
     desc = html.unescape(desc)
 
     # if desc too long, cut it for twitter
-    if len(desc) > 110:
-        desc = desc[:107] + '...'
+    if len(desc) > 240:
+        desc = desc[:237] + '...'
 
     message = desc + " " + link
 
