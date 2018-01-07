@@ -1,7 +1,7 @@
 ---
 title: Attentat von Volkhoven
-date: 2017-10-06T14:00:17
-draft: true
+date: 2018-01-07T09:53:08
+draft: false
 image: /images/2016-10-23-Volksschule_Volkhoven-8571.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Superbass" title="User:Superbass">Superbass</a>
 author: noqqe
