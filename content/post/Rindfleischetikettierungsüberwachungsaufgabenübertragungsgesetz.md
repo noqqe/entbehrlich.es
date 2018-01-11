@@ -1,7 +1,7 @@
 ---
 title: Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz
-date: 2017-10-21T14:00:18
-draft: true
+date: 2018-01-11T07:45:42
+draft: false
 author: nico
 tags: 
 - Agrarrecht (Deutschland)
