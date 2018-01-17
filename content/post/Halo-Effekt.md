@@ -1,7 +1,7 @@
 ---
 title: Halo Effekt
-date: 2017-10-04T14:00:08
-draft: true
+date: 2018-01-17T10:12:37
+draft: false
 author: noqqe
 tags:
 - Experiment in der Psychologie
