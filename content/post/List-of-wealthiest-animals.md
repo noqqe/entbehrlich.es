@@ -1,7 +1,7 @@
 ---
 title: List of wealthiest animals
-date: 2018-01-13T14:00:15
-draft: true
+date: 2018-01-19T10:31:15
+draft: false
 image: /images/Grumpy_Cat_by_Gage_Skidmore.jpg
 imageauthor: Gage Skidmore
 author: nico
