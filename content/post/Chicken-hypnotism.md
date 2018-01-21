@@ -1,7 +1,7 @@
 ---
 title: Chicken hypnotism
-date: 2018-01-08T14:00:22
-draft: true
+date: 2018-01-21T12:59:56
+draft: false
 author: nico
 tags: 
 - Chickens
