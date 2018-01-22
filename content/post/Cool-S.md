@@ -17,4 +17,4 @@ Das "coole S" wurde mir damals von meinen Cousins beigebracht :)
 > other names, is a graffiti signature of popular culture that is typically
 > doodled on children's notebooks or graffitied on walls.
 >
-> Quelle: [Cool S](https://en.m.wikipedia.org/wiki/Cool_S)
+> Quelle: [Cool S](https://en.wikipedia.org/wiki/Cool_S)
