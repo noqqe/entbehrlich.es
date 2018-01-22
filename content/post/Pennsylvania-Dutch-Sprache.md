@@ -5,14 +5,14 @@ draft: true
 image: /images/Pennsylvania_German_distribution.png
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Angr" class="mw-redirect" title="User:Angr">Angr</a>
 author: noqqe
-tags: 
+tags:
 - Deutsche in den Vereinigten Staaten
 - Mitteldeutscher Dialekt
 - Ontario
 - Sprachvarietät
 ---
 
-
+Laut Wikipedia entspringt dieser "Deutsche" Dialekt auch noch dem Fränkischen.
 
 > Pennsylvania Dutch, auch Pennsylvania German, Pennsylvaniadeutsch,
 > Pensilfaanisch, Pennsilfaanisch Deitsch, Pennsilfaani oder Pennsilveni-Deitsch
