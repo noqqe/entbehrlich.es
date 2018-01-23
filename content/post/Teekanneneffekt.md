@@ -1,7 +1,7 @@
 ---
 title: Teekanneneffekt
-date: 2017-10-21T14:00:31
-draft: true
+date: 2018-01-23T07:56:36
+draft: false
 author: nico
 tags: 
 - Physikalisches Demonstrationsexperiment
