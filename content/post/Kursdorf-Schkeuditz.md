@@ -1,6 +1,6 @@
 ---
 title: Kursdorf (Schkeuditz)
-date: 2018-01-27T09:22:36
+date: 2018-01-27T09:25:57
 draft: false
 image: /images/Kirche-Kursdorf.jpg
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Tnemtsoni&amp;action=edit&amp;redlink=1" class="new" title="User:Tnemtsoni (page does not exist)">Tnemtsoni</a>
