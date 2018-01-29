@@ -3,9 +3,8 @@ title: Aging in dogs
 date: 2018-01-25T14:00:43
 draft: true
 author: nico
-tags: 
+tags:
 - Ageing
-- CS1 maint: Multiple names: authors list
 - Dog health
 - Dogs in popular culture
 - Senescence in non-human organisms
