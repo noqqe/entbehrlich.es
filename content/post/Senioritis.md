@@ -1,7 +1,7 @@
 ---
 title: Senioritis
-date: 2018-01-22T14:00:37
-draft: true
+date: 2018-01-29T08:51:09
+draft: false
 author: noqqe
 tags:
 - All articles lacking in-text citations
