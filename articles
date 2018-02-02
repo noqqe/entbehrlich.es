@@ -185,7 +185,8 @@ def gen_article_meta(title, date, tags, image, imageauthor, thanks=None, author=
 
     header = header + "tags: "
     for tag in tags:
-        header = header + n + "- " + tag.replace("Kategorie:", '')
+        if not ":" in tag:
+            header = header + n + "- " + tag.replace("Kategorie:", '')
 
     header = header + n + head + n
     return header
