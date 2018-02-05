@@ -1,7 +1,7 @@
 ---
 title: Richard Jewell
-date: 2018-01-22T14:00:59
-draft: true
+date: 2018-02-05T09:52:35
+draft: false
 author: noqqe
 tags:
 - 1962 births
