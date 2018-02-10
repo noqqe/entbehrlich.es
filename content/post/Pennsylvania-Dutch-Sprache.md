@@ -1,7 +1,7 @@
 ---
 title: Pennsylvania Dutch (Sprache)
-date: 2018-01-22T14:00:52
-draft: true
+date: 2018-02-10T10:59:59
+draft: false
 image: /images/Pennsylvania_German_distribution.png
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Angr" class="mw-redirect" title="User:Angr">Angr</a>
 author: noqqe
