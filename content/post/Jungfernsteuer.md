@@ -1,7 +1,7 @@
 ---
 title: Jungfernsteuer
-date: 2018-01-22T14:00:35
-draft: true
+date: 2018-02-12T07:23:32
+draft: false
 author: noqqe
 tags:
 - Berliner Geschichte (18. Jahrhundert)
