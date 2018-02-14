@@ -1,7 +1,7 @@
 ---
 title: Berg der Kreuze
-date: 2018-02-08T14:00:05
-draft: true
+date: 2018-02-14T08:06:01
+draft: false
 image: /images/Berg_der_kreuze_01.JPG
 imageauthor: Thomas Stegh
 author: noqqe
