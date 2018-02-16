@@ -1,7 +1,7 @@
 ---
 title: Hero Hitler in Love
-date: 2017-12-08T14:00:20
-draft: true
+date: 2018-02-16T09:12:18
+draft: false
 author: noqqe
 tags:
 - Adolf Hitler als Namensgeber
