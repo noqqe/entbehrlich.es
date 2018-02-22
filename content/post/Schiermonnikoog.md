@@ -1,7 +1,7 @@
 ---
 title: Schiermonnikoog
-date: 2018-01-22T14:00:48
-draft: true
+date: 2018-02-22T14:24:17
+draft: false
 image: /images/20070816_Schiermonnikoog_(14).JPG
 imageauthor: Donar Reiskoffer
 author: noqqe
