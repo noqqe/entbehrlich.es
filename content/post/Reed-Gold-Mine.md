@@ -1,7 +1,7 @@
 ---
 title: Reed Gold Mine
-date: 2018-01-22T14:00:02
-draft: true
+date: 2018-03-06T08:30:24
+draft: false
 image: /images/ReedGoldMine.jpg
 imageauthor: <a rel="nofollow" class="external text" href="https://www.flickr.com/people/90994687@N00">Bang-Ning Hsu</a> from Durham (NC, USA), Taiwan
 author: noqqe
