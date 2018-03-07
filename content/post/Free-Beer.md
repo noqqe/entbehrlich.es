@@ -1,7 +1,7 @@
 ---
 title: Free Beer
-date: 2017-10-21T14:00:57
-draft: true
+date: 2018-03-07T09:41:43
+draft: false
 image: /images/Free_Beer_Art_Basel_Miami.jpg
 imageauthor: jakob fenger
 author: nico
