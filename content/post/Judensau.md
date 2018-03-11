@@ -1,7 +1,7 @@
 ---
 title: Judensau
-date: 2018-01-22T14:00:11
-draft: true
+date: 2018-03-11T11:42:00
+draft: false
 image: /images/2017-06-16-Wasserspeier_Judensau_Kölner_Dom-2466.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Superbass" title="User:Superbass">Superbass</a>
 author: noqqe
