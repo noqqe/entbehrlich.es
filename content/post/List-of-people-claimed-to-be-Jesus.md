@@ -1,7 +1,7 @@
 ---
 title: List of people claimed to be Jesus
-date: 2017-11-30T14:00:03
-draft: true
+date: 2018-03-20T08:54:14
+draft: false
 image: /images/David_Shayler_Axis_for_Peace_2005-11-18.jpg
 imageauthor: Réseau Voltaire
 author: noqqe
