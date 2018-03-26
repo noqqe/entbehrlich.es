@@ -1,7 +1,7 @@
 ---
 title: Schiff des Theseus
-date: 2018-01-22T14:00:49
-draft: true
+date: 2018-03-26T08:23:41
+draft: false
 author: noqqe
 tags:
 - Ontologie
