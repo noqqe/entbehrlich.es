@@ -1,7 +1,7 @@
 ---
 title: Parkinsonsche Gesetze
-date: 2018-01-22T14:00:04
-draft: true
+date: 2018-03-31T20:19:21
+draft: false
 author: noqqe
 tags:
 - Bürokratie
