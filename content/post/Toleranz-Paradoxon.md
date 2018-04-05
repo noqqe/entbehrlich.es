@@ -1,7 +1,7 @@
 ---
 title: Toleranz Paradoxon
-date: 2018-01-22T14:00:08
-draft: true
+date: 2018-04-05T07:57:33
+draft: false
 author: noqqe
 tags:
 - Paradoxon
