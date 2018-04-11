@@ -1,7 +1,7 @@
 ---
 title: Frank Eugene Corder
-date: 2017-10-05T14:00:19
-draft: true
+date: 2018-04-11T08:10:56
+draft: false
 author: nico
 tags: 
 - 1956 births
