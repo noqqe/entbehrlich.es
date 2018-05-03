@@ -1,6 +1,6 @@
 ---
 title: Pechtropfenexperiment
-date: 2018-05-03T07:49:41
+date: 2018-05-03T07:50:16
 draft: false
 image: /images/Pitch_drop_experiment_with_John_Mainstone.jpg
 imageauthor: John Mainstone, University of Queensland
