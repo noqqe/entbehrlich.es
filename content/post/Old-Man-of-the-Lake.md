@@ -1,6 +1,6 @@
 ---
 title: Old Man of the Lake
-date: 2018-05-05T09:07:45
+date: 2018-05-05T09:08:30
 draft: false
 image: /images/Crater_Lake_Old_Man_of_the_Lake.jpg
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Markgorzynski&amp;action=edit&amp;redlink=1" class="new" title="User:Markgorzynski (page does not exist)">Markgorzynski</a>
