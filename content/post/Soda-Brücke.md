@@ -1,7 +1,7 @@
 ---
 title: Soda Brücke
-date: 2018-05-14T14:00:00
-draft: true
+date: 2018-05-19T09:11:36
+draft: false
 image: /images/Bridge_To_Nowhere.jpg
 imageauthor: Joerg Mueller
 author: noqqe
