@@ -1,7 +1,7 @@
 ---
 title: Blood Quran
-date: 2018-04-30T14:00:53
-draft: true
+date: 2018-06-22T07:39:51
+draft: false
 author: noqqe
 tags:
 - 2000 books
