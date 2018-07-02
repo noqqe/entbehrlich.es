@@ -1,7 +1,7 @@
 ---
 title: Thomas Fitzpatrick (pilot)
-date: 2018-04-15T14:00:44
-draft: true
+date: 2018-07-02T09:05:15
+draft: false
 author: nico
 tags: 
 - 1930 births
