@@ -1,7 +1,7 @@
 ---
 title: Lothar Malskat
-date: 2018-01-22T14:00:22
-draft: true
+date: 2018-07-13T09:13:23
+draft: false
 image: /images/Lothar_Malskat_-_Nackte_Frau.JPG
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Ronald_Sl" title="User:Ronald Sl">Ronald Slabke</a>
 author: noqqe
