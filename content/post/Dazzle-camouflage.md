@@ -1,7 +1,7 @@
 ---
 title: Dazzle camouflage
-date: 2018-05-20T14:00:51
-draft: true
+date: 2018-07-24T07:31:18
+draft: false
 image: /images/HMS_Argus_(1917)_cropped.jpg
 imageauthor: Unknown US Navy Personnel, 1918
 author: noqqe
