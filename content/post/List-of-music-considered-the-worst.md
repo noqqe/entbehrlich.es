@@ -1,7 +1,7 @@
 ---
 title: List of music considered the worst
-date: 2018-07-10T14:00:31
-draft: true
+date: 2018-07-26T08:23:55
+draft: false
 author: nico
 tags: 
 - All Wikipedia articles in need of updating
