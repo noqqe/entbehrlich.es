@@ -1,7 +1,7 @@
 ---
 title: Moussa Castle
-date: 2018-04-30T14:00:24
-draft: true
+date: 2018-08-05T16:01:13
+draft: false
 image: /images/MoussaCastle2.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Heretiq" title="User:Heretiq">Heretiq</a>
 author: noqqe
