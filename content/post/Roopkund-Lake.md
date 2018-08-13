@@ -1,7 +1,7 @@
 ---
 title: Roopkund Lake
-date: 2018-04-30T14:00:57
-draft: true
+date: 2018-08-13T08:12:31
+draft: false
 image: /images/Human_Skeletons_in_Roopkund_Lake.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Schwiki" title="User:Schwiki">Schwiki</a>
 author: noqqe
