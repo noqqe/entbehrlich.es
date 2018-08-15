@@ -1,7 +1,7 @@
 ---
 title: Svalbard Global Seed Vault
-date: 2018-04-30T14:00:22
-draft: true
+date: 2018-08-15T08:18:15
+draft: false
 image: /images/Svalbard_seed_vault_IMG_8894.JPG
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Bjoertvedt" title="User:Bjoertvedt">Bjoertvedt</a>
 author: noqqe
