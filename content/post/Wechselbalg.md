@@ -1,7 +1,7 @@
 ---
 title: Wechselbalg
-date: 2018-04-30T14:00:04
-draft: true
+date: 2018-09-10T10:02:05
+draft: false
 image: /images/83_b_bartol_2_wick.JPG
 imageauthor: <a rel="nofollow" class="external text" href="//www.worldcat.org/identities/lccn-nr91028676">WorldCat</a>
 author: noqqe
