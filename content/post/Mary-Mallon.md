@@ -1,7 +1,7 @@
 ---
 title: Mary Mallon
-date: 2018-04-30T14:00:31
-draft: true
+date: 2018-09-20T09:33:57
+draft: false
 author: noqqe
 tags:
 ---
