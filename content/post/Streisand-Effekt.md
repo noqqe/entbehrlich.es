@@ -3,7 +3,7 @@ title: Streisand Effekt
 date: 2018-09-24T14:00:40
 draft: true
 image: /images/Streisand_Estate.jpg
-imageauthor: Required attribution is: Copyright (C) 2002 Kenneth &amp; Gabrielle Adelman, California Coastal
+imageauthor: Copyright (C) 2002 Kenneth &amp; Gabrielle Adelman, California Coastal
 Records Project, <a rel="nofollow" class="external text" href="http://www.californiacoastline.org/">www.californiacoastline.org</a>.
 author: noqqe
 tags:
