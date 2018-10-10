@@ -1,7 +1,7 @@
 ---
 title: Kernkraftwerk Juraguá
-date: 2018-09-30T14:00:44
-draft: true
+date: 2018-10-10T08:28:04
+draft: false
 image: /images/CEN_Juraguá.jpg
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Hvd69&amp;action=edit&amp;redlink=1" class="new" title="User:Hvd69 (page does not exist)">Hvd69</a>
 author: noqqe
