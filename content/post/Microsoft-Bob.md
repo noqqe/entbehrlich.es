@@ -1,7 +1,7 @@
 ---
 title: Microsoft Bob
-date: 2018-09-28T14:00:50
-draft: true
+date: 2018-10-24T10:09:27
+draft: false
 author: noqqe
 tags:
 ---
