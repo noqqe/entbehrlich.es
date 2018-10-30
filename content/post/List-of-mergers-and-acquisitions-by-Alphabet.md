@@ -1,7 +1,7 @@
 ---
 title: List of mergers and acquisitions by Alphabet
-date: 2018-09-30T14:00:39
-draft: true
+date: 2018-10-30T09:54:49
+draft: false
 author: noqqe
 tags:
 - All articles containing potentially dated statements
