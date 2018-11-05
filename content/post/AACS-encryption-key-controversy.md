@@ -1,7 +1,7 @@
 ---
 title: AACS encryption key controversy
-date: 2018-09-24T14:00:18
-draft: true
+date: 2018-11-05T08:51:27
+draft: false
 author: noqqe
 tags:
 - Advanced Access Content System
