@@ -1,7 +1,7 @@
 ---
 title: Januswort
-date: 2018-10-30T14:00:27
-draft: true
+date: 2018-11-14T09:25:32
+draft: false
 author: noqqe
 ---
 
