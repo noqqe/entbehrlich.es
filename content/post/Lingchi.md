@@ -1,7 +1,7 @@
 ---
 title: Lingchi
-date: 2018-09-30T14:00:54
-draft: true
+date: 2018-11-17T12:39:48
+draft: false
 author: noqqe
 tags:
 ---
