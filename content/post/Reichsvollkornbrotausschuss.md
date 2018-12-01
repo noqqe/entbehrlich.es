@@ -1,7 +1,7 @@
 ---
 title: Reichsvollkornbrotausschuss
-date: 2018-10-28T14:00:50
-draft: true
+date: 2018-12-01T13:42:32
+draft: false
 author: noqqe
 tags:
 ---
