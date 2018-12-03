@@ -1,7 +1,7 @@
 ---
 title: Flexplay
-date: 2018-12-01T14:00:57
-draft: true
+date: 2018-12-03T09:22:00
+draft: false
 author: noqqe
 tags:
 - 120 mm discs
