@@ -7,7 +7,7 @@ tags:
 ---
 
 Mary Mallon hat Zeit ihres Lebens Menschen mit Typhus infiziert ohne selbst an
-der Erkrankung zu Leiden. Blöd nun, dass sie gerne kochte.
+der Erkrankung zu Leiden. Blöd nur, dass sie gerne kochte.
 
 > Mary Mallon bekannt als Typhoid Mary (Typhus-Mary), war die erste Person in
 > den Vereinigten Staaten, die als nicht erkrankter Träger von Typhus
