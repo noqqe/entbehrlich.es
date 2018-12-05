@@ -1,7 +1,7 @@
 ---
 title: Jeffrey Dahmer
-date: 2018-12-03T14:00:39
-draft: true
+date: 2018-12-05T11:14:54
+draft: false
 image: /images/Columbia_Correctional_Institution_Wisconsin_with_guard_tower.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Dual_Freq" title="User:Dual Freq">Dual Freq</a>
 author: noqqe
