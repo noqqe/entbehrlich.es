@@ -432,7 +432,7 @@ def tweet(feedurl):
     if len(desc) > 240:
         desc = desc[:237] + '...'
 
-    message = desc + " " + link
+    message = desc + " #wikipedia " + link
 
     auth = twitter.OAuth(
         consumer_key=tw_con_key,
