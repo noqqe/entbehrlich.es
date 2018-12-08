@@ -1,7 +1,7 @@
 ---
 title: Hashima (Insel)
-date: 2018-04-30T14:00:51
-draft: true
+date: 2018-12-08T14:22:24
+draft: false
 image: /images/Battle-Ship_Island_Nagasaki_Japan.jpg
 imageauthor: kntrty <a rel="nofollow" class="external free" href="https://www.flickr.com/photos/kntrty/">https://www.flickr.com/photos/kntrty/</a>
 author: noqqe
