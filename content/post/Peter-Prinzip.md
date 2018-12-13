@@ -1,7 +1,7 @@
 ---
 title: Peter Prinzip
-date: 2018-09-24T14:00:30
-draft: true
+date: 2018-12-13T09:41:24
+draft: false
 author: noqqe
 tags:
 ---
