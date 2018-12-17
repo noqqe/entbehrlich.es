@@ -1,7 +1,7 @@
 ---
 title: La Brea Pitch Lake
-date: 2018-09-30T14:00:10
-draft: true
+date: 2018-12-17T08:36:12
+draft: false
 image: /images/STAPP_104_La_Brea_Pitch_Lake.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Grueslayer" title="User:Grueslayer">Grueslayer</a>
 author: noqqe
