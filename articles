@@ -6,6 +6,7 @@ to post to twitter and release new posts
 """
 # -*- coding: utf-8 -*-
 
+import sys
 import os
 import logging
 import random as rnd
@@ -41,6 +42,7 @@ posts_home = project_home + "/content/post/"
 images_home = project_home + "/static/images/"
 feedurl = project_home + "/public/index.xml"
 hugocmd = "bash -c 'hugo --buildFuture'"
+
 editor = os.getenv("EDITOR")
 
 # Commons API
@@ -80,6 +82,11 @@ def log(msg, serv="debug"):
 
     d = datetime.datetime.now().strftime('%H:%M:%S ')
     click.secho(d + msg, fg=colors[serv])
+
+# Check if EDITOR is set
+if editor is None:
+    log("EDITOR is not set in your OS environment.", "error")
+    sys.exit(1)
 
 def gen_article_image(images, debug):
     """
