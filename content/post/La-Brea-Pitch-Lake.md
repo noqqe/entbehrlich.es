@@ -11,7 +11,7 @@ tags:
 Der weltweit größte "Asphaltsee" ist in Trinidad. Wer Asphaltsee auch noch nie
 gehört hat möge hier weiterlesen.
 
-> Der La Brea Pitch Lake [ˈpʰɪt͡ʃ leik] (englisch für La-Brea-Pechsee) ist eine
+> Der La Brea Pitch Lake ˈpʰɪt͡ʃ leik (englisch für La-Brea-Pechsee) ist eine
 > natürliche, oberflächliche Ansammlung von Asphalt (Asphaltsee) und das
 > weltweit größte Vorkommen dieser Art.
 >
