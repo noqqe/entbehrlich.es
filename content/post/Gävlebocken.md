@@ -1,7 +1,7 @@
 ---
 title: Gävlebocken
-date: 2018-12-18T14:00:09
-draft: true
+date: 2018-12-28T11:38:12
+draft: false
 image: /images/Yule_goat_Gefle_Sweden_2009.jpg
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Apeshaft&amp;action=edit&amp;redlink=1" class="new" title="User:Apeshaft (page does not exist)">Tony Nordin</a>
 author: poschi
