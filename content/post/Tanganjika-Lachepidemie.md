@@ -1,7 +1,7 @@
 ---
 title: Tanganjika Lachepidemie
-date: 2018-12-20T14:00:42
-draft: true
+date: 2019-01-01T10:12:35
+draft: false
 author: poschi
 tags: 
 ---
