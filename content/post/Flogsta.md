@@ -1,7 +1,7 @@
 ---
 title: Flogsta
-date: 2018-12-25T14:00:16
-draft: true
+date: 2019-01-02T19:06:08
+draft: false
 image: /images/Flogsta_by_night.jpg
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Pythe1337N&amp;action=edit&amp;redlink=1" class="new" title="User:Pythe1337N (page does not exist)">Pythe1337N</a>
 author: nico
