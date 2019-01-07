@@ -1,7 +1,7 @@
 ---
 title: Fasse dich kurz!
-date: 2018-12-10T14:00:58
-draft: true
+date: 2019-01-07T09:31:50
+draft: false
 image: /images/Fassdichkurz.jpg
 imageauthor: <a href="https://en.wikipedia.org/wiki/de:User:Richardfabi" class="extiw" title="w:de:User:Richardfabi">Richardfabi</a> at <a href="https://en.wikipedia.org/wiki/de:" class="extiw" title="w:de:">German Wikipedia</a>
 author: poschi
