@@ -1,7 +1,7 @@
 ---
 title: Cute aggression
-date: 2018-12-11T14:00:33
-draft: true
+date: 2019-01-13T10:55:57
+draft: false
 author: noqqe
 tags:
 - Aggression
