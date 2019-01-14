@@ -5,7 +5,7 @@ draft: false
 image: /images/Comicstrip.png
 imageauthor: <a href="https://de.wikipedia.org/wiki/User:Neitram" class="extiw" title="de:User:Neitram">Neitram</a> at <a href="https://de.wikipedia.org/wiki/" class="extiw" title="de:">German Wikipedia</a>
 author: nico
-tags: 
+tags:
 - Comic
 - Schauspielpraxis
 - Theatergeschichte

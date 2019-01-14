@@ -5,7 +5,7 @@ draft: false
 image: /images/Small_Gloriette_-_Schönbrunn_Palace.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:MrPanyGoff" title="User:MrPanyGoff">MrPanyGoff</a>
 author: nico
-tags: 
+tags:
 - Bauform
 - Folly (Gartenkunst)
 - Wikipedia:Belege fehlen

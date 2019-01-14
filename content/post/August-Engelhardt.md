@@ -23,7 +23,6 @@ braucht. Allgemein ist Kleidung tragen extrem böse.
 Man läd man sich Gleichgesinnte ein die dann nach ein paar Wochen einfach
 irgendwie tot sind(?). Leseempfehlung!
 
-
 > August Engelhardt (* 27. November 1875 in Nürnberg; † 6. Mai 1919 auf
 > Kabakon, heute Papua-Neuguinea) war ein Deutscher, der eine neue
 > religiöse Gemeinschaft mit dem Namen „Sonnenorden – Aequatoriale

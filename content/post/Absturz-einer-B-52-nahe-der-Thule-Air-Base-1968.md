@@ -23,7 +23,6 @@ Die Amis verschusseln eine Atombombe die allen Anzeichen nach immernoch
 irgendwo unter dem Eis von Grönland liegt. Zugeben tun sie das aber lieber
 mal nicht.
 
-
 > Der Absturz einer B-52 nahe der Thule Air Base geschah am 21. Januar
 > 1968. Bei diesem Unfall stürzte eine B-52 Stratofortress der United
 > States Air Force (USAF) in der Nähe der Thule Air Base in Grönland ab.

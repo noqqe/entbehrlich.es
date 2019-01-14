@@ -3,7 +3,7 @@ title: Mustermann
 date: 2017-12-18T08:53:22
 draft: false
 author: nico
-tags: 
+tags:
 - Fiktive Figur
 - Standard
 - Wikipedia:Gesprochener Artikel

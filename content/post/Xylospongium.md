@@ -5,7 +5,7 @@ draft: false
 image: /images/Xylospongium.jpg
 imageauthor: D. Herdemerten ( <a href="http://commons.wikimedia.org/wiki/User:Hannibal21" title="User:Hannibal21">Hannibal21</a> )
 author: nico
-tags: 
+tags:
 - Archäologischer Fachbegriff
 - Geschichte der Hygiene
 - Kultur (Römisches Reich)

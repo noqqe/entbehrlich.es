@@ -15,7 +15,6 @@ Geld in die Bildung stecken!!!"
 
 So oder so ungefähr muss das wohl gelaufen sein.
 
-
 > Sputnikschock nennt man die politisch-gesellschaftliche Reaktion in den
 > USA und Westeuropa auf den Start des ersten künstlichen Erdsatelliten
 > Sputnik 1 am 4.

@@ -5,7 +5,7 @@ draft: false
 image: /images/Cows_Germanasca_2.JPG
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Superchilum" title="User:Superchilum">Superchilum</a>
 author: nico
-tags: 
+tags:
 - Moderne Sage
 - Rind in der Kultur
 ---

@@ -3,7 +3,7 @@ title: Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo
 date: 2018-01-09T07:50:36
 draft: false
 author: nico
-tags: 
+tags:
 - Englische Phrase
 ---
 

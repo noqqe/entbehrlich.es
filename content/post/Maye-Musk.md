@@ -19,7 +19,6 @@ eine krasse Familie hat? Seine Mutter ist ziemlich hart erfolgreich
 gewesen. Model, zwei Master-Abschlüsse an verschiedenen Unis und erstmal 10
 Jahre in der Wüste unterwegs auf der Suche nach einer verlorenen Stadt.
 
-
 > Maye Musk (née Haldeman, born 1948) is a model and dietician. Also the
 > mother of Elon Musk, Kimbal Musk and Tosca Musk, she has been a model for
 > 50 years appearing on the covers of magazines including Time. New York

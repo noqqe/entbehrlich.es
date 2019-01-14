@@ -5,7 +5,7 @@ draft: false
 image: /images/Tower_City.jpg
 imageauthor: <a rel="nofollow" class="external text" href="http://www.flickr.com/people/9127004@N06">Chris Gent</a>
 author: nico
-tags: 
+tags:
 - Cleveland
 - Geschichte von Ohio
 - Veranstaltung (Ohio)

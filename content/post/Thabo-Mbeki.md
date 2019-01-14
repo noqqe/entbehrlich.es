@@ -28,7 +28,6 @@ und trifft auf Aids-Leugner. Und schliesst sich ihnen an. Aufgrund
 fehlender Aufklärung und Prävention sterben ungefähr 300.000 Menschen.
 Danke Internet.
 
-
 > Thabo Mvuyelwa Mbeki (* 18. Juni 1942 in Idutywa, Kapprovinz, heute Ostkap)
 > ist ein ehemaliger südafrikanischer Politiker (African National Congress,
 > ANC). Von 1999 bis 2008 war er Präsident von Südafrika. Er ist ein Sohn des

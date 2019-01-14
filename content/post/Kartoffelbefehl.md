@@ -14,7 +14,6 @@ tags:
 
 Leute, pflanzt mehr Kartoffeln an!
 
-
 > Kartoffelbefehl ist eine Bezeichnung für Anordnungen, Rundschreiben und
 > Verordnungen Friedrichs II.
 >

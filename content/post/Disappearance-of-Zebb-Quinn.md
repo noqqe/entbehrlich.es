@@ -16,7 +16,6 @@ tags:
 Der kleine Zebb verschwindet. Schöne Geschichte in der auch ein kleiner
 Welpe adoptiert wird.
 
-
 > Zebb Quinn is an American man who went missing on January 2, 2000 in
 > Asheville, North Carolina. Quinn was 18 years old and working at
 > a Walmart in Asheville when he disappeared. To this date his case remains

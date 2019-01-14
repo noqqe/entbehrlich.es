@@ -13,7 +13,6 @@ tags:
 Wenn man aus einem Land raus muss und für Flüchtlinge noch Platz auf seinem
 Flugzeugträger macht. +1
 
-
 > Operation Frequent Wind war die amerikanische Evakuierung der
 > südvietnamesischen Hauptstadt Saigon am 29. und 30. April 1975 während
 > der Endphase des Vietnamkriegs.

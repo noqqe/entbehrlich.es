@@ -14,7 +14,6 @@ tags:
 Man benutzt diese Worte wohl im englischsprachigem Raum um zu sagen "Ich
 bin/war besoffen" in politisch korrekt. Schön eigentlich.
 
-
 > The phrase tired and emotional is a chiefly British euphemism for alcohol
 > intoxication (or drunkenness).
 >

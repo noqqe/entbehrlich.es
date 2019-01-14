@@ -10,10 +10,9 @@ tags:
 Foltermethoden. Kurz gesagt, Bulle aus Metall, Mensch rein, Feuer drunter
 an machen.
 
-
 > Der sizilianische Bulle war, Diodorus Siculus zufolge, wie er es in der
 > Bibliotheca historica berichtete, ein vom antiken griechischen Erzgießer
 > Perilaos (6. Jhd. v. Chr.) entworfenes Folter- und Hinrichtungsgerät für
 > den sizilianischen Herrscher Phalaris von Akragas.
-> 
+>
 > Quelle: [Sizilianischer Bulle](https://de.wikipedia.org/wiki/Sizilianischer_Bulle)

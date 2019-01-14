@@ -3,7 +3,7 @@ title: Tanganjika Lachepidemie
 date: 2019-01-01T10:12:35
 draft: false
 author: poschi
-tags: 
+tags:
 ---
 
 Was unternimmt man gegen eine Epedemie die einfach viel zu witzig ist?

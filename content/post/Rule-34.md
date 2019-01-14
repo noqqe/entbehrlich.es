@@ -8,7 +8,6 @@ tags:
 
 Einfach nur der Vollständigkeit halber.
 
-
 > Rule 34 (engl. für Regel 34) ist ein Meme und ein Begriff des
 > Zeitgeistes. Er besagt, dass sich im Internet aus jedem Thema Pornografie
 > herstellen lasse. Wörtlich lautet Rule 34: „If it exists, there is porn

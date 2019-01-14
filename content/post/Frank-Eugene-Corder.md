@@ -3,7 +3,7 @@ title: Frank Eugene Corder
 date: 2018-04-11T08:10:56
 draft: false
 author: nico
-tags: 
+tags:
 - 1956 births
 - 1994 crimes in the United States
 - 1994 deaths

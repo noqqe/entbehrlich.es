@@ -12,7 +12,6 @@ Ein Artikel über allerhand Tiere, welche im Krieg als Waffe oder andere
 Hilfsarbeiten eingesetzt wurden. Ob Kampf-Delphine, Kriegselefanten, Hunde
 mit Gasmasken oder Fledermaus-Bomben. Alles dabei.
 
-
 > Military animals are domesticated animals that are used in warfare and
 > other combat related activities.
 >

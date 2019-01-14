@@ -17,7 +17,6 @@ sogleich eine schlechte Nachfolgetat rechtfertigt.
 
 So ungefähr.
 
-
 > Self-licensing (aka moral self-licensing, moral licensing, licensing
 > effect, moral credentials) is a term used in social psychology and
 > marketing to describe the subconscious phenomenon whereby increased

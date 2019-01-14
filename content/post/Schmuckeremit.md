@@ -5,7 +5,7 @@ draft: false
 image: /images/Ziereremit_in_Flottbeck_bei_Hamburg.jpg
 imageauthor: <span class="fn value"><a href="http://commons.wikimedia.org/w/index.php?title=Creator:Johann_Baptist_Theobald_Schmitt&amp;action=edit&amp;redlink=1" class="new" title="Creator:Johann Baptist Theobald Schmitt (page does not exist)">Creator:Johann Baptist Theobald Schmitt</a></span>
 author: nico
-tags: 
+tags:
 - 18. Jahrhundert
 - Beruf (Darstellende Kunst)
 - Eremitentum

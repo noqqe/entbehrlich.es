@@ -5,7 +5,7 @@ draft: true
 image: /images/KoboldStaubsauger.jpg
 imageauthor: <a href="https://de.wikipedia.org/wiki/User:Helfmann" class="extiw" title="de:User:Helfmann">Helfmann</a> at <a class="external text" href="http://de.wikipedia.org">de.wikipedia</a>
 author: poschi
-tags: 
+tags:
 ---
 
 Wenn beim Staubsaugen mal was gehörig schief geht und ein gliebtes Stück

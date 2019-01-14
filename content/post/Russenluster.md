@@ -5,7 +5,7 @@ draft: true
 image: /images/Russenluster.jpg
 imageauthor: wdwd
 author: poschi
-tags: 
+tags:
 ---
 
 Eure Eltern beschweren sich, dass ihr noch immer keine anständigen Lampen

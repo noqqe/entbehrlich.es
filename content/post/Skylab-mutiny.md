@@ -3,7 +3,7 @@ title: Skylab mutiny
 date: 2017-07-04T08:05:16
 draft: false
 author: nico
-tags: 
+tags:
 - 1973 in spaceflight
 - 1973 in the United States
 - 1973 labor disputes and strikes

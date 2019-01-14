@@ -3,7 +3,7 @@ title: Teekanneneffekt
 date: 2018-01-23T07:56:36
 draft: false
 author: nico
-tags: 
+tags:
 - Physikalisches Demonstrationsexperiment
 - Tee als Thema
 ---

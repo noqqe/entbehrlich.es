@@ -5,7 +5,7 @@ draft: false
 image: /images/Yule_goat_Gefle_Sweden_2009.jpg
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Apeshaft&amp;action=edit&amp;redlink=1" class="new" title="User:Apeshaft (page does not exist)">Tony Nordin</a>
 author: poschi
-tags: 
+tags:
 ---
 
 Wenn die traditionelle Strohfigur traditionell illegal angezündet wird, dann

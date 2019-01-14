@@ -11,7 +11,6 @@ tags:
 Mit der Sauerstofflanze brennt man Löcher in Dinge
 in die man sonst keine Löcher machen könnte.
 
-
 > Eine Sauerstofflanze (auch thermische Lanze genannt) ist ein technisches
 > Verfahren, bei dem gasförmiger Sauerstoff mit hohem Druck durch ein
 > Metallrohr strömt, das am Ende des Rohres mit diesem in einem

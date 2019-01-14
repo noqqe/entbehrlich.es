@@ -16,7 +16,6 @@ tags:
 Ein tolles Kofferwort aus Nostalgie und Osten. Die gute Erinnerung an DDR
 Zeiten mancher Leute.
 
-
 > Als Ostalgie (Kofferwort aus „Osten“ und „Nostalgie“) wird eine in den Jahren
 > 1991 und 1992 allmählich einsetzende Distanzierung eines Teils der
 > ostdeutschen Bevölkerung gegenüber der Bundesrepublik verstanden, während im

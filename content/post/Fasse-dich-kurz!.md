@@ -5,7 +5,7 @@ draft: false
 image: /images/Fassdichkurz.jpg
 imageauthor: <a href="https://en.wikipedia.org/wiki/de:User:Richardfabi" class="extiw" title="w:de:User:Richardfabi">Richardfabi</a> at <a href="https://en.wikipedia.org/wiki/de:" class="extiw" title="w:de:">German Wikipedia</a>
 author: poschi
-tags: 
+tags:
 ---
 
 Auch schon in der Anfangszeit der Telefonie gab es Quaselstrippen die nicht

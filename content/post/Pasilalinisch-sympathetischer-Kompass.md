@@ -3,14 +3,15 @@ title: Pasilalinisch sympathetischer Kompass
 date: 2017-04-05T10:14:52
 draft: false
 author: nico
-tags: 
+tags:
 - Kommunikationsgerät
 - Malakologie
 - Parapsychologie
 - Überholte Theorie (Physik)
 ---
 
-Nachrichtenübermittlung durch telepathische Schnecken. Nette Idee. Hat es seltsamerweise nie zur Marktreife geschafft.
+Nachrichtenübermittlung durch telepathische Schnecken. Nette Idee. Hat es
+seltsamerweise nie zur Marktreife geschafft.
 
 > Der Pasilalinisch-sympathetische Kompass, französisch Boussole pasilalinique
 > sympathique (von griechisch πᾶν pas ‚all-, gesamt‘; λαλιά lalia ‚Gespräch‘;

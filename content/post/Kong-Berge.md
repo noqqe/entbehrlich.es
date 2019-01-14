@@ -3,7 +3,7 @@ title: Kong Berge
 date: 2017-11-28T08:02:49
 draft: false
 author: nico
-tags: 
+tags:
 - Geschichte (Afrika)
 - Geschichte (Elfenbeinküste)
 - Wissenschaftliche Fälschung

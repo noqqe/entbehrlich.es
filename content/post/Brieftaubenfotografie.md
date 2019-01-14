@@ -5,7 +5,7 @@ draft: false
 image: /images/Patent_DE204721,_page_3.png
 imageauthor: Julius Neubronner (1852–1932)
 author: nico
-tags: 
+tags:
 - Brieftaube
 - Geschichte der Fotografie
 - Historischer Nachrichtendienst

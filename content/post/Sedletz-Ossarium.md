@@ -8,7 +8,6 @@ Das Sedletz Ossarium ist eine Kirche die unter anderem einen Kronleuchter
 aus Knochen ihr eigen nennt. Ca. 10.000 Skelette wurden verwendet um
 diverse Inneneinrichtung herzustellen. Sp00key.
 
-
 > Das Sedletz-Ossarium (tschechisch: Kostnice Sedlec) ist ein Beinhaus in
 > Sedletz (tschechisch: Sedlec), einem Ortsteil von Kutná Hora, etwa 70 km
 > östlich von Prag.

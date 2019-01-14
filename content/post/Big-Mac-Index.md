@@ -11,5 +11,5 @@ Zugegeben, man ließt sich sowas eher durch, wenns so einen Namen hat.
 
 > Der Big-Mac-Index ist ein Indikator, der die Kaufkraft verschiedener
 > Währungen durch den Vergleich der Preise eines Big Mac darstellen soll.
-> 
+>
 > Quelle [Big-Mac-Index](https://de.wikipedia.org/wiki/Big-Mac-Index)

@@ -12,7 +12,6 @@ tags:
 
 Seltsame Bezeichnung für eine Gebietsmarkierung innerhalb Europas.
 
-
 > Die Blaue Banane bezeichnet eine dicht bevölkerte Zone, einen
 > bandförmigen europäischen Großraum zwischen Irischer See und Mittelmeer,
 > deren Urbanisierung eine Kette von Agglomerationen bildet (Megalopolis).

@@ -3,7 +3,7 @@ title: Sex Bomb
 date: 2017-05-09T08:13:44
 draft: false
 author: nico
-tags: 
+tags:
 - Chemische Waffe
 - Homosexualität
 - Psychokampfstoff

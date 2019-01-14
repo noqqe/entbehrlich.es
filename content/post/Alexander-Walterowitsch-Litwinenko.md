@@ -45,12 +45,11 @@ verschütten. Auch dass so teueres, so blöd trackbares Material dabei zum
 Einsatz kommt finde ich irgendwie Strange. Egal man will mal drüber lesen.
 Viel Spass!
 
-
 > Alexander Walterowitsch Litwinenko war ein russischer und später
 > britischer Nachrichtendienstler. Er war Offizier des sowjetischen
 > Geheimdienstes KGB bzw. seines russischen Nachfolgers FSB und ab 2003
 > Informant des britischen Auslandsgeheimdienstes MI6. Später trat er als
 > Kritiker des russischen Präsidenten Wladimir Putin und Buchautor in
 > Erscheinung. Er starb durch eine Vergiftung mit 210-Polonium.
-> 
+>
 > Quelle: [Alexander Walterowitsch Litwinenko](https://de.wikipedia.org/wiki/Alexander_Walterowitsch_Litwinenko)

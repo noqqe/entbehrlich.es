@@ -12,7 +12,6 @@ Dieser Becher, eigentlich eine total tolle Konstruktion, hindert einen
 daran zu viel vom guten Wein einzufüllen. Tut man es doch geht der edle
 Tropfen auch gleich wieder flöten.
 
-
 > Der Pythagoreische Becher (auch als Becher der Gerechtigkeit bekannt) ist
 > ein Trinkgefäß, welches seinen Benutzer dazu zwingt, nur moderat
 > einzuschenken.

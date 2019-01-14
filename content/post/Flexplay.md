@@ -22,7 +22,6 @@ tags:
 Eine DVD die nur ca 48. Stunden nach dem ersten Abspielen funktioniert gedacht für
 den Verleih. Humans of late capitalism.
 
-
 > Flexplay is a trademark for a DVD-compatible optical video disc format with a
 > time-limited (usually 48-hour) playback time.
 >

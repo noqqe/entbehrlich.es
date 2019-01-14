@@ -12,7 +12,6 @@ Russland unterhält Städte die bewacht und teilweise sogar für einheimische nu
 sind. Meistens aus militärischen Gründen. Familienfeier oder Hochzeit?
 Erstmal zum Amt. Yay.
 
-
 > Eine geschlossene Stadt (nach zurzeit gültiger Definition eigentlich
 > russisch Закрытое административно-территориальное образование
 > (ЗАТО)/Sakrytoje administratiwno-territorialnoje obrasowanije (SATO oder

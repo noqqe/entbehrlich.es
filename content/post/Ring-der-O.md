@@ -5,7 +5,7 @@ draft: false
 image: /images/Bikini_Model_Jassi.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Raymond" title="User:Raymond">Raimond Spekking</a>
 author: poschi
-tags: 
+tags:
 ---
 
 Wenn dein neuer Arbeitskollege einen ungewöhnlichen Fingerring trägt, ist es

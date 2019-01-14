@@ -3,7 +3,7 @@ title: Toilet related injuries and deaths
 date: 2017-04-08T18:01:28
 draft: false
 author: nico
-tags: 
+tags:
 - Causes of death
 - Hazards
 - Toilets

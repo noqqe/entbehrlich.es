@@ -3,7 +3,7 @@ title: Oak Island (Nova Scotia)
 date: 2018-03-04T10:26:04
 draft: false
 author: nico
-tags: 
+tags:
 - Insel (Atlantischer Ozean)
 - Insel (Nordamerika)
 - Insel (Nova Scotia)

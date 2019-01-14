@@ -16,9 +16,7 @@ tags:
 - Lists relating to the United States presidency
 ---
 
-
 Fast schon originell ist ja, Herrn Schwarzenegger als "Conan the Republican" zu bezeichnen.
-
 
 > Former American president George W. Bush is widely known to use nicknames to
 > refer to journalists, fellow politicians, and members of his White House

@@ -10,7 +10,6 @@ Sockenpuppe oder Sockpuppet ist einfach ein Fakeaccount.
 Vielleicht bin ich der einzige im Netz der das noch nicht mitbekommen hat,
 aber der Begriff ist mir ungeläufig.
 
-
 > Als Sockenpuppe (englisch sockpuppet, auch Fakeaccount, Multiaccount oder
 > Doppelnick; Plural auch Mehrfachkonten) bezeichnet man im Netzjargon ein
 > zusätzliches Benutzerkonto, das aus verschiedenen Gründen angelegt ist:

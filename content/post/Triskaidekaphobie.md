@@ -11,7 +11,6 @@ tags:
 
 Zur Feier des Tages (Freitag der 13.)
 
-
 > Triskaidekaphobie (aus griechisch τρεισκαίδεκα, translit.
 >
 > Quelle: [Triskaidekaphobie](https://de.wikipedia.org/wiki/Triskaidekaphobie)

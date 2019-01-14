@@ -14,7 +14,6 @@ William tötete 21 Menschen mit einer Axt, dann taucht er unter und
 wiederholt das. Diesmal mit Geweher und Axt. Tragisch und Traurig. Sowas
 bekommt man hier nur nicht mit. Besonders nicht aus Afrika.
 
-
 > William Unek († Februar 1957) war ein afrikanischer Massenmörder, der bei
 > zwei separaten Amokläufen 57 Menschen in Belgisch-Kongo und dem
 > britischen Treuhandgebiet Tanganjika tötete. Unek arbeitete als

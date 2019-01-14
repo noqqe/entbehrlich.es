@@ -3,7 +3,7 @@ title: Schokoladen Fruchtzwerg
 date: 2017-03-16T21:08:41
 draft: false
 author: nico
-tags: 
+tags:
 - Blattnasen
 ---
 

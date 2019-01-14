@@ -5,7 +5,7 @@ draft: false
 image: /images/Bobby's_Bus_Shelter_-_geograph.org.uk_-_1301955.jpg
 imageauthor: <a rel="nofollow" class="external text" href="http://www.geograph.org.uk/profile/4874">Stuart Wilding</a>
 author: nico
-tags: 
+tags:
 - Erbaut in den 1990er Jahren
 - Omnibusverkehr (Vereinigtes Königreich)
 - Unst

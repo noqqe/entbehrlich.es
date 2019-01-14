@@ -5,7 +5,7 @@ draft: false
 image: /images/Grumpy_Cat_by_Gage_Skidmore.jpg
 imageauthor: Gage Skidmore
 author: nico
-tags: 
+tags:
 - Distribution of wealth
 - Lists of individual animals
 ---

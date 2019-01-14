@@ -3,7 +3,7 @@ title: Spaghettisierung
 date: 2017-11-20T11:21:10
 draft: false
 author: nico
-tags: 
+tags:
 - Astrophysik
 - Stephen Hawking
 ---

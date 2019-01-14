@@ -5,7 +5,7 @@ draft: false
 image: /images/Bliss_location,_Sonoma_Valley_in_2006.jpg
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Simon_Goldin&amp;action=edit&amp;redlink=1" class="new" title="User:Simon Goldin (page does not exist)">Simon Goldin</a>
 author: nico
-tags: 
+tags:
 - 1996 in California
 - 1996 works
 - Color photographs

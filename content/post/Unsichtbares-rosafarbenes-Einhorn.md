@@ -9,7 +9,6 @@ das Gegenteil nicht beweisen, also ist es wahr." an den Pranger zu stellen.
 
 Egal, super unterhaltsam. Lesen!
 
-
 > Das unsichtbare rosafarbene Einhorn ist die weibliche Gottheit einer
 > Religionsparodie, die damit theistische Glaubensansichten parodieren
 > will. Zentrales Element ist die Einhorngestalt der Göttin, die

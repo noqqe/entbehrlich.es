@@ -32,7 +32,6 @@ tags:
 
 "Institutions will try to preserve the problem to which they are the solution."
 
-
 > Clay Shirky (born 1964) is an American writer, consultant and teacher on the
 > social and economic effects of Internet technologies and journalism.
 >

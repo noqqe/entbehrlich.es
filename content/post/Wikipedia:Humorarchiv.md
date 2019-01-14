@@ -9,7 +9,6 @@ tags:
 
 Dinge die man den Azubi holen lässt.
 
-
 > Seit 2002 ist auch in der deutschen Wikipedia Zeit für ein Plätzchen
 > (Plätzchen war auch so ein Kandidat), auf dem all der Unsinn, der über die
 > Zeit hier so verzapft (und natürlich sofort gelöscht) worden ist, eine letzte

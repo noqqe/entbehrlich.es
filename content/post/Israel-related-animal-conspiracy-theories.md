@@ -14,7 +14,6 @@ tags:
 
 Der Titel allein schon... m(
 
-
 > Zoological conspiracy theories involving Israel are occasionally found in the
 > media or on the Internet, typically in Muslim-majority countries, alleging use
 > of animals by Israel to attack civilians or to conduct espionage.

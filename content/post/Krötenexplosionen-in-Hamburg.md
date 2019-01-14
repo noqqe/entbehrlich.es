@@ -5,7 +5,7 @@ draft: false
 image: /images/Bufo_bufo-defensive_reaction1.JPG
 imageauthor: Łukasz Olszewski <a href="http://commons.wikimedia.org/wiki/User:ImreKiss" title="User:ImreKiss">ImreKiss</a>
 author: nico
-tags: 
+tags:
 - Altonaer Geschichte
 - Ereignis 2005
 - Hamburger Geschichte (21. Jahrhundert)

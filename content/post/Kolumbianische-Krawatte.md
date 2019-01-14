@@ -7,7 +7,6 @@ draft: false
 Schneidest die Kehle auf, ziehst die Zunge durch, haste ne Krawatte.
 Muss noch nichtmal gebunden werden.
 
-
 > Die kolumbianische Krawatte (spanisch: corte corbata), gelegentlich auch
 > als mexikanische oder sizilianische Krawatte bezeichnet, ist eine fiktive
 > Hinrichtungs- und Foltermethode.

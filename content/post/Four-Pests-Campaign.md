@@ -18,7 +18,6 @@ tags:
 Chinesische Bürger! Tötet systematisch Spatzen und anders Getier! Es wird
 gut sein!
 
-
 > The Great Sparrow Campaign (Chinese: 打麻雀运动; pinyin: Dǎ Máquè
 > Yùndòng) also known as the Kill a Sparrow Campaign (Chinese:
 > 消灭麻雀运动; pinyin: Xiāomiè Máquè Yùndòng), and officially, the Four

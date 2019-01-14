@@ -5,7 +5,7 @@ draft: false
 image: /images/Free_Beer_Art_Basel_Miami.jpg
 imageauthor: jakob fenger
 author: nico
-tags: 
+tags:
 - Bier (Dänemark)
 - Biermarke
 - FLOSS-Kultur

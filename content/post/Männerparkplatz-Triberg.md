@@ -5,7 +5,7 @@ draft: false
 image: /images/TRIORANG.jpg
 imageauthor: Gemeinde Triberg
 author: nico
-tags: 
+tags:
 - Bauwerk in Triberg im Schwarzwald
 - Depot (Verkehr)
 - Geschlechtertrennung

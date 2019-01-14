@@ -3,7 +3,7 @@ title: Fastnachtshuhn
 date: 2018-12-19T10:54:57
 draft: false
 author: poschi
-tags: 
+tags:
 ---
 
 Fastnachtshuhn, wenn man seinem Peiniger dankbar sein muss...

@@ -5,7 +5,7 @@ draft: false
 image: /images/Plectranthus_caninus_'The_Scaredy_Cat_Plant'.JPG
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Amazonia_Exotics_U.K&amp;action=edit&amp;redlink=1" class="new" title="User:Amazonia Exotics U.K (page does not exist)">Amazonia Exotics U.K</a>
 author: nico
-tags: 
+tags:
 ---
 
 Fast so schön wie Vergissmeinnicht

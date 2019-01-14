@@ -10,7 +10,6 @@ und Umsetzung. Außerdem ist er besonders gut dokumentiert.
 
 An was man alles Denken muss!
 
-
 > Dagen H (H day), today mostly called "Högertrafikomläggningen" ("The
 > right-hand traffic diversion"), was the day, 3 September 1967, on which
 > traffic in Sweden switched from driving on the left-hand side of the road

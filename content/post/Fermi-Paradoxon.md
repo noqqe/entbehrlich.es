@@ -12,9 +12,8 @@ Es wird kurz das Problem an sich erklärt und darauf folgen 10 verschiedene
 Argumentationsmöglichkeiten warum das so ist. Allesamt richtig
 unterhaltsam.
 
-
 > Das Fermi-Paradoxon ist ein Widerspruch, den der Physiker Enrico Fermi
 > 1950 aufzeigte. Das Paradoxon hinterfragt die Wahrscheinlichkeit
 > intelligenten außerirdischen Lebens.
-> 
+>
 > Quelle: [Fermi Paradonxon](https://de.wikipedia.org/wiki/Fermi-Paradoxon)

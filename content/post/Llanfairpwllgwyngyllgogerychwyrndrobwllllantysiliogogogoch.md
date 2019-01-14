@@ -5,7 +5,7 @@ draft: false
 image: /images/Llanfair_PG_railway_station_sign.jpg
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Raphael_Frey&amp;action=edit&amp;redlink=1" class="new" title="User:Raphael Frey (page does not exist)">Raphael Frey</a>
 author: nico
-tags: 
+tags:
 - Ort in Anglesey
 - Sprachlicher Rekord
 - Wikipedia:Gesprochener Artikel

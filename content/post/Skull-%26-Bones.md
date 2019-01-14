@@ -13,7 +13,6 @@ andere Staatsmänner zum Beispiel.
 Und nichtmal George W. Bush plaudert auch nur im Geringsten aus, was dort
 so passiert.
 
-
 > Skull & Bones (engl. „Schädel und Knochen“) ist eine Studentenverbindung
 > der Yale University.
 >

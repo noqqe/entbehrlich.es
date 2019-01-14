@@ -7,7 +7,6 @@ draft: false
 Prunkvoll, verschwenderisch. Alles zu Lasten der Untertanen.
 Schloss Arnbach ist wirklich eine Perle der mittelalterlichen Baukunst.
 
-
 > Schloss Arnbach, wegen des Besitzes durch die Augustiner-Chorherren von
 > Kloster Indersdorf auch als Kloster Arnbach bezeichnet, ist ein
 > ehemaliges Hofmarkschloss in Arnbach in der Gemeinde Schwabhausen

@@ -3,7 +3,7 @@ title: Anal (Sprache)
 date: 2017-11-03T10:01:40
 draft: false
 author: nico
-tags: 
+tags:
 - Einzelsprache
 - Tibetobirmanische Sprachen
 ---

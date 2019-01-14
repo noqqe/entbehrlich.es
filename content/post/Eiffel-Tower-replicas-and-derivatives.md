@@ -5,7 +5,7 @@ draft: false
 image: /images/Bloemfontein-Eiffel_Tower-001.JPG
 imageauthor: Rute Martins of Leoa's Photography (<a rel="nofollow" class="external text" href="http://www.leoa.co.za">www.leoa.co.za</a>)
 author: nico
-tags: 
+tags:
 - Eiffel Tower reproductions
 - Lists of replicas
 - Webarchive template wayback links

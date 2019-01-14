@@ -3,7 +3,7 @@ title: Geburtstagsparadoxon
 date: 2018-12-18T14:00:06
 draft: true
 author: poschi
-tags: 
+tags:
 ---
 
 Befinden sich in einem Raum mindestens 23 Personen, dann ist die Chance, dass

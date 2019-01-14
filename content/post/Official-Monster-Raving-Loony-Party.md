@@ -5,7 +5,7 @@ draft: false
 image: /images/Alan_'Howling_Laud'_Hope.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Acabashi" title="User:Acabashi">Acabashi</a>
 author: nico
-tags: 
+tags:
 - Alternative Partei
 - Britische Partei
 - Gegründet 1983

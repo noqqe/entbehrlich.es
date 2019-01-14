@@ -5,7 +5,7 @@ draft: true
 image: /images/SchnellerBrueterKalkar.jpg
 imageauthor: Kungfuman
 author: poschi
-tags: 
+tags:
 ---
 
 Ein Freizeitpark im Atomkraftwerk sorgt für strahlende Gesichter!

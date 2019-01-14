@@ -5,7 +5,7 @@ draft: false
 image: /images/Angela_Merkel_Juli_2010_-_3zu4.jpg
 imageauthor: Armin Linnartz
 author: nico
-tags: 
+tags:
 - 2013 elections in Germany
 - Angela Merkel
 - Articles containing German-language text

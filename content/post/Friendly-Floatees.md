@@ -16,7 +16,6 @@ tags:
 Ein paar überbord gegangene Quietsche Entchen werden noch 15 Jahre später
 an irgendwelchen Küsten angeschwemmt.
 
-
 > Friendly Floatees (engl., dt.
 >
 > Quelle: [Friendly Floatees](https://de.wikipedia.org/wiki/Friendly_Floatees)

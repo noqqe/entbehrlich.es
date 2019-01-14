@@ -21,7 +21,6 @@ Die längste Belagerung der Menschheitsgeschichte in all ihrer Pracht.
 Gründe, Ablauf und vor allem Details sind schön zu lesen.
 Damals war Kriegsführung "ein bisschen" anders.
 
-
 > Die Belagerung von Candia (heute: Iraklio) war der letzte Kampf Venedigs
 > im Krieg um Kreta um die Insel Kreta und die längste Belagerung der
 > Menschheitsgeschichte. Sie dauerte vom 1. Mai 1648 bis zum 25.

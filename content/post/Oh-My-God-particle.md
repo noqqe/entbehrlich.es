@@ -19,7 +19,6 @@ tags:
 Das "OMG-Partikel" hat seinen Namen von der Reaktion der Physiker die es
 messen konnten.
 
-
 > The Oh-My-God particle was an ultra-high-energy cosmic ray detected on the
 > evening of 15 October 1991 over Dugway Proving Ground, Utah, by the University
 > of Utah's Fly's Eye Cosmic Ray Detector.

@@ -29,7 +29,6 @@ Jahreshauptversammlungen ("Woodstock für Kapitalisten") inklusive.
 Außerdem hatte Herr Buffett wohl eine Dreiecksbeziehung mit seiner Ehefrau
 und einer Freundin.
 
-
 > Warren Edward Buffett ist ein US-amerikanischer Großinvestor, Unternehmer
 > und Mäzen.
 >

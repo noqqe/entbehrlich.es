@@ -3,7 +3,7 @@ title: Pyrenäensteinbock
 date: 2018-12-11T14:20:31
 draft: false
 author: poschi
-tags: 
+tags:
 ---
 
 Der letzte Pyrenäensteinbock ist im Jahr 2000 gestorben. Zuvor wurde ihm eine

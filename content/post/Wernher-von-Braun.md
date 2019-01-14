@@ -28,7 +28,6 @@ Ich würde ihn trotzdem empfehlen, da man während des Lesens die ganze Zeit
 das Bild des bösen Superschurken Professors nicht loswird. Auch und
 besonders nicht nach der Umsiedlung in die USA nach dem letzten Weltkrieg.
 
-
 > Wernher Magnus Maximilian Freiherr von Braun war als deutscher und später
 > US-amerikanischer Raketeningenieur ein Wegbereiter der Raketenwaffen und
 > der Raumfahrt.

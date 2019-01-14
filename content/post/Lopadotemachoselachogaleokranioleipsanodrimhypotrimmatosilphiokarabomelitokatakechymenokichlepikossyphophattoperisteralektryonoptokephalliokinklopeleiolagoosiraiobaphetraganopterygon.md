@@ -3,7 +3,7 @@ title: Lopadotemachoselachogaleokranioleipsanodrimhypotrimmatosilphiokarabomelit
 date: 2017-12-22T11:29:17
 draft: false
 author: nico
-tags: 
+tags:
 - Aristophanes
 - Griechische Phrase
 - Sprachlicher Rekord

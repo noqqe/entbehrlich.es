@@ -5,7 +5,7 @@ draft: false
 image: /images/Original_Utah_Teapot.jpg
 imageauthor: Marshall Astor (<a rel="nofollow" class="external free" href="http://www.marshallastor.com/">http://www.marshallastor.com/</a>)
 author: nico
-tags: 
+tags:
 - Bildsynthese
 - Computergrafik
 - Teegefäß

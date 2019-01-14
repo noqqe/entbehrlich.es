@@ -3,7 +3,7 @@ title: Stromdiebstahlsfall
 date: 2017-04-10T07:20:18
 draft: false
 author: nico
-tags: 
+tags:
 - 1899
 - Allgemeine Strafrechtslehre (Deutschland)
 - Entscheidung des Reichsgerichts (Deutschland)

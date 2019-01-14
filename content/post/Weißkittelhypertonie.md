@@ -13,7 +13,6 @@ Werte haben.
 Auch umgekehrt geht das. Die Patienten fühlen sich in einer Klinik beruhigt
 und in Sicherheit, sodass der Blutdruck eher Richtung normal tendiert.
 
-
 > Der Begriff Weißkittelhypertonie (engl. white coat hypertension)
 > bezeichnet Blutdruckwerte, die bei der Messung in einer Arztpraxis oder
 > Klinik konsistent erhöht, bei Selbst- und ambulanten Messungen (z. B.

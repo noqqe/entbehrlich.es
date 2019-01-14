@@ -16,9 +16,9 @@ Diejenigen die Software entwickeln wissen das.
 > development time. The remaining 10 percent of the code accounts for the
 > other 90 percent of the development time.
 
-:) 
+:)
 
 > In computer programming and software engineering, the ninety-ninety rule
 > is a humorous aphorism.
-> 
+>
 > Quelle: [Ninety-ninety rule](https://en.wikipedia.org/wiki/Ninety-ninety_rule)

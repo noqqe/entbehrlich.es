@@ -14,7 +14,6 @@ tags:
 
 Mönche im Mittelalter hatten Angst vor dem Rechtschreibdämon.
 
-
 > Titivillus was a demon said to work on behalf of Belphegor, Lucifer or Satan
 > to introduce errors into the work of scribes.
 >

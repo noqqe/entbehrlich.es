@@ -17,7 +17,6 @@ tags:
 
 Dieser Gebäudekomplex hat ein bisschen was von Minecraft.
 
-
 > Habitat 67 ist ein von dem Architekten Moshe Safdie in den Jahren 1966 bis
 > 1967 entworfener Wohnhauskomplex in der kanadischen Stadt Montreal.
 >

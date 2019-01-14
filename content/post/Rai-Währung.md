@@ -5,7 +5,7 @@ draft: false
 image: /images/Yap_Stone_Money.jpg
 imageauthor: <a href="https://en.wikipedia.org/wiki/User:Marshman" class="extiw" title="en:User:Marshman">Eric Guinther</a>
 author: nico
-tags: 
+tags:
 - Föderierte Staaten von Mikronesien
 - Geschichte (Australien und Ozeanien)
 - Historische Währungseinheit (Australien und Ozeanien)

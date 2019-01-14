@@ -3,7 +3,7 @@ title: Jackie (Hund)
 date: 2017-03-22T10:54:31
 draft: false
 author: nico
-tags: 
+tags:
 - Adolf Hitler
 - Individueller Haushund
 - Politische Affäre
