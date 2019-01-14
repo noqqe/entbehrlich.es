@@ -16,7 +16,7 @@ tags:
 - Cosmic rays
 ---
 
-Das "OMG-Partikel" hat seinen Namen von der Reaktion der Phgysiker die es
+Das "OMG-Partikel" hat seinen Namen von der Reaktion der Physiker die es
 messen konnten.
 
 
