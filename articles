@@ -526,7 +526,7 @@ def new(url, date, thanks, debug, author):
     lang = url.netloc.split('.')[0]
     title = url.path.split('/')[2].replace('-', ' ').replace('_', ' ')
     title = unquote(title)
-    filename = title.replace(' ', '-').replace('---', '-').replace(')', '').replace('(', '') + '.md'
+    filename = title.replace(' ', '-').replace('---', '-').replace(')', '').replace('(', '').replace('/','') + '.md'
     path = posts_home + filename
 
     # check if article was written before or naming conflict
