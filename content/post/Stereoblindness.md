@@ -17,4 +17,3 @@ dreidimensional zu sehen.
 > combining and comparing images from the two eyes.
 >
 > Quelle: [Stereoblindness](https://en.wikipedia.org/wiki/Stereoblindness)
-

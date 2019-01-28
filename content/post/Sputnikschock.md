@@ -20,4 +20,3 @@ So oder so ungefähr muss das wohl gelaufen sein.
 > Sputnik 1 am 4.
 >
 > Quelle: [Sputnikschock](https://de.wikipedia.org/wiki/Sputnikschock)
-

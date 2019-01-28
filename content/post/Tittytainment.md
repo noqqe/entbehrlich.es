@@ -14,4 +14,3 @@ Interessantes Konzept. RTL2?
 > (Slang für Busen) und entertainment (Unterhaltung).
 >
 > Quelle: [Tittytainment](https://de.wikipedia.org/wiki/Tittytainment)
-

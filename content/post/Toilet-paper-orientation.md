@@ -23,4 +23,3 @@ Artikel ist geradezu peinlich lang, wenn auch besser.
 > near-away.
 >
 > Quelle: [Toilet paper orientation](https://en.wikipedia.org/wiki/Toilet_paper_orientation)
-

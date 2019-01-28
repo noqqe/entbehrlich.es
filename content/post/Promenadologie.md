@@ -17,4 +17,3 @@ Die Wissenschaft des Spazierengehens.
 > Umwelt bewusst zu machen und die Umweltwahrnehmung zu erweitern.
 >
 > Quelle: [Promenadologie](https://de.wikipedia.org/wiki/Promenadologie)
-

@@ -23,4 +23,3 @@ Egal wie viel Luftabwehr du hast...
 > will survive to destroy cities.
 >
 > Quelle: [The bomber will always get through](https://en.wikipedia.org/wiki/The_bomber_will_always_get_through)
-

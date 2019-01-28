@@ -16,4 +16,3 @@ tags:
 > der vereinbarten Anstellung ausgleichen sollten.
 >
 > Quelle: [Scheißtag](https://de.wikipedia.org/wiki/Scheißtag)
-

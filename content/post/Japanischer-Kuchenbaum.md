@@ -16,4 +16,3 @@ Ein Baum der nach Lebkuchen riecht wenns draußen feucht ist!
 > zählenden Gattung Kuchenbäume (Cercidiphyllum).
 >
 > Quelle: [Japanischer Kuchenbaum](https://de.wikipedia.org/wiki/Japanischer_Kuchenbaum)
-

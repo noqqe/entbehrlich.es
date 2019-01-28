@@ -35,4 +35,3 @@ Lustige Bräuche jedenfalls.
 > allem in der Pfalz berichtet wird.
 >
 > Quelle: [Elwetritsch](https://de.wikipedia.org/wiki/Elwetritsch)
-
