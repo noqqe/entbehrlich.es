@@ -1,7 +1,7 @@
 ---
 title: Boodog
-date: 2018-11-15T14:00:39
-draft: true
+date: 2019-01-30T09:37:28
+draft: false
 author: noqqe
 tags:
 ---
