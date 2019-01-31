@@ -524,7 +524,7 @@ def new(url, date, thanks, debug, author):
     text = \
         header + \
         n + n + \
-        quote + n
+        quote
 
     # if debug is on, just print and quit the function.
     # no edit, no commit, no file written
