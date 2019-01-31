@@ -4,7 +4,6 @@ matrix:
       node_js: 10.15
       install:
         - npm install -g markdownlint-cli
-        - echo $KNOWN_HOSTS_KEY >> $HOME/.ssh/known_hosts
       script:
         - markdownlint content/*.md
         - markdownlint content/post/*.md
@@ -23,6 +22,7 @@ matrix:
       script:
         - hugo
       before_deploy:
+        - echo $KNOWN_HOSTS_KEY >> $HOME/.ssh/known_hosts
         - openssl aes-256-cbc -K $encrypted_e2fa1c035576_key -iv $encrypted_e2fa1c035576_iv -in deploy_rsa.enc -out deploy_rsa -d
         - eval "$(ssh-agent -s)"
         - chmod 600 deploy_rsa
