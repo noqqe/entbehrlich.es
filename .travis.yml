@@ -8,12 +8,6 @@ matrix:
       script:
         - markdownlint content/*.md
         - markdownlint content/post/*.md
-    - language: go
-      go: '1.11'
-      install:
-        - go get github.com/gohugoio/hugo
-      script:
-        - hugo
     - language: python
       python: 3.6
       env:
@@ -22,3 +16,20 @@ matrix:
         - pip install -r requirements.txt
       script:
         - ./articles queue
+    - language: go
+      go: '1.11'
+      install:
+        - go get github.com/gohugoio/hugo
+      script:
+        - hugo
+      before_deploy:
+        - openssl aes-256-cbc -K $encrypted_e2fa1c035576_key -iv $encrypted_e2fa1c035576_iv -in deploy_rsa.enc -out deploy_rsa -d
+        - eval "$(ssh-agent -s)"
+        - chmod 600 deploy_rsa
+        - ssh-add deploy_rsa
+      deploy:
+        - provider: script
+          skip_cleanup: true
+          script: rsync -avi --delete public/ $DEPLOY_TARGET
+          on:
+            branch: master
