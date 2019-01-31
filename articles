@@ -48,12 +48,6 @@ editor = os.getenv("EDITOR")
 # Commons API
 commonsapi = "https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image="
 
-# Twitter credentials
-tw_con_key = "aWoryvyvjQqV2aCDOyg6YJCJi"
-tw_con_secret = "A8JhSSKM0996vjKV8NwKi8dvR2ApCfuRb6M8rRav6ctojhQcRk"
-tw_access_token = "723558748581683201-QYcFL4pFqHxgflEjcxkeIE5BfMEI6JM"
-tw_access_token_secret = "Dd8oGmYhXpMfGcFF3HdsqKO8iD2q902uuHFs7cUZI3HbI"
-
 # Facebook credentials
 fb_page_id = "261895677571205"
 fb_access_token = "EAASqiPTBiV4BAN5Dh508I4JUmgstqyd4zZA1CZCv5wcuMuf4g8wTiMKQGlV0ZAdT5RYq3erjhYbLxDFNnPOZAQPLW9H3Lofmj2qQiKMTW4ZCtF3qZCyWz77thAx17anqynuo8fTkK5QYdZCfNzGPG8OLT10FOZAIq0oZD"
@@ -441,12 +435,16 @@ def tweet(feedurl):
 
     message = desc + " #wikipedia " + link
 
-    auth = twitter.OAuth(
-        consumer_key=tw_con_key,
-        consumer_secret=tw_con_secret,
-        token=tw_access_token,
-        token_secret=tw_access_token_secret,
-	)
+    try:
+        auth = twitter.OAuth(
+            consumer_key=os.getenv(tw_con_key),
+            consumer_secret=os.getenv(tw_con_secret),
+            token=os.getenv(tw_access_token),
+            token_secret=os.getenv(tw_access_token_secret),
+        )
+    except:
+        log("Could not find global variables for twitter auth", "error")
+        return False
 
     try:
         t = twitter.Twitter(auth=auth)
