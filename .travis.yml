@@ -16,6 +16,8 @@ matrix:
         - hugo
     - language: python
       python: 3.6
+      env:
+        - EDITOR=/usr/bin/vim
       install:
         - pip install -r requirements.txt
       script:
