@@ -40,15 +40,11 @@ project_home = os.getcwd()
 posts_home = project_home + "/content/post/"
 images_home = project_home + "/static/images/"
 feedurl = project_home + "/public/index.xml"
-hugocmd = "bash -c 'hugo --buildFuture'"
 
 editor = os.getenv("EDITOR")
 
 # Commons API
 commonsapi = "https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image="
-
-# Hosts deployment
-rsynccmd = "bash -c '/usr/local/bin/rsync -avi --delete --iconv=utf-8-mac,utf-8 %s/public/ entbehrlich.es:/var/www/htdocs/entbehrlich.es/public/'" % project_home
 
 # Logging
 logging.basicConfig(level=logging.ERROR)
@@ -255,41 +251,6 @@ def gen_markdown_link(url, txt=None):
 
     return mdurl
 
-# Sync and deploying functions
-def build(hugocmd):
-    """
-    Executes hugo to build the latest build of the blog
-
-    :hugocmd: str (command and args)
-    :returns: bool
-    """
-    log("Compiling blog...", "debug")
-
-    status, output = subprocess.getstatusoutput(hugocmd)
-
-    if status == 0:
-        log("Blog compiled successfully", "info")
-        return True
-    else:
-        log("Blog compiling failed: \n %s" % output, "error")
-        return False
-
-def deploy(rsynccmd):
-    """
-    Uses rsync to deploy the build to the serving http server
-
-    :returns: bool
-    """
-    log("Deploying blog using rsync...", "debug")
-
-    status, output = subprocess.getstatusoutput(rsynccmd)
-
-    if status == 0:
-        log("Blog deployment successful", "info")
-        return True
-    else:
-        log("Blog deployment failed: \n %s" % output, "error")
-        return False
 
 def publish(post):
     """
@@ -580,8 +541,6 @@ def release(post):
     Releases a post to the website
     * removes draft status from post
     * commit post in git
-    * build hugo
-    * deploy to webserver
     * tweet about it
 
     """
@@ -618,34 +577,6 @@ def release(post):
     # push git changes
     if not push():
         return False
-
-    # build blog
-    if not build(hugocmd):
-        return False
-
-    # deploy to server
-    if not deploy(rsynccmd):
-        return False
-
-    # tweet the new post
-    if not tweet(feedurl):
-        return False
-
-    return True
-
-@cli.command(short_help="Build and deploy to entbehrlich.es")
-def redeploy():
-    """
-    \b
-    Redeploy means that no new content will be published.
-    The blog will be build and rsynced to the server
-    """
-
-    # build blog
-    build(hugocmd)
-
-    # build deploy to server
-    deploy(rsynccmd)
 
     return True
 
