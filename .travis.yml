@@ -1,6 +1,7 @@
-matrix:
+jobs:
   include:
     - language: node_js
+      stage: test
       node_js: 10.15
       install:
         - npm install -g markdownlint-cli
@@ -8,6 +9,7 @@ matrix:
         - markdownlint content/*.md
         - markdownlint content/post/*.md
     - language: python
+      stage: test
       python: 3.6
       env:
         - EDITOR=/usr/bin/vim
@@ -16,6 +18,14 @@ matrix:
       script:
         - ./articles queue
     - language: go
+      stage: test
+      go: '1.11'
+      install:
+        - go get github.com/gohugoio/hugo
+      script:
+        - hugo --buildFuture
+    - language: go
+      stage: deploy
       go: '1.11'
       install:
         - go get github.com/gohugoio/hugo
