@@ -47,6 +47,17 @@ Commands:
   release      Publish a post
 ```
 
+# Deployment & Hosting
+
+[entbehrlich.es](https://entbehrlich.es) is running on a private server of noqqe.
+
+Its build and deployed using travis-ci. If you made markdown/syntax errors the blog will
+not be published. Every time some commits something to the repo, the blog gets built and deployed.
+
+Current build status:
+
+[![Build Status](https://travis-ci.org/noqqe/entbehrlich.es.svg?branch=master)](https://travis-ci.org/noqqe/entbehrlich.es)
+
 # Requirements
 
 These are the requirements to get ./articles running 
