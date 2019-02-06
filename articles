@@ -22,7 +22,6 @@ import urllib.request
 import PIL
 from PIL import Image
 import click
-import nltk
 import git
 import requests
 import wikipedia
@@ -30,7 +29,6 @@ import twitter
 import feedparser
 import xmltodict
 from dateutil.parser import parse
-import facebook
 
 # fucking warnings that i cannot control (wikipedia lib)
 import warnings
@@ -214,10 +212,6 @@ def gen_article_quote(summary, title, url):
 
     # shortcut for newline
     n = '\n'
-
-    # first sentence of the article and quote it for markdown
-    if len(summary) >= 350:
-        summary = nltk.tokenize.sent_tokenize(summary)[0]
 
     summary = textwrap.wrap(summary, 78)
 

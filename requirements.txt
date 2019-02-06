@@ -1,5 +1,4 @@
 Pillow
-nltk
 wikipedia
 gitpython
 click
@@ -7,4 +6,3 @@ twitter
 feedparser
 xmltodict
 python-dateutil
-facebook-sdk
