@@ -1,7 +1,7 @@
 ---
 title: Freestyle Skiing bei den Olympischen Spielen
-date: 2018-09-30T14:00:51
-draft: true
+date: 2019-02-07T09:11:58
+draft: false
 author: noqqe
 tags:
 ---
