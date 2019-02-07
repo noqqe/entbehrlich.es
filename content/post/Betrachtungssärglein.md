@@ -16,4 +16,3 @@ Auch ein schöner Glücksbringer.
 > rufen soll (memento mori).
 >
 > Quelle: [Betrachtungssärglein](https://de.wikipedia.org/wiki/Betrachtungssärglein)
-

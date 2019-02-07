@@ -39,25 +39,11 @@ project_home = os.getcwd()
 posts_home = project_home + "/content/post/"
 images_home = project_home + "/static/images/"
 feedurl = project_home + "/public/index.xml"
-hugocmd = "bash -c 'hugo --buildFuture'"
 
 editor = os.getenv("EDITOR")
 
 # Commons API
 commonsapi = "https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image="
-
-# Twitter credentials
-tw_con_key = "aWoryvyvjQqV2aCDOyg6YJCJi"
-tw_con_secret = "A8JhSSKM0996vjKV8NwKi8dvR2ApCfuRb6M8rRav6ctojhQcRk"
-tw_access_token = "723558748581683201-QYcFL4pFqHxgflEjcxkeIE5BfMEI6JM"
-tw_access_token_secret = "Dd8oGmYhXpMfGcFF3HdsqKO8iD2q902uuHFs7cUZI3HbI"
-
-# Facebook credentials
-fb_page_id = "261895677571205"
-fb_access_token = "EAASqiPTBiV4BAN5Dh508I4JUmgstqyd4zZA1CZCv5wcuMuf4g8wTiMKQGlV0ZAdT5RYq3erjhYbLxDFNnPOZAQPLW9H3Lofmj2qQiKMTW4ZCtF3qZCyWz77thAx17anqynuo8fTkK5QYdZCfNzGPG8OLT10FOZAIq0oZD"
-
-# Hosts deployment
-rsynccmd = "bash -c '/usr/local/bin/rsync -avi --delete --iconv=utf-8-mac,utf-8 %s/public/ entbehrlich.es:/var/www/htdocs/entbehrlich.es/public/'" % project_home
 
 # Logging
 logging.basicConfig(level=logging.ERROR)
@@ -260,41 +246,6 @@ def gen_markdown_link(url, txt=None):
 
     return mdurl
 
-# Sync and deploying functions
-def build(hugocmd):
-    """
-    Executes hugo to build the latest build of the blog
-
-    :hugocmd: str (command and args)
-    :returns: bool
-    """
-    log("Compiling blog...", "debug")
-
-    status, output = subprocess.getstatusoutput(hugocmd)
-
-    if status == 0:
-        log("Blog compiled successfully", "info")
-        return True
-    else:
-        log("Blog compiling failed: \n %s" % output, "error")
-        return False
-
-def deploy(rsynccmd):
-    """
-    Uses rsync to deploy the build to the serving http server
-
-    :returns: bool
-    """
-    log("Deploying blog using rsync...", "debug")
-
-    status, output = subprocess.getstatusoutput(rsynccmd)
-
-    if status == 0:
-        log("Blog deployment successful", "info")
-        return True
-    else:
-        log("Blog deployment failed: \n %s" % output, "error")
-        return False
 
 def publish(post):
     """
@@ -374,42 +325,6 @@ def pull():
         log("Failed to pull state from remote repository", "error")
         return False
 
-
-def fbpost(feedurl, picture='https://entbehrlich.es/img/paper-logo.png'):
-    """
-    Post latest blogpost to facebook page from rss feed
-    :feedurl: str (path)
-    :returns: bool
-    """
-
-    feed = feedparser.parse(feedurl)
-    title = feed['entries'][0]['title']
-    link = feed['entries'][0]['link']
-
-    # get description from feed url
-    # the goal is to find the html <p> that contains the description
-    # added by me. not the wikipedia quote.
-    desc = feed['entries'][0]['summary']
-    desc = desc.split('\n')[0]
-    desc = desc.replace('\n','')
-    desc = html.unescape(desc)
-
-    attachment = {
-        'name': title,
-        'link': link,
-        'description': 'Entbehrliches Wissen aus der Wikipedia',
-        'picture': picture,
-    }
-
-    try:
-        graph = facebook.GraphAPI(fb_access_token)
-        graph.put_wall_post(profile_id=fb_page_id, message=desc, attachment=attachment)
-        log("Posted \"%s\" to on Facebook wall" % title, "info")
-        return True
-    except:
-        log("Could not send Facebook post. Check debugging", "error")
-        return False
-
 def tweet(feedurl):
     """
     Tweet latest blogpost from rss feed
@@ -435,12 +350,16 @@ def tweet(feedurl):
 
     message = desc + " #wikipedia " + link
 
-    auth = twitter.OAuth(
-        consumer_key=tw_con_key,
-        consumer_secret=tw_con_secret,
-        token=tw_access_token,
-        token_secret=tw_access_token_secret,
-	)
+    try:
+        auth = twitter.OAuth(
+            consumer_key=os.getenv(tw_con_key),
+            consumer_secret=os.getenv(tw_con_secret),
+            token=os.getenv(tw_access_token),
+            token_secret=os.getenv(tw_access_token_secret),
+        )
+    except:
+        log("Could not find global variables for twitter auth", "error")
+        return False
 
     try:
         t = twitter.Twitter(auth=auth)
@@ -561,7 +480,7 @@ def new(url, date, thanks, debug, author):
     text = \
         header + \
         n + n + \
-        quote + n
+        quote
 
     # if debug is on, just print and quit the function.
     # no edit, no commit, no file written
@@ -617,8 +536,6 @@ def release(post):
     Releases a post to the website
     * removes draft status from post
     * commit post in git
-    * build hugo
-    * deploy to webserver
     * tweet about it
 
     """
@@ -655,38 +572,6 @@ def release(post):
     # push git changes
     if not push():
         return False
-
-    # build blog
-    if not build(hugocmd):
-        return False
-
-    # deploy to server
-    if not deploy(rsynccmd):
-        return False
-
-    # tweet the new post
-    if not tweet(feedurl):
-        return False
-
-    # facebook post the new post
-    # if not fbpost(feedurl):
-    #     return False
-
-    return True
-
-@cli.command(short_help="Build and deploy to entbehrlich.es")
-def redeploy():
-    """
-    \b
-    Redeploy means that no new content will be published.
-    The blog will be build and rsynced to the server
-    """
-
-    # build blog
-    build(hugocmd)
-
-    # build deploy to server
-    deploy(rsynccmd)
 
     return True
 

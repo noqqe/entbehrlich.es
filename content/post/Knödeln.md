@@ -12,4 +12,3 @@ tags:
 > Bereich der Gesangstechnik.
 >
 > Quelle: [Knödeln](https://de.wikipedia.org/wiki/Knödeln)
-

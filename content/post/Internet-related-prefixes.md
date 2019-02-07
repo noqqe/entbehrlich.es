@@ -18,4 +18,3 @@ eigentlich steht.
 > is often used in a similar manner.
 >
 > Quelle: [Internet related prefixes](https://en.wikipedia.org/wiki/Internet-related_prefixes)
-

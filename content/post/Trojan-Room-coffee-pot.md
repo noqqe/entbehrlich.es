@@ -21,4 +21,3 @@ Diese Kaffeekanne ist sozusagen Schuld an der ersten Webcam.
 > England, which in 1991 provided the inspiration for the world's first webcam.
 >
 > Quelle: [Trojan Room coffee pot](https://en.wikipedia.org/wiki/Trojan_Room_coffee_pot)
-

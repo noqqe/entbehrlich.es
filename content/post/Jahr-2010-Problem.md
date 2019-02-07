@@ -14,4 +14,3 @@ was Software angeht.
 > Computeranwendungen zur Jahreswende 2009/2010 aufgetretene Softwarefehler.
 >
 > Quelle: [Jahr 2010 Problem](https://de.wikipedia.org/wiki/Jahr-2010-Problem)
-

@@ -22,4 +22,3 @@ doof.
 Niemand würde ohne das Wissen aus den gelesenen Artikeln sterben. Aber
 trotzdem ist es irgendwie schön Allgemeinwissen aufzubauen und vor
 allem ist es unterhaltsam. Und die Domain war noch frei.
-

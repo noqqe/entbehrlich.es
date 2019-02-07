@@ -24,4 +24,3 @@ Freitzeitmöglichkeiten für das gemeine Volk zu schaffen.
 > Prora ist ein Ortsteil der Gemeinde Binz auf Rügen.
 >
 > Quelle: [Prora](https://de.wikipedia.org/wiki/Prora)
-

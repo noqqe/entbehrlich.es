@@ -17,4 +17,3 @@ Unzurechnungsfähigkeit begründen.
 > "Twinkie defense" is a derisive label for an improbable legal defense.
 >
 > Quelle: [Twinkie defense](https://en.wikipedia.org/wiki/Twinkie_defense)
-

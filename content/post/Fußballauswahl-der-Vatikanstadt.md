@@ -14,4 +14,3 @@ Giovanni Trappatoni trainiert. "Spiele wie heilige Gral leer!"
 > päpstlichen Räten und Museumswächtern.
 >
 > Quelle: [Fußballauswahl der Vatikanstadt](https://de.wikipedia.org/wiki/Fußballauswahl_der_Vatikanstadt)
-

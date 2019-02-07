@@ -1,7 +1,7 @@
 ---
 title: Goodharts Gesetz
-date: 2018-12-18T14:00:33
-draft: true
+date: 2019-02-01T12:08:38
+draft: false
 author: noqqe
 tags:
 ---

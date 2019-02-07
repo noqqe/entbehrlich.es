@@ -15,4 +15,3 @@ Ich spoiler einfach mal nicht den Verlauf dieses Spiels.
 > chim (kor. 똥침, 糞針) und auf den Philippinen als Tumbong bekannt.
 >
 > Quelle: [Kanchō (Spiel)](https://de.wikipedia.org/wiki/Kanchō_(Spiel))
-

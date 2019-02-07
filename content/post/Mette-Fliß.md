@@ -26,4 +26,3 @@ ich aber nicht wirklich.
 > Scheiterhaufen gemeinsam mit drei anderen Frauen öffentlich verbrannt.
 >
 > Quelle: [Mette_Fliß](https://de.wikipedia.org/wiki/Mette_Fliß)
-
