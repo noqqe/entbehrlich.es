@@ -18,6 +18,8 @@ import warnings
 import subprocess
 from urllib.parse import urlparse, unquote
 import urllib.request
+import re
+import fileinput
 
 import PIL
 from PIL import Image
@@ -261,17 +263,27 @@ def publish(post):
     path = posts_home + post
 
     try:
-        open(path)
+        f = open(path, "r")
+        f.close()
     except IOError:
         log("No such file %s" % path, "error")
         return False
 
-    if not 'draft: true' in open(path).read():
+    f = open(path, "r")
+    if not 'draft: true' in f.read():
         log("Article %s was already release. Updating publish date" % post, "debug")
 
-    # because FUCK YOU HARD FILEINPUT!
-    subprocess.getstatusoutput('bash -c \'sed -i "" -e "s#draft: true#draft: false#" %s\'' % path)
-    subprocess.getstatusoutput('bash -c \'sed -i "" -e "s#date: .*#date: %s#" %s\'' % (t, path))
+    f.close()
+
+    with fileinput.FileInput(path, inplace=True) as file:
+        for line in file:
+            print(line.replace('draft: true', 'draft: false'), end='')
+        file.close()
+
+    with fileinput.FileInput(path, inplace=True) as file:
+        for line in file:
+            print(re.sub(r'date: .*', r'date: %s' % t, line), end='')
+        file.close()
 
     log("Modified %s to draft=false and date %s" % (post, t), "debug")
 
