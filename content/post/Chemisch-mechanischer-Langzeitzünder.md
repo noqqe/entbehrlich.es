@@ -14,6 +14,6 @@ Jahren ein großes Problem.
 > der britischen Royal Air Force und der United States Army Air Forces (USAAF)
 > verwendet. Sie sollten Lösch- und Bergungsarbeiten behindern bzw. unmöglich
 > machen und durch die Detonation noch Stunden nach Ende des Luftangriffs auch
-> Personen treffen, die ihre Schutzräume verlassen hatten. 
+> Personen treffen, die ihre Schutzräume verlassen hatten.
 >
 > Quelle: [Chemisch mechanische Langzeitzünder](https://de.wikipedia.org/wiki/Chemisch-mechanischer_Langzeitz%C3%BCnder)
