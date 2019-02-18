@@ -1,7 +1,7 @@
 ---
 title: Chemisch mechanischer Langzeitzünder
-date: 2019-02-18T14:00:50
-draft: true
+date: 2019-02-18T16:59:46
+draft: false
 author: poschi
 tags: 
 ---
