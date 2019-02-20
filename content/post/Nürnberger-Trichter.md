@@ -1,7 +1,7 @@
 ---
 title: Nürnberger Trichter
-date: 2019-01-28T14:00:03
-draft: true
+date: 2019-02-20T08:18:33
+draft: false
 image: /images/Nuremberg_Funnel_-_ad_stamp_1910.jpg
 imageauthor: <span lang="en">Unknown</span>
 author: poschi
