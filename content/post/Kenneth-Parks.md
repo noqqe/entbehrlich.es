@@ -1,7 +1,7 @@
 ---
 title: Kenneth Parks
-date: 2019-01-30T14:00:09
-draft: true
+date: 2019-02-21T09:26:24
+draft: false
 author: nico
 tags: 
 ---
