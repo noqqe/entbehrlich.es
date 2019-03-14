@@ -1,6 +1,6 @@
 ---
 title: Hubert Blaine Wolfeschlegelsteinhausenbergerdorff, Sr.
-date: 2019-03-14T10:14:49
+date: 2019-03-14T10:15:11
 draft: false
 author: nico
 tags: 
