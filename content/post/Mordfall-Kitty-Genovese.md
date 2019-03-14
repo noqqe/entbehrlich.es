@@ -1,7 +1,7 @@
 ---
 title: Mordfall Kitty Genovese
-date: 2019-03-06T14:00:52
-draft: true
+date: 2019-03-14T08:39:29
+draft: false
 author: noqqe
 tags:
 ---
