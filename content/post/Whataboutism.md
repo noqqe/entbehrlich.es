@@ -1,7 +1,7 @@
 ---
 title: Whataboutism
-date: 2018-12-14T14:00:53
-draft: true
+date: 2019-03-20T07:53:41
+draft: false
 author: noqqe
 tags:
 - All articles with specifically marked weasel-worded phrases
