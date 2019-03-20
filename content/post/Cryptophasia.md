@@ -16,4 +16,3 @@ entwickeln.
 > fraternal) that only the two children could understand.
 >
 > Quelle: [Cryptophasia](https://en.wikipedia.org/wiki/Cryptophasia)
-

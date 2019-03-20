@@ -24,4 +24,3 @@ einem Lied des Künstlers Shaggy "it wasn't me".
 > were the one witnessed or recorded committing the act.
 >
 > Quelle: [Shaggy defense](https://en.wikipedia.org/wiki/Shaggy_defense)
-

@@ -1,7 +1,7 @@
 ---
 title: Cyclogyro
-date: 2018-10-12T14:00:13
-draft: true
+date: 2019-03-12T09:54:15
+draft: false
 image: /images/Cyclogyro-Mechanics.gif
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Hk_kng" title="User:Hk kng">Hk kng</a>
 author: noqqe

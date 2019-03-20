@@ -18,4 +18,3 @@ sich geworfen um alle zu verwirren.
 > Argumenten.
 >
 > Quelle: [Chewbacca Verteidigung](https://de.wikipedia.org/wiki/Chewbacca-Verteidigung)
-

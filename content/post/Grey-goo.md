@@ -24,4 +24,3 @@ Zumindest dieser Theorie nach.
 > literally "eating the habitation").
 >
 > Quelle: [Grey goo](https://en.wikipedia.org/wiki/Grey_goo)
-

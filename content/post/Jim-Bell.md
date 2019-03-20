@@ -1,7 +1,7 @@
 ---
 title: Jim Bell
-date: 2019-01-11T14:00:27
-draft: true
+date: 2019-02-15T07:43:47
+draft: false
 author: noqqe
 tags:
 - 1958 births

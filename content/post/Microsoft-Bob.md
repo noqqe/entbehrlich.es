@@ -12,7 +12,7 @@ besonders tolle Security Features.
 > Keinen Schutz vor unerwünschten Zugriffen bietet die Kennwortabfrage beim
 > Loginvorgang von MS Bob: Hat ein Anwender sein Kennwort mehrfach falsch
 > eingegeben, kann er ohne Sicherheitsabfragen ein neues Kennwort vergeben.
-
+>
 > Microsoft Bob (kurz MS Bob) ist ein im März 1995 von Microsoft
 > veröffentlichtes Softwarepaket für Windows-Systeme.
 >

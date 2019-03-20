@@ -16,4 +16,3 @@ Formel für die Erzeugung von Mandelbrot Fraktalen die Aussehen wie Buddha.
 > (ushnisha).
 >
 > Quelle: [Buddhabrot](https://de.wikipedia.org/wiki/Buddhabrot)
-

@@ -17,4 +17,3 @@ den Herren aus.
 > österreichisch-französischer Schneider und Fallschirmkonstrukteur.
 >
 > Quelle: [Franz Reichelt](https://de.wikipedia.org/wiki/Franz_Reichelt)
-
