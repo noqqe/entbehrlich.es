@@ -1,7 +1,7 @@
 ---
 title: Project West Ford
-date: 2019-01-01T14:00:06
-draft: true
+date: 2019-03-26T09:33:58
+draft: false
 author: noqqe
 tags:
 ---
