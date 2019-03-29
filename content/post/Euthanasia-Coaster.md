@@ -1,7 +1,7 @@
 ---
 title: Euthanasia Coaster
-date: 2019-01-30T14:00:25
-draft: true
+date: 2019-03-25T12:20:16
+draft: false
 image: /images/Urbonas_and_Euthanasia_Coaster.jpg
 imageauthor: <a rel="nofollow" class="external text" href="https://www.flickr.com/photos/31290193@N06/">Justin Pickard</a>
 author: nico
