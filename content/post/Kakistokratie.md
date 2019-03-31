@@ -1,7 +1,7 @@
 ---
 title: Kakistokratie
-date: 2019-01-09T14:00:43
-draft: true
+date: 2019-03-31T08:59:36
+draft: false
 author: noqqe
 tags:
 ---
