@@ -1,7 +1,7 @@
 ---
 title: Stanford Prison Experiment
-date: 2019-03-12T14:00:20
-draft: true
+date: 2019-04-01T08:46:18
+draft: false
 author: noqqe
 tags:
 ---
