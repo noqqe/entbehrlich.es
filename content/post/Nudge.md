@@ -17,6 +17,6 @@ Hast du dich schon immer mal gefragt, warum da eine Fliege in der Toilette ist?
 > Entscheidungen anstößt) von 2008, geprägt wurde: Unter einem Nudge verstehen
 > die Autoren eine Methode, das Verhalten von Menschen zu beeinflussen, ohne
 > dabei auf Verbote und Gebote zurückgreifen oder ökonomische Anreize verändern
-> zu müssen. 
+> zu müssen.
 >
 > Quelle: [Nudge](https://de.wikipedia.org/wiki/Nudge)
