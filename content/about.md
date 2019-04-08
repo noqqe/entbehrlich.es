@@ -4,7 +4,7 @@ title: About
 type: page
 ---
 
-Wir ([noqqe](https://twitter.com/noqqe), [Poschi](https://twitter.com/poschi3)
+Wir ([noqqe](https://twitter.com/noqqe), [Poschi](https://twitter.com/poschi3),
 [nico](https://twitter.com/palimphread)) lesen viel Wikipedia.
 Dieser Blog ist eine Art Experiment, bei dem wir versuchen alle 2-3 Tage
 einen lesenswerten Artikel zu posten und (ganz kurz) einzuleiten warum wir
