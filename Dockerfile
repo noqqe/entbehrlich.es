@@ -1,3 +1,3 @@
-FROM smebberson/alpine-nginx
+FROM nginx:stable-alpine
 
-ADD public /usr/html/
+COPY public /usr/share/nginx/html
