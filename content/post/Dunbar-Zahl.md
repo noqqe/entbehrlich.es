@@ -1,7 +1,7 @@
 ---
 title: Dunbar Zahl
-date: 2019-03-12T14:00:23
-draft: true
+date: 2019-04-11T07:24:45
+draft: false
 author: noqqe
 tags:
 ---
