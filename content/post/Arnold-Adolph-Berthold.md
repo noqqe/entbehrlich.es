@@ -1,7 +1,7 @@
 ---
 title: Arnold Adolph Berthold
-date: 2019-02-04T14:00:12
-draft: true
+date: 2019-04-14T09:16:14
+draft: false
 image: /images/Arnold_Adolph_Berthold.jpg
 imageauthor: <span lang="en">Unknown</span>
 author: noqqe
