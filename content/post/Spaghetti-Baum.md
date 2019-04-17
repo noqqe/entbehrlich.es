@@ -12,7 +12,7 @@ Aprilscherze vergangener Tage
 
 > Der Spaghetti-Baum ist ein erfundener Baum und Thema eines scherzhaften
 > Dokumentarfilms (Mockumentary) der BBC. Der Kurzfilm wurde am 1. April 1957 in
-> der BBC-Sendung Panorama ausgestrahlt und zeigt eine vermeintliche Spaghetti-
-> Ernte im Kanton Tessin in der Schweiz.
+> der BBC-Sendung Panorama ausgestrahlt und zeigt eine vermeintliche Spaghetti-Ernte
+> im Kanton Tessin in der Schweiz.
 >
 > Quelle: [Spaghetti Baum](https://de.wikipedia.org/wiki/Spaghetti-Baum)
