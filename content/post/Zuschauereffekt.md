@@ -1,7 +1,7 @@
 ---
 title: Zuschauereffekt
-date: 2019-03-06T14:00:37
-draft: true
+date: 2019-05-09T08:30:23
+draft: false
 author: noqqe
 tags:
 ---
