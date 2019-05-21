@@ -1,0 +1,33 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+
+[content/**.md]
+indent_style = space
+indent_size = 3
+insert_final_newline = true
+trim_trailing_whitespace = false
+
+
+[themes/fixed/layout/**.html]
+# alternating styles
+
+[themes/fixed/static/**.css]
+indent_style = tab
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[{*.py,article}]
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = false
+
+
+[.travis.yml]
+indent_style = space
+indent_size = 2
