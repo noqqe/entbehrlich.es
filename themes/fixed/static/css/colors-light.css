@@ -51,7 +51,7 @@ Layout styles
 
 .container
 {
-	background-color: #fff;
+	background-color: white;
 }
 
 .header
@@ -91,25 +91,25 @@ Single styles
 
 .btn
 {
-	color: #fff !important;
+	color: white !important;
 	background-color: royalblue;
 	border-color: #222;
 }
 
 .btn:hover
 {
-	color: #fff !important;
+	color: white !important;
 	background-color: green;
 }
 
 .btn:focus
 {
-	color: #fff !important;
+	color: white !important;
 	background-color: black;
 }
 
 .btn:active
 {
-	color: #fff !important;
+	color: white !important;
 	background-color: red;
 }
