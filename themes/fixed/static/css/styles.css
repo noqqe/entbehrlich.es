@@ -6,6 +6,7 @@ Colors
 ------------------------*/
 
 @import "colors-light.css";
+@import "colors-dark.css" (prefers-color-scheme: dark);
 
 
 /* -----------------------
