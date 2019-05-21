@@ -9,16 +9,16 @@ body
 	color: #333;
 	background-color: #eee;
 	font: 1em/1.2 "Vollkorn", Helvetica, Arial, Geneva, sans-serif;
-  overflow-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
 h1,h2,h3,h4,h5,h6
 {
 	margin: 0 1 0em;
-  margin-top: 0em;
+	margin-top: 0em;
 	font-weight: 500;
 	line-height: 1.1;
-  text-decoration: none;
+	text-decoration: none;
 }
 
 h1 { font-size: 2em; } /* 36px */
@@ -31,7 +31,7 @@ h6 { font-size: .875em; } /* 14px */
 p,ul
 {
 	margin: 0 0 1.5em;
-  font-size: 1.1em;
+	font-size: 1.1em;
 	line-height: 1.5;
 }
 
@@ -40,12 +40,12 @@ blockquote
 	padding: 0.5em 1.5em;
 	margin: 0 0 1em;
 	border-left: 6px solid #eee;
-  color: gray;
+	color: gray;
 }
 
 blockquote a
 {
-  color: gray;
+	color: gray;
 }
 
 hr
@@ -81,8 +81,8 @@ a:active { color: black; }
 
 /* anti spam from the 90s */
 code.rev {
-  direction: rtl;
-  unicode-bidi:bidi-override;
+	direction: rtl;
+	unicode-bidi: bidi-override;
 }
 
 /* -----------------------
@@ -94,7 +94,7 @@ Layout styles
 	max-width: 40em;
 	margin: 0 auto;
 	background-color: #fff;
-  padding-bottom: 1em;
+	padding-bottom: 1em;
 }
 
 .header
@@ -102,24 +102,24 @@ Layout styles
 	color: #fff;
 	background: #3e3f41;
 	font-family: "Vollkorn";
-  min-height: 5em;
+	min-height: 5em;
 	padding: 1em 1.25em 1em 0em;
 }
 
 .header img {
-  float: left;
-  width: 80px;
-  height: 80px;
+	float: left;
+	width: 80px;
+	height: 80px;
 	padding: 0em 0em 0em 0em;
 }
 
 .non-highlight a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .header a {
-  color: white;
-  text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 
 .header-heading { margin: 0; }
@@ -129,45 +129,45 @@ Layout styles
 .footer
 {
 	color: #2A2B2E;
-  font-size: 1em;
+	font-size: 1em;
 	background: white;
 	padding: 1em 1.25em;
 }
 
 .published
 {
-  color: gray;
-  font-size: 0.5em;
+	color: gray;
+	font-size: 0.5em;
 }
 .published a
 {
-  color: gray;
+	color: gray;
 }
 
 .tags
 {
-  color: #555;
-  font-size: 1em;
+	color: #555;
+	font-size: 1em;
 }
 
 img
 {
-  -ms-interpolation-mode: bicubic;
-  margin: 0 auto;
-  border-radius: 5px;
-  max-width: 100%;
-  display: block;
+	-ms-interpolation-mode: bicubic;
+	margin: 0 auto;
+	border-radius: 5px;
+	max-width: 100%;
+	display: block;
 }
 
 .imagemeta
 {
-  text-align: center;
-  font-style: italic;
+	text-align: center;
+	font-style: italic;
 }
 
 .articlemeta
 {
-  font-size: 0.95em;
+	font-size: 0.95em;
 }
 
 /* -----------------------
@@ -241,8 +241,8 @@ Single styles
 }
 
 .pagination {
-  display:block;
-  text-align:center;
+	display: block;
+	text-align: center;
 }
 
 /* -----------------------
@@ -254,8 +254,8 @@ Wide styles
 	.header { padding: 1.5em 2.2em; }
 	.content { padding: 2em 3em; }
 	.footer {
-    padding: 0em 3em;
-    font-size: 0.9em;
-    text-align: center;
-  }
+		padding: 0em 3em;
+		font-size: 0.9em;
+		text-align: center;
+	}
 }
