@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* dark color theme */
+
+
+/* -----------------------
+Base styles
+------------------------*/
+
+body
+{
+	color: #eee;
+	background-color: #222;
+}
+
+blockquote
+{
+	border-left-color: #5A5B5E;
+	color: #aaa;
+}
+
+blockquote a
+{
+	color: #bbb;
+}
+
+hr
+{
+	border-top-color: #222;
+}
+
+table
+{
+	border-top-color: #222;
+}
+
+th, td
+{
+	border-bottom-color: #222;
+}
+
+a:link { color: #d5d4d1; }
+a:visited { color: #d5d4d1; }
+a:focus { color: #eee; }
+a:hover { color: #c6c2ab; }
+a:active { color: #eee; }
+
+
+/* -----------------------
+Layout styles
+------------------------*/
+
+.container
+{
+	background-color: #2A2B2E;
+}
+
+.header
+{
+	color: #eee;
+	background: transparent;
+}
+
+.header a {
+	color: #eee;
+}
+
+.content
+{
+	background-color: #343539;
+}
+
+.footer
+{
+	color: #eee;
+	background-color: transparent;
+}
+
+.published
+{
+	color: #aaa;
+}
+.published a
+{
+	color: #aaa;
+}
+
+.tags
+{
+	color: #aaa;
+}
+
+
+/* -----------------------
+Single styles
+------------------------*/
+
+.btn
+{
+	color: white !important;
+	background-color: royalblue;
+	border-color: #ddd;
+}
+
+.btn:hover
+{
+	color: white !important;
+	background-color: green;
+}
+
+.btn:focus
+{
+	color: white !important;
+	background-color: black;
+}
+
+.btn:active
+{
+	color: white !important;
+	background-color: red;
+}

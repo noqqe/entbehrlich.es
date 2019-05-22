@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* light color theme */
+
+
+/* -----------------------
+Base styles
+------------------------*/
+
+body
+{
+	color: #333;
+	background-color: #eee;
+}
+
+blockquote
+{
+	border-left-color: #eee;
+	color: gray;
+}
+
+blockquote a
+{
+	color: gray;
+}
+
+hr
+{
+	border-top-color: #ddd;
+}
+
+table
+{
+	border-top-color: #ddd;
+}
+
+th, td
+{
+	border-bottom-color: #ddd;
+}
+
+a:link { color: #2A2B2E; }
+a:visited { color: #2A2B2E; }
+a:focus { color: black; }
+a:hover { color: #393D54; }
+a:active { color: black; }
+
+
+/* -----------------------
+Layout styles
+------------------------*/
+
+.container
+{
+	background-color: white;
+}
+
+.header
+{
+	color: #fff;
+	background: #3e3f41;
+}
+
+.header a {
+	color: white;
+}
+
+.footer
+{
+	color: #2A2B2E;
+	background: white;
+}
+
+.published
+{
+	color: gray;
+}
+.published a
+{
+	color: gray;
+}
+
+.tags
+{
+	color: #555;
+}
+
+
+/* -----------------------
+Single styles
+------------------------*/
+
+.btn
+{
+	color: white !important;
+	background-color: royalblue;
+	border-color: #222;
+}
+
+.btn:hover
+{
+	color: white !important;
+	background-color: green;
+}
+
+.btn:focus
+{
+	color: white !important;
+	background-color: black;
+}
+
+.btn:active
+{
+	color: white !important;
+	background-color: red;
+}

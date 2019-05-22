@@ -1,3 +1,14 @@
+@charset "UTF-8";
+
+
+/* -----------------------
+Colors
+------------------------*/
+
+@import "colors-light.css";
+@import "colors-dark.css" (prefers-color-scheme: dark);
+
+
 /* -----------------------
 Base styles
 ------------------------*/
@@ -6,19 +17,17 @@ body
 {
 	margin: 0;
 	padding: 0;
-	color: #333;
-	background-color: #eee;
 	font: 1em/1.2 "Vollkorn", Helvetica, Arial, Geneva, sans-serif;
-  overflow-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
-h1,h2,h3,h4,h5,h6
+h1, h2, h3, h4, h5, h6
 {
 	margin: 0 1 0em;
-  margin-top: 0em;
+	margin-top: 0em;
 	font-weight: 500;
 	line-height: 1.1;
-  text-decoration: none;
+	text-decoration: none;
 }
 
 h1 { font-size: 2em; } /* 36px */
@@ -28,10 +37,10 @@ h4 { font-size: 1.125em; } /* 18px */
 h5 { font-size: 1em; } /* 16px */
 h6 { font-size: .875em; } /* 14px */
 
-p,ul
+p, ul
 {
 	margin: 0 0 1.5em;
-  font-size: 1.1em;
+	font-size: 1.1em;
 	line-height: 1.5;
 }
 
@@ -39,13 +48,8 @@ blockquote
 {
 	padding: 0.5em 1.5em;
 	margin: 0 0 1em;
-	border-left: 6px solid #eee;
-  color: gray;
-}
-
-blockquote a
-{
-  color: gray;
+	border-left-width: 6px;
+	border-left-style: solid;
 }
 
 hr
@@ -54,15 +58,16 @@ hr
 	margin-top: 1em;
 	margin-bottom: 2em;
 	border: 0;
-	border-top: 1px solid #ddd;
+	border-top-width: 1px;
+	border-top-style: solid;
 }
 
 table
 {
-	background-color: transparent;
 	border-spacing: 0;
 	border-collapse: collapse;
-	border-top: 1px solid #ddd;
+	border-top-width: 1px;
+	border-top-style: solid;
 }
 
 th, td
@@ -70,20 +75,16 @@ th, td
 	padding: .5em 1em;
 	vertical-align: top;
 	text-align: left;
-	border-bottom: 1px solid #ddd;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
 }
-
-a:link { color: #2A2B2E; }
-a:visited { color: #2A2B2E; }
-a:focus { color: black; }
-a:hover { color: #393D54; }
-a:active { color: black; }
 
 /* anti spam from the 90s */
 code.rev {
-  direction: rtl;
-  unicode-bidi:bidi-override;
+	direction: rtl;
+	unicode-bidi: bidi-override;
 }
+
 
 /* -----------------------
 Layout styles
@@ -93,33 +94,29 @@ Layout styles
 {
 	max-width: 40em;
 	margin: 0 auto;
-	background-color: #fff;
-  padding-bottom: 1em;
+	padding-bottom: 1em;
 }
 
 .header
 {
-	color: #fff;
-	background: #3e3f41;
 	font-family: "Vollkorn";
-  min-height: 5em;
+	min-height: 5em;
 	padding: 1em 1.25em 1em 0em;
 }
 
 .header img {
-  float: left;
-  width: 80px;
-  height: 80px;
+	float: left;
+	width: 80px;
+	height: 80px;
 	padding: 0em 0em 0em 0em;
 }
 
 .non-highlight a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .header a {
-  color: white;
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .header-heading { margin: 0; }
@@ -128,47 +125,40 @@ Layout styles
 
 .footer
 {
-	color: #2A2B2E;
-  font-size: 1em;
-	background: white;
+	font-size: 1em;
 	padding: 1em 1.25em;
 }
 
 .published
 {
-  color: gray;
-  font-size: 0.5em;
-}
-.published a
-{
-  color: gray;
+	font-size: 0.5em;
 }
 
 .tags
 {
-  color: #555;
-  font-size: 1em;
+	font-size: 1em;
 }
 
 img
 {
-  -ms-interpolation-mode: bicubic;
-  margin: 0 auto;
-  border-radius: 5px;
-  max-width: 100%;
-  display: block;
+	-ms-interpolation-mode: bicubic;
+	margin: 0 auto;
+	border-radius: 5px;
+	max-width: 100%;
+	display: block;
 }
 
 .imagemeta
 {
-  text-align: center;
-  font-style: italic;
+	text-align: center;
+	font-style: italic;
 }
 
 .articlemeta
 {
-  font-size: 0.95em;
+	font-size: 0.95em;
 }
+
 
 /* -----------------------
 Single styles
@@ -178,9 +168,6 @@ Single styles
 
 .btn
 {
-	color: #fff !important;
-	background-color: royalblue;
-	border-color: #222;
 	display: inline-block;
 	padding: .5em 1em;
 	margin-bottom: 0;
@@ -190,27 +177,10 @@ Single styles
 	white-space: nowrap;
 	vertical-align: middle;
 	cursor: pointer;
-	border: 1px solid transparent;
+	border-width: 1px;
+	border-style: solid;
 	border-radius: .2em;
 	text-decoration: none;
-}
-
-.btn:hover
-{
-	color: #fff !important;
-	background-color: green;
-}
-
-.btn:focus
-{
-	color: #fff !important;
-	background-color: black;
-}
-
-.btn:active
-{
-	color: #fff !important;
-	background-color: red;
 }
 
 .table
@@ -241,9 +211,10 @@ Single styles
 }
 
 .pagination {
-  display:block;
-  text-align:center;
+	display: block;
+	text-align: center;
 }
+
 
 /* -----------------------
 Wide styles
@@ -254,8 +225,8 @@ Wide styles
 	.header { padding: 1.5em 2.2em; }
 	.content { padding: 2em 3em; }
 	.footer {
-    padding: 0em 3em;
-    font-size: 0.9em;
-    text-align: center;
-  }
+		padding: 0em 3em;
+		font-size: 0.9em;
+		text-align: center;
+	}
 }
