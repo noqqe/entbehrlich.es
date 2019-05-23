@@ -1,7 +1,7 @@
 ---
 title: Clay Shirky
-date: 2019-01-13T14:00:11
-draft: true
+date: 2019-05-23T09:12:03
+draft: false
 image: /images/ClayShirkyJI1.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Joi" title="User:Joi">Joi</a>
 author: noqqe
