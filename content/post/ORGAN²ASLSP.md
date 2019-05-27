@@ -1,7 +1,7 @@
 ---
 title: ORGAN²/ASLSP
-date: 2019-01-17T14:00:36
-draft: true
+date: 2019-05-27T13:12:08
+draft: false
 image: /images/John_Cage_Orgel_Balganlage_Kloster_St._Burchardi_Halberstadt.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Clemensfranz" title="User:Clemensfranz">Clemensfranz</a>
 author: noqqe
