@@ -1,7 +1,7 @@
 ---
 title: Sofaproblem
-date: 2018-12-15T14:00:48
-draft: true
+date: 2019-05-29T17:10:18
+draft: false
 author: noqqe
 tags:
 ---
