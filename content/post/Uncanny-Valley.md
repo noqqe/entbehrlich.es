@@ -1,7 +1,7 @@
 ---
 title: Uncanny Valley
-date: 2019-03-19T14:00:50
-draft: true
+date: 2019-06-03T09:42:47
+draft: false
 author: nico
 tags: 
 ---
