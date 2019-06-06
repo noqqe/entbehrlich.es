@@ -1,7 +1,7 @@
 ---
 title: Schimpansenkrieg von Gombe
-date: 2019-01-30T14:00:29
-draft: true
+date: 2019-06-06T10:38:07
+draft: false
 author: nico
 tags: 
 ---
