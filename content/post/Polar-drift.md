@@ -1,7 +1,7 @@
 ---
 title: Polar drift
-date: 2019-03-12T14:00:33
-draft: true
+date: 2019-06-12T10:10:55
+draft: false
 author: noqqe
 tags:
 - All articles containing potentially dated statements
