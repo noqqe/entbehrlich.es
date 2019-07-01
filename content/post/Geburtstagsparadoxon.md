@@ -1,7 +1,7 @@
 ---
 title: Geburtstagsparadoxon
-date: 2018-12-18T14:00:06
-draft: true
+date: 2019-07-01T15:30:19
+draft: false
 author: poschi
 tags:
 ---
