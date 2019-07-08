@@ -1,5 +1,4 @@
 {{ partial "header.html" . }}
-{{ partial "topnav.html" . }}
    <div class="content">
   {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
     <div class="main">
