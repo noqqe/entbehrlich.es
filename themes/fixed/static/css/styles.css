@@ -101,7 +101,7 @@ Layout styles
 {
 	font-family: "Vollkorn";
 	min-height: 5em;
-	padding: 1em 1.25em 1em 0em;
+	padding: 1em 1em 1em 0em;
 }
 
 .header img {
@@ -121,12 +121,15 @@ Layout styles
 
 .header-heading { margin: 0; }
 
-.content { padding: 0em 1.25em; }
+.content { padding: 1em 1.25em; }
 
-.topnav
-{
+.topnav {
 	font-size: 1em;
 	padding: 1em 1.25em;
+}
+
+.topnav p {
+	margin: 0em;
 }
 
 .published
@@ -222,8 +225,8 @@ Wide styles
 
 @media (min-width: 42em)
 {
-	.header { padding: 1.5em 2.2em; }
-	.content { padding: 0em 3em; }
+	.header { padding: 1em 2.2em; }
+	.content { padding: 1em 3em; }
 	.topnav {
 		padding: 1em 3em;
 		font-size: 0.9em;
