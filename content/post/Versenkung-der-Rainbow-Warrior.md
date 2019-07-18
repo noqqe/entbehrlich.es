@@ -1,7 +1,7 @@
 ---
 title: Versenkung der Rainbow Warrior
-date: 2019-05-29T14:00:10
-draft: true
+date: 2019-07-18T08:32:43
+draft: false
 image: /images/RainbowWarrior-1985b.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Ot" title="User:Ot">Ot</a>
 author: noqqe
