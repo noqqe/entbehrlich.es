@@ -3,7 +3,7 @@ title: Fordlândia
 date: 2019-07-24T14:00:45
 draft: true
 image: /images/Fordlandia.JPG
-imageauthor: Amit Evron - User: (WT-shared) Amitevron at  wts wikivoyage
+imageauthor: Amit Evron User: (WT-shared) Amitevron at wts wikivoyage
 author: poschi
 tags: 
 ---
