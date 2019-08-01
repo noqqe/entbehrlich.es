@@ -1,7 +1,7 @@
 ---
 title: Koro (Psychologie)
-date: 2019-02-22T14:00:54
-draft: true
+date: 2019-08-01T09:17:02
+draft: false
 author: noqqe
 tags:
 ---
