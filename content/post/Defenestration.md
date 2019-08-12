@@ -3,8 +3,7 @@ title: Defenestration
 date: 2019-08-12T14:00:28
 draft: true
 image: /images/Defenestration-prague-1618.jpg
-imageauthor: <div class="fn value">
-Johann Philipp Abelinus</div>
+imageauthor: Johann Philipp Abelinus
 author: noqqe
 tags:
 ---
