@@ -21,16 +21,20 @@ jobs:
       stage: test
       go: '1.11'
       install:
-        - go get github.com/gohugoio/hugo
+        #- go get github.com/gohugoio/hugo
+        - wget https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_0.56.3_Linux-64bit.tar.gz -O hugo.tar.gz
+        - tar xvfz hugo.tar.gz
       script:
-        - hugo --buildFuture
+        - ./hugo --buildFuture
     - language: go
       stage: deploy
       go: '1.11'
       install:
-        - go get github.com/gohugoio/hugo
+        #- go get github.com/gohugoio/hugo
+        - wget https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_0.56.3_Linux-64bit.tar.gz -O hugo.tar.gz
+        - tar xvfz hugo.tar.gz
       script:
-        - hugo --buildFuture
+        - ./hugo --buildFuture
       before_deploy:
         - echo $KNOWN_HOSTS_KEY >> $HOME/.ssh/known_hosts
         - openssl aes-256-cbc -K $encrypted_e2fa1c035576_key -iv $encrypted_e2fa1c035576_iv -in deploy_rsa.enc -out deploy_rsa -d
