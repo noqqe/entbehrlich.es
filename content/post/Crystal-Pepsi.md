@@ -1,7 +1,7 @@
 ---
 title: Crystal Pepsi
-date: 2019-05-31T14:00:00
-draft: true
+date: 2019-08-13T09:15:33
+draft: false
 image: /images/Crystal_Pepsi_20oz.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Smuckola" title="User:Smuckola">Smuckola</a>
 author: noqqe
