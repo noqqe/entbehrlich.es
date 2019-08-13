@@ -1,3 +1,6 @@
+env:
+  - hugo_version=0.56.3
+
 jobs:
   include:
     - language: node_js
@@ -21,18 +24,18 @@ jobs:
       stage: test
       go: '1.11'
       install:
-        #- go get github.com/gohugoio/hugo
-        - wget https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_0.56.3_Linux-64bit.tar.gz -O hugo.tar.gz
+        - wget https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_${hugo_version}_Linux-64bit.tar.gz -O hugo.tar.gz
         - tar xvfz hugo.tar.gz
+        - ./hugo version
       script:
         - ./hugo --buildFuture
     - language: go
       stage: deploy
       go: '1.11'
       install:
-        #- go get github.com/gohugoio/hugo
-        - wget https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_0.56.3_Linux-64bit.tar.gz -O hugo.tar.gz
+        - wget https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_${hugo_version}_Linux-64bit.tar.gz -O hugo.tar.gz
         - tar xvfz hugo.tar.gz
+        - ./hugo version
       script:
         - ./hugo --buildFuture
       before_deploy:
