@@ -1,7 +1,7 @@
 ---
 title: Massenverhaftung von Nürnberg
-date: 2019-04-04T14:00:02
-draft: true
+date: 2019-09-04T09:29:24
+draft: false
 author: poschi
 tags: 
 ---
