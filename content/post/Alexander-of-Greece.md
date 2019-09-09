@@ -1,7 +1,7 @@
 ---
 title: Alexander of Greece
-date: 2019-08-12T14:00:38
-draft: true
+date: 2019-09-09T20:28:28
+draft: false
 image: /images/232_14_Alexandre_raccompagne_Alexandre_jusqu'au_train.jpg
 imageauthor: <span lang="en">Unknown</span>
 author: noqqe
