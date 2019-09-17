@@ -12,6 +12,6 @@ Garagenverordnungen gemacht!
 
 > Die Garagenverordnungen (GarVO, GaVO oder GaStellV) der deutschen Länder
 > enthalten Vorschriften für den Bau und den Betrieb von Garagen und
-> Stellplätzen. 
+> Stellplätzen.
 >
 > Quelle: [Garagenverordnung](https://de.wikipedia.org/wiki/Garagenverordnung)
