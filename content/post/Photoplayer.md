@@ -1,7 +1,7 @@
 ---
 title: Photoplayer
-date: 2019-09-17T14:00:39
-draft: true
+date: 2019-09-18T09:45:37
+draft: false
 author: poschi
 thanks: t_animal
 tags: 
