@@ -1,7 +1,7 @@
 ---
 title: Mere Exposure Effekt
-date: 2019-09-17T14:00:21
-draft: true
+date: 2019-10-04T09:39:37
+draft: false
 author: poschi
 tags: 
 ---
