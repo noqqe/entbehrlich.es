@@ -10,7 +10,6 @@ Immer wenn im Film ein Anführer/Oberhaupt ausrastet, durchdreht oder größenwa
 wird folgt das einem speziellen Muster. Kein Wunder, es gibt eine Bezeichnung
 dafür!
 
-
 > Cäsarenwahnsinn bezeichnet eine spezifische Form der Hybris, des Größenwahns
 > und der Paranoia, die insbesondere bei einigen römischen Kaisern aufgetreten
 > sein soll. Der Ausdruck bezeichnet weniger eine Krankheit im medizinischen
