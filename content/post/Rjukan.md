@@ -1,7 +1,7 @@
 ---
 title: Rjukan
-date: 2019-05-23T14:00:22
-draft: true
+date: 2019-10-30T09:33:55
+draft: false
 image: /images/Såheim_Rjukan_II.jpg
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:David40226543&amp;action=edit&amp;redlink=1" class="new" title="User:David40226543 (page does not exist)">David Aasen Sandved</a>
 author: noqqe
