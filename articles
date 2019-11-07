@@ -379,21 +379,35 @@ def cli():
 
 
 @cli.command(short_help="Get 20 random articles from Wikipedia")
-@click.option('feedurl', '-f', '--feedurl', default='./public/index.xml')
-def tweet(feedurl):
+@click.option('feedurl', '-u', '--feedurl', default='https://entbehrlich.es/index.xml')
+@click.option('feedfile', '-f', '--feedfile', default='./public/index.xml')
+def tweet(feedurl, feedfile):
     """
     Tweet latest blogpost from rss feed
     :feedurl: str (path)
     :returns: bool
     """
 
-    feed = feedparser.parse(feedurl)
-    link = feed['entries'][0]['link']
+    feedurl = feedparser.parse(feedurl)
 
+    try:
+        feedfile = feedparser.parse(feedfile)
+    except IOError:
+        log("Feed file {} not found.".format(feedfile), "error")
+        return
+
+    link_url = feedurl['entries'][0]['link']
+    link_file = feedfile['entries'][0]['link']
+
+    for entry in feedurl['entries']:
+        if link_url == entry['link']:
+            log("Link {} already tweeted".format(link_url), "error")
+            return
+    
     # get description from feed url
     # the goal is to find the html <p> that contains the description
     # added by me. not the wikipedia quote.
-    desc = feed['entries'][0]['summary']
+    desc = feedfile['entries'][0]['summary']
     desc = desc.split('\n')[0]
     desc = desc.replace('\n','')
     desc = html.unescape(desc)
@@ -417,7 +431,7 @@ def tweet(feedurl):
 
     try:
         t = twitter.Twitter(auth=auth)
-        t.statuses.update(status=message)
+        #t.statuses.update(status=message)
         log("Tweeted \"%s\"" % message, "info")
         return True
     except:

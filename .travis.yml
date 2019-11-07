@@ -30,15 +30,17 @@ jobs:
         - ./hugo version
       script:
         - ./hugo --buildFuture
-    - language: go
+    - language: python
+      python: 3.7
       stage: deploy
-      go: '1.11'
       env:
         - hugo_version=0.56.3
+        - EDITOR=/usr/bin/vim
       install:
         - wget https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_${hugo_version}_Linux-64bit.tar.gz -O hugo.tar.gz
         - tar xvfz hugo.tar.gz
         - ./hugo version
+        - pip install -r requirements.txt
       script:
         - ./hugo --buildFuture
       before_deploy:
@@ -53,14 +55,5 @@ jobs:
           script: rsync -avi --delete public/ $DEPLOY_TARGET
           on:
             branch: master
-
-    - language: python
-      stage: deploy
-      python: 3.7
-      env:
-        - EDITOR=/usr/bin/vim
-      install:
-        - pip install -r requirements.txt
-      script:
-        - sleep 70
-        - ./articles tweet -f https://entbehrlich.es/index.xml
+      after_deploy:
+        - ./articles tweet -f ./public/index.xml -u https://entbehrlich.es/index.xml
