@@ -319,7 +319,7 @@ def push():
         log("Pushed current state to repository", "info")
         return True
     except:
-        log("Failed to push current state to repository" % post, "error")
+        log("Failed to push current state to repository", "error")
         return False
 
 def pull():
@@ -401,7 +401,8 @@ def tweet(oldfeed, newfeed):
     if oldfeed_link == newfeed_link:
         log("Link {} already tweeted".format(newfeed_link), "error")
         return
-    
+    else:
+        log("Detected new article {}, trying to tweet".format(newfeed_link), "info")
     # get description from feed url
     # the goal is to find the html <p> that contains the description
     # added by me. not the wikipedia quote.
@@ -429,7 +430,7 @@ def tweet(oldfeed, newfeed):
 
     try:
         t = twitter.Twitter(auth=auth)
-        #t.statuses.update(status=message)
+        t.statuses.update(status=message)
         log("Tweeted \"%s\"" % message, "info")
         return True
     except:
