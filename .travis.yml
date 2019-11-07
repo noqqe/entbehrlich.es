@@ -1,5 +1,6 @@
 env:
   - hugo_version=0.56.3
+  - EDITOR=/usr/bin/vim
 
 jobs:
   include:
@@ -14,8 +15,6 @@ jobs:
     - language: python
       stage: test
       python: 3.7
-      env:
-        - EDITOR=/usr/bin/vim
       install:
         - pip install -r requirements.txt
       script:
@@ -32,8 +31,6 @@ jobs:
     - language: go
       stage: deploy
       go: '1.11'
-      env:
-        - EDITOR=/usr/bin/vim
       install:
         - wget https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_${hugo_version}_Linux-64bit.tar.gz -O hugo.tar.gz
         - tar xvfz hugo.tar.gz
