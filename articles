@@ -337,50 +337,6 @@ def pull():
         log("Failed to pull state from remote repository", "error")
         return False
 
-def tweet(feedurl):
-    """
-    Tweet latest blogpost from rss feed
-    :feedurl: str (path)
-    :returns: bool
-    """
-
-    feed = feedparser.parse(feedurl)
-    title = feed['entries'][0]['title']
-    link = feed['entries'][0]['link']
-
-    # get description from feed url
-    # the goal is to find the html <p> that contains the description
-    # added by me. not the wikipedia quote.
-    desc = feed['entries'][0]['summary']
-    desc = desc.split('\n')[0]
-    desc = desc.replace('\n','')
-    desc = html.unescape(desc)
-
-    # if desc too long, cut it for twitter
-    if len(desc) > 240:
-        desc = desc[:237] + '...'
-
-    message = desc + " #wikipedia " + link
-
-    try:
-        auth = twitter.OAuth(
-            consumer_key=os.getenv(tw_con_key),
-            consumer_secret=os.getenv(tw_con_secret),
-            token=os.getenv(tw_access_token),
-            token_secret=os.getenv(tw_access_token_secret),
-        )
-    except:
-        log("Could not find global variables for twitter auth", "error")
-        return False
-
-    try:
-        t = twitter.Twitter(auth=auth)
-        t.statuses.update(status=message)
-        log("Tweeted \"%s\"" % message, "info")
-        return True
-    except:
-        log("Could not send tweet. Check debugging", "error")
-        return False
 
 def download_image(url, fname, debug):
     """
@@ -420,6 +376,54 @@ def resize_image(fname):
 def cli():
     """ cli command group """
     pass
+
+
+@cli.command(short_help="Get 20 random articles from Wikipedia")
+@click.option('feedurl', '-f', '--feedurl', default='./public/index.xml')
+def tweet(feedurl):
+    """
+    Tweet latest blogpost from rss feed
+    :feedurl: str (path)
+    :returns: bool
+    """
+
+    feed = feedparser.parse(feedurl)
+    link = feed['entries'][0]['link']
+
+    # get description from feed url
+    # the goal is to find the html <p> that contains the description
+    # added by me. not the wikipedia quote.
+    desc = feed['entries'][0]['summary']
+    desc = desc.split('\n')[0]
+    desc = desc.replace('\n','')
+    desc = html.unescape(desc)
+
+    # if desc too long, cut it for twitter
+    if len(desc) > 240:
+        desc = desc[:237] + '...'
+
+    message = desc + " #wikipedia " + link
+
+    try:
+        auth = twitter.OAuth(
+            consumer_key=os.getenv('tw_con_key'),
+            consumer_secret=os.getenv('tw_con_secret'),
+            token=os.getenv('tw_access_token'),
+            token_secret=os.getenv('tw_access_token_secret'),
+        )
+    except:
+        log("Could not find global variables for twitter auth", "error")
+        return False
+
+    try:
+        t = twitter.Twitter(auth=auth)
+        t.statuses.update(status=message)
+        log("Tweeted \"%s\"" % message, "info")
+        return True
+    except:
+        log("Could not send tweet. Check debugging", "error")
+        return False
+
 
 @cli.command(short_help="Create a new post")
 @click.argument('url')

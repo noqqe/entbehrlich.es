@@ -13,7 +13,7 @@ jobs:
         - markdownlint content/post/*.md
     - language: python
       stage: test
-      python: 3.6
+      python: 3.7
       env:
         - EDITOR=/usr/bin/vim
       install:
@@ -37,6 +37,7 @@ jobs:
         - tar xvfz hugo.tar.gz
         - ./hugo version
       script:
+        - pip install -r requirements.txt # for tweeting after deploy
         - ./hugo --buildFuture
       before_deploy:
         - echo $KNOWN_HOSTS_KEY >> $HOME/.ssh/known_hosts
@@ -50,3 +51,5 @@ jobs:
           script: rsync -avi --delete public/ $DEPLOY_TARGET
           on:
             branch: master
+      after_deploy:
+        - ./articles tweet
