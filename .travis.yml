@@ -32,6 +32,8 @@ jobs:
     - language: go
       stage: deploy
       go: '1.11'
+      env:
+        - EDITOR=/usr/bin/vim
       install:
         - wget https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_${hugo_version}_Linux-64bit.tar.gz -O hugo.tar.gz
         - tar xvfz hugo.tar.gz
