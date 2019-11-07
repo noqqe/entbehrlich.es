@@ -1,6 +1,5 @@
 env:
   - hugo_version=0.56.3
-  - EDITOR=/usr/bin/vim
 
 jobs:
   include:
@@ -15,6 +14,9 @@ jobs:
     - language: python
       stage: test
       python: 3.7
+      env:
+        - EDITOR=/usr/bin/vim
+        - hugo_version=0.56.3
       install:
         - pip install -r requirements.txt
       script:
@@ -31,12 +33,13 @@ jobs:
     - language: go
       stage: deploy
       go: '1.11'
+      env:
+        - hugo_version=0.56.3
       install:
         - wget https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_${hugo_version}_Linux-64bit.tar.gz -O hugo.tar.gz
         - tar xvfz hugo.tar.gz
         - ./hugo version
       script:
-        - pip install -r requirements.txt # for tweeting after deploy
         - ./hugo --buildFuture
       before_deploy:
         - echo $KNOWN_HOSTS_KEY >> $HOME/.ssh/known_hosts
@@ -50,5 +53,14 @@ jobs:
           script: rsync -avi --delete public/ $DEPLOY_TARGET
           on:
             branch: master
-      after_deploy:
-        - ./articles tweet
+
+    - language: python
+      stage: deploy
+      python: 3.7
+      env:
+        - EDITOR=/usr/bin/vim
+      install:
+        - pip install -r requirements.txt
+      script:
+        - sleep 70
+        - ./articles tweet -f https://entbehrlich.es/index.xml
