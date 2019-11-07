@@ -1,7 +1,7 @@
 ---
 title: Firmenbestattung
-date: 2019-08-12T14:00:59
-draft: true
+date: 2019-11-07T15:29:32
+draft: false
 author: noqqe
 tags:
 ---
