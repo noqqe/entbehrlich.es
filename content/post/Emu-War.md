@@ -12,7 +12,6 @@ Emus ziehen wegen Wassermangel durch Australien, Armee benutzt
 Maschinengewehre, Gift und Zäune um der Lage Herr zu werden. Am Ende hilft
 dann ein Zaun.
 
-
 > Als Emu War (deutsch Emukrieg), auch Great Emu War (deutsch Großer Emukrieg)
 > und Emu Pest (deutsch Emuplage), bezeichnet man im britischen/australischen
 > Sprachraum einen Einsatz der australischen Armee gegen eine Herde Großer Emus,
