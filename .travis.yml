@@ -49,6 +49,7 @@ jobs:
         - eval "$(ssh-agent -s)"
         - chmod 600 deploy_rsa
         - ssh-add deploy_rsa
+        - wget -O /tmp/index.xml https://entbehrlich.es/index.xml
       deploy:
         - provider: script
           skip_cleanup: true
@@ -56,4 +57,4 @@ jobs:
           on:
             branch: master
       after_deploy:
-        - ./articles tweet -f ./public/index.xml -u https://entbehrlich.es/index.xml
+        - ./articles tweet -n https://entbehrlich.es/index.xml -o /tmp/index.xml
