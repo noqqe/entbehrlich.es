@@ -1,7 +1,7 @@
 ---
 title: Tulpenmanie
-date: 2019-04-14T14:00:20
-draft: true
+date: 2019-11-13T08:43:45
+draft: false
 image: /images/Flora's_Malle-wagen_van_Hendrik_Pot_1640.jpg
 imageauthor: <a href="https://en.wikipedia.org/wiki/en:Hendrik_Gerritsz_Pot" class="extiw" title="w:en:Hendrik Gerritsz Pot">Hendrik Gerritsz Pot</a>
 author: poschi
