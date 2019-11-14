@@ -8,7 +8,7 @@ author: poschi
 tags: 
 ---
 
-Fußballfelder dürfen übreigens auch (fast) quadratisch sein!
+Fußballfelder dürfen übrigens auch (fast) quadratisch sein!
 
 > Der Ausdruck Spielfeld bezeichnet eine Fläche bestimmter Größe  beim
 > Mannschaftssport bei Parteienspielen beim BrettspielDie Größe und die Form des
@@ -20,4 +20,4 @@ Fußballfelder dürfen übreigens auch (fast) quadratisch sein!
 >
 > Quelle: [Spielfeld](https://de.wikipedia.org/wiki/Spielfeld)
 
-Danke an @smeky42
+Danke an [smeky42](https://twitter.com/smeky42)
