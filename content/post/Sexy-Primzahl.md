@@ -16,3 +16,5 @@ Ui, Sexy... Primzahl!
 > sexy Primzahlen stammt von sex – dem lateinischen Wort für sechs.
 >
 > Quelle: [Sexy Primzahl](https://de.wikipedia.org/wiki/Sexy_Primzahl)
+
+Danke an [neokay_nbg](https://twitter.com/neokay_nbg)
