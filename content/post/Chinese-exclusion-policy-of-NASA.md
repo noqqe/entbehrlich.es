@@ -1,7 +1,7 @@
 ---
 title: Chinese exclusion policy of NASA
-date: 2019-04-03T14:00:53
-draft: true
+date: 2019-11-15T09:00:16
+draft: false
 author: noqqe
 tags:
 - All NPOV disputes
