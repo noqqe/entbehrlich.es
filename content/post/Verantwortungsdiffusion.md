@@ -1,7 +1,7 @@
 ---
 title: Verantwortungsdiffusion
-date: 2019-08-12T14:00:38
-draft: true
+date: 2019-11-19T12:33:35
+draft: false
 author: noqqe
 tags:
 ---
