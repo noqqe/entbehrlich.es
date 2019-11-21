@@ -1,7 +1,7 @@
 ---
 title: OK Boomer
-date: 2019-11-14T14:00:53
-draft: true
+date: 2019-11-21T12:18:19
+draft: false
 author: poschi
 tags: 
 ---
