@@ -1,7 +1,7 @@
 ---
 title: Milgram Experiment
-date: 2019-11-22T14:00:57
-draft: true
+date: 2019-11-25T15:06:01
+draft: false
 author: poschi
 tags: 
 ---
