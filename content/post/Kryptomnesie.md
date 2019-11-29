@@ -1,7 +1,7 @@
 ---
 title: Kryptomnesie
-date: 2019-11-07T14:00:55
-draft: true
+date: 2019-11-29T14:53:33
+draft: false
 author: noqqe
 tags:
 ---
