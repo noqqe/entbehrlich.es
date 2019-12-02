@@ -1,7 +1,7 @@
 ---
 title: Gell Mann amnesia effect
-date: 2019-01-27T14:00:34
-draft: true
+date: 2019-12-02T15:13:40
+draft: false
 author: noqqe
 tags:
 - Journalism
