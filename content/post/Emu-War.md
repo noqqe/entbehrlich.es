@@ -1,7 +1,7 @@
 ---
 title: Emu War
-date: 2019-11-07T14:00:50
-draft: true
+date: 2019-12-06T12:15:14
+draft: false
 image: /images/Emus,_Wilsons_Promontory_National_Park.jpg
 imageauthor: <a rel="nofollow" class="external text" href="https://www.flickr.com/photos/23696801@N04">Eduardo Mariz</a> from Sydney, Australia
 author: noqqe
