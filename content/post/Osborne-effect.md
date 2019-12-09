@@ -1,7 +1,7 @@
 ---
 title: Osborne effect
-date: 2019-11-15T14:00:43
-draft: true
+date: 2019-12-09T09:00:27
+draft: false
 author: poschi
 tags: 
 - Articles with short description
