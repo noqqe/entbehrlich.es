@@ -6,7 +6,7 @@ author: nico
 tags: 
 ---
 
-
+Lasst uns Fledermäuse bewaffnen. Das hört sich nach einer guten Idee an.
 
 > In den Vereinigten Staaten gab es während des Zweiten Weltkrieges einen
 > ernsthaften Antrag, dass man Fledermäuse, an denen kleine Brandbomben
