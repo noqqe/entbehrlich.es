@@ -1,7 +1,7 @@
 ---
 title: CSI Effekt
-date: 2019-11-26T14:00:04
-draft: true
+date: 2019-12-17T09:07:01
+draft: false
 author: noqqe
 tags:
 ---
