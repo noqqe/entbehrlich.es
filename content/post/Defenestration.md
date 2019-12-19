@@ -1,7 +1,7 @@
 ---
 title: Defenestration
-date: 2019-08-12T14:00:28
-draft: true
+date: 2019-12-19T08:30:18
+draft: false
 image: /images/Defenestration-prague-1618.jpg
 imageauthor: Johann Philipp Abelinus
 author: noqqe
