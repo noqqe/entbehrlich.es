@@ -1,7 +1,7 @@
 ---
 title: Charles Lightoller
-date: 2019-11-10T14:00:13
-draft: true
+date: 2019-12-23T14:55:07
+draft: false
 image: /images/CharlesHLightoller.jpg
 imageauthor: <span lang="en">Unknown</span>
 author: nico
