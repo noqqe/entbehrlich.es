@@ -1,7 +1,7 @@
 ---
 title: ConferenceBike
-date: 2019-11-15T14:00:47
-draft: true
+date: 2020-01-07T16:19:41
+draft: false
 image: /images/ConferenceBike_(fcm).jpg
 imageauthor: Photograph&#58;  <a href="http://commons.wikimedia.org/wiki/User:Frank_C._M%C3%BCller" title="User:Frank C. Müller">Frank C. Müller</a>, Frankfurt am Main
 author: poschi
