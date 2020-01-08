@@ -370,6 +370,27 @@ def resize_image(fname):
     commit(fname, images_home)
     return True
 
+
+def list_posts():
+    """
+    lists all postings with limit to certain post states
+
+    :returns: all,
+    """
+
+    posts = os.listdir(posts_home)
+
+    unreleased = 0
+    released = 0
+    for post in posts:
+        if 'draft: true' in open(posts_home + post).read():
+            unreleased = unreleased + 1
+        else:
+            released = released + 1
+
+    return len(posts), released, unreleased
+
+
 # CLI Commands
 
 @click.group()
@@ -534,6 +555,9 @@ def new(url, date, thanks, debug, author):
     # push to repo
     push()
 
+    all, released, unreleased = list_posts()
+    log("Posts: Unreleased {}, released {}, total {}".format(unreleased, released, all))
+
     return True
 
 @cli.command(short_help="Show current drafts")
@@ -543,6 +567,9 @@ def queue(allposts):
     \b
     Shows all unpublished posts. Can also show all posts ever using -a
     """
+
+    all, released, unreleased = list_posts()
+    log("Unreleased {}, released {}, total {}".format(unreleased, released, all))
 
     posts = os.listdir(posts_home)
     if not allposts:
@@ -601,6 +628,9 @@ def release(post):
     # push git changes
     if not push():
         return False
+
+    all, released, unreleased = list_posts()
+    log("Unreleased {}, released {}, total {}".format(unreleased, released, all))
 
     return True
 
