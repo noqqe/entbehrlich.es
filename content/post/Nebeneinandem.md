@@ -1,7 +1,7 @@
 ---
 title: Nebeneinandem
-date: 2019-11-15T14:00:36
-draft: true
+date: 2020-01-12T13:37:29
+draft: false
 image: /images/Tretmobil-Prater_8063.JPG
 imageauthor: Karl Gruber
 author: poschi
