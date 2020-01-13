@@ -1,7 +1,7 @@
 ---
 title: Ethnolekt
-date: 2019-11-14T14:00:58
-draft: true
+date: 2020-01-13T10:11:31
+draft: false
 author: poschi
 tags: 
 ---
