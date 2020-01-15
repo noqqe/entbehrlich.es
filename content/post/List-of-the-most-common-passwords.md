@@ -1,7 +1,7 @@
 ---
 title: List of the most common passwords
-date: 2019-12-10T14:00:19
-draft: true
+date: 2020-01-15T07:59:22
+draft: false
 author: noqqe
 tags:
 - Articles with short description
