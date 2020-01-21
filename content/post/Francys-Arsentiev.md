@@ -1,10 +1,10 @@
 ---
-title: Francys Arsentiev
-date: 2019-01-31T12:09:10
+author: noqqe
+date: 2019-01-31 12:09:10
 draft: false
 image: /images/Mount-Everest.jpg
 imageauthor: Joe Hastings
-author: noqqe
+podcast: https://podcast.entbehrlich.es/2020/01/14/eb015-zuckersusse-aggression/
 tags:
 - 1958 births
 - 1998 deaths
@@ -19,6 +19,7 @@ tags:
 - People from Honolulu
 - Stephens College alumni
 - University of Louisville alumni
+title: Francys Arsentiev
 ---
 
 Die "schlafende Schönheit" des Mount Everest ist so ungünstig verunglückt,
