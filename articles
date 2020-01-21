@@ -691,6 +691,7 @@ def inspiration():
         log("End...")
         return True
 
+
 @cli.command(short_help="Get 20 random articles from Wikipedia")
 def random():
     """
@@ -715,15 +716,26 @@ def podcast(post, episode):
     Add link to podcast to article
     """
 
+    # get changes
+    pull()
+
+    # read meta data
     ppath = posts_home + post
     with open(ppath, "r") as o:
         fm = frontmatter.loads(o.read())
         o.close()
 
+    # write added meta data
     fm.metadata["podcast"] = episode
     with codecs.open(ppath, "wb+", 'utf8') as o:
         o.write(frontmatter.dumps(fm))
         o.close()
+
+    # commit to local repo
+    commit(post, posts_home)
+
+    # push changes
+    push()
 
     return True
 
