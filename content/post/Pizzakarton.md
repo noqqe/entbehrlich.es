@@ -1,12 +1,13 @@
 ---
-title: Pizzakarton
-date: 2019-10-06T19:45:31
+author: poschi
+date: 2019-10-06 19:45:31
 draft: false
 image: /images/Pizza_saver.JPG
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Glane23" title="User:Glane23">Glane23</a>
-author: poschi
+podcast: https://podcast.entbehrlich.es/2019/10/08/eb008-schlafwandelnde-umweltverschmutzer/
+tags: null
 thanks: puddyput
-tags: 
+title: Pizzakarton
 ---
 
 Falls ihr dachtet alles über Pizzakartons zu wissen: Ihr hatte ja überhaupt keine Ahnung!

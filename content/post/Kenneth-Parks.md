@@ -1,9 +1,10 @@
 ---
-title: Kenneth Parks
-date: 2019-02-21T09:26:24
-draft: false
 author: nico
-tags: 
+date: 2019-02-21 09:26:24
+draft: false
+podcast: https://podcast.entbehrlich.es/2019/10/08/eb008-schlafwandelnde-umweltverschmutzer/
+tags: null
+title: Kenneth Parks
 ---
 
 Wenn man jemanden im Schlaf ermordet, kann man freigesprochen werden.
