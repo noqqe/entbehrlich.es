@@ -1,7 +1,8 @@
 ---
-title: Der Chronovisor
-date: 2016-05-06T15:05:32
+date: 2016-05-06 15:05:32
 draft: false
+podcast: https://podcast.entbehrlich.es/2020/01/28/eb016-arschloecher-aus-der-vergangenheit/
+title: Der Chronovisor
 ---
 
 Der Papst hütet im Vatikan eine Zeitmaschine. Behauptet zumindest
