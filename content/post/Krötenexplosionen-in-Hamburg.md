@@ -1,16 +1,18 @@
 ---
-title: Krötenexplosionen in Hamburg
-date: 2017-03-26T10:19:12
+author: nico
+date: 2017-03-26 10:19:12
 draft: false
 image: /images/Bufo_bufo-defensive_reaction1.JPG
-imageauthor: Łukasz Olszewski <a href="http://commons.wikimedia.org/wiki/User:ImreKiss" title="User:ImreKiss">ImreKiss</a>
-author: nico
+imageauthor: Łukasz Olszewski <a href="http://commons.wikimedia.org/wiki/User:ImreKiss"
+  title="User:ImreKiss">ImreKiss</a>
+podcast: https://podcast.entbehrlich.es/2019/12/31/eb014-vibrierende-fckw-froesche/
 tags:
 - Altonaer Geschichte
 - Ereignis 2005
 - Hamburger Geschichte (21. Jahrhundert)
 - Herpetologie
 - Krankheitsbild in der Veterinärmedizin
+title: Krötenexplosionen in Hamburg
 ---
 
 Kröten, denen man die Leber geklaut hat tendieren dazu, zu explodieren.

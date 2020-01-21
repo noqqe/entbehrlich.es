@@ -1,11 +1,13 @@
 ---
-title: Gävlebocken
-date: 2018-12-28T11:38:12
+author: poschi
+date: 2018-12-28 11:38:12
 draft: false
 image: /images/Yule_goat_Gefle_Sweden_2009.jpg
-imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Apeshaft&amp;action=edit&amp;redlink=1" class="new" title="User:Apeshaft (page does not exist)">Tony Nordin</a>
-author: poschi
-tags:
+imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Apeshaft&amp;action=edit&amp;redlink=1"
+  class="new" title="User:Apeshaft (page does not exist)">Tony Nordin</a>
+podcast: https://podcast.entbehrlich.es/2019/12/17/eb013-rauchende-ziegen/
+tags: null
+title: Gävlebocken
 ---
 
 Wenn die traditionelle Strohfigur traditionell illegal angezündet wird, dann

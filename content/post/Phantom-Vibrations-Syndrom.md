@@ -1,9 +1,10 @@
 ---
-title: Phantom Vibrations Syndrom
-date: 2019-11-14T14:00:21
-draft: true
 author: poschi
-tags: 
+date: 2019-11-14 14:00:21
+draft: true
+podcast: https://podcast.entbehrlich.es/2019/12/31/eb014-vibrierende-fckw-froesche/
+tags: null
+title: Phantom Vibrations Syndrom
 ---
 
 "Warum schaust du dauernd auf dein Handy?" "Sorry, hab das Phantom-Vibrations-Syndrom"
