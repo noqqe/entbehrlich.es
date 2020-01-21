@@ -524,6 +524,8 @@ def new(url, date, thanks, debug, author):
         images = wiki.images
         image, imageauthor = gen_article_image(images, debug)
     except KeyError:
+        image = None
+        imageauthor = None
         log("Images could not be fetched, but continuing", "error")
         pass
 
