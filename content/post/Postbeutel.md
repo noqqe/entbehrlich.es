@@ -1,11 +1,12 @@
 ---
-title: Postbeutel
-date: 2019-07-09T12:03:35
+author: noqqe
+date: 2019-07-09 12:03:35
 draft: false
 image: /images/BK-TZ-BMA-BAK-WI.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Kandschwar" title="User:Kandschwar">User:Kandschwar</a>
-author: noqqe
-tags:
+podcast: https://podcast.entbehrlich.es/2019/08/27/eb005-schluessel-bein-im-wertsackbeutel/
+tags: null
+title: Postbeutel
 ---
 
 Beamtendeutsch <3

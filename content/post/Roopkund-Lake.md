@@ -1,11 +1,12 @@
 ---
-title: Roopkund Lake
-date: 2018-08-13T08:12:31
+author: noqqe
+date: 2018-08-13 08:12:31
 draft: false
 image: /images/Human_Skeletons_in_Roopkund_Lake.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Schwiki" title="User:Schwiki">Schwiki</a>
-author: noqqe
-tags:
+podcast: https://podcast.entbehrlich.es/2019/08/27/eb005-schluessel-bein-im-wertsackbeutel/
+tags: null
+title: Roopkund Lake
 ---
 
 Wenn dieser See im Sommer mal nicht gefroren ist, kann man Skelette einer
