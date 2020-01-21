@@ -1,7 +1,7 @@
 ---
-title: Shaggy defense
-date: 2017-02-06T14:16:50
+date: 2017-02-06 14:16:50
 draft: false
+podcast: https://podcast.entbehrlich.es/2019/07/02/eb001-shaggys-hund-faehrt-bus/
 tags:
 - 2008 introductions
 - All articles needing additional references
@@ -12,6 +12,7 @@ tags:
 - R. Kelly
 - Relevance fallacies
 - Words coined in the 2000s
+title: Shaggy defense
 ---
 
 Die Shaggy Defense benutzt man vor Gericht in dem man einfach immer wieder
