@@ -20,6 +20,8 @@ from urllib.parse import urlparse, unquote
 import urllib.request
 import re
 import fileinput
+import frontmatter
+import codecs
 
 import PIL
 from PIL import Image
@@ -33,7 +35,6 @@ import xmltodict
 from dateutil.parser import parse
 
 # fucking warnings that i cannot control (wikipedia lib)
-import warnings
 warnings.filterwarnings("ignore")
 
 # Environment variables
@@ -49,6 +50,7 @@ commonsapi = "https://tools.wmflabs.org/magnus-toolserver/commonsapi.php?image="
 
 # Logging
 logging.basicConfig(level=logging.ERROR)
+
 
 # Logging
 def log(msg, serv="debug"):
@@ -703,6 +705,28 @@ def random():
             pass
 
     return True
+
+
+@cli.command(short_help="Add link to podcast to article")
+@click.argument('post', required=True)
+@click.argument('episode', required=True)
+def podcast(post, episode):
+    """
+    Add link to podcast to article
+    """
+
+    ppath = posts_home + post
+    with open(ppath, "r") as o:
+        fm = frontmatter.loads(o.read())
+        o.close()
+
+    fm.metadata["podcast"] = episode
+    with codecs.open(ppath, "wb+", 'utf8') as o:
+        o.write(frontmatter.dumps(fm))
+        o.close()
+
+    return True
+
 
 # Call wrapper to cli commands
 if __name__ == '__main__':

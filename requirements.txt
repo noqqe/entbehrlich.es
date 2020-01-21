@@ -6,3 +6,4 @@ twitter
 feedparser
 xmltodict
 python-dateutil
+python-frontmatter
