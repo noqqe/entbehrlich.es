@@ -1,11 +1,12 @@
 ---
-title: The No Asshole Rule
-date: 2020-01-21T14:00:48
-draft: true
 author: noqqe
+date: 2020-01-21 14:00:48
+draft: true
+podcast: https://podcast.entbehrlich.es/2020/01/28/eb016-arschloecher-aus-der-vergangenheit/
 tags:
 - 2007 books
 - Workplace bullying
+title: The No Asshole Rule
 ---
 
 Arschlöcher am Arbeitsplatz!
