@@ -1,11 +1,12 @@
 ---
-title: Maneki neko
-date: 2020-01-21T14:00:18
+author: noqqe
+date: 2020-01-21 14:00:18
 draft: true
 image: /images/JapaneseBobtailBlueEyedMi-ke.JPG
 imageauthor: ようてい<a class="external autonumber" href="https://ja.wikipedia.org/w/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:%E3%82%88%E3%81%86%E3%81%A6%E3%81%84&amp;action=edit&amp;redlink=1">[2]</a>
-author: noqqe
-tags:
+podcast: https://podcast.entbehrlich.es/2020/02/11/eb017-typhusglueck-mit-pfirsicheis/
+tags: null
+title: Maneki neko
 ---
 
 Winkekatzen sind nicht nur asiatische Werbegadgets :)
