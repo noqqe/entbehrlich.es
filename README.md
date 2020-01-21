@@ -6,7 +6,6 @@ In order to write new entbehrlich.es articles you need to do the following
 git clone git@github.com:noqqe/entbehrlich.es.git entbehrlich.es
 cd entbehrlich.es
 pip install -r requirements.txt
-python -c 'import nltk; nltk.download("book")'
 ```
 
 After that you can try `./articles queue` 
