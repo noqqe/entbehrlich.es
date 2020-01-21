@@ -1,11 +1,13 @@
 ---
-title: Nudge
-date: 2019-04-08T08:49:38
+author: poschi
+date: 2019-04-08 08:49:38
 draft: false
 image: /images/Richard_Thaler_Chatham.jpg
-imageauthor: <a rel="nofollow" class="external text" href="https://www.flickr.com/people/chathamhouse/">Chatham House</a>
-author: poschi
-tags: 
+imageauthor: <a rel="nofollow" class="external text" href="https://www.flickr.com/people/chathamhouse/">Chatham
+  House</a>
+podcast: https://podcast.entbehrlich.es/2019/08/13/eb004-in-die-achterbahn-genudged/
+tags: null
+title: Nudge
 ---
 
 Hast du dich schon immer mal gefragt, warum da eine Fliege in der Toilette ist?
