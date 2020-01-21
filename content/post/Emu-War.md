@@ -1,11 +1,13 @@
 ---
-title: Emu War
-date: 2019-12-06T12:15:14
+author: noqqe
+date: 2019-12-06 12:15:14
 draft: false
 image: /images/Emus,_Wilsons_Promontory_National_Park.jpg
-imageauthor: <a rel="nofollow" class="external text" href="https://www.flickr.com/photos/23696801@N04">Eduardo Mariz</a> from Sydney, Australia
-author: noqqe
-tags:
+imageauthor: <a rel="nofollow" class="external text" href="https://www.flickr.com/photos/23696801@N04">Eduardo
+  Mariz</a> from Sydney, Australia
+podcast: https://podcast.entbehrlich.es/2019/12/03/eb012-bartige-elektro-emus/
+tags: null
+title: Emu War
 ---
 
 Emus ziehen wegen Wassermangel durch Australien, Armee benutzt

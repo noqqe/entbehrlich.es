@@ -1,11 +1,13 @@
 ---
-title: Hans Staininger
-date: 2019-11-07T14:00:45
+author: noqqe
+date: 2019-11-07 14:00:45
 draft: true
 image: /images/Barthaar_Hans_Staininger.JPG
-imageauthor: <a href="https://de.wikipedia.org/wiki/Benutzer:M.M" class="extiw" title="de:Benutzer:M.M">Markus Metz</a>
-author: noqqe
-tags:
+imageauthor: <a href="https://de.wikipedia.org/wiki/Benutzer:M.M" class="extiw" title="de:Benutzer:M.M">Markus
+  Metz</a>
+podcast: https://podcast.entbehrlich.es/2019/12/03/eb012-bartige-elektro-emus/
+tags: null
+title: Hans Staininger
 ---
 
 Hans war wegen seines unglaublich langen Bartes berühmt, welchen man heute

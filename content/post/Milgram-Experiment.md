@@ -1,9 +1,10 @@
 ---
-title: Milgram Experiment
-date: 2019-11-25T15:06:01
-draft: false
 author: poschi
-tags: 
+date: 2019-11-25 15:06:01
+draft: false
+podcast: https://podcast.entbehrlich.es/2019/12/03/eb012-bartige-elektro-emus/
+tags: null
+title: Milgram Experiment
 ---
 
 Wenn man glaubt Menschen zu quälen weil es einem befohlen wurde...
