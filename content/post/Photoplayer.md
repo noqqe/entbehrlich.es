@@ -1,10 +1,11 @@
 ---
-title: Photoplayer
-date: 2019-09-18T09:45:51
-draft: false
 author: poschi
+date: 2019-09-18 09:45:51
+draft: false
+podcast: https://podcast.entbehrlich.es/2019/09/24/eb007-cornflakes-in-der-stummfilmvorstellung/
+tags: null
 thanks: t_animal
-tags: 
+title: Photoplayer
 ---
 
 Ist es ein Klavier? Ist es ein Schlagzeug? Ist es eine Triangel? Nein, es ist

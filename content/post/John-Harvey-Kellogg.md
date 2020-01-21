@@ -1,7 +1,7 @@
 ---
-title: John Harvey Kellogg
-date: 2016-10-26T21:30:38
+date: 2016-10-26 21:30:38
 draft: false
+podcast: https://podcast.entbehrlich.es/2019/09/24/eb007-cornflakes-in-der-stummfilmvorstellung/
 tags:
 - Abstinenzler
 - Adventist
@@ -11,6 +11,7 @@ tags:
 - Person (Essen und Trinken)
 - US-Amerikaner
 - Unternehmer (Ernährungswirtschaft)
+title: John Harvey Kellogg
 ---
 
 Der nicht ganz so erfolgreiche Bruder der Kellogg Familie war überzeugt von
