@@ -1,15 +1,17 @@
 ---
-title: Balloonfest 1986
-date: 2017-05-17T08:34:18
+author: nico
+date: 2017-05-17 08:34:18
 draft: false
 image: /images/Tower_City.jpg
-imageauthor: <a rel="nofollow" class="external text" href="http://www.flickr.com/people/9127004@N06">Chris Gent</a>
-author: nico
+imageauthor: <a rel="nofollow" class="external text" href="http://www.flickr.com/people/9127004@N06">Chris
+  Gent</a>
+podcast: https://podcast.entbehrlich.es/2019/10/22/eb009-man-muss-auch-mal-loslassen-koennen/
 tags:
 - Cleveland
 - Geschichte von Ohio
 - Veranstaltung (Ohio)
 - Veranstaltung 1986
+title: Balloonfest 1986
 ---
 
 Eigentlich sollte es ein fröhlicher Weltrekordsversuch sein. Am Ende waren zwei Fischer tot.
