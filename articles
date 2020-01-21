@@ -753,6 +753,21 @@ def podcast(post, episode):
 
     return True
 
+@cli.command(short_help="Show all posts that are not podcasted, yet!")
+def unpodcasted():
+    """
+    Show all posts that are not podcasted, yet!
+    """
+
+    posts = os.listdir(posts_home)
+
+    all, released, unreleased, podcasted = list_posts()
+    log("Posts: Unreleased {}, released {}, total {}, podcasted {}".format(unreleased, released, all, podcasted))
+    log("All posts that are not podcasted, yet: ")
+    for post in posts:
+        if 'podcast: https://' not in open(posts_home + post).read():
+            log(" * " + post, "debug")
+
 
 # Call wrapper to cli commands
 if __name__ == '__main__':
