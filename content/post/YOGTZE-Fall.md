@@ -1,12 +1,13 @@
 ---
-title: YOGTZE Fall
-date: 2017-01-30T09:08:28
+date: 2017-01-30 09:08:28
 draft: false
+podcast: https://podcast.entbehrlich.es/2019/11/19/eb011-japanisches-sumpf-yogtze/
 tags:
 - Geschichte (Hagen)
 - Kriminalfall 1984
 - Kriminalfall in Deutschland
 - Ungeklärter Kriminalfall
+title: YOGTZE Fall
 ---
 
 Der YOGTZE-Fall ist definitv eine meiner Lieblingsgeschichten auf

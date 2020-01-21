@@ -1,7 +1,7 @@
 ---
-title: Onoda Hirō
-date: 2017-02-15T09:11:09
+date: 2017-02-15 09:11:09
 draft: false
+podcast: https://podcast.entbehrlich.es/2019/11/19/eb011-japanisches-sumpf-yogtze/
 tags:
 - Geboren 1922
 - Gestorben 2014
@@ -9,6 +9,7 @@ tags:
 - Mann
 - Militärperson (Kaiserlich Japanische Armee)
 - Person im Pazifikkrieg
+title: Onoda Hirō
 ---
 
 Wieder ein Klassiker. Mann versteckt sich vor Krieg im Dschungel. Man
