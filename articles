@@ -509,7 +509,6 @@ def new(url, date, thanks, debug, author):
         wikipedia.set_lang(lang)
         wiki = wikipedia.page(title)
         tags = wiki.categories
-        images = wiki.images
         summary = wiki.summary
         log("Fetched article \"%s\" from wikipedia (%s)" % (title, lang), "info")
     except wikipedia.exceptions.DisambiguationError as e:
@@ -521,7 +520,12 @@ def new(url, date, thanks, debug, author):
     t = t.isoformat()
 
     # fetch images
-    image, imageauthor = gen_article_image(images, debug)
+    try:
+        images = wiki.images
+        image, imageauthor = gen_article_image(images, debug)
+    except KeyError:
+        log("Images could not be fetched, but continuing", "error")
+        pass
 
     # small fix for stupid macos
     if author == "fnbaum":
