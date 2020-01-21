@@ -1,9 +1,10 @@
 ---
-title: Pyrenäensteinbock
-date: 2018-12-11T14:20:31
-draft: false
 author: poschi
-tags:
+date: 2018-12-11 14:20:31
+draft: false
+podcast: https://podcast.entbehrlich.es/2019/07/16/eb002-schlechtwettersteinbock/
+tags: null
+title: Pyrenäensteinbock
 ---
 
 Der letzte Pyrenäensteinbock ist im Jahr 2000 gestorben. Zuvor wurde ihm eine

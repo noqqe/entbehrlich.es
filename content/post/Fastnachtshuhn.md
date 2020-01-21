@@ -1,9 +1,10 @@
 ---
-title: Fastnachtshuhn
-date: 2018-12-19T10:54:57
-draft: false
 author: poschi
-tags:
+date: 2018-12-19 10:54:57
+draft: false
+podcast: https://podcast.entbehrlich.es/2019/07/30/eb003-geisterhuehner-auf-der-linken-spur/
+tags: null
+title: Fastnachtshuhn
 ---
 
 Fastnachtshuhn, wenn man seinem Peiniger dankbar sein muss...

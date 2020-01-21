@@ -1,11 +1,12 @@
 ---
-title: Gore Effekt
-date: 2016-06-02T10:02:25
+date: 2016-06-02 10:02:25
 draft: false
+podcast: https://podcast.entbehrlich.es/2019/07/16/eb002-schlechtwettersteinbock/
 tags:
 - Klimapolitik
 - Moderne Sage
 - Satire
+title: Gore Effekt
 ---
 
 Okay. Das ist ... auch geil :D
