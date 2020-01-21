@@ -355,6 +355,7 @@ def download_image(url, fname, debug):
     src = "/images/" + fname
     return src
 
+
 def resize_image(fname):
     """
     resize a downloaded picture from images/ homedir
@@ -384,13 +385,17 @@ def list_posts():
 
     unreleased = 0
     released = 0
+    podcasted = 0
     for post in posts:
         if 'draft: true' in open(posts_home + post).read():
             unreleased = unreleased + 1
         else:
             released = released + 1
 
-    return len(posts), released, unreleased
+        if 'podcast: ' in open(posts_home + post).read():
+            podcasted = podcasted + 1
+
+    return len(posts), released, unreleased, podcasted
 
 
 # CLI Commands
@@ -557,8 +562,8 @@ def new(url, date, thanks, debug, author):
     # push to repo
     push()
 
-    all, released, unreleased = list_posts()
-    log("Posts: Unreleased {}, released {}, total {}".format(unreleased, released, all))
+    all, released, unreleased, podcasted = list_posts()
+    log("Posts: Unreleased {}, released {}, total {}, podcasted {}".format(unreleased, released, all, podcasted))
 
     return True
 
@@ -570,8 +575,8 @@ def queue(allposts):
     Shows all unpublished posts. Can also show all posts ever using -a
     """
 
-    all, released, unreleased = list_posts()
-    log("Unreleased {}, released {}, total {}".format(unreleased, released, all))
+    all, released, unreleased, podcasted = list_posts()
+    log("Posts: Unreleased {}, released {}, total {}, podcasted {}".format(unreleased, released, all, podcasted))
 
     posts = os.listdir(posts_home)
     if not allposts:
@@ -631,8 +636,8 @@ def release(post):
     if not push():
         return False
 
-    all, released, unreleased = list_posts()
-    log("Unreleased {}, released {}, total {}".format(unreleased, released, all))
+    all, released, unreleased, podcasted = list_posts()
+    log("Posts: Unreleased {}, released {}, total {}, podcasted {}".format(unreleased, released, all, podcasted))
 
     return True
 
@@ -736,6 +741,9 @@ def podcast(post, episode):
 
     # push changes
     push()
+
+    all, released, unreleased, podcasted = list_posts()
+    log("Posts: Unreleased {}, released {}, total {}, podcasted {}".format(unreleased, released, all, podcasted))
 
     return True
 
