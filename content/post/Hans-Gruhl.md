@@ -1,9 +1,10 @@
 ---
-title: Hans Gruhl
-date: 2018-10-28T10:43:14
-draft: false
 author: noqqe
-tags:
+date: 2018-10-28 10:43:14
+draft: false
+podcast: https://podcast.entbehrlich.es/2020/02/11/eb017-typhusglueck-mit-pfirsicheis/
+tags: null
+title: Hans Gruhl
 ---
 
 Wenn du dich in deine Rolle deines Romans versetzen willst, dir ne Pistole an
