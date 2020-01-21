@@ -1,8 +1,8 @@
 ---
-title: Loss aversion
-date: 2017-06-06T06:47:51
-draft: false
 author: noqqe
+date: 2017-06-06 06:47:51
+draft: false
+podcast: https://podcast.entbehrlich.es/2019/09/10/eb006-verlust-des-synthetischen-gummis/
 tags:
 - Behavioral finance
 - Cognitive biases
@@ -12,6 +12,7 @@ tags:
 - Pages with citations having redundant parameters
 - Prospect theory
 - Webarchive template wayback links
+title: Loss aversion
 ---
 
 Die Loss Aversion besagt dass es dich viel mehr schmerzt, beispielsweise 10

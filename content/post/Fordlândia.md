@@ -1,11 +1,12 @@
 ---
-title: Fordlândia
-date: 2019-07-26T13:44:46
+author: poschi
+date: 2019-07-26 13:44:46
 draft: false
 image: /images/Fordlandia.JPG
 imageauthor: Amit Evron User (WT-shared) Amitevron at wts wikivoyage
-author: poschi
-tags: 
+podcast: https://podcast.entbehrlich.es/2019/09/10/eb006-verlust-des-synthetischen-gummis/
+tags: null
+title: Fordlândia
 ---
 
 Wenn der weiße Mann kommt und alles besser weiß...
