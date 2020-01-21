@@ -1,9 +1,10 @@
 ---
-title: Tanganjika Lachepidemie
-date: 2019-01-01T10:12:35
-draft: false
 author: poschi
-tags:
+date: 2019-01-01 10:12:35
+draft: false
+podcast: https://podcast.entbehrlich.es/2019/11/05/eb010-der-lachende-grieche/
+tags: null
+title: Tanganjika Lachepidemie
 ---
 
 Was unternimmt man gegen eine Epedemie die einfach viel zu witzig ist?

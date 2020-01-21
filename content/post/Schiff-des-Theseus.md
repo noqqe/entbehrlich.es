@@ -1,11 +1,12 @@
 ---
-title: Schiff des Theseus
-date: 2018-03-26T08:23:41
-draft: false
 author: noqqe
+date: 2018-03-26 08:23:41
+draft: false
+podcast: https://podcast.entbehrlich.es/2019/11/05/eb010-der-lachende-grieche/
 tags:
 - Ontologie
 - Paradoxon
+title: Schiff des Theseus
 ---
 
 Nicht das ich den Intellekt hätte Philosophie wirklich zu verstehen, aber
