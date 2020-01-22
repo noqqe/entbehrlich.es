@@ -406,7 +406,7 @@ def cli():
     pass
 
 
-@cli.command(short_help="Get 20 random articles from Wikipedia")
+@cli.command(short_help="Tweet latest blogpost from rss feed")
 @click.option('oldfeed', '-o', '--oldfeed', default='-f /tmp/index.xml')
 @click.option('newfeed', '-n', '--newfeed', default='https://entbehrlich.es/index.xml')
 def tweet(oldfeed, newfeed):
