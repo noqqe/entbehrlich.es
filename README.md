@@ -1,14 +1,14 @@
 # Install
 
 In order to write new entbehrlich.es articles you need to do the following
- 
+
 ```
 git clone git@github.com:noqqe/entbehrlich.es.git entbehrlich.es
 cd entbehrlich.es
 pip install -r requirements.txt
 ```
 
-After that you can try `./articles queue` 
+After that you can try `./articles queue`
 
 # Usage
 
@@ -18,7 +18,7 @@ Add new article
 $ ./articles new --thanks <twitter handle> https://de.wikipedia.org/wiki/Schlacht_in_der_Javasee
 ```
 
-See queued articles 
+See queued articles
 
 ```
 $ ./articles queue
@@ -40,10 +40,13 @@ Options:
 Commands:
   inspiration  Live recently update articles from Wikipedia
   new          Create a new post
+  podcast      Add link to podcast to article
   queue        Show current drafts
   random       Get 20 random articles from Wikipedia
   reedit       Edit an already written article
   release      Publish a post
+  tweet        Tweet latest blogpost from rss feed
+  unpodcasted  Show all posts that are not podcasted, yet!
 ```
 
 # Deployment & Hosting
@@ -59,7 +62,7 @@ Current build status:
 
 # Requirements
 
-These are the requirements to get ./articles running 
+These are the requirements to get ./articles running
 
 * Python 3
 * All requirements installed from requirements.txt
