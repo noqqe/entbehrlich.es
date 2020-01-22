@@ -1,7 +1,7 @@
 ---
 title: Pam Krabbé Rochade
-date: 2019-09-17T14:00:51
-draft: true
+date: 2020-01-22T09:00:08
+draft: false
 author: poschi
 thanks: erdgeist
 tags: 
