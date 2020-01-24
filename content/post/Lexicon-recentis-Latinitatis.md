@@ -1,7 +1,7 @@
 ---
 title: Lexicon recentis Latinitatis
-date: 2019-11-26T14:00:29
-draft: true
+date: 2020-01-24T09:44:57
+draft: false
 author: noqqe
 tags:
 ---
