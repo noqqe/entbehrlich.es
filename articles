@@ -514,6 +514,9 @@ def new(url, date, thanks, debug, author):
     except wikipedia.exceptions.DisambiguationError as e:
         log(e, "error")
         return False
+    except:
+        log("Fetching Wikipedia article was not possible due to connection issues", "error")
+        return False
 
     t = parse(date)
     t = t.replace(hour=14, minute=0, microsecond=0)
