@@ -1,7 +1,7 @@
 ---
 author: noqqe
-date: 2019-11-07 14:00:45
-draft: true
+date: 2020-02-03T09:04:46
+draft: false
 image: /images/Barthaar_Hans_Staininger.JPG
 imageauthor: <a href="https://de.wikipedia.org/wiki/Benutzer:M.M" class="extiw" title="de:Benutzer:M.M">Markus
   Metz</a>
