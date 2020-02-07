@@ -1,7 +1,7 @@
 ---
 title: Overview Effekt
-date: 2019-03-29T14:00:25
-draft: true
+date: 2020-02-07T13:19:58
+draft: false
 author: nico
 tags: 
 ---
