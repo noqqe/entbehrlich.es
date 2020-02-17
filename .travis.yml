@@ -3,14 +3,6 @@ env:
 
 jobs:
   include:
-    - language: node_js
-      stage: test
-      node_js: 10.15
-      install:
-        - npm install -g markdownlint-cli
-      script:
-        - markdownlint content/*.md
-        - markdownlint content/post/*.md
     - language: python
       stage: test
       python: 3.7

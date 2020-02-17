@@ -3,11 +3,10 @@ title: Wortlänge
 date: 2020-02-12T14:00:28
 draft: true
 author: nico
-tags: 
+tags:
 ---
 
 O ihr lieben Steuerentlastungsberatungsvorgesprächskoalitionsrundenvereinbarungen!
-
 
 > Wortlänge wird danach bestimmt, aus wie vielen kleineren Einheiten ein Wort
 > besteht. So ist es möglich, die Wortlänge entsprechend der Zahl der
