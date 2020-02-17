@@ -1,7 +1,7 @@
 ---
 title: Gezeitenrechenmaschine
-date: 2020-01-13T14:00:17
-draft: true
+date: 2020-02-17T12:14:58
+draft: false
 image: /images/2011_10_19_Gezeitenrechenmaschine_der_DDR_DSCI6433.JPG
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Dr._Karl-Heinz_Hochhaus" title="User:Dr. Karl-Heinz Hochhaus">Dr. Karl-Heinz Hochhaus</a>
 author: noqqe
