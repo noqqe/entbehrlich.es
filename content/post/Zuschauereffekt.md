@@ -1,9 +1,10 @@
 ---
-title: Zuschauereffekt
-date: 2019-05-09T08:30:23
-draft: false
 author: noqqe
-tags:
+date: 2019-05-09 08:30:23
+draft: false
+podcast: https://podcast.entbehrlich.es/2020/02/26/eb018-verantwortungsverpuffung/
+tags: null
+title: Zuschauereffekt
 ---
 
 Je mehr Leute an einen Unglück vorbei gehen, desto geringer die Chance das
