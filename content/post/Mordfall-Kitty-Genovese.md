@@ -1,9 +1,10 @@
 ---
-title: Mordfall Kitty Genovese
-date: 2019-03-14T08:39:29
-draft: false
 author: noqqe
-tags:
+date: 2019-03-14 08:39:29
+draft: false
+podcast: https://podcast.entbehrlich.es/2020/02/26/eb018-verantwortungsverpuffung/a
+tags: null
+title: Mordfall Kitty Genovese
 ---
 
 Kitty Genovese wird vor ihrem Haus in New York ermordet. Es dauerte eine
