@@ -1,9 +1,10 @@
 ---
-title: Verantwortungsdiffusion
-date: 2019-11-19T12:33:35
-draft: false
 author: noqqe
-tags:
+date: 2019-11-19 12:33:35
+draft: false
+podcast: https://podcast.entbehrlich.es/2020/02/26/eb018-verantwortungsverpuffung/
+tags: null
+title: Verantwortungsdiffusion
 ---
 
 Wenn du siehst das etwas getan werden müsste, aber dir denkst jemand anderes
