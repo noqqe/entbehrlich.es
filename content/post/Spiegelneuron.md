@@ -1,7 +1,7 @@
 ---
 title: Spiegelneuron
-date: 2019-11-26T14:00:45
-draft: true
+date: 2020-02-27T08:19:36
+draft: false
 image: /images/PLoSBiol4.e126.Fig6fNeuron.jpg
 imageauthor: Wei-Chung Allen Lee, Hayden Huang, Guoping Feng, Joshua R. Sanes, Emery N. Brown, Peter T. So, Elly Nedivi
 author: noqqe
