@@ -1,11 +1,13 @@
 ---
-title: Belegen von Liegestühlen
-date: 2020-02-29T14:00:12
+author: noqqe
+date: 2020-02-29 14:00:12
 draft: true
 image: /images/Allocated_empty_sun_beds_-_Oliva_beach_-_Fuerteventura_-_02.jpg
-imageauthor: <a href="http://commons.wikimedia.org/wiki/User:NorbertNagel" title="User:NorbertNagel">Norbert Nagel, Mörfelden-Walldorf, Germany</a>
-author: noqqe
-tags:
+imageauthor: <a href="http://commons.wikimedia.org/wiki/User:NorbertNagel" title="User:NorbertNagel">Norbert
+  Nagel, Mörfelden-Walldorf, Germany</a>
+podcast: https://podcast.entbehrlich.es/2020/03/10/eb019-soziale-pulverfaesser/
+tags: null
+title: Belegen von Liegestühlen
 ---
 
 So deutsch. So gut.
