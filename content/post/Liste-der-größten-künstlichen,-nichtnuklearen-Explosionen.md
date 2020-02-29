@@ -1,11 +1,12 @@
 ---
-title: Liste der größten künstlichen, nichtnuklearen Explosionen
-date: 2016-08-22T09:05:40
+date: 2016-08-22 09:05:40
 draft: false
+podcast: https://podcast.entbehrlich.es/2020/03/10/eb019-soziale-pulverfaesser/
 tags:
 - Explosionskatastrophe
 - Liste (Geschichte)
 - Liste (Rekorde)
+title: Liste der größten künstlichen, nichtnuklearen Explosionen
 ---
 
 Wenn ich aus dieser Liste eines gelernt habe, dann das Pulvertürme in
