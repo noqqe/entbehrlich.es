@@ -1,7 +1,7 @@
 ---
 title: Carroll A. Deering
-date: 2020-02-18T14:00:41
-draft: true
+date: 2020-03-02T09:00:54
+draft: false
 author: noqqe
 tags:
 ---
