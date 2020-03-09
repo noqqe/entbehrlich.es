@@ -4,8 +4,8 @@
 : The Greatest Mystery of the Sea</i>. Longmans Education Ltd, Harlow (UK) 2007. Plate
   2</div>
 author: noqqe
-date: 2020-02-25 14:00:37
-draft: true
+date: 2020-03-09T11:25:08
+draft: false
 image: /images/Mary_Celeste_as_Amazon_in_1861.jpg
 imageauthor: <div class="fn value">
 podcast: https://podcast.entbehrlich.es/2020/02/26/eb018-verantwortungsverpuffung/
