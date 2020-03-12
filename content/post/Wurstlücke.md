@@ -3,10 +3,10 @@ title: Wurstlücke
 date: 2020-03-10T08:30:08
 draft: false
 author: poschi
-tags: 
+tags:
 ---
 
-Sich assozial verhalten bis man erwischt wird und dann die Tochterfirma einfach
+Sich asozial verhalten bis man erwischt wird und dann die Tochterfirma einfach
 schließen bevor man belangt wird. Ganz einfach!
 
 > Als Wurstlücke wird eine 2017 geschlossene Haftungslücke („Schlupfloch“) im
