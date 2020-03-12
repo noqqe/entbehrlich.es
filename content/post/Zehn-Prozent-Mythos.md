@@ -1,7 +1,7 @@
 ---
 title: Zehn Prozent Mythos
-date: 2020-01-07T14:00:38
-draft: true
+date: 2020-03-12T11:16:12
+draft: false
 image: /images/Franz_Josef_Gall3.jpg
 imageauthor: Zéphirin Félix Jean Marius Belliard (1798–), engraver Delpech (Paris)
 author: nico
