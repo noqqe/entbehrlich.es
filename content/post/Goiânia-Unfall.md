@@ -1,13 +1,14 @@
 ---
-title: Goiânia Unfall
-date: 2017-02-03T08:30:43
+date: 2017-02-03 08:30:43
 draft: false
+podcast: https://podcast.entbehrlich.es/2020/03/24/eb020-radioaktives-grunzen/
 tags:
 - Geschichte Brasiliens
 - Goiânia
 - Katastrophe 1987
 - Nuklearunfall
 - Radioaktiver Abfall
+title: Goiânia Unfall
 ---
 
 Der Anfang ließt sich wie so ein "ganz normaler Atomunfall". Im weiteren
