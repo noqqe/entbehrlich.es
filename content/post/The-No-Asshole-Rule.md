@@ -1,7 +1,7 @@
 ---
 author: noqqe
-date: 2020-01-21 14:00:48
-draft: true
+date: 2020-03-20T09:01:17
+draft: false
 podcast: https://podcast.entbehrlich.es/2020/01/28/eb016-arschloecher-aus-der-vergangenheit/
 tags:
 - 2007 books
