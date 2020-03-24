@@ -1,7 +1,7 @@
 ---
 title: Sprengung verendeter Rinder
-date: 2019-12-14T14:00:03
-draft: true
+date: 2020-03-24T08:11:30
+draft: false
 author: nico
 tags: 
 ---
