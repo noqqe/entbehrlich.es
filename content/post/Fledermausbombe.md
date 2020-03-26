@@ -1,7 +1,7 @@
 ---
 title: Fledermausbombe
-date: 2019-12-14T14:00:30
-draft: true
+date: 2020-03-26T08:17:30
+draft: false
 author: nico
 tags: 
 ---
