@@ -1,7 +1,7 @@
 ---
 title: Cuvier Schnabelwal
-date: 2019-12-19T14:00:38
-draft: true
+date: 2020-03-29T11:50:14
+draft: false
 image: /images/Wal_Cuviera.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Bardrock" title="User:Bardrock">Bardrock</a>
 author: nico
