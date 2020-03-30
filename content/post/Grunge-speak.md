@@ -1,7 +1,7 @@
 ---
 title: Grunge speak
-date: 2020-03-17T14:00:38
-draft: true
+date: 2020-03-30T09:01:23
+draft: false
 author: noqqe
 tags:
 - 1990s slang
