@@ -1,7 +1,7 @@
 ---
 title: Wortlänge
-date: 2020-02-12T14:00:28
-draft: true
+date: 2020-04-01T09:00:43
+draft: false
 author: nico
 tags:
 ---
