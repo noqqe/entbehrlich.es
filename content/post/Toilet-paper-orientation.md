@@ -1,9 +1,9 @@
 ---
-title: Toilet paper orientation
-date: 2017-02-05T20:40:19
+date: 2017-02-05 20:40:19
 draft: false
 image: /images/Multi-orientable_toilet_paper_holder.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Blackcat" title="User:Blackcat">Blackcat</a>
+podcast: https://podcast.entbehrlich.es/2020/04/07/eb021-die-hologrammrolle/
 tags:
 - Interpersonal conflict
 - Orientation (geometry)
@@ -11,6 +11,7 @@ tags:
 - Symmetry
 - Toilet paper
 - Use dmy dates from October 2013
+title: Toilet paper orientation
 ---
 
 Wow. Ehrlich. Das dieses Thema Menschen so beschäftigt. Der Englische
