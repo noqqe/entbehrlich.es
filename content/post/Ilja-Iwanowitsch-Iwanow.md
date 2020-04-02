@@ -1,8 +1,8 @@
 ---
-title: Ilja Iwanowitsch Iwanow
-date: 2018-01-15T07:47:09
-draft: false
 author: noqqe
+date: 2018-01-15 07:47:09
+draft: false
+podcast: https://podcast.entbehrlich.es/2020/04/07/eb021-die-hologrammrolle/
 tags:
 - Biologe
 - Geboren 1870
@@ -10,6 +10,7 @@ tags:
 - Mann
 - Opfer des Stalinismus (Sowjetunion)
 - Russe
+title: Ilja Iwanowitsch Iwanow
 ---
 
 WAS ZUM...
