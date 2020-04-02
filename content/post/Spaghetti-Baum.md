@@ -1,11 +1,13 @@
 ---
-title: Spaghetti Baum
-date: 2019-04-17T09:50:14
+author: nico
+date: 2019-04-17 09:50:14
 draft: false
 image: /images/Sunny_april_morning_spaghetti_tree_harvest_(7036208493).jpg
-imageauthor: <a rel="nofollow" class="external text" href="https://www.flickr.com/people/29233640@N07">Robert Couse-Baker</a> from Sacramento, California
-author: nico
-tags: 
+imageauthor: <a rel="nofollow" class="external text" href="https://www.flickr.com/people/29233640@N07">Robert
+  Couse-Baker</a> from Sacramento, California
+podcast: https://podcast.entbehrlich.es/2020/04/07/eb021-die-hologrammrolle/
+tags: null
+title: Spaghetti Baum
 ---
 
 Aprilscherze vergangener Tage
