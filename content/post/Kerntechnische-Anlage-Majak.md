@@ -1,7 +1,7 @@
 ---
 title: Kerntechnische Anlage Majak
-date: 2020-03-17T14:00:33
-draft: true
+date: 2020-04-04T12:22:02
+draft: false
 image: /images/Development_of_the_Techa_Cascade_(ru).gif
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:JanRieke" title="User:JanRieke">Jan Rieke</a>
 author: noqqe
