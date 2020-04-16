@@ -1,7 +1,8 @@
 ---
-title: Kolumbianische Krawatte
-date: 2016-05-01T16:34:47
+date: 2016-05-01 16:34:47
 draft: false
+podcast: https://podcast.entbehrlich.es/2020/04/21/eb022-restauration-eines-lebenslaufes/
+title: Kolumbianische Krawatte
 ---
 
 Schneidest die Kehle auf, ziehst die Zunge durch, haste ne Krawatte.
