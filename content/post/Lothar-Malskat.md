@@ -1,10 +1,11 @@
 ---
-title: Lothar Malskat
-date: 2018-07-13T09:13:23
+author: noqqe
+date: 2018-07-13 09:13:23
 draft: false
 image: /images/Lothar_Malskat_-_Nackte_Frau.JPG
-imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Ronald_Sl" title="User:Ronald Sl">Ronald Slabke</a>
-author: noqqe
+imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Ronald_Sl" title="User:Ronald
+  Sl">Ronald Slabke</a>
+podcast: https://podcast.entbehrlich.es/2020/04/21/eb022-restauration-eines-lebenslaufes/
 tags:
 - Deutscher
 - Geboren 1913
@@ -14,6 +15,7 @@ tags:
 - Maler (Lübeck)
 - Mann
 - Restaurator
+title: Lothar Malskat
 ---
 
 Mann restauriert Kirche. Mann fälscht Gemälde wo vorher keines war. Man druckt
