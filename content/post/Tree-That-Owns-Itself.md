@@ -1,7 +1,7 @@
 ---
 title: Tree That Owns Itself
-date: 2020-03-30T14:00:01
-draft: true
+date: 2020-04-22T10:42:36
+draft: false
 author: nico
 tags: 
 ---
