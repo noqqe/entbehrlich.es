@@ -1,7 +1,7 @@
 ---
 title: Künstliche Ruine
-date: 2020-03-17T14:00:55
-draft: true
+date: 2020-04-24T09:47:17
+draft: false
 image: /images/2016_Opactwo_w_Bukowcu_3.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Jacek_Halicki" title="User:Jacek Halicki">Jacek Halicki</a>
 author: noqqe
