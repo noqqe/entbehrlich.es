@@ -1,7 +1,7 @@
 ---
 title: Lichterfest
-date: 2019-11-14T14:00:02
-draft: true
+date: 2020-04-27T09:00:31
+draft: false
 image: /images/Weihnachtsbaum_Römerberg.jpg
 imageauthor: Thomas Wolf (<a href="http://commons.wikimedia.org/wiki/User:Der_Wolf_im_Wald" title="User:Der Wolf im Wald">Der Wolf im Wald</a>)
 author: poschi
