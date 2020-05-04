@@ -1,7 +1,7 @@
 ---
 title: Tom Kummer
-date: 2019-08-12T14:00:22
-draft: true
+date: 2020-05-04T10:11:42
+draft: false
 image: /images/Tom_Kummer_2019.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Amrei-Marie" title="User:Amrei-Marie">Amrei-Marie</a>
 author: noqqe
