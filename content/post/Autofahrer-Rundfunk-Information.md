@@ -1,7 +1,7 @@
 ---
 title: Autofahrer Rundfunk Information
-date: 2020-03-17T14:00:59
-draft: true
+date: 2020-05-10T12:36:33
+draft: false
 author: noqqe
 tags:
 ---
