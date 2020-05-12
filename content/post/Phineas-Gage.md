@@ -1,7 +1,7 @@
 ---
 title: Phineas Gage
-date: 2019-11-26T14:00:17
-draft: true
+date: 2020-05-12T08:30:33
+draft: false
 image: /images/CavendishVermont_1869Map_Beers_AnnotatedPhineasGageLocations.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:EEng" title="User:EEng">EEng</a>
 author: noqqe
