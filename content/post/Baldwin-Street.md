@@ -1,11 +1,14 @@
 ---
-title: Baldwin Street
-date: 2020-05-13T14:00:52
+author: noqqe
+date: 2020-05-13 14:00:52
 draft: true
 image: /images/BaldwinStreet.jpg
-imageauthor: <a href="https://en.wikipedia.org/wiki/User:MartinRe" class="extiw" title="wikipedia:User:MartinRe">MartinRe</a> at <a href="https://en.wikipedia.org/wiki/" class="extiw" title="wikipedia:">English Wikipedia</a>
-author: noqqe
-tags:
+imageauthor: <a href="https://en.wikipedia.org/wiki/User:MartinRe" class="extiw" title="wikipedia:User:MartinRe">MartinRe</a>
+  at <a href="https://en.wikipedia.org/wiki/" class="extiw" title="wikipedia:">English
+  Wikipedia</a>
+podcast: https://podcast.entbehrlich.es/2020/05/19/eb024-steile-thesen/
+tags: null
+title: Baldwin Street
 ---
 
 Die steilste Straße der Welt
