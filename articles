@@ -734,6 +734,7 @@ def podcast(post, episode):
     pull()
 
     # read meta data
+    post = post.replace('content/post/', '')
     ppath = posts_home + post
     with open(ppath, "r") as o:
         fm = frontmatter.loads(o.read())

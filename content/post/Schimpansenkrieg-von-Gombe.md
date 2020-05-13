@@ -1,9 +1,10 @@
 ---
-title: Schimpansenkrieg von Gombe
-date: 2019-06-06T10:38:07
-draft: false
 author: nico
-tags: 
+date: 2019-06-06 10:38:07
+draft: false
+podcast: https://podcast.entbehrlich.es/2020/05/19/eb024-steile-thesen/
+tags: null
+title: Schimpansenkrieg von Gombe
 ---
 
 Das Morden dauerte vier Jahre...
