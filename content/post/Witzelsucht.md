@@ -1,7 +1,7 @@
 ---
 title: Witzelsucht
-date: 2019-11-07T14:00:04
-draft: true
+date: 2020-05-14T11:10:12
+draft: false
 author: noqqe
 tags:
 - All articles needing additional references
