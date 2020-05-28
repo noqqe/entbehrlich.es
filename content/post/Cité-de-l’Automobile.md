@@ -1,7 +1,7 @@
 ---
 title: Cité de l’Automobile
-date: 2020-05-15T14:00:53
-draft: true
+date: 2020-05-28T09:31:06
+draft: false
 image: /images/Alfa_Romeo_6C_1750_GS.JPG
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:KarleHorn" title="User:KarleHorn">KarleHorn</a>
 author: noqqe
