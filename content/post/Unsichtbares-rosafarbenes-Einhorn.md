@@ -1,6 +1,6 @@
 ---
 date: 2016-04-26 13:00:00
-podcast: https://entbehrlich.es/articles/2016/04/26/unsichtbares-rosafarbenes-einhorn/
+podcast: https://podcast.entbehrlich.es/2020/05/19/eb024-steile-thesen/
 title: Das Unsichtbare rosafarbene Einhorn
 ---
 
