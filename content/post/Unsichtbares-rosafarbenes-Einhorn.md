@@ -1,6 +1,7 @@
 ---
+date: 2016-04-26 13:00:00
+podcast: https://entbehrlich.es/articles/2016/04/26/unsichtbares-rosafarbenes-einhorn/
 title: Das Unsichtbare rosafarbene Einhorn
-date: 2016-04-26T13:00:00
 ---
 
 Die Spaß-Religion setzt eigentlich am gleichen Problem an, wie auch die
