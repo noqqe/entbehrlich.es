@@ -4,7 +4,7 @@ date: 2018-05-19 09:11:36
 draft: false
 image: /images/Bridge_To_Nowhere.jpg
 imageauthor: Joerg Mueller
-podcast: https://podcast.entbehrlich.es/2020/05/19/eb024-steile-thesen/
+podcast: https://podcast.entbehrlich.es/2020/06/02/eb025-rosa-bruecken/
 tags: null
 title: Soda Brücke
 ---
