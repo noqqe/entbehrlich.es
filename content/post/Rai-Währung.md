@@ -1,14 +1,16 @@
 ---
-title: Rai (Währung)
-date: 2017-04-12T07:51:19
+author: nico
+date: 2017-04-12 07:51:19
 draft: false
 image: /images/Yap_Stone_Money.jpg
-imageauthor: <a href="https://en.wikipedia.org/wiki/User:Marshman" class="extiw" title="en:User:Marshman">Eric Guinther</a>
-author: nico
+imageauthor: <a href="https://en.wikipedia.org/wiki/User:Marshman" class="extiw" title="en:User:Marshman">Eric
+  Guinther</a>
+podcast: https://podcast.entbehrlich.es/2020/06/16/eb026-waehrungsreform-aus-der-hoelle/
 tags:
 - Föderierte Staaten von Mikronesien
 - Geschichte (Australien und Ozeanien)
 - Historische Währungseinheit (Australien und Ozeanien)
+title: Rai (Währung)
 ---
 
 Die unhandlichste Währung der Welt.
