@@ -1,7 +1,7 @@
 ---
 title: Studio zone
-date: 2020-05-24T14:00:30
-draft: true
+date: 2020-06-05T12:34:03
+draft: false
 image: /images/Beverlyandlacienegablvds.jpg
 imageauthor: <a href="https://en.wikipedia.org/wiki/User:Coolcaesar" class="extiw" title="wikipedia:User:Coolcaesar">Coolcaesar</a> at <a href="https://en.wikipedia.org/wiki/" class="extiw" title="wikipedia:">English Wikipedia</a>
 author: poschi
