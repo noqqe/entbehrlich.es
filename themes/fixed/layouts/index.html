@@ -1,8 +1,8 @@
 {{ partial "header.html" . }}
    <div class="content">
-  {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+  {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
     <div class="main">
-      {{ range $paginator.Pages }}
+      {{ range where $paginator.Pages ".Title" "!=" "Posts" }}
         <h1 class="non-highlight">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
         <div class="published">{{ .Date.Format "2006-01-02" }}</div>
