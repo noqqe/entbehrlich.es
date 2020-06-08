@@ -1,7 +1,7 @@
 ---
 title: Hühnerhypnose
-date: 2020-03-17T14:00:50
-draft: true
+date: 2020-06-08T13:17:25
+draft: false
 author: noqqe
 tags:
 ---
