@@ -1,7 +1,7 @@
 ---
 title: Capitonym
-date: 2019-11-26T14:00:17
-draft: true
+date: 2020-06-10T08:54:06
+draft: false
 author: noqqe
 tags:
 - All articles needing additional references
