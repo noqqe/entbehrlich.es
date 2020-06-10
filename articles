@@ -436,8 +436,9 @@ def tweet(oldfeed, newfeed):
     # added by me. not the wikipedia quote.
     desc = newfeed['entries'][0]['summary']
     desc = desc.split('\n')[0]
-    desc = desc.replace('\n','')
+    desc = desc.replace('\n', '')
     desc = html.unescape(desc)
+    desc = re.sub('<[^<]+?>', '', desc)
 
     # if desc too long, cut it for twitter
     if len(desc) > 240:
