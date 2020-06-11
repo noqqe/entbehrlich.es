@@ -1,7 +1,7 @@
 ---
 title: Argumentum ad hominem
-date: 2020-05-24T14:00:32
-draft: true
+date: 2020-06-11T11:17:11
+draft: false
 author: poschi
 tags: 
 ---
