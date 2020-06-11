@@ -2,3 +2,4 @@
 public/
 __pycache__/f.cpython-37.pyc
 .venv
+.envrc
