@@ -1,7 +1,7 @@
 ---
 title: Zeigarnik Effekt
-date: 2020-05-24T14:00:55
-draft: true
+date: 2020-06-18T08:10:39
+draft: false
 author: poschi
 tags: 
 ---
