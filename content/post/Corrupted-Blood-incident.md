@@ -1,7 +1,7 @@
 ---
 title: Corrupted Blood incident
-date: 2020-05-24T14:00:20
-draft: true
+date: 2020-06-19T09:09:28
+draft: false
 author: poschi
 thanks: BenjRemmers
 tags: 
