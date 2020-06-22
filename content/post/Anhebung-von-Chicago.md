@@ -1,8 +1,8 @@
 ---
-title: Anhebung von Chicago
-date: 2017-05-29T08:11:41
-draft: false
 author: nico
+date: 2017-05-29 08:11:41
+draft: false
+podcast: https://podcast.entbehrlich.es/2020/06/30/eb027-hausversetzung-fur-freiwahrung/
 tags:
 - Bauausführung
 - Bauingenieurwesen
@@ -11,6 +11,7 @@ tags:
 - Geschichte von Chicago
 - Kanalisation
 - Technikgeschichte (Vereinigte Staaten)
+title: Anhebung von Chicago
 ---
 
 Chicago lag mal ein Stockwerk tiefer.
