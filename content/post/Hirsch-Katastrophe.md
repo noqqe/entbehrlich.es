@@ -1,12 +1,13 @@
 ---
-title: Hirsch Katastrophe
-date: 2017-01-31T11:20:12
+date: 2017-01-31 11:20:12
 draft: false
+podcast: https://podcast.entbehrlich.es/2020/06/30/eb027-hausversetzung-fur-freiwahrung/
 tags:
 - Bauwerkseinsturz
 - Katastrophe 1906
 - Nagold (Stadt)
 - Wikipedia:Überarbeiten
+title: Hirsch Katastrophe
 ---
 
 Der Artikel beschreibt die Anhebung (das sowas geht war mir auch nicht
