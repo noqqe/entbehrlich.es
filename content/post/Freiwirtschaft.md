@@ -1,11 +1,14 @@
 ---
-title: Freiwirtschaft
-date: 2020-06-22T14:00:55
+author: noqqe
+date: 2020-06-22 14:00:55
 draft: true
 image: /images/Geldmengen.jpg
-imageauthor: No machine-readable author provided. <a href="http://commons.wikimedia.org/w/index.php?title=User:Thomas.M%C3%BCller&amp;action=edit&amp;redlink=1" class="new" title="User:Thomas.Müller (page does not exist)">Thomas.Müller</a> assumed (based on copyright claims).
-author: noqqe
-tags:
+imageauthor: No machine-readable author provided. <a href="http://commons.wikimedia.org/w/index.php?title=User:Thomas.M%C3%BCller&amp;action=edit&amp;redlink=1"
+  class="new" title="User:Thomas.Müller (page does not exist)">Thomas.Müller</a> assumed
+  (based on copyright claims).
+podcast: https://podcast.entbehrlich.es/2020/06/30/eb027-hausversetzung-fur-freiwahrung/
+tags: null
+title: Freiwirtschaft
 ---
 
 Ein paar interessante Gedankenspiele mit Geld.
