@@ -1,7 +1,7 @@
 ---
 title: Trauung per Stellvertreter
-date: 2020-05-15T14:00:22
-draft: true
+date: 2020-06-29T11:21:16
+draft: false
 author: noqqe
 tags:
 ---
