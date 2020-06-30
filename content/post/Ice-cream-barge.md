@@ -1,7 +1,7 @@
 ---
 title: Ice cream barge
-date: 2020-05-24T14:00:25
-draft: true
+date: 2020-06-30T09:18:55
+draft: false
 author: poschi
 tags: 
 - Concrete barges of the United States Navy
