@@ -1,7 +1,7 @@
 ---
 title: Aschram Schambaly Sekte
-date: 2020-01-22T14:00:51
-draft: true
+date: 2020-07-01T08:30:24
+draft: false
 author: noqqe
 tags:
 ---
