@@ -1,7 +1,7 @@
 ---
 title: Quix
-date: 2019-11-07T14:00:01
-draft: true
+date: 2020-07-07T08:36:26
+draft: false
 image: /images/Pager_quix_apel.JPG
 imageauthor: <a href="https://de.wikipedia.org/wiki/Benutzer:Denis_Apel" class="extiw" title="de:Benutzer:Denis Apel">Denis Apel</a>
 author: noqqe
