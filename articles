@@ -486,6 +486,10 @@ def new(url, date, thanks, debug, author):
     # pull from repo
     pull()
 
+    # filter out mobile pages
+    url = url.replace("https://de.m.", "https://de.")
+    url = url.replace("https://en.m.", "https://en.")
+
     # needed in further building of article
     origurl = url
 
