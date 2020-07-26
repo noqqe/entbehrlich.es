@@ -1,7 +1,7 @@
 ---
 author: poschi
-date: 2020-05-24 14:00:20
-draft: true
+date: 2020-07-26T09:04:51
+draft: false
 image: /images/Europe_relief_laea_location_map.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Alexrk2" title="User:Alexrk2">Alexrk2</a>
 podcast: https://podcast.entbehrlich.es/2020/06/16/eb026-waehrungsreform-aus-der-hoelle/
