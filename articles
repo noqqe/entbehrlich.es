@@ -467,6 +467,56 @@ def tweet(oldfeed, newfeed):
         return False
 
 
+@cli.command(short_help="Post latest blogpost from rss feed to telegram")
+@click.option('oldfeed', '-o', '--oldfeed', default='-f /tmp/index.xml')
+@click.option('newfeed', '-n', '--newfeed', default='https://entbehrlich.es/index.xml')
+def telegram(oldfeed, newfeed):
+    """
+    telegram latest blogpost from rss feed
+    :feedurl: str (path)
+    :returns: bool
+    """
+
+    try:
+        oldfeed = feedparser.parse(oldfeed)
+        newfeed = feedparser.parse(newfeed)
+    except IOError:
+        log("Feed file {} or {} not found.".format(oldfeed, newfeed), "error")
+        return
+
+    oldfeed_link = oldfeed['entries'][0]['link']
+    newfeed_link = newfeed['entries'][0]['link']
+
+    if oldfeed_link == newfeed_link:
+        log("Link {} already telegramed".format(newfeed_link), "error")
+        return
+    else:
+        log("Detected new article {}, trying to telegram".format(newfeed_link), "info")
+
+    # get description from feed url
+    # the goal is to find the html <p> that contains the description
+    # added by me. not the wikipedia quote.
+    desc = newfeed['entries'][0]['summary']
+    desc = desc.split('\n')[0]
+    desc = desc.replace('\n', '')
+    desc = html.unescape(desc)
+    desc = re.sub('<[^<]+?>', '', desc)
+
+    message = desc + "\n\n" + newfeed_link
+
+
+    try:
+        post_data = {
+            "chat_id": os.getenv('entbehrliches_telegram_chat_id'),
+            "text": message,
+        }
+
+        requests.post("https://api.telegram.org/bot%s/sendMessage" % os.getenv('entbehrliches_bot_token'), post_data)
+    except:
+        log("Could not find global variables for telegram bot", "error")
+        return False
+
+
 @cli.command(short_help="Create a new post")
 @click.argument('url')
 @click.option('date', '-d', '--date', default=str(datetime.datetime.now()))
