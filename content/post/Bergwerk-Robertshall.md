@@ -1,7 +1,7 @@
 ---
 title: Bergwerk Robertshall
-date: 2020-07-06T14:00:29
-draft: true
+date: 2020-08-02T10:25:22
+draft: false
 image: /images/Akte_Bergarchiv_Clausthal_Zellerfeld.jpg
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Matteo.Elias&amp;action=edit&amp;redlink=1" class="new" title="User:Matteo.Elias (page does not exist)">Matteo.Elias</a>
 author: noqqe
