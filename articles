@@ -11,6 +11,7 @@ import os
 import logging
 import random as rnd
 import time
+import pytz
 import html
 import textwrap
 import datetime
@@ -259,7 +260,7 @@ def publish(post):
     :returns: bool
     """
 
-    t = datetime.datetime.now()
+    t = datetime.datetime.now(pytz.timezone('Europe/Berlin'))
     t = t.replace(microsecond=0)
     t = t.isoformat()
     path = posts_home + post
