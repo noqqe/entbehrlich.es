@@ -1,7 +1,7 @@
 ---
 title: Red Flag Act
-date: 2020-07-16T14:00:32
-draft: true
+date: 2020-08-10T11:02:04+02:00
+draft: false
 image: /images/Charles_Rolls_driving_a_Peugeot_1896.jpg
 imageauthor: <span lang="en">Unknown author</span>
 author: noqqe
