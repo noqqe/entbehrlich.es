@@ -26,6 +26,8 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Release a new Post
+      env:
+        EDITOR: /usr/bin/vi 
       run: |
         git config --global user.name 'Florian Baumann'
         git config --global user.email 'noqqe@users.noreply.github.com'
