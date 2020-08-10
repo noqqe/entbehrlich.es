@@ -1,6 +1,6 @@
 ---
 title: Betteridge's law of headlines
-date: 2020-08-10T09:28:21
+date: 2020-08-10T10:02:04+02:00
 draft: false
 author: noqqe
 tags:
