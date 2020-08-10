@@ -1,7 +1,7 @@
 ---
 title: IKEA Effekt
-date: 2019-11-14T14:00:47
-draft: true
+date: 2020-08-10T08:44:59
+draft: false
 author: poschi
 tags: 
 ---
