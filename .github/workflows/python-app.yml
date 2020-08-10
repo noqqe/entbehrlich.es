@@ -29,6 +29,6 @@ jobs:
       env:
         EDITOR: /usr/bin/vi 
       run: |
-        git config --global user.name 'Florian Baumann'
+        git config --global user.name 'Botty McBotface'
         git config --global user.email 'noqqe@users.noreply.github.com'
         ./articles release
