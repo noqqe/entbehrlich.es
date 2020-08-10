@@ -1,7 +1,7 @@
 ---
 title: Betteridge's law of headlines
-date: 2020-07-13T14:00:46
-draft: true
+date: 2020-08-10T09:28:21
+draft: false
 author: noqqe
 tags:
 - 2009 introductions
