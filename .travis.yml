@@ -50,3 +50,4 @@ jobs:
             branch: master
       after_deploy:
         - ./articles tweet -n https://entbehrlich.es/index.xml -o /tmp/index.xml
+        - ./articles telegram -n https://entbehrlich.es/index.xml -o /tmp/index.xml

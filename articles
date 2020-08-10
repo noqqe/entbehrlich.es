@@ -435,7 +435,7 @@ def tweet(oldfeed, newfeed):
     # the goal is to find the html <p> that contains the description
     # added by me. not the wikipedia quote.
     desc = newfeed['entries'][0]['summary']
-    desc = desc.split('\n')[0]
+    desc = desc.split("</p>")[0]
     desc = desc.replace('\n', '')
     desc = html.unescape(desc)
     desc = re.sub('<[^<]+?>', '', desc)
@@ -497,8 +497,8 @@ def telegram(oldfeed, newfeed):
     # the goal is to find the html <p> that contains the description
     # added by me. not the wikipedia quote.
     desc = newfeed['entries'][0]['summary']
-    desc = desc.split('\n')[0]
-    desc = desc.replace('\n', '')
+    desc = desc.split("</p>")[0]
+    desc = desc.replace('\n', ' ')
     desc = html.unescape(desc)
     desc = re.sub('<[^<]+?>', '', desc)
 
