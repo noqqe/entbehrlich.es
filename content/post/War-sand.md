@@ -1,7 +1,7 @@
 ---
 title: War sand
-date: 2020-05-24T14:00:15
-draft: true
+date: 2020-08-11T12:03:47+02:00
+draft: false
 author: poschi
 thanks: puddyput
 tags: 
