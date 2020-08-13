@@ -1,11 +1,12 @@
 ---
-title: Spielfilmdramaturgie
-date: 2020-07-07T14:00:17
+author: noqqe
+date: 2020-07-07 14:00:17
 draft: true
 image: /images/Syd_Field.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Thedemonhog" title="User:Thedemonhog">thedemonhog</a>
-author: noqqe
-tags:
+podcast: https://podcast.entbehrlich.es/2020/07/14/eb028-schlaflos-in-3-akten/
+tags: null
+title: Spielfilmdramaturgie
 ---
 
 Ihr wollt euch alle Filme auf einmal versauen? Alle? Dann bitte hier lang.
