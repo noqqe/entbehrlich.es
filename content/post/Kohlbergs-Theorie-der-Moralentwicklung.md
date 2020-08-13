@@ -1,9 +1,10 @@
 ---
-title: Kohlbergs Theorie der Moralentwicklung
-date: 2020-08-13T14:00:20
-draft: true
 author: noqqe
-tags:
+date: 2020-08-13 14:00:20
+draft: true
+podcast: https://podcast.entbehrlich.es/2020/08/11/eb029-scheintote-moralvorstellungen/
+tags: null
+title: Kohlbergs Theorie der Moralentwicklung
 ---
 
 Moralvorstellungen anyone?
