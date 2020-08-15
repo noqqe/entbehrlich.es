@@ -1,7 +1,7 @@
 ---
 title: False memory
-date: 2020-07-16T14:00:11
-draft: true
+date: 2020-08-15T12:06:32+02:00
+draft: false
 image: /images/Orologio_strage_bologna.jpeg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Prof.Quatermass" title="User:Prof.Quatermass">Prof.Quatermass</a>
 author: noqqe
