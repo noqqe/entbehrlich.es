@@ -129,6 +129,7 @@ def gen_article_image(images, debug):
         # fetch the author of the picture
         try:
             author = c["author"]
+            author = re.sub('<[^<]+?>', '', author)
         except KeyError:
             continue
 
