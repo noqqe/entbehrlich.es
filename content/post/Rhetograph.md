@@ -1,7 +1,7 @@
 ---
 title: Rhetograph
-date: 2019-01-30T14:00:58
-draft: true
+date: 2020-08-21T12:06:34+02:00
+draft: false
 author: nico
 tags: 
 ---
