@@ -1,7 +1,7 @@
 ---
 author: noqqe
-date: 2020-07-07 14:00:17
-draft: true
+date: 2020-08-23T12:06:18+02:00
+draft: false
 image: /images/Syd_Field.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Thedemonhog" title="User:Thedemonhog">thedemonhog</a>
 podcast: https://podcast.entbehrlich.es/2020/07/14/eb028-schlaflos-in-3-akten/
