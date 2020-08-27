@@ -1,7 +1,7 @@
 ---
 author: noqqe
-date: 2020-08-13 14:00:20
-draft: true
+date: 2020-08-27T12:06:40+02:00
+draft: false
 podcast: https://podcast.entbehrlich.es/2020/08/11/eb029-scheintote-moralvorstellungen/
 tags: null
 title: Kohlbergs Theorie der Moralentwicklung
