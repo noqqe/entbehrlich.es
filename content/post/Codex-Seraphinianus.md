@@ -1,7 +1,7 @@
 ---
 title: Codex Seraphinianus
-date: 2020-07-06T14:00:00
-draft: true
+date: 2020-08-29T12:04:08+02:00
+draft: false
 author: noqqe
 tags:
 ---
