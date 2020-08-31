@@ -1,7 +1,7 @@
 ---
 title: The Eyes of Darkness
-date: 2020-03-17T14:00:50
-draft: true
+date: 2020-08-31T12:07:55+02:00
+draft: false
 author: noqqe
 tags:
 - 1980s novel stubs
