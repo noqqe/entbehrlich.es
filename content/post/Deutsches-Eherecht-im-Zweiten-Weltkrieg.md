@@ -1,7 +1,7 @@
 ---
 title: Deutsches Eherecht im Zweiten Weltkrieg
-date: 2020-07-21T14:00:55
-draft: true
+date: 2020-09-03T12:07:26+02:00
+draft: false
 image: /images/Bundesarchiv_Bild_101I-584-2153-15,_Normandie,_Ferntrauung.jpg
 imageauthor: Zimmermann
 author: nico
