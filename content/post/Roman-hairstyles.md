@@ -1,7 +1,7 @@
 ---
 title: Roman hairstyles
-date: 2020-08-17T14:00:12
-draft: true
+date: 2020-09-11T12:07:23+02:00
+draft: false
 image: /images/Bust_of_Domitian_(loan_from_Capitoline_Museums)_-_Glyptothek_-_Munich_-_Germany_2017_(2).jpg
 imageauthor: <a href="https://en.wikipedia.org/wiki/en:S%C3%A3o_Paulo" class="extiw" title="w:en:São Paulo">São Paulo</a>
 author: noqqe
