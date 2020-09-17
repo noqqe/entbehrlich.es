@@ -1,7 +1,7 @@
 ---
 title: Troy Leon Gregg
-date: 2020-02-03T14:00:29
-draft: true
+date: 2020-09-17T12:07:18+02:00
+draft: false
 author: nico
 tags: 
 - 1953 births
