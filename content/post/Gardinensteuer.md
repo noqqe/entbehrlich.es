@@ -1,7 +1,7 @@
 ---
 title: Gardinensteuer
-date: 2020-05-24T14:00:51
-draft: true
+date: 2020-09-19T12:07:21+02:00
+draft: false
 author: poschi
 tags: 
 ---
