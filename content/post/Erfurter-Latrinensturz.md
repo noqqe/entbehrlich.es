@@ -1,7 +1,7 @@
 ---
 title: Erfurter Latrinensturz
-date: 2020-08-17T14:00:22
-draft: true
+date: 2020-09-21T12:07:41+02:00
+draft: false
 image: /images/Codex_Manesse_Heinrich_VI._(HRR).jpg
 imageauthor: creator QS:P170,Q59285703
 author: poschi
