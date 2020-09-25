@@ -1,7 +1,7 @@
 ---
 title: Lazy Susan
-date: 2020-05-24T14:00:44
-draft: true
+date: 2020-09-25T12:07:24+02:00
+draft: false
 image: /images/Restaurant_serving_turntable_restaurant_in_China,_1987.jpg
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:GeorgeLouis&amp;action=edit&amp;redlink=1" class="new" title="User:GeorgeLouis (page does not exist)">GeorgeLouis</a>
 author: poschi
