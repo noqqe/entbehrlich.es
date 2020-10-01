@@ -1,7 +1,7 @@
 ---
 title: Last Thursdayism
-date: 2020-07-16T14:00:58
-draft: true
+date: 2020-10-01T12:08:12+02:00
+draft: false
 author: noqqe
 tags:
 ---
