@@ -1,7 +1,7 @@
 ---
 title: Aimo Koivunen
-date: 2020-08-24T14:00:22
-draft: true
+date: 2020-10-03T12:08:30+02:00
+draft: false
 author: noqqe
 tags:
 - 1917 births
