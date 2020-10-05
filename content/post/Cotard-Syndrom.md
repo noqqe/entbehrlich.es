@@ -1,7 +1,7 @@
 ---
 title: Cotard Syndrom
-date: 2020-08-13T14:00:10
-draft: true
+date: 2020-10-05T12:08:18+02:00
+draft: false
 author: noqqe
 tags:
 ---
