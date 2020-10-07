@@ -1,7 +1,7 @@
 ---
 title: Schaffhausen
-date: 2019-11-14T14:00:23
-draft: true
+date: 2020-10-07T12:08:32+02:00
+draft: false
 image: /images/1_schaffhausen_munot_rhein_panorama_2012.jpg
 imageauthor: chensiyuan
 author: noqqe
