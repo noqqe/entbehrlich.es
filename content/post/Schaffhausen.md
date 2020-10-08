@@ -8,7 +8,7 @@ author: noqqe
 tags:
 ---
 
-Wegen eines "Navigationsfehlers", bomardieren die Amis im 2. Weltkrieg die
+Wegen eines "Navigationsfehlers", bombardieren die Amis im 2. Weltkrieg die
 Schweizer Stadt Schaffhausen versehentlich. 47 Flugzeuge, 378 abgeworfene
 Bomben und 40 Tote. Man warf den USA Absicht vor, weil in Schaffhausen
 Rüstungsindustrie angesiedelt war, aus internen Dokumenten weiss man aber
