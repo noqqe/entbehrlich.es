@@ -1,7 +1,7 @@
 ---
 author: noqqe
-date: 2020-06-22 14:00:55
-draft: true
+date: 2020-10-09T12:08:40+02:00
+draft: false
 image: /images/Geldmengen.jpg
 imageauthor: No machine-readable author provided. <a href="http://commons.wikimedia.org/w/index.php?title=User:Thomas.M%C3%BCller&amp;action=edit&amp;redlink=1"
   class="new" title="User:Thomas.Müller (page does not exist)">Thomas.Müller</a> assumed
