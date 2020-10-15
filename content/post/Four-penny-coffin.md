@@ -1,7 +1,7 @@
 ---
 title: Four penny coffin
-date: 2020-08-17T14:00:09
-draft: true
+date: 2020-10-15T12:08:58+02:00
+draft: false
 image: /images/Fourpence_coffin.jpg
 imageauthor: <span lang="en">Unknown author</span>
 author: poschi
