@@ -1,7 +1,7 @@
 ---
 title: Rubber duck debugging
-date: 2020-08-19T14:00:05
-draft: true
+date: 2020-10-17T12:08:58+02:00
+draft: false
 author: noqqe
 tags:
 - Articles with short description
