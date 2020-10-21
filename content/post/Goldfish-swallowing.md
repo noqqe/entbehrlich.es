@@ -1,7 +1,7 @@
 ---
 title: Goldfish swallowing
-date: 2020-08-18T14:00:03
-draft: true
+date: 2020-10-21T12:09:23+02:00
+draft: false
 author: noqqe
 tags:
 - 1930s fads and trends
