@@ -1,7 +1,7 @@
 ---
 title: Daguerreotypie
-date: 2020-09-30T14:00:58
-draft: true
+date: 2020-10-23T12:09:47+02:00
+draft: false
 image: /images/Anton_Martin_Woman_infront_a_Gobelin_1840.JPG
 imageauthor: Anton Martin (1812-1882)
 author: noqqe
