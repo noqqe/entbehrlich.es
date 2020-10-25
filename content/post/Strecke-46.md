@@ -1,7 +1,7 @@
 ---
 title: Strecke 46
-date: 2020-05-24T14:00:20
-draft: true
+date: 2020-10-25T11:09:53+01:00
+draft: false
 image: /images/Burgsinn,_Strecke_46,_Bauwerk_91_20170329_001.jpg
 imageauthor: <a href="http://commons.wikimedia.org/wiki/User:Tilman2007" title="User:Tilman2007">Tilman2007</a>
 author: poschi
