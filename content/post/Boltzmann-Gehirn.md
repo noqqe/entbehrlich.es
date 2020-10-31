@@ -1,7 +1,7 @@
 ---
 title: Boltzmann Gehirn
-date: 2020-09-30T14:00:27
-draft: true
+date: 2020-10-31T11:06:56+01:00
+draft: false
 author: noqqe
 tags:
 ---
