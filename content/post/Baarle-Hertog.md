@@ -1,7 +1,7 @@
 ---
 title: Baarle Hertog
-date: 2020-08-17T14:00:35
-draft: true
+date: 2020-11-05T11:07:44+01:00
+draft: false
 image: /images/Altes_Rathaus_Baarle-Hertog.jpg
 imageauthor: <a href="http://commons.wikimedia.org/w/index.php?title=User:Www.Mar.io&amp;action=edit&amp;redlink=1" class="new" title="User:Www.Mar.io (page does not exist)">Www.Mar.io</a>
 author: poschi
