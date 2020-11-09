@@ -1,7 +1,7 @@
 ---
 title: Indisch bangladeschische Enklaven
-date: 2020-08-17T14:00:05
-draft: true
+date: 2020-11-09T11:09:15+01:00
+draft: false
 author: poschi
 tags: 
 ---
