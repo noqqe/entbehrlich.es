@@ -1,7 +1,7 @@
 ---
 title: Bambusfolter
-date: 2020-09-30T14:00:12
-draft: true
+date: 2020-11-11T11:06:45+01:00
+draft: false
 image: /images/Big_Bamboo_Shoot_(Joi_Ito).jpg
 imageauthor: Joi Ito
 author: noqqe
