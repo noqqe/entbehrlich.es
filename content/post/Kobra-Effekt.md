@@ -1,7 +1,7 @@
 ---
 title: Kobra Effekt
-date: 2020-10-07T14:00:00
-draft: true
+date: 2020-11-19T11:07:46+01:00
+draft: false
 author: noqqe
 tags: 
 ---
