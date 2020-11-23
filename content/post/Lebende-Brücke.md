@@ -1,7 +1,7 @@
 ---
 title: Lebende Brücke
-date: 2020-11-23T14:00:42
-draft: true
+date: 2020-11-23T11:13:26+01:00
+draft: false
 image: /images/1_Rangthylliang_1.JPG
 imageauthor: Anselmrogers
 author: noqqe
