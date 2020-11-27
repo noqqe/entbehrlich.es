@@ -1,7 +1,7 @@
 ---
 title: Objektpermanenz
-date: 2020-11-23T14:00:05
-draft: true
+date: 2020-11-27T11:08:07+01:00
+draft: false
 author: noqqe
 tags:
 ---
