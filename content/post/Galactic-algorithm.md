@@ -1,7 +1,7 @@
 ---
 title: Galactic algorithm
-date: 2020-11-23T14:00:49
-draft: true
+date: 2020-12-03T11:13:07+01:00
+draft: false
 author: noqqe
 tags:
 - Analysis of algorithms
