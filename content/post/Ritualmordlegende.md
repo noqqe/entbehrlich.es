@@ -1,7 +1,7 @@
 ---
 title: Ritualmordlegende
-date: 2020-11-23T14:00:40
-draft: true
+date: 2020-12-13T11:09:42+01:00
+draft: false
 image: /images/SEX_PUERI_RATISPONAE.jpg
 imageauthor: Johann Baptist M.
 author: noqqe
