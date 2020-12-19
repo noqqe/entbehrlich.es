@@ -1,7 +1,7 @@
 ---
 title: Fußballkrieg
-date: 2020-11-23T14:00:19
-draft: true
+date: 2020-12-19T11:12:09+01:00
+draft: false
 author: noqqe
 tags:
 ---
