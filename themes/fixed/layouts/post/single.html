@@ -3,7 +3,7 @@
   <div class="content">
     <div class="main">
         <h1 class="non-highlight">
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>{{ if isset .Params "podcast" }} (<a href="{{ .Params.podcast }}">&#127911</a>){{ end }}
         <div class="published">{{ .Date.Format "2006-01-02" }}</div>
         </h1>
 
@@ -23,11 +23,18 @@
         via <b><a href="https://twitter.com/{{ .Params.thanks }}">{{ .Params.thanks }}</a></b>
         {{ end }}
         {{ if isset .Params "imageauthor" }}
-        Bild: <b>{{ .Params.imageauthor | safeHTML }}</b>
+        <br/>Bild: <b>{{ .Params.imageauthor | safeHTML }}</b>
+        {{ end }}
+        <br/>
+        {{ if isset .Params "podcast" }}
+        Podcast: Über diesen Artikel haben wir in dieser <a href="{{ .Params.podcast }}">Folge</a> unseres <a href="https://podcast.entbehrlich.es">Podcast</a> gesprochen!
         {{ end }}
         </div>
 
+
     </div>
+
+
   </div>
 
 {{ partial "footer.html" . }}

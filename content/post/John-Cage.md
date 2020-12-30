@@ -3,7 +3,7 @@ title: John Cage
 date: 2020-12-30T14:00:25
 draft: true
 image: /images/John_Cage_and_Michael_Bach_in_Assissi_1992.jpg
-imageauthor: Photo: Renate Hoffleit
+imageauthor: Renate Hoffleit
 author: noqqe
 tags:
 podcast: https://podcast.entbehrlich.es/2020/12/29/eb039-eintoeniger-katzenalbert-rc3/

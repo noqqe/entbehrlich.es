@@ -3,8 +3,7 @@ title: Päpstliche Unfehlbarkeit
 date: 2020-12-30T14:00:03
 draft: true
 image: /images/Leo-XIII_Friedrich-Stummel.jpg
-imageauthor:
-Friedrich Stummel
+imageauthor: Friedrich Stummel
 author: noqqe
 tags:
 ---
