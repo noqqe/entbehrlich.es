@@ -3,8 +3,7 @@ title: Chubb detector lock
 date: 2020-12-30T14:00:16
 draft: true
 image: /images/Ancient_warded_lock_key_transparent.png
-imageauthor: Ancient_warded_lock_key.jpg: Pethrus
-derivative work: Adiblol (talk)
+imageauthor: Pethrus
 author: noqqe
 tags:
 - All articles needing additional references
