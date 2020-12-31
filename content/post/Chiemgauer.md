@@ -1,7 +1,7 @@
 ---
 title: Chiemgauer
-date: 2020-12-30T14:00:17
-draft: true
+date: 2020-12-31T11:22:39+01:00
+draft: false
 image: /images/Karte_Chiemgau.png
 imageauthor: Maximilian Dörrbecker (Chumwa)
 author: noqqe
