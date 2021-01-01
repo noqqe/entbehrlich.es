@@ -1,7 +1,7 @@
 ---
 title: Donaldismus
-date: 2020-12-26T14:00:53
-draft: true
+date: 2021-01-01T11:20:20+01:00
+draft: false
 author: noqqe
 tags:
 ---
