@@ -1,7 +1,7 @@
 ---
 title: German Girl Shrine
-date: 2020-12-26T14:00:20
-draft: true
+date: 2021-01-03T11:20:12+01:00
+draft: false
 image: /images/German_Girl_Shrine_(526020601).jpg
 imageauthor: yuhui from Singapore, Singapore
 author: noqqe
