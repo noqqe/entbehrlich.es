@@ -1,7 +1,7 @@
 ---
 title: Jakob Maria Mierscheid
-date: 2020-12-30T14:00:48
-draft: true
+date: 2021-01-09T11:25:50+01:00
+draft: false
 image: /images/2014-09-09_-_Jakob_Maria_Mierscheid_MdB_-_SPD_-_6855.jpg
 imageauthor: Sven Teschke
 author: noqqe
