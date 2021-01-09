@@ -1,10 +1,10 @@
 ---
-title: Jakob Maria Mierscheid
-date: 2021-01-09T11:25:50+01:00
+author: noqqe
+date: 2021-01-09 11:25:50+01:00
 draft: false
 image: /images/2014-09-09_-_Jakob_Maria_Mierscheid_MdB_-_SPD_-_6855.jpg
 imageauthor: Sven Teschke
-author: noqqe
+podcast: https://podcast.entbehrlich.es/2020/10/20/eb034-die-imaginaere-bundeskobra/
 tags:
 - All articles needing additional references
 - All articles with dead external links
@@ -23,7 +23,7 @@ tags:
 - Short description matches Wikidata
 - Social Democratic Party of Germany politicians
 - Use dmy dates from February 2020
-podcast: https://podcast.entbehrlich.es/2020/10/20/eb034-die-imaginaere-bundeskobra/
+title: Jakob Maria Mierscheid
 ---
 
 Imaginäres Mitglied des Bundestags, ausgedacht von der SPD.
