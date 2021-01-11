@@ -1,7 +1,7 @@
 ---
 title: Thomas Midgley
-date: 2020-12-30T14:00:35
-draft: true
+date: 2021-01-11T11:31:44+01:00
+draft: false
 image: /images/EthylCorporationSign.jpg
 imageauthor: Plazak
 author: noqqe
