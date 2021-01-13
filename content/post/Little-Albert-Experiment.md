@@ -1,7 +1,7 @@
 ---
 title: Little Albert Experiment
-date: 2020-12-28T14:00:05
-draft: true
+date: 2021-01-13T11:42:18+01:00
+draft: false
 author: noqqe
 tags:
 ---
