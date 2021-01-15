@@ -1,7 +1,7 @@
 ---
 title: Roopkund
-date: 2020-12-30T14:00:11
-draft: true
+date: 2021-01-15T11:40:44+01:00
+draft: false
 image: /images/Bedni_Bugal_on_way_to_roopkund.jpg
 imageauthor: Djds4rce
 author: noqqe
