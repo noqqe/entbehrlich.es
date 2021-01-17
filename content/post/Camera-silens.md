@@ -1,7 +1,7 @@
 ---
 title: Camera silens
-date: 2020-12-30T14:00:20
-draft: true
+date: 2021-01-17T11:37:33+01:00
+draft: false
 author: noqqe
 tags:
 podcast: https://podcast.entbehrlich.es/2020/10/06/eb033-viel-schmerz-und-leid/
