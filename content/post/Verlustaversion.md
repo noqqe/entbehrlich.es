@@ -1,7 +1,7 @@
 ---
 title: Verlustaversion
-date: 2020-12-30T14:00:12
-draft: true
+date: 2021-01-23T11:38:52+01:00
+draft: false
 author: noqqe
 tags:
 podcast: https://podcast.entbehrlich.es/2019/09/10/eb006-verlust-des-synthetischen-gummis/
