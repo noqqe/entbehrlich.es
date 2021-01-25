@@ -1,7 +1,7 @@
 ---
 title: Schere, Stein, Papier
-date: 2020-12-30T14:00:25
-draft: true
+date: 2021-01-25T11:48:22+01:00
+draft: false
 image: /images/Johann_Liss_004.jpg
 imageauthor: Johann Liss
 author: noqqe
