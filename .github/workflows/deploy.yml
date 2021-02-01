@@ -11,13 +11,15 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Hugo build
+      env:
+        EDITOR: /usr/bin/vim
       run: |
         sudo snap install hugo --channel=extended
         hugo --buildFuture
     - name: SSH setup
       env:
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
-        KNOWN_HOSTS: ${{ secrets.KNOWN_HOST }}
+        KNOWN_HOSTS: ${{ secrets.KNOWN_HOSTS }}
       run: |
         mkdir -p ~/.ssh
         echo "${KNOWN_HOSTS}" >> ~/.ssh/known_hosts
