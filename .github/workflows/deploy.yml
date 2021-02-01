@@ -26,6 +26,10 @@ jobs:
         echo "${DEPLOY_KEY}" > ~/.ssh/my_rsync_key
         echo "IdentityFile ~/.ssh/my_rsync_key" >> ~/.ssh/config
         chmod -R 700 ~/.ssh
+    - name: Copy old feed for reference in Social
+      run: |
+        sudo apt install -y wget 
+        wget -O /tmp/index.xml https://entbehrlich.es/index.xml
     - name: Rsync deployment
       env:
         RSYNC_USER: ${{ secrets.RSYNC_USER }}
