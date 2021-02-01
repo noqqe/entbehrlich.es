@@ -44,8 +44,6 @@ jobs:
         tw_con_key: ${{ secrets.TW_CON_KEY}}
         tw_con_secret: ${{ secrets.TW_CON_SECRET}}
       run: |
-        sudo snap install hugo --channel=extended
-        hugo --buildFuture
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         ./articles tweet -n https://entbehrlich.es/index.xml -o /tmp/index.xml
