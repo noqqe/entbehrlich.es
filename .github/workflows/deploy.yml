@@ -31,4 +31,16 @@ jobs:
         RSYNC_USER: ${{ secrets.RSYNC_USER }}
         HOST: ${{ secrets.HOST }}
       run: |
-        rsync -avz -e ssh --delete public/ ${RSYNC_USER}@${HOST}:public/
+        rsync -avz -e ssh --delete public/ ${RSYNC_USER}@${HOST}:public/    
+    - name: Social posts
+      env:
+        tw_access_token: ${{ secrets.TW_ACCESS_TOKEN}}
+        tw_access_token_secret: ${{ secrets.TW_ACCESS_TOKEN_SECRET}}
+        tw_con_key: ${{ secrets.TW_CON_KEY}}
+        tw_con_secret: ${{ secrets.TW_CON_SECRET}}
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip install .
+        ./articles tweet -n https://entbehrlich.es/index.xml -o /tmp/index.xml
+        ./articles telegram -n https://entbehrlich.es/index.xml -o /tmp/index.xml
