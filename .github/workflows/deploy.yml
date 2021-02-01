@@ -34,6 +34,7 @@ jobs:
         rsync -avz -e ssh --delete public/ ${RSYNC_USER}@${HOST}:public/    
     - name: Social posts
       env:
+        EDITOR: /usr/bin/vi
         tw_access_token: ${{ secrets.TW_ACCESS_TOKEN}}
         tw_access_token_secret: ${{ secrets.TW_ACCESS_TOKEN_SECRET}}
         tw_con_key: ${{ secrets.TW_CON_KEY}}
