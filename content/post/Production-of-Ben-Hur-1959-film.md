@@ -1,7 +1,7 @@
 ---
 title: Production of Ben Hur (1959 film)
-date: 2020-12-30T14:00:53
-draft: true
+date: 2021-02-03T11:12:27+01:00
+draft: false
 image: /images/Cinecittà_-_Entrance.jpg
 imageauthor: JRibaX
 author: noqqe
