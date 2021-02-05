@@ -1,7 +1,7 @@
 ---
 title: Umlaufgesichertes Geld
-date: 2020-12-30T14:00:09
-draft: true
+date: 2021-02-05T11:09:54+01:00
+draft: false
 image: /images/Physiokratischer_Geldschein_2.gif
 imageauthor: Georg Blumenthal (verst. 1929
 author: noqqe
