@@ -1,7 +1,7 @@
 ---
 title: Polygraphia (book)
-date: 2020-12-26T14:00:05
-draft: true
+date: 2021-02-11T11:10:33+01:00
+draft: false
 author: noqqe
 tags:
 - 1518 books
