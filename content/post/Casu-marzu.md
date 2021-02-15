@@ -1,7 +1,7 @@
 ---
 title: Casu marzu
-date: 2020-12-26T14:00:15
-draft: true
+date: 2021-02-15T11:10:25+01:00
+draft: false
 image: /images/Casu_Marzu_cheese.jpg
 imageauthor: Shardan
 author: noqqe
