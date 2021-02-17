@@ -1,7 +1,7 @@
 ---
 title: Sokushinbutsu
-date: 2020-12-30T14:00:54
-draft: true
+date: 2021-02-17T11:10:23+01:00
+draft: false
 image: /images/The_Mumified_Munk.jpg
 imageauthor: Per Meistrup
 author: noqqe
