@@ -1,7 +1,7 @@
 ---
 title: Woodpecker (Kurzwellensignal)
-date: 2020-12-26T14:00:37
-draft: true
+date: 2021-02-19T11:11:16+01:00
+draft: false
 image: /images/DUGA_Radar_Array_near_Chernobyl,_Ukraine_2014.jpg
 imageauthor: Ingmar Runge
 author: noqqe
