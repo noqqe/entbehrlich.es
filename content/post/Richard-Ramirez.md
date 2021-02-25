@@ -1,7 +1,7 @@
 ---
 title: Richard Ramirez
-date: 2020-12-26T14:00:34
-draft: true
+date: 2021-02-25T11:22:38+01:00
+draft: false
 author: noqqe
 tags:
 - 1960 births
