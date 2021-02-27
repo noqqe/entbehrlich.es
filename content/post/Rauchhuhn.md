@@ -1,7 +1,7 @@
 ---
 title: Rauchhuhn
-date: 2020-12-30T14:00:36
-draft: true
+date: 2021-02-27T11:10:29+01:00
+draft: false
 author: noqqe
 tags:
 podcast: https://podcast.entbehrlich.es/2019/07/30/eb003-geisterhuehner-auf-der-linken-spur/
