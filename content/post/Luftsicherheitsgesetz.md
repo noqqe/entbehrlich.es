@@ -1,7 +1,7 @@
 ---
 title: Luftsicherheitsgesetz
-date: 2020-12-30T14:00:36
-draft: true
+date: 2021-03-01T11:43:09+01:00
+draft: false
 image: /images/2010-06-11_Eurofighter_Luftwaffe_31+21_EDDB_01.jpg
 imageauthor: Wo st 01
 author: noqqe
