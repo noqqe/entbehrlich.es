@@ -1,7 +1,7 @@
 ---
 title: Bahnhof Canfranc
-date: 2020-12-26T14:00:38
-draft: true
+date: 2021-03-03T11:13:43+01:00
+draft: false
 image: /images/Estazión_Internazional_de_Canfrán.jpg
 imageauthor: CHV
 author: noqqe
