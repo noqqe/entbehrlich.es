@@ -1,7 +1,7 @@
 ---
 title: Homicidal sleepwalking
-date: 2020-12-30T14:00:02
-draft: true
+date: 2021-03-05T11:11:10+01:00
+draft: false
 author: noqqe
 tags:
 - All articles needing additional references
