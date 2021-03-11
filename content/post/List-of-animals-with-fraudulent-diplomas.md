@@ -1,7 +1,7 @@
 ---
 title: List of animals with fraudulent diplomas
-date: 2020-12-30T14:00:31
-draft: true
+date: 2021-03-11T11:11:01+01:00
+draft: false
 author: noqqe
 tags:
 - All articles with vague or ambiguous time
