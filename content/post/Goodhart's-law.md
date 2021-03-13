@@ -1,7 +1,7 @@
 ---
 title: Goodhart's law
-date: 2020-12-30T14:00:42
-draft: true
+date: 2021-03-13T11:10:53+01:00
+draft: false
 author: noqqe
 tags:
 - 1975 in economics
