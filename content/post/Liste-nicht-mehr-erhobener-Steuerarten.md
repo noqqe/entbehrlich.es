@@ -1,7 +1,7 @@
 ---
 title: Liste nicht mehr erhobener Steuerarten
-date: 2021-03-16T14:00:45
-draft: true
+date: 2021-03-19T11:11:10+01:00
+draft: false
 author: noqqe
 tags:
 ---
