@@ -1,7 +1,7 @@
 ---
 title: Delphi Methode
-date: 2020-12-30T14:00:28
-draft: true
+date: 2021-03-25T11:17:13+01:00
+draft: false
 author: noqqe
 tags:
 podcast: https://podcast.entbehrlich.es/2020/11/03/eb035-worst-cat-scenario/
