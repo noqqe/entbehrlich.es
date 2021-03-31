@@ -1,7 +1,7 @@
 ---
 title: Bristol Stuhlformen Skala
-date: 2020-12-26T14:00:23
-draft: true
+date: 2021-03-31T12:15:07+02:00
+draft: false
 author: noqqe
 tags:
 ---
