@@ -1,7 +1,7 @@
 ---
 title: AT&T Building (Indianapolis)
-date: 2021-03-22T14:00:51
-draft: true
+date: 2021-04-01T12:15:18+02:00
+draft: false
 author: noqqe
 tags:
 - AT&T buildings
