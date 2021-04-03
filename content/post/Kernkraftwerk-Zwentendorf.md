@@ -1,7 +1,7 @@
 ---
 title: Kernkraftwerk Zwentendorf
-date: 2021-01-29T14:00:49
-draft: true
+date: 2021-04-03T12:14:22+02:00
+draft: false
 image: /images/AKW_Zwentendorf_inside_1.jpg
 imageauthor: Stefan Just
 author: ckeen
