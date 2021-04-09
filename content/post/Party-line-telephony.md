@@ -1,7 +1,7 @@
 ---
 title: Party line (telephony)
-date: 2020-12-26T14:00:28
-draft: true
+date: 2021-04-09T12:15:23+02:00
+draft: false
 author: noqqe
 tags:
 - All articles with incomplete citations
