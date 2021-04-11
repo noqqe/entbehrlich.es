@@ -1,7 +1,7 @@
 ---
 title: Petzvalobjektiv
-date: 2020-12-26T14:00:58
-draft: true
+date: 2021-04-11T12:14:27+02:00
+draft: false
 image: /images/Petzval03.png
 imageauthor: Szőcs Tamás Tamasflex
 author: noqqe
