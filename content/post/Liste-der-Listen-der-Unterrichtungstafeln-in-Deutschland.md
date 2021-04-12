@@ -5,7 +5,7 @@ draft: true
 author: noqqe
 tags:
 - Deutschland
-thanks: @derphilipp
+thanks: derphilipp
 ---
 
 Ihr müsst nicht sinnlos die Autobahnen entlangfahren. Wikipedia liefert alle
