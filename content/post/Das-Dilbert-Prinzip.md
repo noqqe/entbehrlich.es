@@ -1,7 +1,7 @@
 ---
 title: Das Dilbert Prinzip
-date: 2020-12-30T14:00:16
-draft: true
+date: 2021-04-15T12:14:24+02:00
+draft: false
 author: noqqe
 tags:
 podcast: https://podcast.entbehrlich.es/2020/12/01/eb037-das-effekt-prinzip/
