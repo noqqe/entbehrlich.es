@@ -1,7 +1,7 @@
 ---
 title: Kontinentales Tiefbohrprogramm der Bundesrepublik Deutschland
-date: 2020-12-30T14:00:47
-draft: true
+date: 2021-04-17T12:14:17+02:00
+draft: false
 image: /images/6-Rollen-Bohrkrone.jpg
 imageauthor: Urfin7
 author: noqqe
