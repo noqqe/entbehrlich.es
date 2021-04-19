@@ -1,9 +1,10 @@
 ---
-title: Mierscheid Gesetz
-date: 2021-04-19T14:00:33
-draft: true
 author: poschi
-tags: 
+date: 2021-04-19 14:00:33
+draft: true
+podcast: https://podcast.entbehrlich.es/2020/10/20/eb034-die-imaginaere-bundeskobra/
+tags: null
+title: Mierscheid Gesetz
 ---
 
 Wahlprognosen sind Voodoo...
