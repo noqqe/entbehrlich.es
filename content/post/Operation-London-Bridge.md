@@ -1,9 +1,10 @@
 ---
-title: Operation London Bridge
-date: 2021-04-19T14:00:56
-draft: true
 author: poschi
-tags: 
+date: 2021-04-19 14:00:56
+draft: true
+podcast: https://podcast.entbehrlich.es/2021/04/20/eb047-strassenbahnbeerdigung/
+tags: null
+title: Operation London Bridge
 ---
 
 Die Briten bereiten sich seit 1960 darauf vor, dass die Queen stirbt.
