@@ -1,7 +1,7 @@
 ---
 title: Cow Tools
-date: 2020-12-26T14:00:51
-draft: true
+date: 2021-04-23T12:15:32+02:00
+draft: false
 author: noqqe
 tags:
 - 1982 in comics
