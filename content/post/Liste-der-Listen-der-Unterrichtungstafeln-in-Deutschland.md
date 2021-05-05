@@ -1,7 +1,7 @@
 ---
 title: Liste der Listen der Unterrichtungstafeln in Deutschland
-date: 2021-03-16T14:00:05
-draft: true
+date: 2021-05-05T12:10:31+02:00
+draft: false
 author: noqqe
 tags:
 - Deutschland
