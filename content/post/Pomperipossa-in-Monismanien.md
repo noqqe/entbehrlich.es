@@ -1,7 +1,7 @@
 ---
 title: Pomperipossa in Monismanien
-date: 2021-04-18T14:00:54
-draft: true
+date: 2021-05-09T12:10:36+02:00
+draft: false
 author: poschi
 tags: 
 ---
