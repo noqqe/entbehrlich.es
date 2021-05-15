@@ -1,7 +1,7 @@
 ---
 title: F. D. C. Willard
-date: 2020-12-30T14:00:05
-draft: true
+date: 2021-05-15T12:12:05+02:00
+draft: false
 author: noqqe
 tags:
 podcast: https://podcast.entbehrlich.es/2020/11/03/eb035-worst-cat-scenario/
