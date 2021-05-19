@@ -1,7 +1,7 @@
 ---
 title: Eisenbahnunfall von Dürrenast
-date: 2020-12-30T14:00:01
-draft: true
+date: 2021-05-19T12:12:40+02:00
+draft: false
 author: noqqe
 tags:
 podcast: https://podcast.entbehrlich.es/2020/12/15/eb038-viel-zug-und-leid/
