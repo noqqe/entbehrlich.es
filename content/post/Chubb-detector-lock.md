@@ -1,7 +1,7 @@
 ---
 title: Chubb detector lock
-date: 2020-12-30T14:00:16
-draft: true
+date: 2021-05-21T12:13:37+02:00
+draft: false
 image: /images/Ancient_warded_lock_key_transparent.png
 imageauthor: Pethrus
 author: noqqe
