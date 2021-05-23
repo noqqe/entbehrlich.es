@@ -1,7 +1,7 @@
 ---
 title: Thorngates Postulat der angemessenen Komplexität
-date: 2020-12-30T14:00:27
-draft: true
+date: 2021-05-23T12:12:57+02:00
+draft: false
 author: noqqe
 tags:
 podcast: https://podcast.entbehrlich.es/2020/12/01/eb037-das-effekt-prinzip/
