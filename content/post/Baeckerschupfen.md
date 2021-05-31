@@ -1,7 +1,7 @@
 ---
 title: Baeckerschupfen
-date: 2020-12-30T14:00:34
-draft: true
+date: 2021-05-31T12:49:24+02:00
+draft: false
 image: /images/Gifhorn_Mühlenmuseum_Dorfplatz.JPG
 imageauthor: Corradox
 author: noqqe
