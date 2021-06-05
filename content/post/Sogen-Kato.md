@@ -1,7 +1,7 @@
 ---
 title: Sogen Kato
-date: 2020-12-30T14:00:37
-draft: true
+date: 2021-06-05T12:41:31+02:00
+draft: false
 author: noqqe
 tags:
 - 1899 births
