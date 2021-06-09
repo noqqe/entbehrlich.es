@@ -1,7 +1,7 @@
 ---
 title: Dithering (Bildbearbeitung)
-date: 2020-12-26T14:00:01
-draft: true
+date: 2021-06-09T12:12:13+02:00
+draft: false
 image: /images/Dithering_algorithms.png
 imageauthor: DemonDeLuxe (Dominique Toussaint)
 author: noqqe
