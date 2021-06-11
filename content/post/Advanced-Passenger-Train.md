@@ -1,7 +1,7 @@
 ---
 title: Advanced Passenger Train
-date: 2020-12-30T14:00:59
-draft: true
+date: 2021-06-11T12:11:27+02:00
+draft: false
 image: /images/APTP_Driving_Trailer_Second.png
 imageauthor: Emoscopes
 author: noqqe
