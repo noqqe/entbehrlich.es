@@ -1,7 +1,7 @@
 ---
 author: poschi
-date: 2021-04-19 14:00:56
-draft: true
+date: 2021-06-17T12:11:32+02:00
+draft: false
 podcast: https://podcast.entbehrlich.es/2021/04/20/eb047-strassenbahnbeerdigung/
 tags: null
 title: Operation London Bridge
