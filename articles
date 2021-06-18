@@ -513,7 +513,9 @@ def telegram(oldfeed, newfeed):
             "text": message,
         }
 
-        requests.post("https://api.telegram.org/bot%s/sendMessage" % os.getenv('entbehrliches_bot_token'), post_data)
+        r = requests.post("https://api.telegram.org/bot%s/sendMessage" % os.getenv('entbehrliches_bot_token'), post_data)
+        log(r.text)
+
     except:
         log("Could not find global variables for telegram bot", "error")
         return False
