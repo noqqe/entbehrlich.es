@@ -1,7 +1,7 @@
 ---
 title: Giganten Dreirad
-date: 2021-01-29T14:00:37
-draft: true
+date: 2021-06-19T12:11:09+02:00
+draft: false
 author: ckeen
 tags: 
 ---
