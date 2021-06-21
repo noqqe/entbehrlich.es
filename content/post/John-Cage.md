@@ -1,7 +1,7 @@
 ---
 title: John Cage
-date: 2020-12-30T14:00:25
-draft: true
+date: 2021-06-21T12:11:38+02:00
+draft: false
 image: /images/John_Cage_and_Michael_Bach_in_Assissi_1992.jpg
 imageauthor: Renate Hoffleit
 author: noqqe
