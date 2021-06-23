@@ -43,6 +43,8 @@ jobs:
         tw_access_token_secret: ${{ secrets.TW_ACCESS_TOKEN_SECRET}}
         tw_con_key: ${{ secrets.TW_CON_KEY}}
         tw_con_secret: ${{ secrets.TW_CON_SECRET}}
+        entbehrliches_bot_token: ${{ secrets.ENTBEHRLICHES_BOT_TOKEN }}
+        entbehrliches_telegram_chat_id: ${{ secrets.ENTBEHRLICHES_TELEGRAM_CHAT_ID }}
       run: |
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
