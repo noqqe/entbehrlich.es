@@ -1,7 +1,7 @@
 ---
 title: Reid Methode
-date: 2021-02-17T14:00:19
-draft: true
+date: 2021-06-25T12:06:38+02:00
+draft: false
 author: noqqe
 tags:
 ---
