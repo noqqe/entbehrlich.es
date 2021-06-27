@@ -1,7 +1,7 @@
 ---
 title: Menschenfuß Funde an der Salish Sea
-date: 2021-03-18T14:00:59
-draft: true
+date: 2021-06-27T12:10:41+02:00
+draft: false
 image: /images/Salish_feet.jpg
 imageauthor: Dennis Bratland
 author: noqqe
