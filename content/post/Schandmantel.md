@@ -1,7 +1,7 @@
 ---
 title: Schandmantel
-date: 2020-12-30T14:00:01
-draft: true
+date: 2021-07-01T12:11:13+02:00
+draft: false
 author: noqqe
 tags:
 podcast: https://podcast.entbehrlich.es/2020/10/06/eb033-viel-schmerz-und-leid/
