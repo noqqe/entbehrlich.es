@@ -1,7 +1,7 @@
 ---
 title: Waffle House Index
-date: 2021-04-18T14:00:02
-draft: true
+date: 2021-07-03T12:10:30+02:00
+draft: false
 image: /images/Closed_Waffle_House_in_Bowling_Green,_Ohio.jpg
 imageauthor: Mbrickn
 author: poschi
