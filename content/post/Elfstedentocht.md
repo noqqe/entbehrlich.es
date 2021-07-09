@@ -1,7 +1,7 @@
 ---
 title: Elfstedentocht
-date: 2021-02-10T14:00:18
-draft: true
+date: 2021-07-09T12:11:04+02:00
+draft: false
 image: /images/Deelnemers_aan_de_eerste_elfstedentocht_1909.jpg
 imageauthor: Leer, v. [...]
 author: noqqe
