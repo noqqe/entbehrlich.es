@@ -1,7 +1,7 @@
 ---
 title: Szenariotechnik
-date: 2020-12-30T14:00:32
-draft: true
+date: 2021-07-11T12:10:31+02:00
+draft: false
 image: /images/Szenario-trichter.jpg
 imageauthor: Benutzer:Beschloss
 author: noqqe
