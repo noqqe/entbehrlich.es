@@ -1,7 +1,7 @@
 ---
 title: Haberfeldtreiben
-date: 2021-07-07T14:00:59
-draft: true
+date: 2021-07-15T12:11:35+02:00
+draft: false
 image: /images/Bildstock-Haberfeldtreiben.JPG
 imageauthor: Sir Boris
 author: noqqe
