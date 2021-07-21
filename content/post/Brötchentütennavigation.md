@@ -1,7 +1,7 @@
 ---
 title: Brötchentütennavigation
-date: 2020-12-26T14:00:00
-draft: true
+date: 2021-07-21T12:10:59+02:00
+draft: false
 author: noqqe
 tags:
 ---
