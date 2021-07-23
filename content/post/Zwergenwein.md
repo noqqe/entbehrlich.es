@@ -1,7 +1,7 @@
 ---
 title: Zwergenwein
-date: 2021-01-29T14:00:15
-draft: true
+date: 2021-07-23T12:11:23+02:00
+draft: false
 image: /images/Amanita_muscaria_(30092462371).jpg
 imageauthor: Dr. Hans-Günter Wagner
 author: ckeen
