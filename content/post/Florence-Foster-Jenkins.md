@@ -1,7 +1,7 @@
 ---
 title: Florence Foster Jenkins
-date: 2021-04-18T14:00:07
-draft: true
+date: 2021-07-25T12:10:49+02:00
+draft: false
 author: poschi
 tags: 
 ---
