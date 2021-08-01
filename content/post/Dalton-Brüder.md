@@ -1,7 +1,7 @@
 ---
 title: Dalton Brüder
-date: 2021-07-17T14:00:44
-draft: true
+date: 2021-08-01T12:10:57+02:00
+draft: false
 author: noqqe
 tags:
 ---
