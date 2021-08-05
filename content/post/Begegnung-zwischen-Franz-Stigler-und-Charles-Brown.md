@@ -1,7 +1,7 @@
 ---
 title: Begegnung zwischen Franz Stigler und Charles Brown
-date: 2021-07-17T14:00:16
-draft: true
+date: 2021-08-05T12:11:28+02:00
+draft: false
 author: noqqe
 tags:
 ---
