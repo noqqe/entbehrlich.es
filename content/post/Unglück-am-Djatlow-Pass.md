@@ -1,7 +1,7 @@
 ---
 title: Unglück am Djatlow Pass
-date: 2021-07-07T14:00:42
-draft: true
+date: 2021-08-07T12:10:28+02:00
+draft: false
 image: /images/Relief-Sverdlovskaya.png
 imageauthor: Nzeemin
 author: noqqe
