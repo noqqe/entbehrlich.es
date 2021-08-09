@@ -1,7 +1,7 @@
 ---
 title: Hostile architecture
-date: 2021-07-17T14:00:10
-draft: true
+date: 2021-08-09T12:11:27+02:00
+draft: false
 image: /images/Boulons_anti-sdf_sur_un_perron_(Marseille,_France).jpg
 imageauthor: DC
 author: noqqe
