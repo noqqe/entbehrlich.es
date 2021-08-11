@@ -1,7 +1,7 @@
 ---
 title: Ameisler
-date: 2021-02-01T14:00:27
-draft: true
+date: 2021-08-11T12:12:26+02:00
+draft: false
 image: /images/Amastrager_03.png
 imageauthor: Unknown authorUnknown author
 author: ckeen
