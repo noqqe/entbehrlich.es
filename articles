@@ -142,7 +142,7 @@ def gen_article_image(images, debug):
     return final_image, author
 
 # Article generators
-def gen_article_meta(title, date, tags, image, imageauthor, thanks=None, author=None):
+def gen_article_meta(title, date, tags, image, imageauthor, thanks=None, author=None, coordinates=None):
     """
     Make a blog post header like
     ---
@@ -152,6 +152,8 @@ def gen_article_meta(title, date, tags, image, imageauthor, thanks=None, author=
     image: /images/foo.jpg
     imageauthor: h0nk
     thanks: user
+    latitude: 
+    longitude: 
     tags:
     - foo
     - bar
@@ -162,6 +164,7 @@ def gen_article_meta(title, date, tags, image, imageauthor, thanks=None, author=
     :tags: list
     :image: str
     :returns: str
+    :coordinates: tuple(decimal.Decimal, decimal.Decimal)
     """
     head = "---\n"
     n = "\n"
@@ -179,6 +182,10 @@ def gen_article_meta(title, date, tags, image, imageauthor, thanks=None, author=
 
     if thanks is not None:
         header = header + "thanks: " + thanks + n
+
+    if coordinates is not None:
+        header = header + "latitude: " + ("%.6f" % coordinates[0]) + n
+        header = header + "longitude: " + ("%.6f" % coordinates[1]) + n
 
     header = header + "tags: "
     for tag in tags:
@@ -301,6 +308,8 @@ def commit(filename, path=posts_home):
     :returns: bool
     """
 
+    # TODO Removed for testing
+    return
     try:
         repo = git.Repo(project_home)
         repo.git.add(path + filename)
@@ -569,6 +578,9 @@ def new(url, date, thanks, debug, author):
         wiki = wikipedia.page(title)
         tags = wiki.categories
         summary = wiki.summary
+        # TODO We need better data source (wikidata)
+        # TODO Also store Q-ID of wikidata. then we can make deduplication of articles
+        coordinates = get_coordinates(wiki)
         log("Fetched article \"%s\" from wikipedia (%s)" % (title, lang), "info")
     except wikipedia.exceptions.DisambiguationError as e:
         log(e, "error")
@@ -596,7 +608,7 @@ def new(url, date, thanks, debug, author):
         author = "noqqe"
 
     # generate header for article
-    header = gen_article_meta(title=title, date=t, tags=tags, image=image, imageauthor=imageauthor, thanks=thanks, author=author)
+    header = gen_article_meta(title=title, date=t, tags=tags, image=image, imageauthor=imageauthor, thanks=thanks, author=author, coordinates=coordinates)
 
     # generate quote for article
     quote = gen_article_quote(summary=summary, title=title, url=origurl)
@@ -634,6 +646,15 @@ def new(url, date, thanks, debug, author):
     log("Posts: Unreleased {}, released {}, total {}, podcasted {}".format(unreleased, released, all, podcasted))
 
     return True
+
+def get_coordinates(wiki):
+    try:
+        # Api throws error if there is no coordinate...
+        coordinates = wiki.coordinates
+    except KeyError:
+        return None
+
+    return coordinates
 
 @cli.command(short_help="Show current drafts")
 @click.option('allposts', '--all', '-a',  is_flag=True)
