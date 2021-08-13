@@ -1,7 +1,7 @@
 ---
 title: Die Frau mit der Handtasche
-date: 2020-12-30T14:00:15
-draft: true
+date: 2021-08-13T12:11:12+02:00
+draft: false
 author: noqqe
 tags:
 podcast: https://podcast.entbehrlich.es/2020/11/17/eb036-wagenrennen-gegen-nazis/
