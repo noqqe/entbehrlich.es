@@ -1,7 +1,7 @@
 ---
 title: Boiling vessel
-date: 2021-07-17T14:00:36
-draft: true
+date: 2021-08-15T12:10:57+02:00
+draft: false
 author: noqqe
 tags:
 - Armoured warfare
