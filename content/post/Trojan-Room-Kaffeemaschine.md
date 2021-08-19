@@ -1,7 +1,7 @@
 ---
 title: Trojan Room Kaffeemaschine
-date: 2020-12-26T14:00:47
-draft: true
+date: 2021-08-19T12:11:41+02:00
+draft: false
 author: noqqe
 tags:
 ---
