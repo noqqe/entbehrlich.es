@@ -7,6 +7,8 @@ imageauthor: DigbyDalton
 author: poschi
 latitude: 40.712778
 longitude: -74.006111
+podcast: https://example.com/
+
 tags: 
 - 1624 establishments in North America
 - 1624 establishments in the Dutch Empire

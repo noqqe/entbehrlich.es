@@ -7,6 +7,7 @@ imageauthor: Va.sc.
 author: poschi
 latitude: 49.948056
 longitude: 11.578333
+podcast: https://example.net
 tags: 
 ---
 
