@@ -13,10 +13,29 @@
                 }).addTo(map);
             </script>
             <script>
+                var podcastIcon = L.icon({
+                    iconUrl: '/img/marker-podcast.png',
+                    iconSize: [36, 36],
+                    iconAnchor: [18, 18],
+                    popupAnchor: [0, -18],
+                 });
+                 var articleIcon = L.icon({
+                    iconUrl: '/img/marker-article.png',
+                    iconSize: [36, 36],
+                    iconAnchor: [18, 18],
+                    popupAnchor: [0, -18],
+                 });
+
                 var markers = L.markerClusterGroup();
                 {{ range ( where .Site.Pages "Type" "post") }} {{ if isset .Params "latitude" }}
                     markers.addLayer(
-                        L.marker([{{ .Params.latitude }}, {{ .Params.longitude}}])
+                        L.marker([{{ .Params.latitude }}, {{ .Params.longitude}}], 
+                        {{ if .Params.podcast }}
+                            {icon: podcastIcon}
+                        {{ else }}
+                            {icon: articleIcon}
+                        {{ end }}
+                        )
                         .bindPopup('<a href="{{ .Permalink }}">{{.Title}}</a>'));
                 {{ end }} {{ end }}
                 map.addLayer(markers);
