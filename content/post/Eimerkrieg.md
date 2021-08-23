@@ -1,7 +1,7 @@
 ---
 title: Eimerkrieg
-date: 2021-07-17T14:00:38
-draft: true
+date: 2021-08-23T12:11:25+02:00
+draft: false
 image: /images/SecchiaRapita.JPG
 imageauthor: Alien life form
 author: noqqe
