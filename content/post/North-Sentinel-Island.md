@@ -1,7 +1,7 @@
 ---
 title: North Sentinel Island
-date: 2021-04-18T14:00:17
-draft: true
+date: 2021-08-29T12:11:01+02:00
+draft: false
 image: /images/India_Andaman_and_Nicobar_Islands_relief_map.png
 imageauthor: Nzeemin
 author: poschi
