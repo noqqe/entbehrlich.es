@@ -1,7 +1,7 @@
 ---
 title: Takanakuy
-date: 2020-12-26T14:00:18
-draft: true
+date: 2021-09-01T12:11:41+02:00
+draft: false
 author: noqqe
 tags:
 ---
