@@ -1,7 +1,7 @@
 ---
 title: Notgeld aus Kohle
-date: 2021-04-19T14:00:54
-draft: true
+date: 2021-09-05T12:11:08+02:00
+draft: false
 image: /images/100_Mark_1922_C._Conradty_C1.1.jpg
 imageauthor: DanielKröner
 author: poschi
