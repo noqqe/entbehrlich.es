@@ -1,7 +1,7 @@
 ---
 title: Silfra Spalte
-date: 2021-09-08T14:00:06
-draft: true
+date: 2021-09-09T12:11:32+02:00
+draft: false
 image: /images/Cañón_Silfra,_Parque_Nacional_de_Þingvellir,_Suðurland,_Islandia,_2014-08-16,_DD_055.JPG
 imageauthor: Diego Delso
 author: noqqe
