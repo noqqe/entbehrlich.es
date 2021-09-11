@@ -1,7 +1,7 @@
 ---
 title: San Serriffe
-date: 2021-09-08T14:00:45
-draft: true
+date: 2021-09-11T12:10:53+02:00
+draft: false
 author: noqqe
 tags:
 - 1977 hoaxes
