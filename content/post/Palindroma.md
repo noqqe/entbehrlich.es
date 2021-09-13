@@ -1,7 +1,7 @@
 ---
 title: Palindroma
-date: 2021-09-08T14:00:46
-draft: true
+date: 2021-09-13T12:11:48+02:00
+draft: false
 image: /images/Palindroma_morogorom_paratype_male_dorsal.jpg
 imageauthor: Rudy Jocqué, Arnaud Henrard
 author: noqqe
