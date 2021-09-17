@@ -1,7 +1,7 @@
 ---
 title: Kunekune (Yōkai)
-date: 2021-07-17T14:00:16
-draft: true
+date: 2021-09-17T12:11:27+02:00
+draft: false
 image: /images/田んぼにカカシ_-_panoramio_(1).jpg
 imageauthor: heriheri
 author: noqqe
