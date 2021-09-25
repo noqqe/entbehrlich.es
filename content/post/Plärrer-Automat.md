@@ -1,7 +1,7 @@
 ---
 title: Plärrer Automat
-date: 2021-09-08T14:00:34
-draft: true
+date: 2021-09-25T12:10:58+02:00
+draft: false
 author: noqqe
 tags:
 ---
