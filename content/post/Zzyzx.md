@@ -1,7 +1,7 @@
 ---
 title: Zzyzx
-date: 2021-10-03T14:00:34
-draft: true
+date: 2021-10-13T12:11:37+02:00
+draft: false
 image: /images/Zzyzx_Road_Sign_August_2012.JPG
 imageauthor: Vezoy
 author: poschi
