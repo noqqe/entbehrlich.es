@@ -1,7 +1,7 @@
 ---
 title: Gleitzahl (Flugzeug)
-date: 2021-10-03T14:00:37
-draft: true
+date: 2021-10-17T12:11:02+02:00
+draft: false
 author: poschi
 tags: 
 ---
