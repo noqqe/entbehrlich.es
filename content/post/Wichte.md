@@ -1,7 +1,7 @@
 ---
 title: Wichte
-date: 2021-10-03T14:00:26
-draft: true
+date: 2021-10-21T12:12:06+02:00
+draft: false
 author: poschi
 tags: 
 ---
