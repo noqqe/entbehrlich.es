@@ -1,7 +1,7 @@
 ---
 title: PhinDeli
-date: 2021-10-03T14:00:17
-draft: true
+date: 2021-10-27T12:11:54+02:00
+draft: false
 image: /images/Buford_wyoming_sign.jpg
 imageauthor: frankenstoen
 author: poschi
