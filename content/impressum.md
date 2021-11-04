@@ -10,6 +10,7 @@ Angaben gemäß § 5 TMG:
 
 ```
 K4CG - Kuenstlerhaus
+c/o Entbehrliches
 Peuntgasse 5
 90402 Nürnberg
 ```
