@@ -17,7 +17,7 @@ Peuntgasse 5
 
 Kontakt:
 
-E-Mail: <code class="rev">@liam</code>
+E-Mail: <code>@liam</code>
 
 Quelle: eRecht24, Rechtsanwalt für Internetrecht Sören Siebert
 
