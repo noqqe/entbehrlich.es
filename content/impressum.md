@@ -9,14 +9,14 @@ type: page
 Angaben gemäß § 5 TMG:
 
 ```
-Florian Baumann
-Jakob-Fuchs-Str. 35
-95445 Bayreuth
+K4CG - Kuenstlerhaus
+Peuntgasse 5
+90402 Nürnberg
 ```
 
 Kontakt:
 
-E-Mail: <code class="rev">ed.eqqon@olf</code>
+E-Mail: <code class="rev">@liam</code>
 
 Quelle: eRecht24, Rechtsanwalt für Internetrecht Sören Siebert
 
