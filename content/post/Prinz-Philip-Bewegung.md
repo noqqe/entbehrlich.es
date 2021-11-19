@@ -1,7 +1,7 @@
 ---
 title: Prinz Philip Bewegung
-date: 2021-11-16T14:00:05
-draft: true
+date: 2021-11-19T11:12:16+01:00
+draft: false
 image: /images/Prince_Phillip_looking_at_City_Hall,_November_2008.jpg
 imageauthor: Flickr user Steve Punter
 author: noqqe
