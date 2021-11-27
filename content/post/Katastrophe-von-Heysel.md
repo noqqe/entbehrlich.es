@@ -1,7 +1,7 @@
 ---
 title: Katastrophe von Heysel
-date: 2021-11-23T14:00:52
-draft: true
+date: 2021-11-27T11:11:40+01:00
+draft: false
 image: /images/Heysel_(1).jpg
 imageauthor: Randy110912
 author: noqqe
