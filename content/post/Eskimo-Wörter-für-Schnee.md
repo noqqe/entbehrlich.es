@@ -1,7 +1,7 @@
 ---
 title: Eskimo Wörter für Schnee
-date: 2021-11-16T14:00:00
-draft: true
+date: 2021-12-01T11:12:12+01:00
+draft: false
 author: noqqe
 tags:
 ---
