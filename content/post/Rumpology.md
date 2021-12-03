@@ -1,7 +1,7 @@
 ---
 title: Rumpology
-date: 2021-11-23T14:00:33
-draft: true
+date: 2021-12-03T11:12:22+01:00
+draft: false
 author: noqqe
 tags:
 - Articles with short description
