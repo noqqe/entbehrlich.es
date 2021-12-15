@@ -1,7 +1,7 @@
 ---
 title: Brennende Halde
-date: 2021-11-23T14:00:31
-draft: true
+date: 2021-12-15T11:12:33+01:00
+draft: false
 image: /images/Paul-Berndt-Halde_Freital_001.JPG
 imageauthor: Loracco
 author: noqqe
