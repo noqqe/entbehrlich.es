@@ -1,7 +1,7 @@
 ---
 title: Schamkapsel
-date: 2021-12-23T14:00:44
-draft: true
+date: 2021-12-25T11:11:49+01:00
+draft: false
 image: /images/London_-_Tower_Plattenpanzer_Genitalschutz.jpg
 imageauthor: Crux
 author: noqqe
