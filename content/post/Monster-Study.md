@@ -1,7 +1,7 @@
 ---
 title: Monster Study
-date: 2021-12-23T14:00:57
-draft: true
+date: 2021-12-27T11:12:20+01:00
+draft: false
 author: noqqe
 tags:
 - 1939 in Iowa
