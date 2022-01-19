@@ -1,7 +1,7 @@
 ---
 title: Kluger Hans
-date: 2022-01-18T14:00:41
-draft: true
+date: 2022-01-19T11:11:35+01:00
+draft: false
 image: /images/CleverHans.jpg
 imageauthor: Karl Krall
 author: noqqe
