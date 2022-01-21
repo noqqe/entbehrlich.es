@@ -1,7 +1,7 @@
 ---
 title: Missing white woman syndrome
-date: 2022-01-18T14:00:33
-draft: true
+date: 2022-01-21T11:11:47+01:00
+draft: false
 author: noqqe
 tags:
 ---
