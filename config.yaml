@@ -16,6 +16,7 @@ params:
   githubuser: "noqqe"
   Keywords: "Wikipedia, Blog, Obskures, Wiki, Articles, Empfehlungen"
   Twitter: "@entbehrlich_es"
+  loadMap: "false"
 
 taxonomies:
   tag: "tags"
