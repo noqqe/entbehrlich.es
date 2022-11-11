@@ -1,7 +1,7 @@
 ---
 title: Schuilkerk
-date: 2022-05-18T14:00:47
-draft: true
+date: 2022-11-11T11:08:09+01:00
+draft: false
 image: /images/Gertrudiskapel.JPG
 imageauthor: pepijntje
 author: noqqe
