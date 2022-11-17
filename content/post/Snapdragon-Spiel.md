@@ -1,7 +1,7 @@
 ---
 title: Snapdragon (Spiel)
-date: 2022-05-19T14:00:35
-draft: true
+date: 2022-11-17T11:07:32+01:00
+draft: false
 image: /images/Snap-dragon-fly.jpg
 imageauthor: The original uploader was Ziggurat at English Wikipedia.
 author: noqqe
