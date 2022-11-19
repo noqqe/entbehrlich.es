@@ -1,7 +1,7 @@
 ---
 title: Body farm
-date: 2022-05-18T14:00:01
-draft: true
+date: 2022-11-19T11:07:04+01:00
+draft: false
 author: noqqe
 tags:
 - All articles containing potentially dated statements
