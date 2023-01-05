@@ -1,7 +1,7 @@
 ---
 title: N (Carboxymethyl) N,N dimethyl 3 (((3,3,4,4,5,5,6,6,7,7,8,8,8 tridecafluoroctyl)sulfonyl)amino) 1 propanaminium
-date: 2023-01-03T14:00:16
-draft: true
+date: 2023-01-05T11:07:16+01:00
+draft: false
 author: noqqe
 tags: 
 ---
