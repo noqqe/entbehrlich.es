@@ -1,7 +1,7 @@
 ---
 title: Sedisvakanz
-date: 2023-01-03T14:00:16
-draft: true
+date: 2023-01-07T11:05:52+01:00
+draft: false
 image: /images/Sede_vacante_1846_74001140.jpg
 imageauthor: CNG
 author: noqqe
