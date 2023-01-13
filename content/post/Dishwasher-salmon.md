@@ -1,7 +1,7 @@
 ---
 title: Dishwasher salmon
-date: 2023-01-03T14:00:42
-draft: true
+date: 2023-01-13T11:07:50+01:00
+draft: false
 image: /images/2008-08-05ExtremeCooking003.jpg
 imageauthor: Wildfeuer
 author: noqqe
