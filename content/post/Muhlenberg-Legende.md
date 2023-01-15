@@ -1,7 +1,7 @@
 ---
 title: Muhlenberg Legende
-date: 2023-01-03T14:00:44
-draft: true
+date: 2023-01-15T11:05:59+01:00
+draft: false
 image: /images/FranzvonLöher.jpg
 imageauthor: Machahn 16:23, 30 August 2007 (UTC)
 author: noqqe
