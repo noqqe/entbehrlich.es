@@ -1,7 +1,7 @@
 ---
 title: Mondvertrag
-date: 2023-01-03T14:00:32
-draft: true
+date: 2023-01-19T11:07:11+01:00
+draft: false
 image: /images/Moon_Treaty.png
 imageauthor: The original uploader was Alinor at English Wikipedia.
 author: noqqe
